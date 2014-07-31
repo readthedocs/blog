@@ -134,6 +134,7 @@ html_theme_path = [alabaster.get_path()]
 
 html_theme_options = {
    'logo': 'logo.png',
+   'description': 'All the latest on Read the Docs',
    'github_user': 'rtfd',
    'github_repo': 'blog',
    'github_button': 'false',
@@ -185,7 +186,7 @@ html_static_path = ['_static']
 html_sidebars = {
    '**': [
           # Alabaster
-          'about.html', 'searchbox.html',
+          'about.html'
 
           # Blog
           'postcard.html', 'recentposts.html',
