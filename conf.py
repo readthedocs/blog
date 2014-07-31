@@ -33,6 +33,9 @@ extensions = [
     'ablog'
 ]
 
+blog_title = 'Read the Docs Blog'
+blog_baseurl = 'http://blog.readthedocs.com'
+
 # Add any paths that contain templates here, relative to this directory.
 templates_path = ['_templates']
 
