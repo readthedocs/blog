@@ -32,6 +32,9 @@ extensions = [
     'ablog'
 ]
 
+# Add any paths that contain templates here, relative to this directory.
+templates_path = ['_templates']
+
 import ablog
 templates_path.append(ablog.get_html_templates_path())
 
@@ -41,8 +44,6 @@ templates_path = [ablog.get_html_templates_path()]
 if os.environ.get('READTHEDOCS', None) == 'True':
     skip_pickling = True
 
-# Add any paths that contain templates here, relative to this directory.
-templates_path = ['_templates']
 
 # The suffix of source filenames.
 source_suffix = '.rst'
