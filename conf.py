@@ -14,6 +14,7 @@
 
 import sys
 import os
+import ablog
 
 # If extensions (or modules to document with autodoc) are in another directory,
 # add these directories to sys.path here. If the directory is relative to the
@@ -35,7 +36,6 @@ extensions = [
 # Add any paths that contain templates here, relative to this directory.
 templates_path = ['_templates']
 
-import ablog
 templates_path.append(ablog.get_html_templates_path())
 
 # if `templates_path` is not defined before
