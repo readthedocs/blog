@@ -186,7 +186,7 @@ html_static_path = ['_static']
 html_sidebars = {
    '**': [
           # Alabaster
-          'about.html'
+          'about.html',
 
           # Blog
           'postcard.html', 'recentposts.html',
