@@ -39,6 +39,16 @@ blog_path = 'archive'
 fontawesome_included = True
 disqus_shortname = 'readthedocsblog'
 
+blog_authors = {
+    'Eric': ('Eric Holscher', 'http://ericholscher.com'),
+}
+blog_default_author = 'Eric'
+
+blog_locations = {
+'PDX': ('Portland, Oregon', 'http://www.portlandhikersfieldguide.org/'),
+}
+blog_default_location = 'PDX'
+
 # Add any paths that contain templates here, relative to this directory.
 templates_path = ['_templates']
 
