@@ -136,6 +136,7 @@ html_theme_options = {
    'logo': 'logo.png',
    'github_user': 'rtfd',
    'github_repo': 'blog',
+   'github_button': 'false',
 }
 
 # Theme options are theme-specific and customize the look and feel of a theme
