@@ -2,10 +2,9 @@ Welcome to Read the Docs Blog
 =============================
 
 
+Posts
+-----
+
 .. postlist:: 10
 
 
-RSS Feed
---------
-
-http://blog.readthedocs.com/archive/atom.xml

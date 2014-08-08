@@ -56,9 +56,6 @@ templates_path = ['_templates']
 
 templates_path.append(ablog.get_html_templates_path())
 
-# if `templates_path` is not defined before
-templates_path = [ablog.get_html_templates_path()]
-
 if os.environ.get('READTHEDOCS', None) == 'True':
     skip_pickling = True
 
@@ -186,7 +183,7 @@ html_static_path = ['_static']
 html_sidebars = {
    '**': [
           # Alabaster
-          'about.html',
+          'about.html', 'social.html',
 
           # Blog
           'postcard.html', 'recentposts.html',
