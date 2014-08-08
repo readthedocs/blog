@@ -38,7 +38,8 @@ extensions = [
 blog_title = 'Read the Docs Blog'
 blog_baseurl = 'http://blog.readthedocs.com'
 blog_path = 'archive'
-fontawesome_included = True
+fontawesome_link_cdn = True
+#fontawesome_included = True
 disqus_shortname = 'readthedocsblog'
 
 blog_authors = {
