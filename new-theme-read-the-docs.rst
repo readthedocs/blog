@@ -1,4 +1,4 @@
-.. post: Nov 04, 2013
+.. post:: Nov 04, 2013
    :tags: theme, feature
 
 
