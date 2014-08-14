@@ -1,6 +1,5 @@
-.. 
-    .. post:: Aug 14, 2014
-       :tags: feature, badges
+.. post:: Aug 14, 2014
+   :tags: feature, badges
 
 Badges
 ======
