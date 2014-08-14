@@ -18,9 +18,7 @@ and yellow for unknown states.
 
 Here are a few examples:
 
-.. image:: http://img.shields.io/badge/Docs-latest-green.svg
-.. image:: http://img.shields.io/badge/Docs-release--1.6-red.svg
-.. image:: http://img.shields.io/badge/Docs-No%20Builds-yellow.svg
+|green| |nbsp| |red| |nbsp| |yellow|
 
 You can see it in action in the `Read the Docs README`_.
 They will link back to your projects documentation page on Read the Docs.
@@ -65,3 +63,8 @@ You can always reach us at readthedocs@gmail.com or `file an issue`_.
 .. _file an issue: https://github.com/rtfd/readthedocs.org/issues
 .. _Read the Docs README: https://github.com/rtfd/readthedocs.org/blob/master/README.rst
 .. _project page: https://readthedocs.org/projects/pip/
+.. |green| image:: http://img.shields.io/badge/Docs-latest-green.svg
+.. |red| image:: http://img.shields.io/badge/Docs-release--1.6-red.svg
+.. |yellow| image:: http://img.shields.io/badge/Docs-No%20Builds-yellow.svg
+.. |nbsp| unicode:: 0xA0 
+   :trim:

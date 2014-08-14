@@ -41,6 +41,7 @@ blog_path = 'archive'
 fontawesome_link_cdn = True
 #fontawesome_included = True
 disqus_shortname = 'readthedocsblog'
+post_auto_excerpt = 99
 
 blog_authors = {
     'Eric': ('Eric Holscher', 'http://ericholscher.com'),
