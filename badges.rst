@@ -65,6 +65,7 @@ or you can always reach us at readthedocs@gmail.com.
 .. _file an issue: https://github.com/rtfd/readthedocs.org/issues
 .. _Read the Docs README: https://github.com/rtfd/readthedocs.org/blob/master/README.rst
 .. _project page: https://readthedocs.org/projects/pip/
+.. |green| image:: http://img.shields.io/badge/Docs-latest-green.svg
 .. |red| image:: http://img.shields.io/badge/Docs-release--1.6-red.svg
 .. |yellow| image:: http://img.shields.io/badge/Docs-No%20Builds-yellow.svg
 .. |nbsp| unicode:: 0xA0 
