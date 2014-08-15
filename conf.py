@@ -133,7 +133,7 @@ html_theme_path = [alabaster.get_path()]
 
 html_theme_options = {
    'logo': 'logo.png',
-   'description': 'All the latest on Read the Docs',
+   'description': 'All the latest on <a href="https://readthedocs.org">Read the Docs</a>',
    'github_user': 'rtfd',
    'github_repo': 'blog',
    'github_button': 'false',
