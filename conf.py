@@ -149,7 +149,7 @@ html_theme_options = {
 
 # The name for this set of Sphinx documents.  If None, it defaults to
 # "<project> v<release> documentation".
-#html_title = None
+html_title = 'Read the Docs Blog'
 
 # A shorter title for the navigation bar.  Default is the same as html_title.
 #html_short_title = None
@@ -244,7 +244,7 @@ latex_elements = {
 # (source start file, target name, title,
 #  author, documentclass [howto, manual, or own class]).
 latex_documents = [
-  ('index', 'ReadtheDocsBlog.tex', u'Read the Docs Blog Documentation',
+  ('index', 'ReadtheDocsBlog.tex', u'Read the Docs Blog',
    u'Eric Holscher', 'manual'),
 ]
 
@@ -274,7 +274,7 @@ latex_documents = [
 # One entry per manual page. List of tuples
 # (source start file, name, description, authors, manual section).
 man_pages = [
-    ('index', 'readthedocsblog', u'Read the Docs Blog Documentation',
+    ('index', 'readthedocsblog', u'Read the Docs Blog',
      [u'Eric Holscher'], 1)
 ]
 
@@ -288,7 +288,7 @@ man_pages = [
 # (source start file, target name, title, author,
 #  dir menu entry, description, category)
 texinfo_documents = [
-  ('index', 'ReadtheDocsBlog', u'Read the Docs Blog Documentation',
+  ('index', 'ReadtheDocsBlog', u'Read the Docs Blog',
    u'Eric Holscher', 'ReadtheDocsBlog', 'One line description of project.',
    'Miscellaneous'),
 ]
