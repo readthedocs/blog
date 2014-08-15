@@ -1,8 +1,8 @@
 .. post:: Aug 14, 2014
    :tags: feature, badges
 
-Badges
-======
+Adding Badges
+=============
 
 Documentation is an often overlooked part of a software project.
 Today we are releasing badges for your docs,
