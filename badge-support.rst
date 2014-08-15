@@ -1,7 +1,7 @@
 .. post:: Aug 14, 2014
    :tags: feature, badges
 
-Adding Badges
+Badge Support
 =============
 
 Documentation is an often overlooked part of a software project.
