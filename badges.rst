@@ -1,6 +1,5 @@
-.. 
-    .. post:: Aug 14, 2014
-       :tags: feature, badges
+.. post:: Aug 14, 2014
+   :tags: feature, badges
 
 Badges
 ======
@@ -61,7 +60,7 @@ We have some plans to improve badges further,
 but be sure to get in touch with us if you have any feedback on how you would like to see badges used.
 
 Feel free to `file an issue`_,
-or you can always reach us at `readthedocs@gmail.com`_.
+or you can always reach us at readthedocs@gmail.com.
 
 .. _file an issue: https://github.com/rtfd/readthedocs.org/issues
 .. _Read the Docs README: https://github.com/rtfd/readthedocs.org/blob/master/README.rst
