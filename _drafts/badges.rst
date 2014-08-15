@@ -7,12 +7,12 @@ Badges
 
 Documentation is an often overlooked part of a software project.
 Today we are releasing badges for your docs,
-so that people can easily see your docs are up-to-date.
+so that people can easily see that your docs are up-to-date.
 
 Status Badges
 -------------
 
-The main use is to show the status of your project's build.
+The main use of badges is to show the status of your project's build.
 They will display in green for passing,
 red for failing,
 and yellow for unknown states.
@@ -24,13 +24,13 @@ Here are a few examples:
 .. image:: http://img.shields.io/badge/Docs-No%20Builds-yellow.svg
 
 You can see it in action in the `Read the Docs README`_.
-They will link back to your projects documentation page on Read the Docs.
+They will link back to your project's documentation page on Read the Docs.
 
 Project Pages
 -------------
 
 You will now see badges embedded in your `project page`_.
-The default badge will be pointed at the *default version* you have specified in your project.
+The default badge will be pointed at the *default version* you have specified for your project.
 The badge URLs look like this::
 
 	https://readthedocs.org/projects/pip/badge/?version=latest
@@ -57,12 +57,15 @@ and they look beautiful.
 Feature Requests
 ----------------
 
-Let us know if there is anything else you want from the badges.
-This is a first pass,
-and we're happy to add other features if there is more you want them to do.
+This is an initial attempt at adding badges to Read the Docs,
+it's a feature we've wanted to add for some time.
+We have some plans to improve badges further,
+but be sure to get in touch with us if you have any feedback on how you would like to see badges used.
 
-You can always reach us at readthedocs@gmail.com or `file an issue`_.
+Feel free to `file an issue`_,
+or you can always reach us at `readthedocs@gmail.com`_.
 
 .. _file an issue: https://github.com/rtfd/readthedocs.org/issues
 .. _Read the Docs README: https://github.com/rtfd/readthedocs.org/blob/master/README.rst
 .. _project page: https://readthedocs.org/projects/pip/
+.. _readthedocs@gmail.com: mailto:readthedocs@gmail.com
