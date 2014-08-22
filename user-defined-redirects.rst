@@ -84,5 +84,5 @@ but get in touch with us if you have ideas for improving the feature.
 Feel free to `file an issue`_,
 or you can always reach us at readthedocs@gmail.com.
 
-.. _`file and issue`: http://github.com/rtfd/readthedocs.org/issues
+.. _`file an issue`: http://github.com/rtfd/readthedocs.org/issues
 .. _Redirects: http://docs.readthedocs.org/en/latest/redirects.html
