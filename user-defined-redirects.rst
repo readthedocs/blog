@@ -1,6 +1,5 @@
-.. 
-    .. post:: Aug 22, 2014
-	   :tags: feature, redirects, migrating, new-user
+.. post:: Aug 22, 2014
+   :tags: feature, redirects, migrating, new-user
 
 User-defined Redirects
 ======================
