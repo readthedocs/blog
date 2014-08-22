@@ -50,12 +50,8 @@ Say you move the ``example.html`` page into a subdirectory of examples: ``exampl
 You would set the following configuration::
 
     Type: Page Redirect
-    From URL: /example.html
-    To URL: /examples/intro.html
-
-Note that the ``/`` at the start doesn't count the ``/en/latest``, 
-but just the user-controlled section of the URL.
-
+    From URL: example.html
+    To URL: examples/intro.html
 
 Sphinx Redirects
 ----------------
