@@ -1,6 +1,3 @@
-Welcome to Read the Docs Blog
-=============================
-
 
 Posts
 -----

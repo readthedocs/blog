@@ -15,7 +15,6 @@
 import sys
 import os
 import ablog
-import alabaster
 
 # If extensions (or modules to document with autodoc) are in another directory,
 # add these directories to sys.path here. If the directory is relative to the
@@ -31,7 +30,6 @@ import alabaster
 # extensions coming with Sphinx (named 'sphinx.ext.*') or your custom
 # ones.
 extensions = [
-    'alabaster',
     'ablog',
 ]
 
@@ -45,6 +43,7 @@ post_auto_excerpt = 99
 
 blog_authors = {
     'Eric': ('Eric Holscher', 'http://ericholscher.com'),
+    'Anthony': ('Anthony Johnson', 'http://ohess.org'),
 }
 blog_default_author = 'Eric'
 
@@ -73,7 +72,7 @@ master_doc = 'index'
 
 # General information about the project.
 project = u'Read the Docs Blog'
-copyright = u'2014, Eric Holscher'
+copyright = u'2014, Read the Docs, Inc.'
 
 # The version info for the project you're documenting, acts as replacement for
 # |version| and |release|, also used in various other places throughout the
@@ -128,15 +127,10 @@ pygments_style = 'sphinx'
 # The theme to use for HTML and HTML Help pages.  See the documentation for
 # a list of builtin themes.
 
-html_theme = 'alabaster'
-html_theme_path = [alabaster.get_path()]
+html_theme = 'rtd-blog'
+html_theme_path = ['_themes']
 
 html_theme_options = {
-   'logo': 'logo.png',
-   'description': 'All the latest on <a href="https://readthedocs.org">Read the Docs</a>',
-   'github_user': 'rtfd',
-   'github_repo': 'blog',
-   'github_button': 'false',
 }
 
 # Theme options are theme-specific and customize the look and feel of a theme
@@ -185,7 +179,7 @@ html_static_path = ['_static']
 html_sidebars = {
    '**': [
           # Alabaster
-          'about.html', 'social.html',
+          #'about.html', 'social.html',
 
           # Blog
           'postcard.html', 'recentposts.html',

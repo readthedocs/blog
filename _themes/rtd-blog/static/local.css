@@ -1,0 +1,31 @@
+div.section h1 {
+    font-size: 1.3em;
+}
+
+div.section h2 {
+    font-size: 1.2em;
+}
+
+div.section h3 {
+    font-size: 1.1em;
+}
+
+div.section h4, div.section h5, div.section h6 {
+    font-size: 1em;
+}
+
+div.section p,
+div.section ul li,
+div.sidebar ul li {
+    margin: .5em;
+    line-height: 1.4em;
+}
+
+a.headerlink {
+    display: none;
+    padding: 0em .5em;
+}
+
+h1:hover a.headerlink {
+    display: inline;
+}

@@ -1,0 +1,104 @@
+{%- extends "basic/layout.html" %}
+
+{%- block extrahead %}
+  <link rel="stylesheet" href="https://media.readthedocs.com/corporate/css/8bd3f3b41794.css" type="text/css" />
+{% endblock %}
+
+{%- block header %}
+  <!-- BEGIN header -->
+  <div id="header">
+    <div class="row">
+      <div class="logo">
+        <a href="/"><img src="https://media.readthedocs.com/corporate/img/header-logo.png" /></a>
+      </div>
+      <div class="nav">
+        <ul>
+          <li class="nav-link nav-pricing"><a href="/pricing/" class="link pricing">Pricing</a></li>
+        </ul>
+      </div>
+    </div>
+  </div>
+  <!-- END header -->
+{% endblock %}
+
+{%- block relbar1 %}{% endblock %}
+{%- block relbar2 %}{% endblock %}
+
+{%- block content %}
+  <div id="content">
+    <div class="wrapper">
+
+      <div class="col-major content">
+        <h1>Read the Docs Blog</h1>
+        {%- block document %}
+          {% block body %} {% endblock %}
+        {%- endblock %}
+      </div>
+
+      <div class="col-minor sidebar">
+        {%- block sidebar1 %}
+          {%- if sidebars != None %}
+            {#- new style sidebar: explicitly include/exclude templates #}
+            {%- for sidebartemplate in sidebars %}
+            {%- include sidebartemplate %}
+            {%- endfor %}
+          {%- else %}
+            {#- old style sidebars: using blocks -- should be deprecated #}
+            {%- block sidebartoc %}
+            {%- include "localtoc.html" %}
+            {%- endblock %}
+            {%- block sidebarrel %}
+            {%- include "relations.html" %}
+            {%- endblock %}
+            {%- block sidebarsourcelink %}
+            {%- include "sourcelink.html" %}
+            {%- endblock %}
+            {%- if customsidebar %}
+            {%- include customsidebar %}
+            {%- endif %}
+            {%- block sidebarsearch %}
+            {%- include "searchbox.html" %}
+            {%- endblock %}
+          {%- endif %}
+        {% endblock %}
+      </div>
+
+      {%- block sidebar2 %}{% endblock %}
+    </div>
+  </div>
+{%- endblock %}
+
+{%- block footer %}
+  <div id="footer">
+    <div class="row">
+      <div class="col fill">
+        <ul>
+          {%- if show_copyright %}
+            <li>
+              {%- if hasdoc('copyright') %}
+                {% trans path=pathto('copyright'), copyright=copyright|e %}&copy; <a href="{{ path }}">Copyright</a> {{ copyright }}.{% endtrans %}
+              {%- else %}
+                {% trans copyright=copyright|e %}&copy; Copyright {{ copyright }}.{% endtrans %}
+              {%- endif %}
+            </li>
+          {%- endif %}
+
+          <li>
+            Powered by <a href="ablog.readthedocs.org">ABlog</a>, and <a href="http://readthedocs.org/">Read the Docs</a>.
+          </li>
+
+          {%- if last_updated %}
+            <li>
+              {% trans last_updated=last_updated|e %}Last updated on {{ last_updated }}.{% endtrans %}
+            </li>
+          {%- endif %}
+          {%- if show_sphinx %}
+            <li>
+              {% trans sphinx_version=sphinx_version|e %}Created using <a href="http://sphinx-doc.org/">Sphinx</a> {{ sphinx_version }}.{% endtrans %}
+            </li>
+          {%- endif %}
+        </ul>
+      </div>
+    </div>
+  </div>
+{%- endblock %}
