@@ -34,6 +34,10 @@ ul.post-details {
     padding-top: 2em;
 }
 
+ul.post-details li a.fa {
+    color: #998;
+}
+
 #header img {
     width: initial;
     vertical-align: bottom;

@@ -4,10 +4,10 @@
   <ul class="post-details">
     <li>
       {% if post.published %}
-        {% if fa %}<i class="fa fa-calendar"></i>{% endif %}
-        {{ post.date.strftime(gettext(ablog.post_date_format)) }}
+        {% if fa %}<i class="fa-fw fa fa-calendar"></i>{% endif %}
+        <a href="#">{{ post.date.strftime(gettext(ablog.post_date_format)) }}</a>
       {% else %}
-        {% if fa %}<i class="fa fa-pencil"></i>{% endif %}
+        {% if fa %}<i class="fa-fw fa fa-pencil"></i>{% endif %}
         {% if post.date %}{{ post.date.strftime(gettext(ablog.post_date_format)) }}
         {% else %} Draft {% endif %}
       {% endif %}
