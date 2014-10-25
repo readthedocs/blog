@@ -30,6 +30,10 @@ h1:hover a.headerlink {
     display: inline;
 }
 
+ul.post-details {
+    padding-top: 2em;
+}
+
 #header img {
     width: initial;
     vertical-align: bottom;
