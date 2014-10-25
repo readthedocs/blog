@@ -32,4 +32,10 @@ h1:hover a.headerlink {
 
 #header img {
     width: initial;
+    vertical-align: bottom;
+}
+
+#header h1 {
+    margin: 0em;
+    line-height: 48px;
 }
