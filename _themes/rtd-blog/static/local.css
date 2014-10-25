@@ -29,3 +29,7 @@ a.headerlink {
 h1:hover a.headerlink {
     display: inline;
 }
+
+#header img {
+    width: initial;
+}
