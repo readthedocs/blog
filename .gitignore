@@ -1,2 +1,2 @@
 _build
-.sw[opmn]
+*.sw[opmn]
