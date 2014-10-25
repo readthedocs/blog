@@ -54,7 +54,9 @@ blog_default_location = 'PDX'
 
 # Add any paths that contain templates here, relative to this directory.
 templates_path = ['_templates']
-
+templates_path.append(os.path.join(
+    '_themes', 'rtd-blog'
+))
 templates_path.append(ablog.get_html_templates_path())
 
 if os.environ.get('READTHEDOCS', None) == 'True':
