@@ -4,7 +4,7 @@
 User-defined Redirects
 ======================
 
-Today we are announcing Used-defined Redirects for Read the Docs.
+Today we are announcing User-defined Redirects for Read the Docs.
 This has been a long requested feature that should cut down on 404's when migrating your documentation.
 
 Read the Docs has long had `Redirects`_,
