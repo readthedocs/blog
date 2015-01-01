@@ -1,5 +1,5 @@
 .. post:: Dec 23, 2013 
-   :tags: stats
+   :tags: stats, year-in-review
 
 Read the Docs 2013 Stats
 ========================
