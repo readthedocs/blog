@@ -185,8 +185,7 @@ html_sidebars = {
 
           # Blog
           'postcard.html', 'recentposts.html',
-          'tagcloud.html', 'categories.html',
-          'archives.html', ]
+          'categories.html', 'archives.html', ]
 }
 
 # Additional templates that should be rendered to pages, maps page names to
