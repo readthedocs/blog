@@ -14,6 +14,11 @@ div.section h4, div.section h5, div.section h6 {
     font-size: 1em;
 }
 
+div.section ul {
+    list-style: inside;
+    margin: 1em;
+}
+
 div.section p,
 div.section ul li,
 div.sidebar ul li {
@@ -46,4 +51,25 @@ ul.post-details li i.fa {
 #header h1 {
     margin: 0em;
     line-height: 48px;
+}
+
+div.admonition {
+    padding: .65em;
+    margin: 1em 0em;
+    border-radius: .3em;
+    -moz-border-radius: .3em;
+    -webkit-border-radius: .3em;
+    background: #f0f0f0;
+}
+
+div.admonition p.admonition-title {
+    font-weight: bold;
+}
+
+table.footnote {
+    margin: 1em;
+}
+
+table.footnote td.label {
+    padding: .65em;
 }
