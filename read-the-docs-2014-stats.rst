@@ -47,8 +47,12 @@ With an average time of 3 minutes per page,
 this means users have spent **over 600 years** [#]_ reading documentation on Read the Docs this year. 
 I can only imagine how much development time has been saved.
 
-
 .. note:: I believe this makes Read the Docs the biggest documentation hosting website in the world. Pretty neat.
+
+A picture shows more than the words do, I think. Here is our weekly graph for the year:
+
+.. image:: img/2014-stats.png
+	:width: 100%
 
 Site Stats
 ----------
