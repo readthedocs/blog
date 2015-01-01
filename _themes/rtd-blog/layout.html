@@ -1,0 +1,108 @@
+{%- extends "basic/layout.html" %}
+
+{%- block extrahead %}
+  <link href='http://fonts.googleapis.com/css?family=Bree+Serif' rel='stylesheet' type='text/css' />
+  <link href='http://fonts.googleapis.com/css?family=Puritan:400,400italic,700,700italic' rel='stylesheet' type='text/css' />
+  <link rel="stylesheet" href="{{ pathto('_static/local.css', 1) }}" type="text/css" />
+{% endblock %}
+
+{%- block header %}
+  <!-- BEGIN header -->
+  <div id="header">
+    <div class="row">
+      <div class="logo">
+        <h1><a href="{{ pathto(master_doc) }}">
+            <img src="{{ pathto('_static/logo.png', 1) }}" height="48" />
+            Read the Docs Blog
+        </a></h1>
+      </div>
+      <div class="nav">
+        <ul>
+          <li><a href="mailto:hello@readthedocs.com">Contact&nbsp;Us</a></li>
+        </ul>
+      </div>
+    </div>
+  </div>
+  <!-- END header -->
+{% endblock %}
+
+{%- block relbar1 %}{% endblock %}
+{%- block relbar2 %}{% endblock %}
+
+{%- block content %}
+  <div id="content">
+    <div class="wrapper">
+
+      <div class="col-major content">
+        {%- block document %}
+          {% block body %} {% endblock %}
+        {%- endblock %}
+      </div>
+
+      <div class="col-minor sidebar">
+        {%- block sidebar1 %}
+          {%- if sidebars != None %}
+            {#- new style sidebar: explicitly include/exclude templates #}
+            {%- for sidebartemplate in sidebars %}
+            {%- include sidebartemplate %}
+            {%- endfor %}
+          {%- else %}
+            {#- old style sidebars: using blocks -- should be deprecated #}
+            {%- block sidebartoc %}
+            {%- include "localtoc.html" %}
+            {%- endblock %}
+            {%- block sidebarrel %}
+            {%- include "relations.html" %}
+            {%- endblock %}
+            {%- block sidebarsourcelink %}
+            {%- include "sourcelink.html" %}
+            {%- endblock %}
+            {%- if customsidebar %}
+            {%- include customsidebar %}
+            {%- endif %}
+            {%- block sidebarsearch %}
+            {%- include "searchbox.html" %}
+            {%- endblock %}
+          {%- endif %}
+        {% endblock %}
+      </div>
+
+      {%- block sidebar2 %}{% endblock %}
+    </div>
+  </div>
+{%- endblock %}
+
+{%- block footer %}
+  <div id="footer">
+    <div class="row">
+      <div class="col fill">
+        <ul>
+          {%- if show_copyright %}
+            <li>
+              {%- if hasdoc('copyright') %}
+                {% trans path=pathto('copyright'), copyright=copyright|e %}&copy; <a href="{{ path }}">Copyright</a> {{ copyright }}.{% endtrans %}
+              {%- else %}
+                {% trans copyright=copyright|e %}&copy; Copyright {{ copyright }}.{% endtrans %}
+              {%- endif %}
+            </li>
+          {%- endif %}
+
+          <li>
+            Powered by <a href="http://ablog.readthedocs.org">ABlog</a>, and <a href="http://readthedocs.org/">Read the Docs</a>.
+          </li>
+
+          {%- if last_updated %}
+            <li>
+              {% trans last_updated=last_updated|e %}Last updated on {{ last_updated }}.{% endtrans %}
+            </li>
+          {%- endif %}
+          {%- if show_sphinx %}
+            <li>
+              {% trans sphinx_version=sphinx_version|e %}Created using <a href="http://sphinx-doc.org/">Sphinx</a> {{ sphinx_version }}.{% endtrans %}
+            </li>
+          {%- endif %}
+        </ul>
+      </div>
+    </div>
+  </div>
+{%- endblock %}
