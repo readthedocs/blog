@@ -44,7 +44,7 @@ Page view growth has been steady again this year.
 It's great to see so many people reading documentation that we are hosting.
 
 With an average time of 3 minutes per page,
-this means users have spent **over 600 years** [#]_ reading documentation on Read the Docs this year.
+this means users have spent **nearly 600 years** [#]_ reading documentation on Read the Docs this year.
 I can only imagine how much development time has been saved.
 
 .. note:: I believe this makes Read the Docs the biggest documentation hosting website in the world. Pretty neat.
@@ -103,4 +103,4 @@ We forward to continuing to improve the documentation ecosystem in the new year.
 .. _on Gittip: https://www.gittip.com/readthedocs/
 .. _Rackspace: http://rackspace.com/
 
-.. [#] 3 * 110,000,000 / 60 / 24 / 365
+.. [#] 2min 51sec * 108,801,906 views / 525,600 minutes/year = 589.6 years
