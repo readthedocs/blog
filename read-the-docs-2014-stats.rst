@@ -94,7 +94,7 @@ We have continued growing and serving more traffic.
 
 We are working on a number of new features to expand the user base,
 and make the site more approachable.
-We forward to continuing to improve the documentation ecosystem in the new year.
+We look forward to continuing to improve the documentation ecosystem in the new year.
 
 
 .. _Read the Docs: https://readthedocs.org/
