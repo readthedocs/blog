@@ -14,32 +14,32 @@ Really, thank you all. <3
 
 We started the fund raise drive at the beginning of PyCon, and in a little under
 3 weeks you were able to bring us up to our funding goal of $24,000. With the
-end of April, we've wrapped up funding for now. You can [still contribute][contribute]
+end of April, we've wrapped up funding for now. You can `still contribute`_
 however, and give us a head start on our next fund raising goal.
 
 We set our goal to cover support costs for the next 3 months, and to set Read
 the Docs on a path to becoming self-sustaining. It will allow us to dedicate
 time to supporting and maintaining the service as it continues to grow.
 
-So far, we've had [157 contributions][supporters], and we couldn't have hit
-our goal without the help of everyone. The Python Software Foundation graciously
-provided us with a grant for $8,000 to go towards the continued support efforts.
-Our largest corporate sponsors include [Twilio][twilio], [Sentry][sentry],
-[DreamHost][dreamhost], and [Lincoln Loop][lincoln-loop]. Additionally, we have
-received generous service sponsorships from [Elastic Search][elastic-search],
-[MaxCDN][maxcdn], and [Gandi][gandi].
+So far, we've had `157 contributions`_, and we couldn't have hit our goal
+without the help of everyone. The Python Software Foundation graciously provided
+us with a grant for $8,000 to go towards the continued support efforts.  Our
+largest corporate sponsors include `Twilio`_, `Sentry`_, `DreamHost`_, and
+`Lincoln Loop`_. Additionally, we have received generous service sponsorships
+from `Elastic Search`_, `MaxCDN`_, and `Gandi`_.
 
 Again, a huge thank you to everyone that made this happen!
 
-[supporters]: https://readthedocs.org/sustainability/#supporters
+.. _`157 contributions`: https://readthedocs.org/sustainability/#supporters
+.. _`still contribute`: https://readthedocs.org/sustainability/
 
-[twilio]: http://twilio.com
-[sentry]: http://getsentry.com
-[dreamhost]: http://dreamhost.com
-[lincoln-loop]: http://lincolnloop.com
-[elastic-search]: http://elastic.co
-[maxcdn]: http://maxcdn.com
-[gandi]: http://gandi.net
+.. _`Twilio`: http://twilio.com
+.. _`Sentry`: http://getsentry.com
+.. _`Dreamhost`: http://dreamhost.com
+.. _`Lincoln Loop`: http://lincolnloop.com
+.. _`Elastic Search`: http://elastic.co
+.. _`MaxCDN`: http://maxcdn.com
+.. _`Gandi`: http://gandi.net
 
 What to Expect
 --------------
@@ -47,7 +47,7 @@ What to Expect
 We are building a company around an open source service, and we strive to remain
 open about what we're doing. As a first step, we will be documenting how our
 time is used up and how we are allocating funds for the costs. We will be
-providing updates on our [public Trello board][trello], we welcome you to
+providing updates on our `public Trello board`_, we welcome you to
 subscribe for updates and to provide us with feedback.
 
 The funds will go towards covering the support and maintenance costs of Read the
@@ -63,4 +63,4 @@ the time each week with a third set of hands. Development will continue as a
 community supported mechanism, with the time of the core team donated to the
 project.
 
-[trello]: http://trello.com/changethis
+.. _`public Trello board`: http://trello.com/changethis
