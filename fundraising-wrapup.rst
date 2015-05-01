@@ -63,4 +63,4 @@ the time each week with a third set of hands. Development will continue as a
 community supported mechanism, with the time of the core team donated to the
 project.
 
-.. _`public Trello board`: http://trello.com/changethis
+.. _`public Trello board`: https://trello.com/b/tF04aNrT/read-the-docs-public
