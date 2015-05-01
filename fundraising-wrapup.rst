@@ -10,7 +10,7 @@ You all helped us hit our funding goal, and with time to spare.  We're humbled
 to have such an abundance of support, and to know so many people share our
 vision for great documentation.
 
-Really, thank you all. <3
+Really, thank you all. ❤
 
 We started the fund raise drive at the beginning of PyCon, and in a little under
 3 weeks you were able to bring us up to our funding goal of $24,000. With the
