@@ -14,7 +14,7 @@ Really, thank you all. ❤
 
 We started the fund raise drive at the beginning of PyCon, and in a little under
 3 weeks you were able to bring us up to our funding goal of $24,000. With the
-end of April, we've wrapped up funding for now. You can `still contribute`_
+end of April, we've wrapped up fundraising for now. You can `still contribute`_
 however, and give us a head start on our next fund raising goal.
 
 We set our goal to cover support costs for the next 3 months, and to set Read
@@ -63,4 +63,4 @@ the time each week with a third set of hands. Development will continue as a
 community supported mechanism, with the time of the core team donated to the
 project.
 
-.. _`public Trello board`: http://trello.com/changethis
+.. _`public Trello board`: https://trello.com/b/tF04aNrT/read-the-docs-public
