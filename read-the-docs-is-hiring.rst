@@ -13,18 +13,21 @@ We have two positions that we are looking for:
 * Operations Developer
 
 These will be part-time remote contract positions.
-We are budgeting 15 hours each week,
+We are budgeting 40 total hours each week,
 paid at $50/hr,
 or $3000/month.
+These hours will be split between the two roles,
+and our time managing and doing administrative tasks.
 It will initially be for a 3-month period,
 after which we will evaluate the program,
 and continue it with renewed funding if it is successful.
 
-**Historically under-represented folks in the open source world will be given preference.**
 We understand that money and time can be an obstacle to working on OSS,
 so let this be your opportunity to join us!
 We are hoping to build a team that is diverse in view points and location,
 and that definitely includes folks like you.
+Historically under-represented folks in the open source world will be given preference,
+given equal candidates.
 
 Community Developer
 --------------------
@@ -52,7 +55,6 @@ Tech Used:
 
 It's fine if you aren't familiar with all of these things, but are willing to learn!
 
-
 Operations Developer
 --------------------
 
@@ -79,6 +81,8 @@ Tech Used:
 
 It's fine if you aren't familiar with all of these things, but are willing to learn!
 
+**We will prefer candidates in non-US based time zones to simplify our on call rotation.**
+
 How to Apply
 ------------
 
@@ -87,3 +91,6 @@ Include whatever you think might be relevant,
 but mostly why you're excited to work on Read the Docs,
 and why you would be good at it.
 
+Also let us know how many hours a week you're interested in working.
+We are thinking 15-20 hours per week, across the full 3 months,
+so this can be flexible across each specific week.
