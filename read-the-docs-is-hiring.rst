@@ -87,6 +87,7 @@ Tech Used:
 It's fine if you aren't familiar with all of these things, but are willing to learn!
 
 **We will prefer candidates in non-US based time zones to simplify our on call rotation.**
+Nobody should have to wake up at night to fix issues!
 
 How to Apply
 ------------
