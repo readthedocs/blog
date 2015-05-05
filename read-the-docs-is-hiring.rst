@@ -13,11 +13,15 @@ We have two positions that we are looking for:
 * Operations Developer
 
 These will be part-time remote contract positions.
-We are budgeting 40 total hours each week,
-paid at $50/hr,
-or $3000/month.
+
+Our budget is:
+
+* 40 total hours each week
+* Paid at $50/hr 
+
 These hours will be split between the two roles,
 and our time managing and doing administrative tasks.
+We expect each person to work around 15-20 hours each week.
 It will initially be for a 3-month period,
 after which we will evaluate the program,
 and continue it with renewed funding if it is successful.
