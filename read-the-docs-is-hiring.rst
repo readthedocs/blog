@@ -30,8 +30,7 @@ We understand that money and time can be an obstacle to working on OSS,
 so let this be your opportunity to join us!
 We are hoping to build a team that is diverse in view points and location,
 and that definitely includes folks like you.
-Historically under-represented folks in the open source world will be given preference,
-given equal candidates.
+Historically under-represented folks in the open source world will be given preference.
 
 Community Developer
 --------------------
