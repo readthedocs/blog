@@ -100,3 +100,6 @@ and why you would be good at it.
 Also let us know how many hours a week you're interested in working.
 We are thinking 15-20 hours per week, across the full 3 months,
 so this can be flexible across each specific week.
+This means you can persue other work,
+or build an amazing lifestyle that includes hiking on a Tuesday,
+if ya want.
