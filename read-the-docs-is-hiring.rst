@@ -70,6 +70,7 @@ Your responsibilities will be:
 * Manage backups of our databases
 * Manage usage of our web and build machines, keeping them up to date and within capacity
 * Build new infrastructure and help us scale the existing machines
+* Write code to make Read the Docs easier to scale and sustain
 * Be included in an On Call rotation
 
 Tech Used:
