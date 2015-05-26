@@ -4,6 +4,8 @@
 Read the Docs is hiring!
 =========================
 
+.. note:: Thanks for everyone who has applied. We are in the process of choosing a candidate, and applications are now closed.
+
 Thanks to our successful `fundraiser <http://blog.readthedocs.com/fundraising-wrapup/>`_,
 we have the ability to pay people to work on Read the Docs.
 
