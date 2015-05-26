@@ -4,8 +4,6 @@
 Read the Docs is hiring!
 =========================
 
-.. note:: Thanks for everyone who has applied. We are in the process of choosing a candidate, and applications are now closed.
-
 Thanks to our successful `fundraiser <http://blog.readthedocs.com/fundraising-wrapup/>`_,
 we have the ability to pay people to work on Read the Docs.
 
@@ -94,14 +92,16 @@ Nobody should have to wake up at night to fix issues!
 How to Apply
 ------------
 
-Send us an email at yayopensource@readthedocs.org.
-Include whatever you think might be relevant,
-but mostly why you're excited to work on Read the Docs,
-and why you would be good at it.
+Thanks for everyone who has applied. We are in the process of choosing a candidate, and applications are now closed.
 
-Also let us know how many hours a week you're interested in working.
-We are thinking 15-20 hours per week, across the full 3 months,
-so this can be flexible across each specific week.
-This means you can persue other work,
-or build an amazing lifestyle that includes hiking on a Tuesday,
-if ya want.
+..      Send us an email at yayopensource@readthedocs.org.
+	Include whatever you think might be relevant,
+	but mostly why you're excited to work on Read the Docs,
+	and why you would be good at it.
+
+	Also let us know how many hours a week you're interested in working.
+	We are thinking 15-20 hours per week, across the full 3 months,
+	so this can be flexible across each specific week.
+	This means you can persue other work,
+	or build an amazing lifestyle that includes hiking on a Tuesday,
+	if ya want.
