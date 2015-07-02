@@ -16,22 +16,36 @@ helped us on building and improving our operations infrastructure.
 .. _`Gregor Müllegger`: https://github.com/gregmuellegger
 .. _`Andrew Kreps`: https://github.com/onewheelskyward
 
+Updates
+-------
+
 Read the Docs had the following major updates in June:
+
+Ops
+~~~
 
  * Elastic Search support was upgraded and our search cluster is now hosted on
    `Found`_.
- * We did a fresh provision of our build cluster. Previously, there were slight
+ * We greatly improved the Read the Docs infrastructure, including monitoring and alerting, as well as server
+   environment consistency. Using Nagios and Graphite, as well as Salt, for this task.
+ * Static assets were migrated to use a CDN, provided by `MaxCDN`_.
+ * We did a fresh provision of our build cluster using Salt. Previously, there were slight
    disparities between the servers, which surfaced some issues during builds.
+ * Fixed Python 3 build environments with new virtualenv and pip.
+ * Changed our queueing stragedy to not be tied to a single specific build machine.
+
+Dev
+~~~
+
  * Output formats such as PDF and ePub are now configurable, and won't default
    to building. This should reduce build contention significantly.
- * We started to address outstanding issues with stable version detection and
-   version name handling.
- * Static assets were migrated to use a CDN, provided by `MaxCDN`_.
- * In order to move away from third party tracking, we have spun up services for
-   internal tracking. We plan on testing internal tracking in the coming months.
- * We have shifted our focus to greatly improving the Read the Docs
-   infrastructure, including monitoring and notifications, as well as server
-   environment consistency.
+ * Added the ability to wipe the Build environment to the Verions page.
+ * We started to address issues with stable version detection 
+ * Fixed issues related to version name slugging.
+ * In order to move away from third party analytics, we have spun up an instance
+   of Piwik. We plan on testing this with our production traffic in the coming months.
+ * Fixed "Edit on GitHub" links for stable verisons
+ * General refactoring and cleanup of the codebase, and added test coverage.
 
 For more information on our development orchestration, visit or subscribe to our
 `public Trello board`_.
@@ -63,14 +77,14 @@ Next Month
 ----------
 
 Once work is wrapped up on version detection cleanup, we hope to start
-addressing bugginess with Github/Bitbucket integration and user experience
-issues around deleting unwanted content from Read the Docs.
+improving our Github/Bitbucket integration and user experience
+issues around deleting old projects and versions from Read the Docs.
 
 We will also be testing internal analytics in the coming months. Our stance is
 that user data, for both our users and for readers of hosted documentation,
 should not be handed over to third party services like Google Analytics. We hope
 to replace external analytics with an internally hosted service, so that your
-data can remain private.
+data remains with us.
 
 Feel free to raise any questions you have about any of these changes on our
 `issue tracker`_, or on our Freenode IRC channel, #readthedocs.
