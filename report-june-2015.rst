@@ -6,11 +6,12 @@ Report - June 2015
 ==================
 
 With the `Write the Docs`_ conference wrapped up in May, we shifted our focus
-back to Read the Docs for the remainder of May and June. Following our post `on
-contract positions available with Read the Docs`_, we hired two contractors to
-work with us and focus on support and stability for readthedocs.org. `Gregor
-Müllegger`_ will be working on support and development, and `Andrew Kreps`_ has
-helped us on building and improving our operations infrastructure.
+back to Read the Docs for the remainder of May and June. Following our post
+:doc:`on contract positions available <read-the-docs-is-hiring>` with Read the
+Docs, we hired two contractors to work with us and focus on support and
+stability for readthedocs.org. `Gregor Müllegger`_ will be working on support
+and development, and `Andrew Kreps`_ has helped us on building and improving our
+operations infrastructure.
 
 .. _`Write the Docs`: http://writethedocs.org
 .. _`Gregor Müllegger`: https://github.com/gregmuellegger
