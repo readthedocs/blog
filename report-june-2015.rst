@@ -1,4 +1,4 @@
-.. post:: July 1, 2015
+.. post:: Jul 1, 2015
    :tags: report
    :author: Anthony
 
