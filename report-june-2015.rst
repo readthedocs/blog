@@ -38,8 +38,8 @@ Ops
 Dev
 ~~~
 
- * Output formats such as PDF and ePub are now configurable, and won't default
-   to building. This should reduce build contention significantly.
+ * Output formats such as PDF and ePub are now configurable, but continue to default
+   to on. 
  * Added the ability to wipe the Build environment to the Verions page.
  * We started to address issues with stable version detection 
  * Fixed issues related to version name slugging.
