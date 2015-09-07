@@ -22,11 +22,11 @@ Improve Github/Bitbucket integration
 
 Test internal analytics
     We have a basic testbed for internal analytics set up, but haven't gone as
-    far as pushing this integration into production. We expect this to be a
-    significant amount of traffic and aren't yet prepared to import all of our
-    current statistics.
+    far as pushing this integration into production. We still need to test
+    production load and what the dataset would look like over the course of a
+    month.
 
-    This is on gold for the moment.
+    This is on hold for the moment.
 
 We also set some additional goals near the beginning of the month:
 
