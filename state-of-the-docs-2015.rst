@@ -15,16 +15,18 @@ For starters, this August saw the `5th birthday of Read the Docs <bday_>`_!
 We're still humbled by the project's success, and the important role it
 continues to play for old and new users alike.
 
-This growth has been occasionally difficult to manage, especially when there
-hasn't been focused support given back to the community.  Though the project
-has always had core maintainers, for Read the Docs to continue growing as a
-community resource, we knew it required dedicated attention.
+This growth was becomming difficult to manage without focused support given back
+to the community. Though the project has always had core maintainers, for Read
+the Docs to continue growing as a community resource, we knew it required
+dedicated attention.
 
 This is the reason why, in August of last year, Eric and I set out to create a
 company around Read the Docs -- another significant bookmark in Read the Docs'
-history. At this time last year, we had just formed Read the Docs, Inc,
-we were fresh into the `PIE accelerator program <pie_>`_, and we were planning
-how to bring our documentation values to companies that weren't open source.
+history. We planned to build the company to fund the ongoing support efforts of
+the community site and to help accelerate its growth. At this time last year, we
+had just formed Read the Docs, Inc, we were fresh into the `PIE accelerator
+program <pie_>`_, and we were planning how to bring our documentation values to
+companies that weren't open source.
 
 .. _bday: http://ericholscher.com/blog/2010/aug/16/announcing-read-docs/
 .. _pie: http://piepdx.com
