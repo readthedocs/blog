@@ -11,9 +11,9 @@ the last year.
 
 *What makes August so significant for us?*
 
-For starters, this August saw the **5th birthday of Read the Docs**!  We're
-still humbled by the project's success, and the important role it continues to
-play for old and new users alike.
+For starters, this August saw the `5th birthday of Read the Docs <bday_>`_!
+We're still humbled by the project's success, and the important role it
+continues to play for old and new users alike.
 
 This growth has been occasionally difficult to manage, especially when there
 hasn't been focused support given back to the community.  Though the project
@@ -26,6 +26,7 @@ history. At this time last year, we had just formed Read the Docs, Inc,
 we were fresh into the `PIE accelerator program <pie_>`_, and we were planning
 how to bring our documentation values to companies that weren't open source.
 
+.. _bday: http://ericholscher.com/blog/2010/aug/16/announcing-read-docs/
 .. _pie: http://piepdx.com
 
 
