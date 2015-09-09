@@ -99,14 +99,6 @@ Stability
     work has already paid off in improving stability and predictability of the
     project.
 
-Gold
-    We decided to adopt a "gold" status feature model for users that want to
-    support us each month. This is an optional, recurring subscription to Read
-    the Docs.
-
-    We have plans to make gold subscriptions more functional, but for now, it is
-    just a way to show your support of Read the Docs.
-
 Ads
     We ran a few tests with advertising on built documentation in the last few
     months.  We discussed at length how we felt about ads and determined our own
@@ -132,36 +124,50 @@ Ads
       third party tracking
     * We will not sell any data about our users
     * We will always prefer ad sponsorship from community members
-    * Users that support us through gold or sponsorship are opt out of ads
+    * Users that support us through donations or sponsorship are opt out of ads
 
     Feedback regarding ads has been positive, hopefully our intentions with ads
-    has been mostly apparent.
+    has been mostly apparent. We'll be discussing our thoughts on advertising in
+    more depth soon, if you have any feedback.
+
+Gold
+    We've begun working on a "gold" status feature for users that want to
+    support us each month. This will be an optional, recurring subscription to
+    Read the Docs. The subscription will provide some additional features for
+    users or projects, and some advanced project features might suggest a gold
+    subscription for projects that make use of them.
+
+    This idea is still evolving, we'll be asking for more feedback as this
+    feature matures.
+
 
 The next year
 -------------
 
 So, let us now set some expectations for the next year forward:
 
-Monthly updates
+Transparency and feedback
+    Operating in the open has been an important tenant to our company since
+    formation.  We believe whole-heartedly in the trust and candid feedback it
+    provides, and `we have pledged <pledge_>`_ to keep openness and transparency
+    at the core of the company.
+
     Part of the structure that has guided us as a company has been providing
     updates to those that we are accountable to. During our time at PIE, this
     was to our mentors and our peers. Now, we want to be accountable to you, our
     community.
 
-    Expect the monthly updates that started with our fundraiser to continue.
+    We would like to continue the periodic updates that started with the
+    fundraiser, and we plan on releasing updates, on a quarterly basis, that
+    share more insights into the company.  We will continue to expose our goals,
+    problems, and decisions to you as we grow and we hope you can provide us
+    with your feedback.
+
+.. _pledge: http://www.opencompany.org/about/
 
 Continued work towards stability
     We still have some technical debt that will take a while to pay off,
     but ensuring stability is paramount to having a service we can all rely on.
-
-More insight into our operations
-    Operating in the open has been an important tenant to our company since
-    formation.  We believe whole-heartedly in the trust and candid feedback it
-    provides, and `we have pledged <pledge_>`_ to keep openness and transparency
-    one of our core tenants of the company.  We will continue to expose our
-    thoughts, problems, and decisions to you as we continue to grow.
-
-.. _pledge: http://www.opencompany.org/about/
 
 Support responsiveness
     We will adhere as much as we can to the processes that we established around
