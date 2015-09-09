@@ -6,9 +6,12 @@ Report - August 2015
 ====================
 
 August was a busy month for us. `Write the Docs Europe`_ was at the end of the
-month, and our focus has been on getting `<readthedocs.com>` into a public beta
-state. We're nearing the end of the 3 month period that we budgeted for as part
-of our fundraiser and have a few more tasks to push out.
+month, and our focus has been on getting `readthedocs.com`_ into a
+public beta state. We're nearing the end of the 3 month period that we budgeted
+for as part of our fundraiser and have a few more tasks to push out.
+
+.. _Write the Docs Europe: http://www.writethedocs.org/conf/eu/2015/
+.. _readthedocs.com: https://readthedocs.com
 
 Goals
 -----
