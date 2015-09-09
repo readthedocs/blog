@@ -43,6 +43,24 @@ ul.post-details li i.fa {
     color: #998;
 }
 
+dl {
+    margin: 1em 1.5em;
+}
+
+dl dt {
+    font-weight: bold;
+}
+
+dl dd {
+    line-height: 1.5em;
+    margin: 1em;
+}
+
+dl.docutils dd p, dl dd p {
+    margin-left: 0em;
+    margin-right: 0em;
+}
+
 #header img {
     width: initial;
     vertical-align: bottom;
