@@ -191,7 +191,7 @@ More reference doc language support
     authors to use existing .NET tooling to generate reStructuredText API
     reference documentation.
 
-.. _sphinx-dotnet: https://github.com/rtfd/sphinx-autoapi
+.. _sphinx-dotnet: https://github.com/rtfd/sphinxcontrib-dotnetdomain
 
 Let us know
 -----------
