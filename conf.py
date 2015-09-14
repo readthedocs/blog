@@ -31,6 +31,7 @@ import ablog
 # ones.
 extensions = [
     'ablog',
+    'sphinx.ext.intersphinx',
 ]
 
 blog_title = 'Read the Docs Blog'
