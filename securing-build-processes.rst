@@ -91,8 +91,8 @@ This will remove the last step to remove arbitrary execution in our environment.
 For more
 --------
 
-Read the Docs is a community project,
-so if you are interested in helping us with the above tasks,
+Read the Docs is an open source project.
+If you are interested in helping us with the above tasks,
 we are always happy to have help.
 Specifically if you are able to help with development of `sphinx-autoapi`_
 or `readthedocs-build`_,
