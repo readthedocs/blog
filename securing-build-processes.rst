@@ -48,10 +48,6 @@ This communication with the task queue happens outside of the container.
 
 Breaking out of this system requires a privilege escalation attack,
 and the ability to break out of the container in order to access the outer build system.
-Once in the outer build system,
-there is still limited damage that could be done,
-because of the isolation of the build server from the main hosting environment.
-
 The main cause of these issues is running user code.
 To properly fix this solution,
 we have been actively working to remove arbitrary execution form our stack entirely.
