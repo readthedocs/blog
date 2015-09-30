@@ -76,11 +76,12 @@ relies on parsing Python to pull docstrings out of code, not execution.
 We've been working for some time now on supporting this with `sphinx-autoapi`_,
 but don't think it's an adequate solution for every Python project just yet.
 
+We see parsing docstrings from Python source as the correct solution to this problem.
 Unfortunately, Epydoc is not a strong project for us to rely on currently, as
 activity has winded down in the past years and it lacks Python 3 support.
+We hope to resolve these issues soon,
+or look to another solution like `pydoctor`_ that is actively maintained.
 
-
-We see parsing docstrings from Python source as the correct solution to this problem.
 After that,
 the main other source of code execution is the `conf.py` file inside Sphinx.
 We have also been working on `readthedocs-build`_,
@@ -88,6 +89,7 @@ which implements a ``readthedocs.yml`` file that will contain Sphinx configurati
 This will remove the last path of arbitrary execution in our environment.
 
 .. _Epydoc: http://epydoc.sourceforge.net/
+.. _pydoctor: https://github.com/twisted/pydoctor/
 .. _sphinx-autoapi: https://github.com/rtfd/sphinx-autoapi
 .. _readthedocs-build: https://github.com/rtfd/readthedocs-build
 
