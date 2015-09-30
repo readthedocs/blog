@@ -21,10 +21,41 @@ decided to deal with any lingering issues as soon as they came up.
 
 Additionally, we've reprovisioned all new build servers and have been working to
 lock down attack vectors that exist if a virtual machine is exploited and broken
-out of. Isolating builds with individual virtual machines may be a next step,
-but would be a strain on our already limited budget.
+out of. 
 
 .. _our issue tracker: https://github.com/rtfd/readthedocs.org/issues
+
+How It Works
+------------
+
+Under the new system,
+we provision a container for each build.
+All build steps that depend on executing code (pip, Sphinx),
+run inside that container.
+The container has 10 minutes to complete it's build step,
+and we kill it from the host machine after this if it hasn't completed.
+There is a shared filesystem that only contains the project checkout and artifact directories,
+and no access to any other build server files.
+
+Our build servers are firewalled from our application and database servers,
+so they have no ability to access them.
+All communication is done over a task queue.
+When a build is finished,
+a task is inserted into the queue,
+and web servers pull documentation from the build server to be served.
+This communication with the task queue happens outside of the container.
+
+Breaking out of this system requires a privilege escalation attack,
+and the ability to break out of the container in order to access the outer build system.
+Once in the outer build system,
+there is still limited damage that could be done,
+because of the isolation of the build server from the main hosting environment.
+
+We understand this isn't a perfect solution,
+and we are working on improving this model even more.
+With all things security,
+nothing is ever perfect,
+but we are mitigating as many vectors as possible.
 
 Arbitrary Execution
 -------------------
@@ -35,7 +66,7 @@ a useful reference documentation implementation.
 
 However, executing Python in order to evaluate docstrings is a broken pattern.
 For our purposes, it requires installing project dependencies and executing the
-code of each project on Read the Docs.  These are two steps that introduce a
+code of each Python project on Read the Docs.  These are two steps that introduce a
 substantial number of issues with usability and number of security concerns.
 
 Ideally, using a project like `Epydoc`_ to help take place of ``autodoc`` would
@@ -46,37 +77,24 @@ We've been working for some time now on supporting this with `sphinx-autoapi`_,
 but don't think it's an adequate solution for every Python project just yet.
 
 Unfortunately, Epydoc is not a strong project for us to rely on currently, as
-activity has winded down in the past years and it lacks Python 3 support. We
-haven't yet taken to maintaining it ourselves, but it is on our list.
+activity has winded down in the past years and it lacks Python 3 support.
+
+
+We see parsing docstrings from Python source as the correct solution to this problem.
+After that,
+the main other source of code execution is the `conf.py` file inside Sphinx.
+We have also been working on `readthedocs-build`_,
+which implements a ``readthedocs.yml`` file that will contain Sphinx configuration.
+This will remove the last path of arbitrary execution in our environment.
 
 .. _Epydoc: http://epydoc.sourceforge.net/
 .. _sphinx-autoapi: https://github.com/rtfd/sphinx-autoapi
+.. _readthedocs-build: https://github.com/rtfd/readthedocs-build
 
-Changes
--------
-
-Foremost, builds are now isolated in a minimal container system. All that exists
-in these containers is your source code, your dependencies, and necessary third
-party libraries and binaries to build documentation. Access to the code
-checkouts and built documentation of other projects is not possible without
-exploiting the machine to break out of the virtual machine. These systems don't
-have access to any internal services, and are only used to encapsulate
-individual build commands.
-
-We are also addressing a number of performance issues by isolating the build
-systems.  Running virtual machines for each build allows us to give more
-granular access to system resources. Memory and CPU time are commonly over-used
-by projects, which puts a significant strain on the build servers for projects
-that commit often. These projects may find their builds are timing out, or are
-being killed due to memory consumption.
-
-We'll discus more about offering stronger build platforms to users that have an
-active subscription to Read the Docs shortly. We would have liked to have this
-in place before rolling out this build layer, so contact us if your project is
-running into resource limits.
 
 For more
 --------
 
 As always, for responsible disclosure, please email us at
 <security@readthedocs.org> if you discover what you think is a security flaw.
+
