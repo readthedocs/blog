@@ -51,17 +51,15 @@ Once in the outer build system,
 there is still limited damage that could be done,
 because of the isolation of the build server from the main hosting environment.
 
-We understand this isn't a perfect solution,
-and we are working on improving this model even more.
-With all things security,
-nothing is ever perfect,
-but we are mitigating as many vectors as possible.
+The main cause of these issues is of course running user code.
+To properly fix this solution,
+we have been actively working to remove arbitrary execution form our stack entirely.
 
-Arbitrary Execution
--------------------
+Fixing Arbitrary Execution
+--------------------------
 
 Arbitrary execution is something that is difficult, if not impossible, for us to
-avoid. It's built into Sphinx's ``autodoc`` system, which gives Sphinx such
+avoid currently. It's built into Sphinx's ``autodoc`` system, which gives Sphinx such
 a useful reference documentation implementation.
 
 However, executing Python in order to evaluate docstrings is a broken pattern.
@@ -70,9 +68,9 @@ code of each Python project on Read the Docs.  These are two steps that introduc
 substantial number of issues with usability and number of security concerns.
 
 Ideally, using a project like `Epydoc`_ to help take place of ``autodoc`` would
-be the best path forward. We might be able to eventually completely remove the
-necessity for arbitrary code execution altogether with this method. This method
-relies on parsing Python to pull docstrings out of code, not execution.
+be the best path forward. This takes the approach of parsing docstrings, instead
+of executing the code. We might be able to eventually completely remove the
+necessity for arbitrary code execution altogether with this method. 
 We've been working for some time now on supporting this with `sphinx-autoapi`_,
 but don't think it's an adequate solution for every Python project just yet.
 
@@ -91,7 +89,7 @@ This will remove the last path of arbitrary execution in our environment.
 .. _Epydoc: http://epydoc.sourceforge.net/
 .. _pydoctor: https://github.com/twisted/pydoctor/
 .. _sphinx-autoapi: https://github.com/rtfd/sphinx-autoapi
-.. _readthedocs-build: https://github.com/rtfd/readthedocs-build
+.. _readthedocs-build: https://github.com/rtfd/readthedocs-build/pull/6
 
 
 For more
