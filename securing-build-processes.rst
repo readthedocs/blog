@@ -49,8 +49,8 @@ This communication with the task queue happens outside of the container.
 Breaking out of this system requires a privilege escalation attack,
 and the ability to break out of the container in order to access the outer build system.
 The main cause of these issues is running user code.
-To properly fix this solution,
-we have been actively working to remove arbitrary execution form our stack entirely.
+To properly fix this situation,
+we are working to remove arbitrary execution form our stack entirely.
 
 Fixing Arbitrary Execution
 --------------------------
@@ -65,33 +65,29 @@ code of each Python project on Read the Docs.  These are two steps that introduc
 substantial number of issues with usability and number of security concerns.
 
 Ideally, using a project like `Epydoc`_ to help take place of ``autodoc`` would
-be the best path forward. This takes the approach of parsing docstrings, instead
-of executing the code. We might be able to eventually completely remove the
-necessity for arbitrary code execution altogether with this method. 
+be the best path forward. This takes the approach of parsing the code, instead
+of executing the code. We should be able to eventually completely remove the
+necessity for running arbitrary to generate docs with this method.
 We've been working for some time now on supporting this with `sphinx-autoapi`_,
 but don't think it's an adequate solution for every Python project just yet.
 
-We see parsing docstrings from Python source as the correct solution to this problem.
 Unfortunately, Epydoc is not a strong project for us to rely on currently, as
 activity has winded down in the past years and it lacks Python 3 support.
 We hope to resolve these issues soon,
 or look to another solution like `pydoctor`_ that is actively maintained.
 
-After that,
-the main other source of code execution is the `conf.py` file inside Sphinx.
+The other source of code execution is the `conf.py` file inside Sphinx.
 We have also been working on `readthedocs-build`_,
 which implements a ``readthedocs.yml`` file that will contain Sphinx configuration.
-This will remove the last path of arbitrary execution in our environment.
+This will remove the last step to remove arbitrary execution in our environment.
 
 .. _Epydoc: http://epydoc.sourceforge.net/
 .. _pydoctor: https://github.com/twisted/pydoctor/
 .. _sphinx-autoapi: https://github.com/rtfd/sphinx-autoapi
 .. _readthedocs-build: https://github.com/rtfd/readthedocs-build/pull/6
 
-
 For more
 --------
 
 As always, for responsible disclosure, please email us at
 <security@readthedocs.org> if you discover what you think is a security flaw.
-
