@@ -8,7 +8,7 @@ with your project builds.
 
 This new system is part of an over-due security update to help isolate arbitrary
 code execution.  As Read the Docs has grown, protecting against arbitrary
-execution was a rapidly concern.  This build isolation layer was
+execution was a rapidly growing concern.  This build isolation layer was
 developed as part of readthedocs.com, where security concerns are paramount due
 to private repository access. We've been testing it for roll out on the
 community site since then, but hadn't committed to switching production build
@@ -32,25 +32,31 @@ How It Works
 Under the new system,
 we provision a unique container for each build.
 All build steps that depend on executing code (pip, Sphinx),
-run inside that container.
-The container has 10 minutes to complete it's build step,
-and we kill it from the host machine after this if it hasn't completed.
-There is a shared filesystem that only contains the project checkout and artifact directories,
-and no access to any other build server files.
+run inside that container as individual commands,
+triggered from the host build server.
+The container has 10 minutes to complete these build commands before we time out the
+build and kill the container system.
+A filesystem is shared from the host build server,
+which only contains the project checkout and artifact directories.
+The container has no other access to the build server filesystem.
 
-Our build servers are firewalled from our application and database servers,
+Our host build servers are firewalled from our application and database servers,
 so they have no ability to connect to them.
 Communication is done over a task queue on a dedicated server.
 To start a build,
-the web servers put a build task in the queue which is read by the build server.
+the web servers put a build task in a queue which is read by the build servers.
+The host build servers manage the container creation,
+command execution inside the container,
+and the reporting of command and command return via our API.
 When a build is finished,
 a task is inserted into the queue,
 and web servers pull documentation from the build server to be served.
-This communication with the task queue happens outside of the container.
+All communication with the task queue and API happens outside of the container,
+with the container strictly acting as a mechanism for command execution.
 
 Breaking out of this system requires a privilege escalation attack,
 and the ability to break out of the container in order to access the outer build system.
-ALl of these measures are required because our system runs user code.
+All of these measures are required because our system runs user code.
 To properly fix this situation,
 we are working to remove arbitrary execution form our stack entirely.
 
@@ -75,12 +81,13 @@ but don't think it's an adequate solution for every Python project just yet.
 
 Unfortunately, Epydoc is not a strong project for us to rely on currently, as
 activity has winded down in the past years and it lacks Python 3 support.
-We hope to resolve these issues soon,
-or look to another solution like `pydoctor`_ that is actively maintained.
+Another project with the same focus is `pydoctor`_,
+though work to implement Python 3 support is required there too.
 
 The other source of code execution is the ``conf.py`` file inside Sphinx.
 We have also been working on `readthedocs-build`_,
-which implements a ``readthedocs.yml`` file that will contain Sphinx configuration.
+which implements a ``readthedocs.yml`` file that will move Sphinx configuration
+into a non-executable format.
 This will remove the last step to remove arbitrary execution in our environment.
 
 .. _Epydoc: http://epydoc.sourceforge.net/
