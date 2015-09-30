@@ -50,7 +50,7 @@ This communication with the task queue happens outside of the container.
 
 Breaking out of this system requires a privilege escalation attack,
 and the ability to break out of the container in order to access the outer build system.
-The main cause of these issues is running user code.
+ALl of these measures are required because our system runs user code.
 To properly fix this situation,
 we are working to remove arbitrary execution form our stack entirely.
 
@@ -69,7 +69,7 @@ substantial number of issues with usability and number of security concerns.
 Ideally, using a project like `Epydoc`_ to help take place of ``autodoc`` would
 be the best path forward. This takes the approach of parsing the code, instead
 of executing the code. This avoids executing the ``setup.py`` on the project,
-and installing any dependencies, which is where the code execution happens.
+and installing any dependencies, which is where code execution currently happens.
 We've been working for some time now on supporting this with `sphinx-autoapi`_,
 but don't think it's an adequate solution for every Python project just yet.
 
