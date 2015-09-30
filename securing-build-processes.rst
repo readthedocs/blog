@@ -1,14 +1,14 @@
 Securing Build Processes
 ========================
 
-We've recently introduced a new build container subsystem, which should go
+We've recently introduced a new build container subsystem based on Docker, which should go
 mostly unnoticed for users. We're still ironing out some bugs with the system,
 so raise an issue on `our issue tracker`_ if you are noticing any new issues
 with your project builds.
 
 This new system is part of an over-due security update to help isolate arbitrary
 code execution.  As Read the Docs has grown, protecting against arbitrary
-execution was a rapidly growing concern.  This build isolation layer was
+execution was a rapidly concern.  This build isolation layer was
 developed as part of readthedocs.com, where security concerns are paramount due
 to private repository access. We've been testing it for roll out on the
 community site since then, but hadn't committed to switching production build
@@ -89,5 +89,16 @@ This will remove the last step to remove arbitrary execution in our environment.
 For more
 --------
 
-As always, for responsible disclosure, please email us at
-<security@readthedocs.org> if you discover what you think is a security flaw.
+Read the Docs is a community project,
+so if you are interested in helping us with the above tasks,
+we are always happy to have help.
+Specifically if you are able to help with development of `sphinx-autoapi`_
+or `readthedocs-build`_,
+that would greatly increase the speed that we can migrate to those solutions.
+Also,
+if you are knowledgeable in ways of locking docker down even more,
+we would love to talk.
+
+You can email us at <security@readthedocs.org> for any issues that might be security related.
+Please do not file them in our public issue tracker.
+
