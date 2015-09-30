@@ -68,8 +68,8 @@ substantial number of issues with usability and number of security concerns.
 
 Ideally, using a project like `Epydoc`_ to help take place of ``autodoc`` would
 be the best path forward. This takes the approach of parsing the code, instead
-of executing the code. We should be able to eventually completely remove the
-necessity for running arbitrary code to generate docs with this method.
+of executing the code. This avoids executing the ``setup.py`` on the project,
+and installing any dependencies, which is where the code execution comes in.
 We've been working for some time now on supporting this with `sphinx-autoapi`_,
 but don't think it's an adequate solution for every Python project just yet.
 
