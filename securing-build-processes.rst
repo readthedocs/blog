@@ -78,7 +78,7 @@ activity has winded down in the past years and it lacks Python 3 support.
 We hope to resolve these issues soon,
 or look to another solution like `pydoctor`_ that is actively maintained.
 
-The other source of code execution is the `conf.py` file inside Sphinx.
+The other source of code execution is the ``conf.py`` file inside Sphinx.
 We have also been working on `readthedocs-build`_,
 which implements a ``readthedocs.yml`` file that will contain Sphinx configuration.
 This will remove the last step to remove arbitrary execution in our environment.
