@@ -40,7 +40,7 @@ and no access to any other build server files.
 
 Our build servers are firewalled from our application and database servers,
 so they have no ability to connect to them.
-Communication is done over a task queue.
+Communication is done over a task queue on a dedicated server.
 When a build is finished,
 a task is inserted into the queue,
 and web servers pull documentation from the build server to be served.
