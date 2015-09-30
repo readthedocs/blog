@@ -101,6 +101,5 @@ Also,
 if you are knowledgeable in ways of locking Docker down even more,
 we would love to talk.
 
-You can email us at <security@readthedocs.org> for any issues that might be security related.
-Please do not file them in our public issue tracker.
-
+As always,
+you can email us at <security@readthedocs.org> for any issues that might be security related.
