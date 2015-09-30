@@ -19,9 +19,10 @@ possible attack vectors when dealing with arbitrary code execution and Python.
 We didn't want to delay the fix for any longer following this release, and
 decided to deal with any lingering issues as soon as they came up.
 
-Additionally, we've reprovisioned all new build servers and have been working to
-lock down attack vectors that exist if a virtual machine is exploited and broken
-out of. 
+We have no reason to believe that any users have been effected by the reported issue.
+As a part of rolling out this new system,
+we have provisioned new build servers.
+We are also actively monitoring for any other possible issues.
 
 .. _our issue tracker: https://github.com/rtfd/readthedocs.org/issues
 
@@ -29,7 +30,7 @@ How It Works
 ------------
 
 Under the new system,
-we provision a container for each build.
+we provision a unique container for each build.
 All build steps that depend on executing code (pip, Sphinx),
 run inside that container.
 The container has 10 minutes to complete it's build step,
@@ -38,8 +39,8 @@ There is a shared filesystem that only contains the project checkout and artifac
 and no access to any other build server files.
 
 Our build servers are firewalled from our application and database servers,
-so they have no ability to access them.
-All communication is done over a task queue.
+so they have no ability to connect to them.
+Communication is done over a task queue.
 When a build is finished,
 a task is inserted into the queue,
 and web servers pull documentation from the build server to be served.
