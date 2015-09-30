@@ -41,6 +41,8 @@ and no access to any other build server files.
 Our build servers are firewalled from our application and database servers,
 so they have no ability to connect to them.
 Communication is done over a task queue on a dedicated server.
+To start a build,
+the web servers put a build task in the queue which is read by the build server.
 When a build is finished,
 a task is inserted into the queue,
 and web servers pull documentation from the build server to be served.
@@ -96,7 +98,7 @@ Specifically if you are able to help with development of `sphinx-autoapi`_
 or `readthedocs-build`_,
 that would greatly increase the speed that we can migrate to those solutions.
 Also,
-if you are knowledgeable in ways of locking docker down even more,
+if you are knowledgeable in ways of locking Docker down even more,
 we would love to talk.
 
 You can email us at <security@readthedocs.org> for any issues that might be security related.
