@@ -36,7 +36,7 @@ How It Works
 
 Under the new system,
 we provision a unique container for each build.
-All build steps that depend on executing code (pip, Sphinx),
+All build steps that depend on executing code (setup.py, pip, Sphinx),
 run inside that container as individual commands,
 triggered from the host build server.
 The container has 10 minutes to complete these build commands before we time out the
