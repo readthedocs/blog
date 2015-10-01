@@ -5,7 +5,7 @@
 Securing Build Processes
 ========================
 
-We've recently introduced a new build container subsystem based on Docker to https://readthedocs.org, 
+We've recently introduced a new build container subsystem based on Docker to readthedocs.org, 
 which should go mostly unnoticed for users. 
 We're still ironing out some bugs with the system,
 so raise an issue on `our issue tracker`_ if you are noticing any new issues
