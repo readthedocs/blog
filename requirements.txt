@@ -1,4 +1,4 @@
 Werkzeug==0.9.6
-ablog==0.7.2
+ablog==0.7.12
 wsgiref==0.1.2
 Sphinx
