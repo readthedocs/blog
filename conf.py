@@ -38,8 +38,8 @@ blog_title = 'Read the Docs Blog'
 blog_baseurl = 'http://blog.readthedocs.com'
 blog_path = 'archive'
 fontawesome_link_cdn = True
-#fontawesome_included = True
-disqus_shortname = 'readthedocsblog'
+# fontawesome_included = True
+# disqus_shortname = 'readthedocsblog'
 post_auto_excerpt = 99
 
 blog_authors = {
