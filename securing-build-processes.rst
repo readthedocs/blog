@@ -1,4 +1,4 @@
-.. post:: Sept 30, 2015
+.. post:: Sep 30, 2015
    :tags: security, containers
    :author: Anthony
 
@@ -18,7 +18,7 @@ to private repository access. We've been testing it for roll out on the
 community site since then, but hadn't committed to switching production build
 servers over due to the number of possible side effects.
 
-This immediate change was in response to a release yesterday outlining some
+This immediate change was in response to a `release`_ yesterday outlining some
 possible attack vectors when dealing with arbitrary code execution and Python.
 We didn't want to delay the fix for any longer following this release, and
 decided to deal with any lingering issues as soon as they came up.
@@ -29,6 +29,7 @@ we have provisioned new build servers.
 We are also actively monitoring for any other possible issues.
 
 .. _our issue tracker: https://github.com/rtfd/readthedocs.org/issues
+.. _release: http://alex.hyperiongray.com/posts/302352-pwn-the-docs
 
 How It Works
 ------------
