@@ -4,12 +4,12 @@
 Read the Docs & Sphinx now support Commonmark
 =============================================
 
-Read the Docs has long been built on top of Sphinx as it's primary technology.
-Sphinx for a long time has been built on top of reStructuredText as it's primary input mechanism.
+Read the Docs is built on top of Sphinx, 
+which has always relied on reStructuredText as an input mechanism.
 We have long heard from folks that they want to write documentation in Markdown,
 as well as RST.
 
-Now the time has arrived where this is possible.
+Today we are announcing that this is now possible!
 With the standardization of Markdown into `Commonmark`_,
 we have the ability to support a markup language with a proper spec.
 `recommonmark`_ is the bridge that allows Commonmark to be used inside Sphinx.
@@ -57,8 +57,7 @@ So things like the ``toctree`` directive and ``:ref:`` markup don't have an anal
 
 There is a `proposed draft`_ to the Commonmark spec to allow a similar syntax.
 We are investigating adding support to this in recommonmark,
-but we don't want to implement something,
-and then have something else become the standard. 
+but we don't want to implement a standard prematurely.
 
 Feedback
 --------
