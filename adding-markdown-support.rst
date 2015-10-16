@@ -35,7 +35,7 @@ and then add this to your Sphinx ``conf.py``:
 
 	source_suffix = ['.rst', '.md']
 
-This allows you to write both `.md` and `.rst` files inside of the same project.
+This allows you to write both ``.md`` and ``.rst`` files inside of the same project.
 
 Example Project
 ---------------
@@ -52,11 +52,11 @@ Limitations
 
 It should be noted that Commonmark doesn't support a lot of the concepts that RST lets you represent.
 In particular,
-there is no standarized way in Commonmark to represent inline or block levels constructs.
-So things like the `toctree` directive and `:ref:` markup don't have an analog.
+there is no standardized way in Commonmark to represent inline or block levels constructs.
+So things like the ``toctree`` directive and ``:ref:`` markup don't have an analog.
 
 There is a `proposed draft`_ to the Commonmark spec to allow a similar syntax.
-We are investigating adding support to this in `recommonmark`,
+We are investigating adding support to this in recommonmark,
 but we don't want to implement something,
 and then have something else become the standard. 
 
