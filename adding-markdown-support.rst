@@ -50,7 +50,7 @@ You can also see a `rendered version`_ hosted on Read the Docs.
 How it works
 ------------
 
-The way this project works is that it allows Commonmark files to be parsed into `docutils nodes`_
+The way this project works is that it allows Commonmark files to be parsed into `docutils nodes`_.
 That means that everything downstream of the parser works the same as if the content came from RST.
 This allows the content to slot into Sphinx and other RST based tools without much effort.
 
