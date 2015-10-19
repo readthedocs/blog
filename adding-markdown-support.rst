@@ -55,8 +55,8 @@ That means that everything downstream of the parser works the same as if the con
 This allows the content to slot into Sphinx and other RST based tools without much effort.
 
 There are some caveats where certain Sphinx & doctuils directives depend on the internal structure of RST.
-We would like to eventually build a bridge from Commonmark to the actual Sphinx directives,
-which would give a lot of the power of Sphinx to the actual Commonmark content.
+We would like to eventually build a bridge from Commonmark to the Sphinx directives,
+which would give a lot of the power of Sphinx to the Commonmark content.
 
 We are looking at ways to handle this in the future,
 and hope to eventually bring the full power of RST and Sphinx into the Commonmark ecosystem. 
