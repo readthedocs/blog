@@ -1,0 +1,73 @@
+.. post:: Oct 16, 2015
+   :tags: commonmark, markdown, feature
+
+Read the Docs & Sphinx now support Commonmark
+=============================================
+
+Read the Docs is built on top of Sphinx, 
+which has always relied on reStructuredText as an input mechanism.
+We have long heard from folks that they want to write documentation in Markdown,
+as well as RST.
+
+Today we are announcing that this is now possible!
+With the standardization of Markdown into `Commonmark`_,
+we have the ability to support a markup language with a proper spec.
+`recommonmark`_ is the bridge that allows Commonmark to be used inside Sphinx.
+**This allows you to use both RST and Commonmark inside of your Sphinx project.**
+
+.. _Commonmark: http://commonmark.org/
+.. _recommonmark: https://github.com/rtfd/recommonmark
+
+Get started
+-----------
+
+We have documented how to `get started`_ with Commonmark inside of Sphinx.
+You simply ``pip install recommonmark``,
+and then add this to your Sphinx ``conf.py``:
+
+.. code-block:: python
+
+	from recommonmark.parser import CommonMarkParser
+
+	source_parsers = {
+	    '.md': CommonMarkParser,
+	}
+
+	source_suffix = ['.rst', '.md']
+
+This allows you to write both ``.md`` and ``.rst`` files inside of the same project.
+
+Example Project
+---------------
+
+You can see this in action in my `sphinx-markdown-test repo`_ on GitHub.
+You can also see a `rendered version`_ hosted on Read the Docs.
+
+.. _sphinx-markdown-test repo: https://github.com/ericholscher/sphinx-markdown-test
+.. _rendered version: https://sphinx-markdown-test.readthedocs.org/en/latest/
+
+
+Limitations
+-----------
+
+It should be noted that Commonmark doesn't support a lot of the concepts that RST lets you represent.
+In particular,
+there is no standardized way in Commonmark to represent inline or block levels constructs.
+So things like the ``toctree`` directive and ``:ref:`` markup don't have an analog.
+
+There is a `proposed draft`_ to the Commonmark spec to allow a similar syntax.
+We are investigating adding support to this in recommonmark,
+but we don't want to implement a standard prematurely.
+
+Feedback
+--------
+
+This is a new release,
+so there are likely some missing pieces to our integration.
+Go ahead and try it out.
+Please file features ideas and bug reports on the `recommonmark bug tracker`_.
+
+.. _proposed draft: http://talk.commonmark.org/t/generic-directives-plugins-syntax/444
+.. _get started: http://docs.readthedocs.org/en/latest/getting_started.html#in-markdown
+.. _recommonmark bug tracker: https://github.com/rtfd/recommonmark/issues
+
