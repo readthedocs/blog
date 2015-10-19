@@ -22,23 +22,19 @@ Get started
 -----------
 
 We have documented how to `get started`_ with Commonmark inside of Sphinx.
-You simply:
-
-.. code-block:: bash
+You simply::
 
     pip install recommonmark
 
-Then add this to your Sphinx ``conf.py``:
+Then in your ``conf.py``:
 
 .. code-block:: python
 
-	from recommonmark.parser import CommonMarkParser
+    from recommonmark.parser import CommonMarkParser
 
-	source_parsers = {
-	    '.md': CommonMarkParser,
-	}
+    source_parsers = {'.md': CommonMarkParser}
 
-	source_suffix = ['.rst', '.md']
+    source_suffix = ['.rst', '.md']
 
 This allows you to write both ``.md`` and ``.rst`` files inside of the same project.
 
