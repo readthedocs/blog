@@ -22,8 +22,13 @@ Get started
 -----------
 
 We have documented how to `get started`_ with Commonmark inside of Sphinx.
-You simply ``pip install recommonmark``,
-and then add this to your Sphinx ``conf.py``:
+You simply:
+
+.. code-block:: bash
+
+    pip install recommonmark
+
+Then add this to your Sphinx ``conf.py``:
 
 .. code-block:: python
 
@@ -46,7 +51,6 @@ You can also see a `rendered version`_ hosted on Read the Docs.
 .. _sphinx-markdown-test repo: https://github.com/ericholscher/sphinx-markdown-test
 .. _rendered version: https://sphinx-markdown-test.readthedocs.org/en/latest/
 
-
 Limitations
 -----------
 
@@ -58,6 +62,19 @@ So things like the ``toctree`` directive and ``:ref:`` markup don't have an anal
 There is a `proposed draft`_ to the Commonmark spec to allow a similar syntax.
 We are investigating adding support to this in recommonmark,
 but we don't want to implement a standard prematurely.
+
+Intended Usage
+--------------
+
+We think that Sphinx's power to reference code and other programming concepts is quite powerful.
+However,
+all content doesn't need this ability.
+When you're writing content that just needs to have basic text formatting and links,
+Commonmark is a great option for this.
+
+We imagine that API reference documentation will continue to be authored in RST for quite some time.
+Also index pages and other reference heavy content will continune to be RST.
+FAQ's, blog posts, and other less reference heavy content is a great candidate for writing in Commonmark.
 
 Feedback
 --------
