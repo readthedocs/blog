@@ -85,7 +85,7 @@ When you're writing content that just needs to have basic text formatting and li
 Commonmark is a great option for this.
 
 We imagine that API reference documentation will continue to be authored in RST for quite some time.
-Also index pages and other reference heavy content will continune to be RST.
+Also index pages and other reference heavy content will continue to be RST.
 FAQ's, blog posts, and other less reference heavy content is a great candidate for writing in Commonmark.
 
 Feedback
