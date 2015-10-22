@@ -181,9 +181,7 @@ html_static_path = ['_static']
 # Custom sidebar templates, maps document names to template names.
 html_sidebars = {
    '**': [
-          # Alabaster
-          #'about.html', 'social.html',
-
+          'social.html',
           # Blog
           'postcard.html', 'recentposts.html',
           'categories.html', 'archives.html', ]
