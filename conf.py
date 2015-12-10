@@ -75,7 +75,7 @@ master_doc = 'index'
 
 # General information about the project.
 project = u'Read the Docs Blog'
-copyright = u'2014, Read the Docs, Inc'
+copyright = u'2015, Read the Docs, Inc'
 
 # The version info for the project you're documenting, acts as replacement for
 # |version| and |release|, also used in various other places throughout the
@@ -181,10 +181,10 @@ html_static_path = ['_static']
 # Custom sidebar templates, maps document names to template names.
 html_sidebars = {
    '**': [
-          'postcard.html', 
+          'postcard.html',
           'social.html',
           'recentposts.html',
-          'categories.html', 
+          'categories.html',
           'archives.html'
          ]
 }
