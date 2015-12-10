@@ -2,8 +2,8 @@
    :tags: funding
    :author: Anthony
 
-RTD Awarded Mozilla Open Source Support Grant
-=============================================
+Read the Docs Awarded Mozilla Open Source Support Grant
+=======================================================
 
 Several months back, Mozilla launched a new initiative -- the `MOSS`_ program --
 to provide financial support to the open source software projects it relies on.
