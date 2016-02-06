@@ -37,7 +37,7 @@ The lack of commiters is sad though,
 and I hope that we can get more people involved with the project over time.
 It really is unsustainable at the current level of community involvement.
 All of our operations and user support tasks are done by vanishingly small number of volunteers,
-with almost no new growth in that group of folks.
+with no new growth in that group of folks.
 
 .. _Gregor: http://gremu.net/
 
