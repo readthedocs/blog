@@ -41,6 +41,7 @@ with no new growth in that group of folks.
 
 Interested in contributing?
 We have `documentation on contributing <http://docs.readthedocs.org/en/latest/contribute.html#contributing-to-development>`_ on the site.
+You can also contribute financially at our `sustainability page <https://readthedocs.org/sustainability/>`_ or by buying a monthly `Gold <https://readthedocs.org/accounts/gold/>`_ subscription.
 
 .. _Gregor: http://gremu.net/
 
