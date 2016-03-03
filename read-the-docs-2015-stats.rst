@@ -39,6 +39,9 @@ It really is unsustainable at the current level of community involvement.
 All of our operations and user support tasks are done by vanishingly small number of volunteers,
 with no new growth in that group of folks.
 
+Interested in contributing?
+We have `documentation on contributing <http://docs.readthedocs.org/en/latest/contribute.html#contributing-to-development>`_ on the site.
+
 .. _Gregor: http://gremu.net/
 
 Page Views
