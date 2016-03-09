@@ -1,5 +1,5 @@
 .. post:: Mar 9, 2016
-   :tags: ads, status, sustainability
+   :tags: ads
 
 Advertising on Read the Docs Community Sites
 ============================================
@@ -56,7 +56,10 @@ If you haven't donated in the past, or don't have a gold subscription,
 we are considering adding an exception for people who contribute their time to the project.
 Whether you write code, docs, or help with support,
 we'd wholly appreciate your contributions.
-We ask that companies using our software consider switching to the paid version over at http://readthedocs.com/.
+If you can't offer support, either a donation or with your time,
+but are conflicted by sponsor advertising on your open source project's documentation,
+we can consider an opt-out if you open an issue on our issue tracker.
+Commercial projects can consider supported plans on our paid version, available at http://readthedocs.com.
 
 For the foreseeable future, supporting the Read the Docs community site with advertising is our most viable model.
 We hope that you understand our thoughts here,
