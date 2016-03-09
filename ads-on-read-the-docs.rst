@@ -17,18 +17,19 @@ Sustainability
 
 Read the Docs is a :doc:`massive project <read-the-docs-2015-stats>`,
 and requires a large amount of work to keep running and support.
+We receive support requests and must tend to the operations of the servers on a daily basis.
+Neither of these tasks lend to volunteer contributions,
+they both require dedicated support roles for such a large site.
 **I've personally been wearing a pager in support of the project for over 4 years,
 all on a volunteer basis.**
-We receive support requests and must tend to the operations of the servers on a daily basis,
-but both these roles lend to dedicated support.
 
 Though we have done multiple donation drives,
 and have enabled other ways for users to support us,
-these only supply a limited amount of one-time funding.
+these only supply a limited amount of funding.
 Our users are the last ones we want to charge,
 they are other open source projects who aren't paid themselves!
 This puts us in a hard situation.
-Selling a small amount of documentation reader attention allows us to support the project without affecting authors.
+Selling a small amount of documentation reader attention allows us to sustainably support Read the Docs without affecting authors.
 
 No Tracking
 -----------
