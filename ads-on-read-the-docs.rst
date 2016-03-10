@@ -52,15 +52,19 @@ support,
 and development of the project,
 please `contact us`_!
 
-We are looking at additional ways of allowing people to opt-out of advertising on their documentation pages.
-If you haven't donated in the past, or don't have a gold subscription,
-we are considering adding an exception for people who contribute their time to the project.
-Whether you write code, docs, or help with support,
-we'd wholly appreciate your contributions.
-If you can't offer support, either a donation or with your time,
-but are conflicted by sponsor advertising on your open source project's documentation,
-we can consider an opt-out if you open an issue on our issue tracker.
-Commercial projects can consider supported plans on our paid version, available at http://readthedocs.com.
+If project maintainers wish to opt out, there are a number of alternative ways
+to support Read the Docs. Project maintainers that can contribute financially
+can sign up for a gold subscription, which allows for project opt out. We will
+also happily opt out anyone that contributes to Read the Docs -- whether through
+development, documentation updates, or help with supporting users on our issue
+tracker. Commercial projects can consider supported plans on our paid version,
+available at http://readthedocs.com. If you still can't contribute, we still
+allow for manual opt out from advertising, though understand the implications
+of not offering your support.
+
+For more information on managing project advertising preferences, you can visit
+your project's admin dashboard. There, you'll find an "Advertising" management
+tab where you can get more information.
 
 For the foreseeable future, supporting the Read the Docs community site with advertising is our most viable model.
 We hope that you understand our thoughts here,
