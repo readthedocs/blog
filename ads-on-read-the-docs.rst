@@ -65,20 +65,6 @@ support,
 and development of the project,
 please `contact us`_!
 
-If project maintainers wish to opt out, there are a number of alternative ways
-to support Read the Docs. Project maintainers that can contribute financially
-can sign up for a gold subscription, which allows for project opt out. We will
-also happily opt out anyone that contributes to Read the Docs -- whether through
-development, documentation updates, or help with supporting users on our issue
-tracker. Commercial projects can consider supported plans on our paid version,
-available at http://readthedocs.com. If you still can't contribute, we still
-allow for manual opt out from advertising, though understand the implications
-of not offering your support.
-
-For more information on managing project advertising preferences, you can visit
-your project's admin dashboard. There, you'll find an "Advertising" management
-tab where you can get more information.
-
 For the foreseeable future, supporting the Read the Docs community site with advertising is our most viable model.
 We hope that you understand our thoughts here,
 and we're always happy to have feedback or to field new ideas that might allow us to not require this in the future!
