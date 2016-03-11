@@ -60,7 +60,7 @@ templates_path.append(os.path.join(
 ))
 templates_path.append(ablog.get_html_templates_path())
 
-fontawesome_link_cdn = 'http://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.min.css'
+fontawesome_link_cdn = 'https://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.min.css'
 
 if os.environ.get('READTHEDOCS', None) == 'True':
     skip_pickling = True
