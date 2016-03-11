@@ -43,7 +43,7 @@ We do record the number of impressions each image gets from our server logs,
 and we track clicks with Google Analytics,
 which only we have access to.
 
-Opting out
+Opting Out
 ----------
 
 We have added multiple ways to opt out of the advertising on Read the Docs.
