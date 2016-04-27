@@ -22,13 +22,13 @@ separate domain will provide more complete isolation between the two user
 interfaces.
 
 Projects will automatically be redirected, and this redirect will remain
-in place for the foreseeable future. Feel free to update your links to
-the new domain.
+in place for the foreseeable future. Still, you should plan on updating links to
+your documentation after the new domain goes live.
 
 If you notice any problems with the changes, feel free to open an issue on our
 issue tracker: http://github.com/rtfd/readthedocs.org/issues. If you do notice
-any security issues, always feel free to contact us at
-security@readthedocs.org.
+any security issues, contact us at security@readthedocs.org with more
+information.
 
 Keep on documenting,
 The Read the Docs Team
