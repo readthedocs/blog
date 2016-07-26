@@ -52,6 +52,7 @@ blog_locations = {
 'PDX': ('Portland, Oregon', 'http://www.portlandhikersfieldguide.org/'),
 }
 blog_default_location = 'PDX'
+blog_feed_archives = True
 
 # Add any paths that contain templates here, relative to this directory.
 templates_path = ['_templates']
