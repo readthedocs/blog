@@ -2,8 +2,8 @@
    :tags: report
    :author: Scott
 
-500MM Pageviews
-===============
+Read the Docs Hits 500MM Pageviews
+==================================
 
 June 27th was an important day in the history of Read the Docs.
 
@@ -21,11 +21,15 @@ A better way for open source projects to then instantly host the docs on a rock-
 
 Since then, it's become a juggernaut publisher of coding documentation.
 
+500MM Page Views in Read Time
+-----------------------------
 *How big is half a billion?*
 
-To help us better understand the scope and scale of 500 Million page views, 
-we have to dive into the law of big numbers.
+500 Million Pageviews in Money
+============================
 
+To help us better understand the scope and scale of 500 Million page views, 
+we have to dive into the law of big numbers.  
 Let's start with some general assumptions:
 
 * A page of code documentation is worth a dollar.  
@@ -39,7 +43,14 @@ or the approximate height that commercial airlines fly when transporting you fro
 
 We're halfway to the atmosphere if you traded a page every page of documenation served by Read the Docs for a dollar. 
 
-* Don't like the money metaphor?  
+Don't like the money metaphor?  
+
+
+
+
+500MM Page Views in Paper
+-------------------------
+
 Paper is thicker than money.  
 A stack of 500 pages of old-school printed paper documentation that is outdated as soon as it's printed stands at 2 inches.  
 The current mountain of paper that Read the Docs climbed is *31.56 miles* tall.  
@@ -47,6 +58,12 @@ The current mountain of paper that Read the Docs climbed is *31.56 miles* tall.
 You'd get pretty tired climbing that mountain.  
 Everest is only 5 miles tall compared to all of the paper that wasn't used articulating the size and scope of our milestone.  
 Run a 50K ultra-marathon vertically and you are just about there.
+
+How about if you read every page?
+
+
+Weird Math of Open Source
+=========================
 
 The weird math of open source is that unlike VC-funded and capitalized companies, 
 billionaires aren't made from these :doc:`herculean <read-the-docs-2015-stats>` accomplishments.  
@@ -59,7 +76,6 @@ including Eric and Anthony,
 the co-founders, 
 plus our brave and :doc:`valued contributors <https://github.com/rtfd/readthedocs.org/graphs/contributors>`
 who **bravely and boldly** continue to operate the service today.
-
 
 Today you can tip the math in favor of open source and more great documentation and better code.
 
@@ -97,5 +113,6 @@ programs and help create the next generation of open source growth.
 .. rubric:: Footnotes and Supporting Facts
 
 .. [#f1] The Endowment for Human Development. `Grasping Large Numbers <http://www.ehd.org/science_technology_largenumbers.php>`
+
 
 
