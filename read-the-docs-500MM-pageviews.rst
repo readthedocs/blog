@@ -67,7 +67,7 @@ Weird Math of Open Source
 
 The weird math of open source is that unlike VC-funded and capitalized companies, 
 billionaires aren't made from these :doc:`herculean <read-the-docs-2015-stats>` accomplishments.  
-A lot of work is created, 
+A lot of value is created, 
 and anyone who has operated enterprises with hundreds of millions of pageviews understand the dev and ops requirements, 
 which frequently includes scores of people and big budgets.
 
