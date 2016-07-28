@@ -2,8 +2,8 @@
    :tags: report
    :author: Scott
 
-Read the Docs Hits 500MM Pageviews
-==================================
+Read the Docs Hits 500,000,000 Pageviews
+========================================
 
 June 27th was an important day in the history of Read the Docs.
 
