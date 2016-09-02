@@ -91,3 +91,11 @@ table.footnote {
 table.footnote td.label {
     padding: .65em;
 }
+
+.postlist li {
+    list-style: none;
+}
+
+.postlist p.first {
+    font-size: 24px;
+}

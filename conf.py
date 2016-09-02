@@ -40,7 +40,7 @@ blog_path = 'archive'
 fontawesome_link_cdn = 'https://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.min.css'
 # fontawesome_included = True
 # disqus_shortname = 'readthedocsblog'
-post_auto_excerpt = 99
+post_auto_excerpt = 2
 
 blog_authors = {
     'Eric': ('Eric Holscher', 'http://ericholscher.com'),
