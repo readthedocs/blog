@@ -37,10 +37,10 @@ extensions = [
 blog_title = 'Read the Docs Blog'
 blog_baseurl = 'http://blog.readthedocs.com'
 blog_path = 'archive'
-fontawesome_link_cdn = True
+fontawesome_link_cdn = 'https://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.min.css'
 # fontawesome_included = True
 # disqus_shortname = 'readthedocsblog'
-post_auto_excerpt = 99
+post_auto_excerpt = 2
 
 blog_authors = {
     'Eric': ('Eric Holscher', 'http://ericholscher.com'),
@@ -54,7 +54,7 @@ blog_locations = {
 blog_default_location = 'PDX'
 blog_feed_archives = True
 blog_feed_fulltext = True
-blog_feed_length = 5
+blog_feed_length = 10
 
 # Add any paths that contain templates here, relative to this directory.
 templates_path = ['_templates']
@@ -63,7 +63,6 @@ templates_path.append(os.path.join(
 ))
 templates_path.append(ablog.get_html_templates_path())
 
-fontawesome_link_cdn = 'https://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.min.css'
 
 if os.environ.get('READTHEDOCS', None) == 'True':
     skip_pickling = True

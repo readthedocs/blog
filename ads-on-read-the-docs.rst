@@ -6,7 +6,7 @@ Advertising on Read the Docs Community Sites
 
 On Monday, we enabled an ad space on documentation pages hosted on readthedocs.org.
 We have tested the ad space in the past,
-and had followed up with a :doc:`discussion of the implications <state-of-the-docs-2015>` of advertising.
+and had followed up with a :doc:`discussion of the implications </state-of-the-docs-2015>` of advertising.
 The space was meant to be totally unobtrusive to the browsing and usage of documentation pages,
 and doesn't enable third-party tracking of users in any way.
 This is all in an effort to help raise funds to support continued support and maintenance on the project,
@@ -15,7 +15,7 @@ and ensure free and open documentation stays available.
 Sustainability
 --------------
 
-Read the Docs is a :doc:`massive project <read-the-docs-2015-stats>`,
+Read the Docs is a :doc:`massive project </read-the-docs-2015-stats>`,
 and requires a large amount of work to keep running and support.
 We receive support requests and must tend to the operations of the servers on a daily basis.
 Neither of these tasks lend to volunteer contributions,
