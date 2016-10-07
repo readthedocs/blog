@@ -17,7 +17,6 @@ Latest updates
 --------------
 
 .. postlist:: 10
-   :excerpts:
    :format: {date} - {title}
 
 
