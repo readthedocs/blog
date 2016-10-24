@@ -31,6 +31,10 @@ We've been using Sentry on our projects here at Read the Docs for a while now,
 and it's a great way to handle errors in our production Django environment.
 We wholeheartedly recommend their product, and thank them for their sponsorship.
 
+.. image:: /img/sentry-ad.png
+   :width: 330px
+   :align: center
+
 .. _Ethical Advertising: http://docs.readthedocs.io/en/latest/ethical-advertising.html
 .. _Sentry: https://sentry.io/
 .. _Django REST framework: https://fund.django-rest-framework.org/topics/funding/
