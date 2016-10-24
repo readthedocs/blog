@@ -99,3 +99,9 @@ table.footnote td.label {
 .postlist p.first {
     font-size: 24px;
 }
+
+
+img.align-center {
+    display: block;
+    margin: 0 auto;
+}
