@@ -1,4 +1,4 @@
-.. post:: Oct 20, 2016
+.. post:: Oct 24, 2016
    :tags: advertising, sustainability
 
 Running ads with Sentry
