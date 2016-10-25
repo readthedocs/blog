@@ -13,7 +13,7 @@ supporting and contributing to the open source community, and because they also
 strive to support open source while building a sustainable business around their
 project.
 
-Sentry is a profitable business built around a 100% open source project,
+Sentry has built a profitable business built around a 100% open source project,
 with all components of their stack available under a developer (and company) friendly license.
 While their project has been widely adopted for over 8 years,
 they have also built a sustainable business around it.
