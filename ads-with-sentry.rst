@@ -25,7 +25,7 @@ We are excited to be working with companies that see the value in open source an
 Making a commitment to do advertising in an ethical manner allows us to feel good about serving ads,
 and allows users to know their privacy isn't being violated.
 
-`Sentry`_ is a product that allows developers capture and debug their production errors. It allows you to proactively respond to issues on your site, keeping both your users and your ops team happy.
+`Sentry`_ is a product that allows developers to capture and debug their production errors. It allows you to proactively respond to issues on your site, keeping both your users and your ops team happy.
 
 We've been using Sentry on our projects here at Read the Docs for a while now,
 and it's a great way to handle errors in our production Django environment.
