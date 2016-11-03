@@ -1,3 +1,6 @@
+.. post:: Nov 4, 2016
+   :tags: pydoc, documentation, api, reference
+
 Announcing pydoc.io beta
 ========================
 
