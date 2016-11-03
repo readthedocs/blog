@@ -32,6 +32,8 @@ Giving them simple access to nicely rendered API documentation supports using an
 We're happy to build out these tools,
 along with the wonderful prose tools we've always had with Sphinx itself.
 
+Our progress and some context is tracked in `issue 1957 <https://github.com/rtfd/readthedocs.org/issues/1957>`_.
+
 The tools
 ---------
 
@@ -51,6 +53,11 @@ As we've learned with Read the Docs,
 this is quite impractical for a large set of libraries,
 including the scientific ecosystem that heavily relies on C libraries.
 **Building and supporting a parse-only API tool makes doc builds faster and more reliable.**
+
+We have built on top of the ``pydocstyle`` AST currently,
+but it looks like we'll likely have to build out our own AST traversal to get all the information we need.
+We have `looked <https://github.com/davidhalter/jedi/issues/630>`_ into some of the other AST options in Python,
+but haven't decided on what direction we want to go.
 
 We have put a good deal of work into all these different pieces,
 but there is still a lot of work to be done.
