@@ -45,8 +45,8 @@ On top of that,
 we've layered a few different tools:
 
 * `sphinx-autoapi`_ which is the tool that takes Python source files and turns them into rST.
-  * The `pydocstyle`_ AST parser, which we use for a parse-only representation of Python classes.
-* `pydoc.io`_ is a Django application that is the actual web front-end and building code.
+  * Internally, this uses the `pydocstyle`_ AST parser, which we use for a parse-only representation of the Python files.
+* `pydoc.io`_ is a Django application that is the actual web front-end and documentation building code.
 * `sphinx-apitheme`_ is the Sphinx theme that powers the actual API listing pages.
 
 The biggest piece to call out here is the parse-only documentation generation.
@@ -75,6 +75,8 @@ In particular:
 
 * Give us examples of API documentation patterns that you like. We'd like to incorporate powerful patterns into our theme. 
 * Don't give us feedback on specific design issues with the theme, we're still working on it!
+* Let us know if you have ideas about how we can improve the general usability of the documentation
+* Let us know features that you wish the site had
 
 Thanks
 ------
