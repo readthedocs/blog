@@ -93,3 +93,4 @@ so please reach out to us if you'd like to help with our efforts!
 .. _pydocstyle: https://github.com/PyCQA/pydocstyle/
 .. _pydoc.io: https://github.com/rtfd/pydoc.io
 .. _sphinx-apitheme: https://github.com/rtfd/apitheme/
+.. _sphinx-autoapi: https://github.com/rtfd/sphinx-autoapi/
