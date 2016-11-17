@@ -5,7 +5,7 @@ Announcing pydoc.io beta
 ========================
 
 Today we're excited to announce our latest project: https://pydoc.io.
-This work was made possible by the :doc:`MOSS Grant </rtd-awarded-mozilla-open-source-support-grant>`_ from Mozilla.
+This work was made possible by the :doc:`MOSS Grant </rtd-awarded-mozilla-open-source-support-grant>` from Mozilla.
 Thanks to Mozilla for funding our time building this wonderful community resource.
 
 About pydoc.io
