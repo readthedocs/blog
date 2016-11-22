@@ -70,7 +70,7 @@ Give us feedback
 
 **This is a very beta release**.
 We have developed a few different sets of tools,
-and would love you feedback.
+and would love your feedback.
 In particular:
 
 * Give us examples of API documentation patterns that you like. We'd like to incorporate powerful patterns into our theme. 
