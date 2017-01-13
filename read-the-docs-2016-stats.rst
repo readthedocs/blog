@@ -28,6 +28,39 @@ We will go into more detail below about each of these details.
 .. _2014: https://blog.readthedocs.com/read-the-docs-2014-stats/
 .. _2015: https://blog.readthedocs.com/read-the-docs-2015-stats/
 
+Page Views
+----------
+
+Our stats:
+
+* 252 Million Page Views (+48%)
+* 56 Million Unique Visitors (+47%)
+
+.. From Google Analytics
+
+Page view growth has been steady again this year.
+This is particularly impressive given the scale that we're operating at.
+We're quite happy to see folks using Read the Docs more and more,
+as well as seeing many other projects using our theme or other concepts that we've pioneered in the general software ecosystem.
+
+We remain one of the `largest sites`_ on the internet.
+
+.. _largest sites: http://www.alexa.com/siteinfo/readthedocs.io
+
+Site Stats
+----------
+
+The stats, in total numbers:
+
+* 53673 projects (+91%)
+* 64585 users (+65%)
+
+Read the Docs has some high profile projects that push a lot of traffic.
+There are however thousands of smaller libraries and projects that fill out that full range of documentation that we host.
+
+We are happy to host documentation for all open source projects,
+and are glad the community finds the service useful.
+
 Community
 ---------
 
@@ -76,39 +109,6 @@ It would be great if projects could rely strictly on volunteers for maintenance,
 however there are economics of this problem that we can solve by ourselves.
 
 .. _plethora of examples: http://www.fordfoundation.org/library/reports-and-studies/roads-and-bridges-the-unseen-labor-behind-our-digital-infrastructure
-
-Page Views
-----------
-
-Our stats:
-
-* 252 Million Page Views (+48%)
-* 56 Million Unique Visitors (+47%)
-
-.. From Google Analytics
-
-Page view growth has been steady again this year.
-This is particularly impressive given the scale that we're operating at.
-We're quite happy to see folks using Read the Docs more and more,
-as well as seeing many other projects using our theme or other concepts that we've pioneered in the general software ecosystem.
-
-We remain one of the `largest sites`_ on the internet.
-
-.. _largest sites: http://www.alexa.com/siteinfo/readthedocs.io
-
-Site Stats
-----------
-
-The stats, in total numbers:
-
-* 53673 projects (+91%)
-* 64585 users (+65%)
-
-Read the Docs has some high profile projects that push a lot of traffic.
-There are however thousands of smaller libraries and projects that fill out that full range of documentation that we host.
-
-We are happy to host documentation for all open source projects,
-and are glad the community finds the service useful.
 
 Funding
 -------
