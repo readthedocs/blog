@@ -154,7 +154,7 @@ We appreciate all your support, contributions, and patience,
 and hope we can make 2017 the year that we can call our project sustainable.
 
 .. _Read the Docs: https://readthedocs.org/
-.. _1931 commits: https://github.com/rtfd/readthedocs.org/commits/master
+.. _1032 commits: https://github.com/rtfd/readthedocs.org/commits/master
 .. _18 people: https://github.com/rtfd/readthedocs.org/graphs/contributors?from=2016-01-01&to=2016-12-31&type=c
 .. _461 issues: https://github.com/rtfd/readthedocs.org/search?utf8=%E2%9C%93&q=created%3A%3E%3D2016-01-01&type=Issues
 .. _Rackspace: http://rackspace.com/
