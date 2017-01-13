@@ -1,4 +1,4 @@
-.. post:: Jan 11, 2017
+.. post:: Jan 13, 2017
    :tags: stats, year-in-review
 
 Read the Docs 2016 Stats
