@@ -10,6 +10,7 @@ Read the Docs has been rolling along,
 and we've had another interesting year as well.
 
 For a quick summary:
+
 * Our level of contributions and commits has gone down a good bit this year.
 * Our traffic and user growth has been quite steady, which is particularly impressive at the scale we're operating at.
 * Our efforts at funding the project have also started to bear fruit, and 2017 is looking to be the year that Read the Docs will become a sustainable project.
@@ -26,6 +27,39 @@ We will go into more detail below about each of these details.
 .. _2013: https://blog.readthedocs.com/read-the-docs-2013-stats/
 .. _2014: https://blog.readthedocs.com/read-the-docs-2014-stats/
 .. _2015: https://blog.readthedocs.com/read-the-docs-2015-stats/
+
+Page Views
+----------
+
+Our stats:
+
+* 252 Million Page Views (+48%)
+* 56 Million Unique Visitors (+47%)
+
+.. From Google Analytics
+
+Page view growth has been steady again this year.
+This is particularly impressive given the scale that we're operating at.
+We're quite happy to see folks using Read the Docs more and more,
+as well as seeing many other projects using our theme or other concepts that we've pioneered in the general software ecosystem.
+
+We remain one of the `largest sites`_ on the internet.
+
+.. _largest sites: http://www.alexa.com/siteinfo/readthedocs.io
+
+Site Stats
+----------
+
+The stats, in total numbers:
+
+* 53673 projects (+91%)
+* 64585 users (+65%)
+
+Read the Docs has some high profile projects that push a lot of traffic.
+There are however thousands of smaller libraries and projects that fill out that full range of documentation that we host.
+
+We are happy to host documentation for all open source projects,
+and are glad the community finds the service useful.
 
 Community
 ---------
@@ -76,39 +110,6 @@ however there are economics of this problem that we can solve by ourselves.
 
 .. _plethora of examples: http://www.fordfoundation.org/library/reports-and-studies/roads-and-bridges-the-unseen-labor-behind-our-digital-infrastructure
 
-Page Views
-----------
-
-Our stats:
-
-* 252 Million Page Views (+48%)
-* 56 Million Unique Visitors (+47%)
-
-.. From Google Analytics
-
-Page view growth has been steady again this year.
-This is particularly impressive given the scale that we're operating at.
-We're quite happy to see folks using Read the Docs more and more,
-as well as seeing many other projects using our theme or other concepts that we've pioneered in the general software ecosystem.
-
-We remain one of the `largest sites`_ on the internet.
-
-.. _largest sites: http://www.alexa.com/siteinfo/readthedocs.io
-
-Site Stats
-----------
-
-The stats, in total numbers:
-
-* 53673 projects (+91%)
-* 64585 users (+65%)
-
-Read the Docs has some high profile projects that push a lot of traffic.
-There are however thousands of smaller libraries and projects that fill out that full range of documentation that we host.
-
-We are happy to host documentation for all open source projects,
-and are glad the community finds the service useful.
-
 Funding
 -------
 
@@ -153,7 +154,7 @@ We appreciate all your support, contributions, and patience,
 and hope we can make 2017 the year that we can call our project sustainable.
 
 .. _Read the Docs: https://readthedocs.org/
-.. _1931 commits: https://github.com/rtfd/readthedocs.org/commits/master
+.. _1032 commits: https://github.com/rtfd/readthedocs.org/commits/master
 .. _18 people: https://github.com/rtfd/readthedocs.org/graphs/contributors?from=2016-01-01&to=2016-12-31&type=c
 .. _461 issues: https://github.com/rtfd/readthedocs.org/search?utf8=%E2%9C%93&q=created%3A%3E%3D2016-01-01&type=Issues
 .. _Rackspace: http://rackspace.com/
