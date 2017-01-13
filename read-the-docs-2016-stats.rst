@@ -10,6 +10,7 @@ Read the Docs has been rolling along,
 and we've had another interesting year as well.
 
 For a quick summary:
+
 * Our level of contributions and commits has gone down a good bit this year.
 * Our traffic and user growth has been quite steady, which is particularly impressive at the scale we're operating at.
 * Our efforts at funding the project have also started to bear fruit, and 2017 is looking to be the year that Read the Docs will become a sustainable project.
