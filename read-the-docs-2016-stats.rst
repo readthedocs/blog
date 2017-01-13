@@ -42,20 +42,37 @@ This year, we had:
 
 Our community activity is much lower this year,
 which is a multi-year trend that we've been seeing.
-I believe this is in part because of a maturing project and code base,
-and also because we've struggled getting more contributors.
+This is in part due to the maturity of the project and code base,
+but also because we've struggled to attract and retain new contributors.
 The code base and project are reasonably hard to set up,
 and we haven't had enough time and focus on onboarding contributors into the project.
 
-I'm not sure what the best path forward here is.
-I've personally onboarded and tried to build many people into ongoing contributors,
-and have gotten discouraged with the lackluster results over the years.
-My hope is that we can eventually make it easier to contribute and start to get more folks helping.
+Additionally, as a hosted service,
+the majority of issues we receive are support requests.
+These issues don't necessarily lend to user contributions,
+and are generally low priority for us as we don't have any additional time to volunteer to resolving them.
 
-The other path forward is to start using some of our funding to build a paid team who helps with the project.
-This seems like the most likely option given the history state of contributions.
-It would be great if projects could exist under ongoing volunteer maintenance,
-but there is a `plethora of examples`_ in the open source ecosystem of this not being the case.
+It's been our plan to address this support gap for a while.
+Starting this year,
+we plan to create a part-time role, dedicated to handling support.
+Ideally, we would promote someone from our community for this role,
+however this pool doesn't exist at the moment.
+
+As maintainers,
+we are discouraged by the continued lack of interest in contributing to our project,
+but fully realize that we also have a role in this.
+We can reduce complexity and make our projects more approachable.
+We can also be more vocal about where and how you can start to contribute.
+In the past, we assumed users would come to us with interest in contributing,
+however we've also received feedback that it's not apparent we require the help.
+If you're interested in contributing,
+never hestitate to ask where you can contribute.
+We're happy to have contributions of any size.
+
+We certainly aren't the only project that has trouble attracting contributions,
+there is a `plethora of examples`_ in the open source ecosystem of this problem.
+It would be great if projects could rely strictly on volunteers for maintenance,
+however there are economics of this problem that we can solve by ourselves.
 
 .. _plethora of examples: http://www.fordfoundation.org/library/reports-and-studies/roads-and-bridges-the-unseen-labor-behind-our-digital-infrastructure
 
@@ -71,7 +88,7 @@ Our stats:
 
 Page view growth has been steady again this year.
 This is particularly impressive given the scale that we're operating at.
-I'm quite happy to see folks using Read the Docs more and more,
+We're quite happy to see folks using Read the Docs more and more,
 as well as seeing many other projects using our theme or other concepts that we've pioneered in the general software ecosystem.
 
 We remain one of the `largest sites`_ on the internet.
@@ -105,8 +122,10 @@ Funding is a fundamental part of sustainability,
 and we're glad people are supportive of our efforts to get there.
 
 The best outcome of our sustainability efforts is that we're going to be able to hire someone part time to handle support for our users.
-This has always been somewhere that I've felt we have not done our best work,
-and I'm excited we will be able to give it more sustained work.
+Support has always been an area that we have not done our best work,
+nor have we had enough time to handle it well.
+We're excited to give support and community development more consistent attention,
+and hope that it leads to a better experience for users and perhaps even more contributions.
 
 Our other efforts at sustainability are also progressing. Our `commercial hosting service`_ is starting to slowly build revenue from users who want private documentation.
 We hope to continue to build that into another source of revenue,
@@ -126,13 +145,12 @@ We think the software industry is caring more and more about documentation by th
 and we're helping to play a role.
 
 The downside is that as a community project,
-we still haven't getting much contribution.
-I think we're pretty firmly set on the path of having paid contributors,
-after years of trying to cultivate a volunteer community to help support the project.
-I have mixed feelings about this,
-but knowing that there is a sustainable future for the project is the most important thing in my book.
-We're continuing to work towards that goal,
-and I believe 2017 will be the year we get there.
+we still continue to have trouble attracting contributions, especially repeat contributions.
+We hope that with some of the changes we make this year this won't continue to be the case.
+
+Either way, thanks to everyone that has helped us this last year!
+We appreciate all your support, contributions, and patience,
+and hope we can make 2017 the year that we can call our project sustainable.
 
 .. _Read the Docs: https://readthedocs.org/
 .. _1931 commits: https://github.com/rtfd/readthedocs.org/commits/master
