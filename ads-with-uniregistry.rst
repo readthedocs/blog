@@ -63,11 +63,16 @@ Click and you shall receive.
 Domain renewals for competitors are a major source of cheap profit for them, and a major source of pain for your wallet.
 Uniregistry has taken a different path, as a for-profit business that is valuing the transparency required to be a long term partner to you in managing your online presence.
 
-Capabilities
-------------
+Treat people like you want to be treated
+----------------------------------------
 
 Even when you only have one domain, it’s critical to have ultimate control over it for transfers and protecting your asset.
 Uniregistry thinks like we do about this challenge, and unlike their competitors, they have built an outstanding customer experience that gives you the power and capabilities you need to manage your domains.
+
+They also offer free WHOIS Privacy.
+No nickle-and-diming to protect your privacy.
+In recent years, those of you who have your phone numbers and emails on domain registration have come to experience being heckled by automated phone calls and spam.
+Uniregistry takes this off the table with no extra cost to you.
 
 Story behind the story
 ----------------------
@@ -76,22 +81,7 @@ Uniregistry’s was founded by Frank Schilling.
 They are the fastest growing registrar on the planet, driven by Frank, who is is the best-known individual on the planet when it comes to domain registration.
 Under his direction, they have grown to be the operator of 25 new TLDs, with more than 1.5 million domains under management.
 
-Treat people like you want to be treated
-----------------------------------------
-
-Uniregistry offers free WHOIS Privacy.
-No nickle-and-diming to protect your privacy.
-In recent years, those of you who have your phone numbers and emails on domain registration have come to experience being heckled by automated phone calls and spam.
-Uniregistry takes this off the table with no extra cost to you.
-
-Fair Marketing
---------------
-
-You know when marketing is bad.
-Good marketing communicates to you in a conversation in a timely manner.
-Uniregistry places the customer first.
-Since Frank was and is their biggest customer, they seem to get it, and communicate enough to manage your assets but they don’t pester you for money.
-
+---
 
 Frank Quote
 
