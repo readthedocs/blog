@@ -1,9 +1,8 @@
-..
-post:: March 29, 2017
+.. post:: March 29, 2017
    :tags: advertising, sustainability
 
-Running ads with Uniregistry
-=======================
+Uniregistry sponsors Read the Docs and Open Source
+==================================================
 
 We're excited to announce our second partner in our `Ethical Advertising`_
 campaign: Uniregistry_.
