@@ -8,7 +8,7 @@ Today we're excited to announce an important sponsorship partner in our `Ethical
 
 Domain registration was identified early as a natural partner to our program, because it sits in the stack of necessary infrastructure for all of us that work on making the internet. We wanted the right partner, because historically we feel that domain registration companies have had awful UX. We'll cover a few of the criteria we used to reach the conclusion to partner with Uniregistry.
 
-We've worked with Uniregistry to offer 25% off first year registrations and/or transfers for Read the Docs users,
+**We've worked with Uniregistry to offer 25% off first year registrations and/or transfers for Read the Docs users**,
 using the code ``DOCS25``.
 `Sign up`_ now to get started.
 Purchasing domain names with Uniregistry is easy and secure,
