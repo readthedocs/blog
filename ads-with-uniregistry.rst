@@ -4,6 +4,10 @@
 Uniregistry sponsors Read the Docs and Open Source
 ==================================================
 
+.. image:: _static/uniregistry-top.jpg
+   :width: 400px
+   :target: https://uniregistry.com/readthedocs
+
 Today we're excited to announce an important sponsorship partner in our `Ethical Advertising`_ campaign: `Uniregistry`_. Our goal with our ethical advertising program is to provide important funding for open source, and show that it can be done ethically -- without tracking our users and only offering ads from relevant partners. 
 
 Domain registration was identified early as a natural partner to our program, because it sits in the stack of necessary infrastructure for all of us that work on making the internet. We wanted the right partner, because historically we feel that domain registration companies have had awful UX. We'll cover a few of the criteria we used to reach the conclusion to partner with Uniregistry.
@@ -33,6 +37,10 @@ Privacy and Security
 Uniregistry offers free WHOIS Privacy on every domain. There's no nickle-and-diming to protect your personal information. In recent years, those of you who have your phone numbers and emails on domain registration have come to experience being heckled by automated phone calls and spam. Uniregistry takes this off the table with no extra cost to you.  Uniregistry’s competitors charge between $3.99 and $7.99 for what should be your right, not a paid privilege.
 
 Two step verification is built right into the product as well. They are the registrar for people who own one domain or thousands, so they had to build in security and tools to put you in complete control. Since they have handled the use case of the most demanding domain owners in the industry, you get the same benefits even if you just buy one.
+
+.. image:: _static/uniregistry-interface.jpg
+   :width: 400px
+   :target: https://uniregistry.com/readthedocs
 
 Price
 -----
