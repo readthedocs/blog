@@ -5,7 +5,7 @@ Uniregistry sponsors Read the Docs and Open Source
 ==================================================
 
 .. image:: _static/uniregistry-top.jpg
-   :width: 500px
+   :width: 100%
    :target: https://uniregistry.com/readthedocs
 
 Today we're excited to announce an important sponsorship partner in our `Ethical Advertising`_ campaign: `Uniregistry`_. Our goal with our ethical advertising program is to provide important funding for open source, and show that it can be done ethically -- without tracking our users and only offering ads from relevant partners. 
@@ -39,7 +39,7 @@ Uniregistry offers free WHOIS Privacy on every domain. There's no nickle-and-dim
 Two step verification is built right into the product as well. They are the registrar for people who own one domain or thousands, so they had to build in security and tools to put you in complete control. Since they have handled the use case of the most demanding domain owners in the industry, you get the same benefits even if you just buy one.
 
 .. image:: _static/uniregistry-interface.jpg
-   :width: 500px
+   :width: 100%
    :target: https://uniregistry.com/readthedocs
 
 Price
