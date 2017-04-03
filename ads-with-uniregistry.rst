@@ -1,5 +1,5 @@
-.. post:: 
-   :tags: advertising, sustainability, draft
+.. post:: April 3, 2017
+   :tags: advertising, sustainability
 
 Uniregistry sponsors Read the Docs and Open Source
 ==================================================
