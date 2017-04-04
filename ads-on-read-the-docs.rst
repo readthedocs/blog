@@ -1,5 +1,5 @@
 .. post:: Mar 9, 2016
-   :tags: ads
+   :tags: advertising, community
 
 Advertising on Read the Docs Community Sites
 ============================================
