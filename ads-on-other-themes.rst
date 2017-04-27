@@ -29,6 +29,7 @@ To explicitly repeat:
 **we will start showing ads on Alabaster themes on Read the Docs** starting in the beginning of May.
 We plan to roll this out in stages:
 
+* We'll email the project owners of all projects using the Alabaster theme
 * We'll start with an initial ad that points to this blog post for a few days
 * Then showing our Community Ad on Alabaster projects for a few days
 * Finally, we'll expand to our full paid ad rotation
