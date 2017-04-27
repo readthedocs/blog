@@ -53,6 +53,8 @@ There are a large number of projects that we care about in the software ecosyste
 We'll show 10% of our ad inventory each month to support an open source project that we care about.
 We are working to set up an application process to be considered,
 but we've already picked our first Community Ad recipient: **Beeware**.
+They are running their own sustainability campaign,
+and we're hoping to help out!
 
 `Beeware <http://pybee.org/>`_ is a collection of projects that can be used to help develop, debug and launch Python software. Each tool follows the Unix philosophy of doing one thing well. The primary goal is to bring Python to the browser, mobile devices, and everywhere else that we wish Python ran natively. 
 
