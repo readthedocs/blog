@@ -21,11 +21,17 @@ We've now hit that limit,
 so we're planning to expand to our second most popular theme:
 **Alabaster**
 
+We're also launching a **Community Ads** initiative,
+which will highlight projects in the community that we believe in and care about,
+and use 10% of our traffic for those ads.
+
 To explicitly repeat:
 **we will start showing ads on Alabaster themes on Read the Docs** starting in the beginning of May.
+We plan to roll this out in stages:
 
-We're also launching a **Community Ads** initiative,
-which will highlight projects in the community that we believe in and care about. 
+* We'll start with an initial ad that points to this blog post for a few days
+* Then showing our Community Ad on Alabaster projects for a few days
+* Finally, we'll expand to our full paid ad rotation
 
 Read below to learn more about these specific projects,
 and what we're doing with the money it brings in.
