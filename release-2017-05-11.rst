@@ -1,0 +1,55 @@
+.. post:: May 11, 2017
+    :tags: release, feature
+    :author: Anthony
+
+Release for May 11, 2017
+========================
+
+Today, we are rolling out improved webhook management for projects, and several
+bug fixes around our upgrade to Sphinx 1.5.
+
+Webhook management
+------------------
+
+We've been slowly making upgrades to our webhook management page. Projects that
+set up new webhooks will see a list of webhooks that we have configured,
+including HTTP exchanges that we encounter from each remote webhook.
+
+Some of the other improvements to our webhook management include a `new generic
+webhook endpoint <generic-webhook_>`_, the ability to create arbitrary webhooks,
+and the ability to now re-establish webhooks on a per-provider basis.
+
+You can play with the new features by selecting a project, opening the project
+admin dashboard, and selecting **Integrations**. If your project is relatively
+new, webhook integrations will be created for existing remote webhooks. If your
+project has been configured for a long time, or you are using our old webhook
+endpoints, such as ``http://readthedocs.org/github``, you won't notice anything
+new on the integrations dashboard page. You can still manually create a webhook
+and configure your repository to point to the new Read the Docs webhook
+endpoint however.
+
+.. _generic-webhook: http://docs.readthedocs.io/en/latest/webhooks.html#using-the-generic-api-integration
+
+Bug fixes
+---------
+
+Following the release of Sphinx 1.5, we set this version as the default version
+for Sphinx projects on Read the Docs. This in turn caused an issue with our
+override of the Sphinx search mechanism. We currently override this to provide
+our own search indexes, however the patch to this file was incompatible with
+Sphinx 1.5.
+
+Due to this incompatibility, if a search query did not return anything from our
+indexes, but did match the Sphinx internal index, the links would have been
+incorrect.
+
+We are now patching this search mechanism regardless of which version of Sphinx
+is used, and the broken links are no longer returned in the search results.
+
+Problems?
+---------
+
+If you encounter any problems with any of the recent changes, feel free to open
+up a bug report on our `issue tracker`_.
+
+.. _issue tracker: https://github.com/rtfd/readthedocs.org/issues/
