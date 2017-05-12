@@ -1,11 +1,11 @@
-.. post:: May 11, 2017
+.. post:: May 12, 2017
     :tags: release, feature
     :author: Anthony
 
-Release for May 11, 2017
+Release for May 12, 2017
 ========================
 
-Today, we are rolling out improved webhook management for projects, and several
+Yesterday, we rolled out improved webhook management for projects, and several
 bug fixes around our upgrade to Sphinx 1.5.
 
 Webhook management
