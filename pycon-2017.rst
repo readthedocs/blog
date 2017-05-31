@@ -53,14 +53,14 @@ Python 3
     make the switch to Python 3.
 
 As the Read the Docs core team is small, we can't easily justify using our time
-to focus on long standing issues with code quality. Sprints were a perfect
+to focus on long standing issues with code quality, so the PyCon sprints were a perfect
 opportunity to focus on this type of clean up. Our codebase is complex and
 unwieldy to new contributors, so focusing on linting and testing allowed
 contributors to jump in without having to spend the better part of a day setting
 up our full stack.
 
-We were very gracious to have all of this help, thanks once again to all of our
-new contributors who stuck around and contributed!
+We were very gracious to have all of this help. A big thanks once again to all
+of our new contributors who stuck around and contributed:
 
 * cmc333333_
 * lordmauve_
@@ -68,8 +68,14 @@ new contributors who stuck around and contributed!
 * smcoll_
 * gthank_
 
+PyCon has now wrapped up, but our next stop this summer is DjangoCon_ 2017 in
+Spokane, WA. We look forward to seeing some more of you there and hopefully
+working with some of you to sprint on Read the Docs again!
+
 .. _cmc333333: https://github.com/cmc333333
 .. _lordmauve:  https://github.com/lordmauve
 .. _fmoor: https://github.com/fmoor
 .. _smcoll: https://github.com/smcoll
 .. _gthank: https://github.com/gthank
+
+.. _DjangoCon: https://2017.djangocon.us/
