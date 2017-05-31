@@ -68,7 +68,7 @@ of our new contributors who stuck around and contributed:
 * smcoll_
 * gthank_
 
-PyCon has now wrapped up, but our next stop this summer is DjangoCon_ 2017 in
+PyCon has now wrapped up, but our next stop this summer is `DjangoCon 2017`_ in
 Spokane, WA. We look forward to seeing some more of you there and hopefully
 working with some of you to sprint on Read the Docs again!
 
@@ -78,4 +78,4 @@ working with some of you to sprint on Read the Docs again!
 .. _smcoll: https://github.com/smcoll
 .. _gthank: https://github.com/gthank
 
-.. _DjangoCon: https://2017.djangocon.us/
+.. _DjangoCon 2017: https://2017.djangocon.us/
