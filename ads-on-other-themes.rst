@@ -6,6 +6,7 @@ Ads on Other Themes on Read the Docs Community Sites
 
 We've been running our `ethical advertising <http://docs.readthedocs.io/en/latest/ethical-advertising.html>`_ campaign for over a year now,
 and it is starting to show success on making Read the Docs more sustainable. 
+
 Over this time,
 we have only been running ads on Read the Docs themed projects.
 The primary reason for this is making sure that our display of ads is consistent and doesn't negatively impact the user experience.
@@ -21,12 +22,15 @@ We've now hit that limit,
 so we're planning to expand to our second most popular theme:
 **Alabaster**
 
-We're also launching a **Community Ads** initiative,
-which will highlight projects in the community that we believe in and care about,
-and use 10% of our traffic for those ads.
+We view our ad program as a way to raise revenue,
+and use that to better support the community.
+There are other ways that we can support the community as well,
+so today we're also launching a **Community Ads** initiative.
+This will highlight projects in the community that we believe in and care about,
+and use around 10% of our traffic for those ads.
 
 To explicitly repeat:
-**we will start showing ads on Alabaster themes on Read the Docs** starting in the beginning of May.
+**we will start showing ads on Alabaster themes on Read the Docs** starting in the beginning of July.
 We plan to roll this out in stages:
 
 * We'll email the project owners of all projects using the Alabaster theme
@@ -48,7 +52,7 @@ Along with this expansion of where we show the theme,
 we're also updating our ad program in a few ways.
 In particular:
 
-* We will start showing Community Ads on 10% of our traffic, for free. This will promote other open source projects, and other products/projects that we think are important, but don't have money for ads.
+* We will start showing Community Ads on around 10% of our traffic, for free. This will promote other open source projects, and other products/projects that we think are important, but don't have money for ads.
 * Projects that opt out of normal advertising, as previously supported, will now be shown *only* ads from our Community Ads partners.
 * Users will be able to opt out of all paid ads with a profile setting, but will still see Community Ads.
 
@@ -59,11 +63,14 @@ There are a large number of projects that we care about in the software ecosyste
 
 We'll show 10% of our ad inventory each month to support an open source project that we care about.
 We are working to set up an application process to be considered,
-but we've already picked our first Community Ad recipient: **Beeware**.
-They are running their own sustainability campaign,
+but we've already picked our first Community Ad recipients: **Sustain** and **Beeware**.
+Beeware is running their own sustainability campaign,
+Sustain is about sustainability,
 and we're hoping to help out!
 
 `Beeware <http://pybee.org/>`_ is a collection of projects that can be used to help develop, debug and launch Python software. Each tool follows the Unix philosophy of doing one thing well. The primary goal is to bring Python to the browser, mobile devices, and everywhere else that we wish Python ran natively. 
+
+`Sustain <https://sustainoss.org/>`_ is a one-day conference about open source sustainability. We ran ads for it earlier this month, and it is now sold out.
 
 Project & User opt out changes
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -76,7 +83,6 @@ but we believe that seeing community projects promoted is something that should 
 
 To repeat,
 **Users and Projects can now opt out of paid ads, but will be shown Community Ads instead**.
-
 
 What we're doing with the money
 -------------------------------
