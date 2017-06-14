@@ -1,8 +1,8 @@
 .. post::
    :tags: advertising, community, updates, community ads
 
-Ads on Other Themes on Read the Docs Community Sites
-====================================================
+Ads on the Alabaster Theme on Read the Docs Community Sites
+===========================================================
 
 We've been running our `ethical advertising <http://docs.readthedocs.io/en/latest/ethical-advertising.html>`_ campaign for over a year now,
 and it is starting to show success on making Read the Docs more sustainable. 
