@@ -1,4 +1,4 @@
-.. post::
+.. post:: June 16, 2017
    :tags: advertising, community, updates, community ads
 
 Ads on the Alabaster Theme on Read the Docs Community Sites
