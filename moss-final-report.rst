@@ -7,9 +7,11 @@ MOSS Final Report
 Last year,
 we were given a :doc:`MOSS Grant<rtd-awarded-moss-grant>` to work on a few things.
 This work is live at http://www.pydoc.io/,
-and on GitHub at https://github.com/rtfd/pydoc.io.
+and on GitHub at https://github.com/rtfd/pydoc.io,
+https://github.com/rtfd/sphinx-autoapi/,
+and https://github.com/rtfd/apitheme.
 We :doc:`announced <announcing-pydoc-io>` the initial deployment last November,
-and this is the retrospective post about how it went.
+and this is the retrospective post about how the project as a whole went.
 
 The original grant covered the following items,
 which I'll talk about in more detail:
@@ -106,11 +108,37 @@ the idea was to extend the ability of Read the Docs and Sphinx.
 In extending Read the Docs,
 we have mostly failed.
 We broke Pydoc out into it's own project,
-which means that little of the work has been contributed back to Read the Docs code itself.
+in order to make it much easier to contribute to.
+**This means that little of the work has been contributed back to Read the Docs code itself.**
 However,
 we have done a lot of work around building extensions to Sphinx.
 This is work that is more widely applicable to any Sphinx user,
-which is more useful in general for the programming community as a whole.
+which is more useful in general for the Python and programming community as a whole.
+
+**Creating open source software and not telling people about it is not inherently valuable.**
+We did work on the major aspects of the grant,
+but we didn't have the energy or focus to actually spend time marketing the new tools we have created.
+Originally when we took the grant,
+we thought it would be part of Read the Docs,
+and so would naturally get exposure that way.
+Once the site was split out as a separate instance,
+it become necessary to market that,
+along with all the other work we were already doing. 
+
+One of the things that we've struggled with in funding and sustainability is the fact that we are a service.
+**We felt that we needed to ask MOSS for money to complete specific,
+actionable features.**
+What we really need is funding for operating the service (wearing a pager),
+supporting our users (responding to issues on GitHub),
+helping mentor new contributors (reviewing Pull Requests),
+and other activities that don't have a flashy outcome.
+
+**I think that one thing that would help here is an explicit MOSS track that covers services or sustaining maintenance.**
+A lot of funding is geared towards new development and R&D,
+and there needs to be more money out there for simply keeping things going.
+That would have been the most valuable money that we could have taken,
+and in the end,
+building out new capacity ended up effectively being more of a distraction from our core project goals.
 
 We also spent a good deal of time creating our own API theme: https://github.com/rtfd/apitheme.
 We realized part of the way through development that we should focus on getting the basic project done,
@@ -120,12 +148,6 @@ but I think the vision for a dedicated Sphinx API doc theme is a good one.
 This is another place where we could bring in the community to hopefully work towards a better outcome,
 but needed to dedicate time for that activity.
 
-Another major issue is that simply putting source code on GitHub is not actually inherently valuable to the community.
-We did work on the major aspects of the grant,
-but we didn't have the energy or focus to actually spend time marketing the new tools we have created.
-Originally when we took the grant,
-we thought it would be part of Read the Docs,
-and so would naturally get exposure that way.
-Once the site was split out as a separate instance,
-it become necessary to market that,
-along with all the other work we were already doing. 
+In the end,
+we're glad we got the experience doing this MOSS grant,
+and know a lot more about doing something similar in the future.
