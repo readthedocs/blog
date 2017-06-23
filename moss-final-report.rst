@@ -28,12 +28,12 @@ I'll cover a few higher level thoughts on the topic of grant funding open source
 Add ability to build docs from a tarball
 ----------------------------------------
 
-This was focused on adding the ability to work with Tarballs instead of Version Control systems to Read the Docs.
+This was focused on adding the ability to work with tarballs (zip files) instead of Version Control systems to Read the Docs.
 As we got further into the development,
 we `realized <https://github.com/rtfd/readthedocs.org/issues/1957>`_ it would be simpler to just create a new code project,
 instead of trying to adapt Read the Docs for this purpose.
 
-We ended up creating the `pydoc.io <https://github.com/rtfd/pydoc.io>`_ project as the home for this to live.
+We ended up creating the `pydoc.io <https://github.com/rtfd/pydoc.io>`_ project as a new Django application.
 It explicitly works with PyPI to download packages,
 and doesn't know anything about Version Control.
 
