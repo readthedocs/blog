@@ -82,7 +82,7 @@ You can see it in action on any project that is published to Pydoc currently:
 .. TODO: Better examples of cool functionality
 
 * https://www.pydoc.io/pypi/invenio-admin-1.0.0b2/autoapi/ext/index.html
-* https://www.pydoc.io/pypi/invenio-admin-1.0.0b2/index.html
+* https://www.pydoc.io/pypi/actappliance-0.3.2/index.html
 * https://www.pydoc.io/pypi/pyote-1.4.dev0/index.html
 
 Add automatic documentation generation as packages are published to PyPI
