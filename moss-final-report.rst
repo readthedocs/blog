@@ -6,12 +6,15 @@ MOSS Final Report
 
 Last year,
 we were given a :doc:`MOSS Grant<rtd-awarded-moss-grant>` to work on improving the Python documentation ecosystem.
-This work is live at http://www.pydoc.io/,
-and on GitHub at https://github.com/rtfd/pydoc.io,
-https://github.com/rtfd/sphinx-autoapi/,
-and https://github.com/rtfd/apitheme.
 We :doc:`announced <announcing-pydoc-io>` the initial deployment last November,
 and this is the retrospective post about how the project as a whole went.
+
+This work is live at http://www.pydoc.io/,
+and on GitHub:
+
+* https://github.com/rtfd/pydoc.io - the source code for the site
+* https://github.com/rtfd/sphinx-autoapi - the source code for parse-only API generation
+* https://github.com/rtfd/apitheme - A Sphinx theme for API docs (incomplete)
 
 Pydoc.io was created to generate API documentation for all Python packages.
 We have now generated over 17,000 sets of API documentation for packages uploaded to PyPI,
