@@ -5,13 +5,19 @@ MOSS Final Report
 =================
 
 Last year,
-we were given a :doc:`MOSS Grant<rtd-awarded-moss-grant>` to work on a few things.
+we were given a :doc:`MOSS Grant<rtd-awarded-moss-grant>` to work on improving the Python documentation ecosystem.
 This work is live at http://www.pydoc.io/,
 and on GitHub at https://github.com/rtfd/pydoc.io,
 https://github.com/rtfd/sphinx-autoapi/,
 and https://github.com/rtfd/apitheme.
 We :doc:`announced <announcing-pydoc-io>` the initial deployment last November,
 and this is the retrospective post about how the project as a whole went.
+
+Pydoc.io was created to generate API documentation for all Python packages.
+We have now generated over 17,000 sets of API documentation for packages uploaded to PyPI,
+without executing a single line of Python code from those projects.
+This is the primary goal of the project,
+and it has been successful.
 
 The original grant covered the following items,
 which I'll talk about in more detail:
