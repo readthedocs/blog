@@ -121,4 +121,4 @@ We're making these changes to continue building a sustainable business model for
 We try to be transparent with our thinking,
 and along those lines we'd like to know your thoughts.
 If there is anything else we could be doing better,
-please `let us know <mailto:rev@readthedocs.org>`_.
+please `let us know <mailto:dev@readthedocs.org>`_.
