@@ -56,6 +56,8 @@ In particular:
 * Projects that opt out of normal advertising, as previously supported, will now be shown *only* ads from our Community Ads partners.
 * Users will be able to opt out of all paid ads with a profile setting, but will still see Community Ads.
 
+You can `learn more <http://docs.readthedocs.io/en/latest/ethical-advertising.html#opting-out>`_ about opting out in our docs.
+
 Community Ads
 ~~~~~~~~~~~~~
 
