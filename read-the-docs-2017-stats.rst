@@ -70,7 +70,7 @@ This year, we had:
 Funding
 -------
 
-* $300,000 in revenue (up from $50,000 in 2016)
+* $250,000 in revenue (up from $75,000 in 2016)
 
 Read the Docs is sustainable.
 
