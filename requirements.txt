@@ -3,4 +3,4 @@ wsgiref==0.1.2
 Sphinx==1.6.6
 
 # https://github.com/abakan/ablog/pull/93
-git+https://github.com/tadeboro/ablog#egg=ablog-dev
+git+https://github.com/tadeboro/ablog@cc099ccdfac85a4c2f4a64ecf04e17b3019ce5a7#egg=ablog-dev
