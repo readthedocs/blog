@@ -5,8 +5,8 @@ MOSS Final Report
 =================
 
 Last year,
-we were given a :doc:`MOSS Award <rtd-awarded-mozilla-open-source-support-grant>` to work on improving the Python documentation ecosystem.
-We :doc:`announced <announcing-pydoc-io>` the initial deployment last November,
+we were given a :doc:`MOSS Award </rtd-awarded-mozilla-open-source-support-grant>` to work on improving the Python documentation ecosystem.
+We :doc:`announced </announcing-pydoc-io>` the initial deployment last November,
 and this is the retrospective post about how the project as a whole went.
 
 This work is live at http://www.pydoc.io/ and on GitHub:
