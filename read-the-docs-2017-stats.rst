@@ -4,7 +4,7 @@
 Read the Docs 2017 Stats
 ========================
 
-2017 has been a good year for Read the Docs.
+2017 was a good year for Read the Docs.
 We've settled into a sustainability model that is working for us,
 and have started to grow our team to be able to better support the community.
 
@@ -72,8 +72,6 @@ Funding
 
 * $250,000 in revenue (up from $75,000 in 2016)
 
-Read the Docs is sustainable.
-
 We now have four full-time people working on the project.
 This has made it feel like we're able to move forward,
 instead of simply fighting to stay in the same place.
@@ -97,7 +95,6 @@ because Rackspace is winding down their support for OSS hosting.
 Conclusion
 ----------
 
-2017 has been a good year.
 We have decided to invest in building a sustainable business instead of trying to work only on volunteer effort.
 This has allowed us to focus on things we can control,
 build a small team,
