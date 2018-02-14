@@ -8,6 +8,11 @@ Read the Docs 2017 Stats
 We've settled into a sustainability model that is working for us,
 and have started to grow our team to be able to better support the community.
 
+Here are our stats for the past year,
+which we've published for the past 5 years.
+This is part of our effort to be transparent in our organization,
+as well as our source code.
+
 .. note:: 
 
 	You can always see our stats for the last `30 days`_. 
