@@ -15,7 +15,7 @@ For starters, this August saw the `5th birthday of Read the Docs <bday_>`_!
 We're still humbled by the project's success, and the important role it
 continues to play for old and new users alike.
 
-This growth was becomming difficult to manage without focused support given back
+This growth was becoming difficult to manage without focused support given back
 to the community. Though the project has always had core maintainers, for Read
 the Docs to continue growing as a community resource, we knew it required
 dedicated attention.

@@ -69,7 +69,7 @@ and lives in the `sphinx-autoapi <https://github.com/rtfd/sphinx-autoapi/>`_ pro
 
 As covered in the initial grant proposal,
 having a parse-only solution for API documentation is a useful tool in the Python community.
-This allows us to generate API docs for arbitary code that is published to PyPI,
+This allows us to generate API docs for arbitrary code that is published to PyPI,
 without having to execute it.
 However,
 given Python's dynamic nature,
@@ -115,7 +115,7 @@ When we applied for the grant,
 the idea was to extend the ability of Read the Docs and Sphinx.
 In extending Read the Docs,
 we have mostly failed.
-We broke Pydoc out into it's own project,
+We broke Pydoc out into its own project,
 in order to make it much easier to contribute to.
 **This means that little of the work has been contributed back to Read the Docs code itself.**
 However,

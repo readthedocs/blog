@@ -70,7 +70,7 @@ Funding
 -------
 
 Our hosting costs are sponsored by `Rackspace`_,
-which is fantasticly generous of them.
+which is fantastically generous of them.
 
 Development on Read the Docs is funded by the community `on Gittip`_.
 I am very grateful for the support that the community has given the project over the years.

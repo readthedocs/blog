@@ -34,7 +34,7 @@ They also have native apps on iOS and Android, and make it easy to grab a new do
 Privacy and Security
 --------------------
 
-Uniregistry offers free WHOIS Privacy on every domain. There's no nickle-and-diming to protect your personal information. In recent years, those of you who have your phone numbers and emails on domain registration have come to experience being heckled by automated phone calls and spam. Uniregistry takes this off the table with no extra cost to you.  Uniregistry’s competitors charge between $3.99 and $7.99 for what should be your right, not a paid privilege.
+Uniregistry offers free WHOIS Privacy on every domain. There's no nickel-and-diming to protect your personal information. In recent years, those of you who have your phone numbers and emails on domain registration have come to experience being heckled by automated phone calls and spam. Uniregistry takes this off the table with no extra cost to you.  Uniregistry’s competitors charge between $3.99 and $7.99 for what should be your right, not a paid privilege.
 
 Two step verification is built right into the product as well. They are the registrar for people who own one domain or thousands, so they had to build in security and tools to put you in complete control. Since they have handled the use case of the most demanding domain owners in the industry, you get the same benefits even if you just buy one.
 
@@ -59,7 +59,7 @@ Uniregistry doesn't hide things like domain transfer codes. Domain renewals are 
 The Story behind the story
 --------------------------
 
-Uniregistry was founded by Frank Schilling. They are the fastest growing registrar on the planet, driven by Frank, who is is the best-known individual on the planet when it comes to domain registration. Under his direction, they have grown to be the operator of 25 new gTLDs, with more than 3.5 million domains under management.
+Uniregistry was founded by Frank Schilling. They are the fastest growing registrar on the planet, driven by Frank, who is the best-known individual on the planet when it comes to domain registration. Under his direction, they have grown to be the operator of 25 new gTLDs, with more than 3.5 million domains under management.
 
 As part of this sponsorship, Frank said, “I have a deep level of respect and love for this industry. I want nothing more than to grow a sustainable and dynamic business that empowers future generations of entrepreneurs, domain name investors, online businesses, and individual users around the world. The ultimate goal of Uniregistry is to make getting online easy. I believe we’re improving that experience each day. We are helping our customers unlock the tremendous power of their domains.” 
 
