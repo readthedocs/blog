@@ -100,7 +100,7 @@ We can also be more vocal about where and how you can start to contribute.
 In the past, we assumed users would come to us with interest in contributing,
 however we've also received feedback that it's not apparent we require the help.
 If you're interested in contributing,
-never hestitate to ask where you can contribute.
+never hesitate to ask where you can contribute.
 We're happy to have contributions of any size.
 
 We certainly aren't the only project that has trouble attracting contributions,

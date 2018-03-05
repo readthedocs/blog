@@ -29,11 +29,11 @@ This year, we had:
 
 .. git rev-list --count --all --max-age=1420070400 --min-age=1451606400
 
-We have a much lower number of people who commited to the code-base this year,
+We have a much lower number of people who committed to the code-base this year,
 while increasing the number of commits and issues by over 50%.
 This is mainly because we worked with Gregor_ for three months after our fundraiser.
 
-The lack of commiters is sad though,
+The lack of committers is sad though,
 and I hope that we can get more people involved with the project over time.
 It really is unsustainable at the current level of community involvement.
 All of our operations and user support tasks are done by vanishingly small number of volunteers,
@@ -79,7 +79,7 @@ Funding
 -------
 
 Our hosting costs are sponsored by `Rackspace`_,
-which is fantasticly generous of them.
+which is fantastically generous of them.
 
 Development on Read the Docs is funded by the community. 
 We launched a `Sustainabilty Campaign`_ earlier this year that funded work for 3 months.

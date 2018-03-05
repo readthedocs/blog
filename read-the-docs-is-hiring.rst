@@ -102,6 +102,6 @@ Thanks for everyone who has applied. We are in the process of choosing a candida
 	Also let us know how many hours a week you're interested in working.
 	We are thinking 15-20 hours per week, across the full 3 months,
 	so this can be flexible across each specific week.
-	This means you can persue other work,
+	This means you can pursue other work,
 	or build an amazing lifestyle that includes hiking on a Tuesday,
 	if ya want.

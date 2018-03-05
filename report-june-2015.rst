@@ -33,19 +33,19 @@ Ops
  * We did a fresh provision of our build cluster using Salt. Previously, there were slight
    disparities between the servers, which surfaced some issues during builds.
  * Fixed Python 3 build environments with new virtualenv and pip.
- * Changed our queueing stragedy to not be tied to a single specific build machine.
+ * Changed our queueing strategy to not be tied to a single specific build machine.
 
 Dev
 ~~~
 
  * Output formats such as PDF and ePub are now configurable, but continue to default
    to on. 
- * Added the ability to wipe the Build environment to the Verions page.
+ * Added the ability to wipe the Build environment to the Versions page.
  * We started to address issues with stable version detection 
  * Fixed issues related to version name slugging.
  * In order to move away from third party analytics, we have spun up an instance
    of Piwik. We plan on testing this with our production traffic in the coming months.
- * Fixed "Edit on GitHub" links for stable verisons
+ * Fixed "Edit on GitHub" links for stable versions
  * General refactoring and cleanup of the codebase, and added test coverage.
 
 For more information on our development orchestration, visit or subscribe to our
