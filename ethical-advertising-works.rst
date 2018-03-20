@@ -10,13 +10,11 @@ The Results
 
 To put it simply:
 
-    **Ethical Advertising works**.
+**Ethical Advertising works**.
 
 In Q1 2018,
 our estimated revenue from advertising is $75,000.
-This is enough to fund our small team of 4 people.
-We are working at below market rates for San Francisco,
-but we are happy to be able to sustain Read the Docs with this model.
+This is enough to fund our small team of 4 people to work on Read the Docs full-time.
 
 When we started building our ethical advertising model,
 we didn't know how it would work out.
@@ -29,18 +27,22 @@ We are happy to report that you can build advertising that is a win/win/win for 
 * Advertisers win because they are able to reach our audience of developers, helping to grow their business.
 * Users win because their privacy is maintained, and they continue to have access to our service.
 
+We're now taking a look at what we've learned,
+and how we might help more infrastructure projects reach sustainability.
 
-Next Steps
-----------
+Towards an Ethical Ad Network
+-----------------------------
 
-We are proud to have pioneered this successful user-centric advertising model.
+We are proud to have pioneered a successful user-centric advertising model.
+**We have proven that an advertising business model that respects users can also sustain critical open source infrastructure.**
+We hope that we can act as an example for other projects that depend on ads,
+you can make money without giving away your users data.
 
-We hope that we will act as an example for other projects that are building advertising into their business model.
-Developers have the power to shift the ad industry to be more user and privacy focused.
-We have seen other advertising platforms talk about how their ads are ethical,
-and that is a larger part of what we consider success.
-
-Our plan is to make it easier for other platforms to have ethical ads.
+**Developers have the power to shift the ad industry to respect user privacy.**
+We must start with our own projects though;
+leading by example.
+We must make it easier for other projects to have ethical ads,
+in order for this to happen though.
 We have already built a lot of software and relationships,
 and we're looking at how we can solve the technical problems of maintaining used privacy when *we* are the third party providing the ads.
 
@@ -48,8 +50,8 @@ We realize that not every open source project can do ad sales,
 run advertising server code,
 and all the work that we've done.
 We want to explore how we can build an **Ethical Ad Network**,
-where users data isn't sent to a third party,
-but we can do the hard work of sales and marketing.
+where user data isn't sent to a third party,
+but each project doesn't need to do the sales and marketing.
 
 This is still in the planning phases,
 but we see this as an important next step to making ethical ads a reality across the open source ecosystem.
@@ -57,7 +59,7 @@ but we see this as an important next step to making ethical ads a reality across
 Thanks
 ------
 
-I'd like to thank all of companies who have believed in our ethical ads.
+I'd like to thank all of companies who have believed in our ethical ads initiative.
 You can only sell something if people buy it,
 and I'd like to give credit to the folks who have believed in our concept:
 
@@ -82,3 +84,8 @@ and I'd like to give credit to the folks who have believed in our concept:
 * Cherry Servers
 * Uniregistry
 * OSCON
+
+Want your company to be on the list?
+You can get more information on our `advertising page`_.
+
+.. _advertising page: https://readthedocs.org/sustainability/advertising/
