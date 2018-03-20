@@ -41,20 +41,22 @@ you can make money without giving away your users data.
 **Developers have the power to shift the ad industry to respect user privacy.**
 We must start with our own projects though;
 leading by example.
-We must make it easier for other projects to have ethical ads,
-in order for this to happen though.
-We have already built a lot of software and relationships,
-and we're looking at how we can solve the technical problems of maintaining used privacy when *we* are the third party providing the ads.
+We need to have all the ads in the open source ecosystem respect user privacy,
+and then we can start to apply pressure to other parts of the industry.
 
 We realize that not every open source project can do ad sales,
-run advertising server code,
+write advertising code,
 and all the work that we've done.
 We want to explore how we can build an **Ethical Ad Network**,
-where user data isn't sent to a third party,
+where user data isn't sent to a third party (Read the Docs),
 but each project doesn't need to do the sales and marketing.
 
-This is still in the planning phases,
-but we see this as an important next step to making ethical ads a reality across the open source ecosystem.
+Our approach of targeting advertising by the content of the pages allows us to show ads without knowing who a user is.
+Our ethical ad network is still in the planning phases,
+but if you know a project that might be interested in being a beta tester,
+please `get in touch`_.
+
+.. _get in touch: mailto:ads@readthedocs.org
 
 Thanks
 ------
