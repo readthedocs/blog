@@ -1,3 +1,6 @@
+.. post:: March 22, 2018
+   :tags: advertising, business, sustainability
+
 Ethical Advertising Works
 =========================
 
