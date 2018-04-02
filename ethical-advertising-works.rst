@@ -58,14 +58,11 @@ leading by example.
 We need to have all the ads in the open source ecosystem respect user privacy,
 and then we can start to apply pressure to other parts of the tech industry.
 
-We realize that not every open source project can do ad sales,
-write advertising code,
-and all the work that we've done.
+We realize that not every open source project can do all the work that we've done.
 We want to explore how we can build an **Ethical Ad Network**,
-where user data isn't sent to a third party,
-but each project doesn't need to do the sales and marketing.
+where user data isn't sent to us,
+but each project doesn't need to do ad sales.
 
-Our approach of targeting advertising by the content of the pages allows us to show ads without knowing who a user is.
 Our ethical ad network is still in the planning phases,
 but if you know a project that might be interested in being a beta tester,
 please `get in touch`_.
