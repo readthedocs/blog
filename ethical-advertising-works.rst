@@ -48,8 +48,7 @@ and how we might help more infrastructure projects reach sustainability with an 
 Towards an Ethical Ad Network
 -----------------------------
 
-We are proud to have pioneered a successful user-centric advertising model.
-**We have proven that an advertising business model that respects users can also sustain critical open source infrastructure.**
+**We have shown that an advertising business model that respects users can also sustain critical open source infrastructure.**
 We hope that we can act as an example for other projects that depend on ads,
 you can make money without giving away your users data.
 
