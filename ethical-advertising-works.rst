@@ -43,7 +43,7 @@ The content they are reading is enough to show them targeted ads,
 without knowing anything about them.
 
 We're now taking a look at what we've learned,
-and how we might help more infrastructure projects reach sustainability with an ethical advertigins approach.
+and how we might help more infrastructure projects reach sustainability with an ethical advertising approach.
 
 Towards an Ethical Ad Network
 -----------------------------
