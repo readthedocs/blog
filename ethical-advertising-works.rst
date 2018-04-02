@@ -30,8 +30,20 @@ We are happy to report that you can build advertising that is a win/win/win for 
 * Advertisers win because they are able to reach our audience of developers, helping to grow their business.
 * Users win because their privacy is maintained, and they continue to have access to our service.
 
+Tracking users isn't required
+-----------------------------
+
+Along the way we've been trying to prove a simple thesis:
+
+We can have successful advertising without tracking our users.
+So much of the trouble facing the ad industry these days is because of this massive databases of user data.
+
+We have been able to show that we can show ads without knowing exactly who our users are.
+The content they are reading is enough to show them targeted ads,
+without knowing anything about them.
+
 We're now taking a look at what we've learned,
-and how we might help more infrastructure projects reach sustainability.
+and how we might help more infrastructure projects reach sustainability with an ethical advertigins approach.
 
 Towards an Ethical Ad Network
 -----------------------------
@@ -41,17 +53,17 @@ We are proud to have pioneered a successful user-centric advertising model.
 We hope that we can act as an example for other projects that depend on ads,
 you can make money without giving away your users data.
 
-**Developers have the power to shift the ad industry to respect user privacy.**
-We must start with our own projects though;
+Developers have the power to shift the ad industry to respect user privacy.
+We must start with our own projects,
 leading by example.
 We need to have all the ads in the open source ecosystem respect user privacy,
-and then we can start to apply pressure to other parts of the industry.
+and then we can start to apply pressure to other parts of the tech industry.
 
 We realize that not every open source project can do ad sales,
 write advertising code,
 and all the work that we've done.
 We want to explore how we can build an **Ethical Ad Network**,
-where user data isn't sent to a third party (Read the Docs),
+where user data isn't sent to a third party,
 but each project doesn't need to do the sales and marketing.
 
 Our approach of targeting advertising by the content of the pages allows us to show ads without knowing who a user is.
