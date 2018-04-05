@@ -21,7 +21,12 @@ versions are instead installed from source, using `pyenv`_.
 
 If you'd like beta access to this build image for your projects, you can sign
 up here:
-https://goo.gl/forms/AKEoeWHixlzVfqKT2
+
+.. admonition:: Update
+
+    Users are now able to opt in to a build image that support Python 3.6,
+    signing up for beta access is no longer required. For more information, see
+    our blog post on :doc:`/python-36-support`
 
 We are slowly moving project configuration to our `YAML configuration file`_,
 ``readthedocs.yml``. Access to specific versions of Python will only be

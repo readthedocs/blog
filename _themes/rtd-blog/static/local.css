@@ -19,7 +19,11 @@ div.section ul {
     margin: 1em;
 }
 
-div.section p,
+div.section p {
+    margin: .75rem .5rem;
+    line-height: 1.6rem;
+}
+
 div.section ul li,
 div.sidebar ul li {
     margin: .5em;
@@ -108,4 +112,8 @@ img.align-center {
 
 strong {
     font-weight: bold;
+}
+
+div.highlight pre {
+    white-space: pre;
 }
