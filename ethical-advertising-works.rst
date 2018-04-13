@@ -1,5 +1,5 @@
 .. post:: April 5, 2018
-   :tags: advertising, business, sustainability
+   :tags: advertising, business, sustainability, ethical ads
 
 Ethical Advertising Works
 =========================
@@ -30,6 +30,9 @@ We are happy to report that you can build advertising that is a win/win/win for 
 * Advertisers win because they are able to reach our audience of developers, helping to grow their business.
 * Users win because their privacy is maintained, and they continue to have access to our service.
 
+Ethical advertising on Read the Docs has not been without its challenges,
+which we will cover in future posts.
+
 Tracking users isn't required
 -----------------------------
 
@@ -41,6 +44,11 @@ So much of the trouble facing the ad industry these days is because of this mass
 We have been able to show that we can show ads without knowing exactly who our users are.
 The content they are reading is enough to show them targeted ads,
 without knowing anything about them.
+Specifically:
+
+* We do not let advertisers run 3rd party code on Read the Docs. Ad images and javascript is all hosted by us.
+* We do not provide advertisers with data dumps, except aggregated reports on the clicks and views their ads got.
+* We target our ads based only on geography and the details of the page being visited, not on a profile of the user.
 
 We're now taking a look at what we've learned,
 and how we might help more infrastructure projects reach sustainability with an ethical advertising approach.
@@ -49,8 +57,8 @@ Towards an Ethical Ad Network
 -----------------------------
 
 **We have shown that an advertising business model that respects users can also sustain critical open source infrastructure.**
-We hope that we can act as an example for other projects that depend on ads,
-you can make money without giving away your users data.
+We hope that we can act as an example for other projects that depend on ads.
+You can make money without giving away your users data.
 
 Developers have the power to shift the ad industry to respect user privacy.
 We must start with our own projects,
