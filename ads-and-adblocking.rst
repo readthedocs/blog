@@ -64,6 +64,7 @@ Ad blocker fallout
 
 .. figure:: img/2018-readthedocs-adblocker-fallout.png
    :alt: Effect of ad blocking on Read the Docs ad views
+   :width: 100%
 
 Getting added to the EasyList had a significant and immediate impact on the
 bottom line at Read the Docs. Right around April 1,
