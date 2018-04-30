@@ -1,4 +1,4 @@
-.. post:: April 25, 2018
+.. post:: May 2, 2018
    :tags: advertising, privacy, sustainability, business, adblock
    :author: David
    :location: SAN
