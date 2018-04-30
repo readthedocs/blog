@@ -1,5 +1,6 @@
 .. post:: Mar 29, 2018
     :author: Anthony
+    :tags: python
 
 Python 3.6 Support
 ==================
