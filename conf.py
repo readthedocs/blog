@@ -45,11 +45,13 @@ post_auto_excerpt = 2
 blog_authors = {
     'Eric': ('Eric Holscher', 'http://ericholscher.com'),
     'Anthony': ('Anthony Johnson', 'http://ohess.org'),
+    'David': ('David Fischer', ''),
 }
 blog_default_author = 'Eric'
 
 blog_locations = {
-'PDX': ('Portland, Oregon', 'http://www.portlandhikersfieldguide.org/'),
+    'PDX': ('Portland, Oregon', 'http://www.portlandhikersfieldguide.org/'),
+    'SAN': ('San Diego, CA', ''),
 }
 blog_default_location = 'PDX'
 blog_feed_archives = True
