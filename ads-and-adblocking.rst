@@ -126,11 +126,11 @@ which includes many ads from the big networks but we are hoping they would be
 willing to accept ads that benefit their community of software developers.
 
 We are launching a **new initiative** to
-`accept advertising that benefits open source software`_. We encourage
+`allow advertising that benefits open source software`_. We encourage
 you to subscribe to the this list and support open source.
 If you run an open source project affected by ad blockers, we would love to help you too.
 
-.. _accept advertising that benefits open source software: https://ads-for-open-source.readthedocs.io
+.. _allow advertising that benefits open source software: https://ads-for-open-source.readthedocs.io
 
 .. admonition:: Advertisers
 
