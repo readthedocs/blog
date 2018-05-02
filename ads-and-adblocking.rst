@@ -88,10 +88,10 @@ and sustaining Read the Docs, here are a few things we are working on:
   that enables some unobtrusive advertising.
   We are very hopeful here but it does take quite a bit longer
   to get on this list than it does to get blocked.
-* Nagging users into whitelisting Read the Docs.
+* Nagging users into allowing ads on Read the Docs.
   We are envisioning more of a polite nag in a similar vein to `jsfiddle`_
   rather than an "adblock wall" which prevents usage of Read the Docs
-  until it's whitelisted.
+  until it's allowed.
 * Blogging and raising awareness of how ad blocking affects us and other
   open source projects.
 
@@ -111,8 +111,8 @@ especially when it comes to open source software which has
 .. _unique funding challenges: https://www.fordfoundation.org/library/reports-and-studies/roads-and-bridges-the-unseen-labor-behind-our-digital-infrastructure/
 
 
-Open source advertising whitelist
----------------------------------
+Open source advertising list
+----------------------------
 
 At Read the Docs, we also discovered that we are not the only open source project
 that got our advertising blocked by ad blockers.
@@ -126,11 +126,11 @@ which includes many ads from the big networks but we are hoping they would be
 willing to accept ads that benefit their community of software developers.
 
 We are launching a **new initiative** to
-`whitelist advertising that benefits open source software`_. We encourage
+`allow advertising that benefits open source software`_. We encourage
 you to subscribe to the this list and support open source.
 If you run an open source project affected by ad blockers, we would love to help you too.
 
-.. _whitelist advertising that benefits open source software: https://ads-for-open-source.readthedocs.io
+.. _allow advertising that benefits open source software: https://ads-for-open-source.readthedocs.io
 
 .. admonition:: Advertisers
 
