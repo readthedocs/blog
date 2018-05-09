@@ -1,4 +1,5 @@
 _build
 *.sw[opmn]
+*.pyc
 .python-version
 .ropeproject/

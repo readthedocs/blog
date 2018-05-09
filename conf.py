@@ -20,6 +20,7 @@ import ablog
 # add these directories to sys.path here. If the directory is relative to the
 # documentation root, use os.path.abspath to make it absolute, like shown here.
 #sys.path.insert(0, os.path.abspath('.'))
+sys.path.append(os.path.abspath('exts'))
 
 # -- General configuration ------------------------------------------------
 
@@ -32,10 +33,11 @@ import ablog
 extensions = [
     'ablog',
     'sphinx.ext.intersphinx',
+    'atom_absolute',
 ]
 
 blog_title = 'Read the Docs Blog'
-blog_baseurl = 'http://blog.readthedocs.com'
+blog_baseurl = 'https://blog.readthedocs.com'
 blog_path = 'archive'
 fontawesome_link_cdn = 'https://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.min.css'
 # fontawesome_included = True
