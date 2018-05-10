@@ -4,8 +4,8 @@
    :location: SAN
 
 
-Version Control Log in
-======================
+Social Version Control Log in
+=============================
 
 Today we are announcing the ability to log in or sign up to Read the Docs
 with your favorite version control hosting services like GitHub, BitBucket, or GitLab.
@@ -20,8 +20,8 @@ For new users, the sign up process is significantly streamlined.
 There's no new password to remember and when you're ready to start building your docs,
 Read the Docs will be ready with a list of your repositories to get started.
 
-Click the "sign up" button on the Read the Docs home page and then click
-the button for your favorite version control host.
+Click the "Sign Up" button on the Read the Docs home page and then click
+the button for your favorite version control hosting service.
 
 
 For existing Read the Docs users
