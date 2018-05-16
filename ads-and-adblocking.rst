@@ -81,8 +81,6 @@ What are we doing about it
 It will be an uphill battle to get back to where we were in terms of revenue
 and sustaining Read the Docs, here are a few things we are working on:
 
-.. TODO: update if/when we get on the list...
-
 * We applied to the `acceptable ads`_ list,
   an ad block list enabled on many ad blockers by default
   that enables some unobtrusive advertising.
@@ -105,6 +103,10 @@ that while there are plenty of bad actors in the ad industry
 some advertising is necessary to power the web we know and love
 especially when it comes to open source software which has
 `unique funding challenges`_.
+
+**Update**: On May 4th, Read the Docs was added to the acceptable ads list!
+We will collect data over the next couple weeks and have a follow-up post
+on what effects this had on advertising.
 
 .. _acceptable ads: https://acceptableads.com/
 .. _jsfiddle: https://jsfiddle.net/
