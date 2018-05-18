@@ -78,7 +78,11 @@ This is the `largest boycott in human history`_ and blaming users isn't the answ
 
 Based on our experience with ad blocking and the Acceptable Ads list,
 it is clear that visitors will allow advertising that doesn't disrupt user experience
-and doesn't stalk people.
+and doesn't track people.
 
+We are glad to have made progress toward regaining our sustaining revenue.
+Read the Docs is continuing on our experiment to fund open source infrastructure
+in a way that is a win/win for all parties,
+and we are glad you're following along with us.
 
 .. _largest boycott in human history: https://medium.com/the-graph/how-to-reverse-publisher-revenue-drain-c33e41bf0665
