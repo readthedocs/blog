@@ -55,7 +55,7 @@ We are taking some additional steps to protect users which we will cover in a fu
 Ethical Ads
 -----------
 
-Arguably the GDPR is a result of pernicious privacy violations by advertising firms
+Arguably the GDPR is a result of pernicious `privacy violations by advertising firms`_
 so it makes sense to discuss the advertising we show on Read the Docs.
 
 While Read the Docs is an ad-supported website,
@@ -73,6 +73,7 @@ We know from our experience that :doc:`ethical advertising works <ethical-advert
 It is possible to make money without giving away your users data.
 
 If you want to learn more about Ethical Ads at Read the Docs, please `get in touch`_!
-  
+
+.. _privacy violations by advertising firms: http://blogs.harvard.edu/doc/2018/05/12/gdpr/
 .. _Ethical Ads: https://docs.readthedocs.io/en/latest/ethical-advertising.html
 .. _get in touch: mailto:ads@readthedocs.org
