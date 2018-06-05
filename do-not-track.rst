@@ -20,28 +20,39 @@ and keeping Read the Docs sustainable.
 .. _guidelines: https://www.eff.org/issues/do-not-track
 
 
+What we implemented
+-------------------
+
+Not much needed to change to make Read the Docs support DNT
+and many of these changes were already necessary
+for the EU's new :doc:`privacy regulation <gdpr-what-it-means-for-readthedocs>`.
+
+Here's a brief list of what we did for Do Not Track:
+
+* Our logs that store any personal data are deleted after no more than ten days.
+  We do this for all users even those who don't have DNT enabled.
+* When a user has DNT enabled, we do not send data to our analytics.
+* While this didn't change, we reiterated that we **do not**
+  do behavioral ad targeting regardless of DNT preference.
+  
+Full details on Do Not Track at Read the Docs can be found in our `privacy policy`_.
+
+.. _privacy policy: https://docs.readthedocs.io/en/latest/privacy-policy.html#privacy-policy-do-not-track
+
+
 What DNT means for our advertising
 ----------------------------------
 
 Advertising at Read the Docs was already built with privacy in mind.
 With our `Ethical Ads`_, we previously committed to not tracking users,
-not selling user data, and hosting ads ourselves.
+not selling user data, and hosting ads ourselves
+which all align perfectly with Do Not Track.
 
-Our support for Do Not Track does not change that.
-Instead, it formalizes our commitment
-to be the same as guidelines produced by the EFF and elsewhere.
-
-At Read the Docs this means:
-
-* We **do not** do behavioral ad targeting regardless of your DNT preference.
-* Our logs that store any personal data are deleted after no more than ten days.
-  We do this for all users even those who don't have DNT enabled.
-* When a user has DNT enabled, we do not send data to our analytics.
-  
-Full details on Do Not Track at Read the Docs can be found in our `privacy policy`_.
+Our support for DNT formalizes our commitment to the high standards
+for privacy produced by the EFF.
+It also make us one of very few ad networks that honor Do Not Track.
 
 .. _Ethical Ads: https://docs.readthedocs.io/en/latest/ethical-advertising.html
-.. _privacy policy: https://docs.readthedocs.io/en/latest/privacy-policy.html#privacy-policy-do-not-track
 
 
 The Ethical Ad Network
