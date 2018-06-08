@@ -67,8 +67,9 @@ Supporting Do Not Track is an important milestone along the way
 as it confirms our commitment to privacy in advertising.
 We believe that ads don't have to track people to be effective.
 
-Our Ethical Ad network is still in its early stages,
+Our `Ethical Ad network`_ is still in its early stages,
 but if you want to know more or you know a project that could use it, 
 please `get in touch`_.
 
+.. _Ethical Ad network: https://www.ethicalads.io/
 .. _get in touch: mailto:ads@readthedocs.org
