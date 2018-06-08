@@ -38,7 +38,7 @@ Here's a brief list of what we did for Do Not Track:
   
 Full details on Do Not Track at Read the Docs can be found in our `privacy policy`_.
 
-.. _privacy policy: https://docs.readthedocs.io/en/latest/privacy-policy.html#privacy-policy-do-not-track
+.. _privacy policy: https://docs.readthedocs.io/en/latest/privacy-policy.html#do-not-track
 
 
 What DNT means for our advertising
