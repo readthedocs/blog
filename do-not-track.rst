@@ -32,6 +32,7 @@ Here's a brief list of what we did for Do Not Track:
 * Our logs that store any personal data are deleted after no more than ten days.
   We do this for all users even those who don't have DNT enabled.
 * When a user has DNT enabled, we do not send data to our analytics.
+  Based on our initial data, this looks like about a 6% reduction.
 * While this didn't change, we reiterated that we **do not**
   do behavioral ad targeting regardless of DNT preference.
   
