@@ -11,7 +11,8 @@ Previously, our latest API (v2) was used by our build processes
 but not heavily used by outside users.
 
 As part of this process, we put effort into making sure the API is easy to use
-to access Read the Docs *projects*, *builds*, and *versions*
+to access Read the Docs *projects*, *builds*, and *versions*,
+easier to filter builds and versions by a particular project,
 and that the `documentation`_ is up-to-date.
 
 .. _documentation: https://docs.readthedocs.io/en/latest/api/v2.html
