@@ -67,7 +67,8 @@ Next steps
 ----------
 
 There are a few more things left on our road map for this feature.
-In the next few weeks we will begin to generate HTTPS links for custom domains where we have a certificate. After that change has been deployed for a few weeks, we will begin to redirect custom domain traffic to HTTPS.
+In the next few weeks we will begin to generate HTTPS links for custom domains where we have a certificate. 
+After that change has been deployed for a few weeks, we will begin to redirect custom domain traffic to HTTPS.
 
 As always, if you're having any trouble with a particular domain,
 don't hesitate to let us know in our `issue tracker`_.
