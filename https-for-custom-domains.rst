@@ -37,8 +37,8 @@ If you followed our `documentation for custom domains`_
 and you are using a ``CNAME`` to point to Read the Docs,
 no action is required on your part.
 
-If you have had your Read the Docs setup for many years
-you may have followed some older directions.
+If you have had your Read the Docs setup for many years you may have followed some old directions
+that suggested creating a ``CNAME`` to ``readthedocs.org`` or ``<slug>.readthedocs.org``.
 Depending on your setup, we may not have been able to issue a certificate for your domain.
 In that case, update your ``CNAME`` to point to ``readthedocs.io``.
 
@@ -60,7 +60,7 @@ We identified a number of challenges including:
 - Handling recurring tasks to re-issue updated certificates before they expire
 
 Cloudflare reduced most of this complexity to a few API calls made when a new domain is configured or removed.
-Without their support, we would almost certainly still be working on this feature.
+Without their support, we would still be working on this feature.
 
 
 Next steps
