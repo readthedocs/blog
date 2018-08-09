@@ -1,4 +1,4 @@
-.. post:: August 8, 2018
+.. post:: August 9, 2018
    :tags: azure, downtime, infrastructure
    :author: David
    :location: SAN
