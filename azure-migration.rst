@@ -24,4 +24,9 @@ Some of the features we are most excited to take advantage of with this move are
 managed services for Postgres and Redis as well as improvements to file storage.
 This should simplify our operations considerably.
 
-Thanks for your support and understanding!
+We'd like to thank Rackspace for sponsoring our hosting for over 4 years.
+They were a large supporter of open source,
+and Read the Docs wouldn't be what it is today without them.
+
+Thanks to everyone for your support and understanding!
+
