@@ -3,8 +3,15 @@
    :author: Safwan
    :location: DHA
 
-Search Improvements
-====================
+Search Improvements and GSoC Wrap-up
+==================================
+Have you ever used the search functionality inside documentations hosted by Read The Docs?
+Mostly yes. Search can always be improved and in the era of Search Engines, the
+documentation search also plays a big role for the users. We have realized the importance,
+and got our GSoC student interested to take the challenge. The main goal was to refactor the
+search code together with upgrading the backend Search engine, as well as adding more features
+to the search functionality like exact match search, case insensitive search,
+search as you type, suggestions etc.
 
 Background
 ^^^^^^^^^^
@@ -12,7 +19,7 @@ Search is a vital part of any documentation hosting platform as people can get t
 information they need. As a documentation hosting platform, same rule applies for
 Read The Docs. Because of having a small core team, the search functionality
 of Read The Docs has lagged behind for quite a while now. Initially the search code
-was volunteerly contributed by `Rob Hudson`_,  `back in 2013`_ and then improved by other 
+was voluntarily contributed by `Rob Hudson`_,  `back in 2013`_ and then improved by other
 contributors. The time span and continuous technology growing made the search
 module got older and it had become outdated. The search infrastructure was already vulnerable
 as we were using `Elasticsearch 1.3.x`_ which was already reached its End of Life in 2016.
@@ -23,19 +30,92 @@ Google Summer of Code
 Google Summer of Code is a global program where students work with an open source organization
 on a 3 month programming project. Earlier this year, Read The Docs applied to become a Mentor
 Organization and was selected. The core team of Read The Docs proposed some `Project Ideas`_,
-one of them was **Refactor & improve our search code**. Our contributor (me) `Safwan Rahman`_, an undergraduate university student and open source contributor from Bangladesh was keen
-to get his hand dirty with `Elasticsearch`_ and grasped the opportunity to do so by applying for this project and got accepted.
+one of them was **Refactor & improve our search code**. Our contributor (me) `Safwan Rahman`_,
+an undergraduate university student and open source contributor from Bangladesh was keen
+to get his hand dirty with Elasticsearch_ and grasped the opportunity to do so by applying
+for this project and got accepted.
 
 Initially the plan was to upgrade the search infrastructure from `Elasticsearch 1.3.x`_
 to `Elasticsearch 5.x`_, but later Safwan_ proposed the core team to upgrade to
-`Elasticsearch 6.x`_. The decision was quite challenging because `Elasticsearch 6.x has major changes`_ that are not compatable with exisiting Read The Docs architecture. But the GSoC
+`Elasticsearch 6.x`_. The decision was quite challenging because `Elasticsearch 6.x has major changes`_
+that are not compatable with exisiting Read The Docs architecture. But the GSoC
 student Safwan_ and the core team was ambitious to rewrite the exisiting architecture from
 scratch to make it compatable with `Elasticsearch 6.x`_.
 
 As decided by the whole team, Safwan_ has worked full time for last 3 months to upgrade the
-whole codebase to compatable with `Elasticsearch 6.x`_ and also fixing the issue filled by
-the users. Most of the issues were about new features of the search functionality. All of his
-search related work can be checked in the `Search Project Board`_.
+whole codebase to compatable with `Elasticsearch 6.x`_ and also implemented various features
+like `Exact Matching Search`_, `Case Insensitive Search`_, `Improved Result Order`_,
+`Zero Downtime Indexing`_ and many more. Together with this, he is willing to implement
+`Search as You Type and Autocomplete`_, `Code Search`_ and many more.  All of his search related work can be
+looked in the `Search Project Board`_.
+
+
+Sphinx/MkDocs Built in Search vs Read The Docs Search
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Sphinx/MkDocs already have built in search functionality. But the features are very limited and heavy.
+At Read The Docs, we have felt the limitations and therefore we index the documentations in our
+Elasticsearch_ index so that we can provide better results to the users. Currently, we do not index
+MkDocs documents to Elasticsearch_, but `any kind of help is welcome`_.
+
+New Features
+^^^^^^^^^^^^
+The number of features that can be included in Search is infinity. There are always way to improve.
+In the 3 months of full time work, our GSoC student have implemented couple of features including
+many bug fixes. Some of the major features are as following:
+
+- `Exact Matching Search`_: Its a highly needed feature for Read The Docs. Now you can search for
+  exact word in documentations by having your query inside quotation (`""`). So if you search
+  for `"Here is foo"` (with the quotation), you will get all the documentations where the full
+  `Here is foo` phrase exist.
+
+- Simple Query String Syntax support: Now you can use `Simple Query String Syntax`_ for
+  searching. For example, if you search with `Mozilla +-Firefox`, you will get documentations
+  where the `Mozilla` word is present, but `Firefox` word is not present.
+  For more information, you can look at `Simple Query String Syntax`_ documentation.
+
+- `Case Insensitive Search`_: The search is now case insensitive. So if you search for `Foo`,
+  you will get all the documentations which have one of either `Foo`, `FOO`, `foo` or `fOO`.
+
+- `Improved Result order`_: The result order is improved dramatically. Therefore if you Search
+  with `Foo Bar`, you will first see the documentations which have both `Foo Bar`, then
+  you will see other documentations which have either `Foo` or `Bar`
+
+- `Auto Removing from Search Index`_: In the past, if any page got removed from documentations,
+  the page was still available in documentations. But from now on, the page will be removed
+  automatically from the search index as soon as its no longer in the documentation.
+
+- `Zero Downtime Indexing`_: As search is a important part of documentation, there will be no
+  downtime while we reindex our Elasticsearch Index. So the search will be much more reliable
+  than before.
+
+
+Performance Improvements
+^^^^^^^^^^^^^^^^^^^^^^^^
+Performance is always improtant for search. Because of our search was fast enough,
+we did not focus to improve the performance. As we have rewritten all the codes with
+new search backend engine, we got 4x improved performance as well.
+
+There are 4 kind of search functionality in Read The Docs. The improvements are as following:
+
+- `File Search`_
+
+  - Before: 1461 ms
+  - After: 200 ms
+
+- `Projects Search`_
+
+  - Before: 455 ms
+  - After: 162 ms
+
+- `Doc Search API`_
+
+  - Before: 746 ms
+  - After: 173 ms
+
+- `Project Doc Search`_
+
+  - Before: 750 ms
+  - After: 270 ms
 
 .. _Rob Hudson: https://github.com/robhudson
 .. _back in 2013: https://github.com/rtfd/readthedocs.org/pull/493
@@ -49,3 +129,16 @@ search related work can be checked in the `Search Project Board`_.
 .. _Safwan: https://github.com/safwanrahman
 .. _Elasticsearch document: https://www.elastic.co/guide/en/elasticsearch/guide/current/document.html
 .. _Search Project Board: https://github.com/orgs/rtfd/projects/3
+.. _Exact Matching Search: https://github.com/rtfd/readthedocs.org/issues/2457
+.. _Case Insensitive Search: https://github.com/rtfd/readthedocs.org/issues/2328
+.. _Zero Downtime Indexing: https://github.com/rtfd/readthedocs.org/pull/4368
+.. _Simple Query String Syntax: https://www.elastic.co/guide/en/elasticsearch/reference/current/query-dsl-simple-query-string-query.html#_simple_query_string_syntax
+.. _Improved Result order: https://github.com/rtfd/readthedocs.org/pull/4292
+.. _Search as You Type and Autocomplete: https://github.com/rtfd/readthedocs.org/issues/504
+.. _Code Search: https://github.com/rtfd/readthedocs.org/issues/4289
+.. _Auto Removing from Search Index: https://github.com/rtfd/readthedocs.org/issues/2013
+.. _any kind of help is welcome: https://github.com/rtfd/readthedocs.org/issues/1088
+.. _File Search: https://readthedocs.org/search/?q=installation&type=file
+.. _Projects Search: https://readthedocs.org/search/?q=kuma&type=project
+.. _Doc Search API: https://readthedocs.org/api/v2/docsearch/?q=installation&project=docs&version=latest&language=en
+.. _Project Doc Search: https://readthedocs.org/projects/docs/search/?q=installation
