@@ -3,7 +3,7 @@
    :author: Safwan
    :location: DHA
 
-Search Improvements and GSoC Wrap-up
+Improved Search
 ==================================
 Have you ever used the search functionality inside documentations hosted by Read The Docs?
 Mostly yes. Search can always be improved and in the era of Search Engines, the
@@ -21,29 +21,21 @@ Read The Docs. Because of having a small core team, the search functionality
 of Read The Docs has lagged behind for quite a while now. Initially the search code
 was voluntarily contributed by `Rob Hudson`_,  `back in 2013`_ and then improved by other
 contributors. The time span and continuous technology growing made the search
-module got older and it had become outdated. The search infrastructure was already vulnerable
-as we were using `Elasticsearch 1.3.x`_ which was already reached its End of Life in 2016.
-Therefore, the upgradation of search infrastructure was badly needed.
+module got older and it had become outdated. Moreover The search infrastructure was already
+vulnerable as we were using `Elasticsearch 1.3.x`_ which was already reached its
+End of Life in 2016. Therefore, the upgradation of search infrastructure was badly needed.
 
 Google Summer of Code
 ~~~~~~~~~~~~~~~~~~~~~
 Google Summer of Code is a global program where students work with an open source organization
-on a 3 month programming project. Earlier this year, Read The Docs applied to become a Mentor
-Organization and was selected. The core team of Read The Docs proposed some `Project Ideas`_,
+on a 3 month programming project. The core team of Read The Docs proposed some `Project Ideas`_,
 one of them was **Refactor & improve our search code**. Our contributor (me) `Safwan Rahman`_,
 an undergraduate university student and open source contributor from Bangladesh was keen
 to get his hand dirty with Elasticsearch_ and grasped the opportunity to do so by applying
 for this project and got accepted.
 
-Initially the plan was to upgrade the search infrastructure from `Elasticsearch 1.3.x`_
-to `Elasticsearch 5.x`_, but later Safwan_ proposed the core team to upgrade to
-`Elasticsearch 6.x`_. The decision was quite challenging because `Elasticsearch 6.x has major changes`_
-that are not compatable with exisiting Read The Docs architecture. But the GSoC
-student Safwan_ and the core team was ambitious to rewrite the exisiting architecture from
-scratch to make it compatable with `Elasticsearch 6.x`_.
-
-As decided by the whole team, Safwan_ has worked full time for last 3 months to upgrade the
-whole codebase to compatable with `Elasticsearch 6.x`_ and also implemented various features
+Safwan_ has worked full time for last 3 months to upgrade the whole codebase
+to compatable with `Elasticsearch 6.x`_ and also implemented various features
 like `Exact Matching Search`_, `Case Insensitive Search`_, `Improved Result Order`_,
 `Zero Downtime Indexing`_ and many more. Together with this, he is willing to implement
 `Search as You Type and Autocomplete`_, `Code Search`_ and many more.  All of his search related work can be
@@ -116,6 +108,13 @@ There are 4 kind of search functionality in Read The Docs. The improvements are 
 
   - Before: 750 ms
   - After: 270 ms
+
+
+Code Improvements
+^^^^^^^^^^^^^^^^^
+Code quality is very much important in development world, specially in open source.
+As we have rewritten the search functionality from scratch, the code quality
+is improved in many ways. Please let us know if you are interested to contribute.
 
 .. _Rob Hudson: https://github.com/robhudson
 .. _back in 2013: https://github.com/rtfd/readthedocs.org/pull/493
