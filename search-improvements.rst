@@ -7,11 +7,36 @@ Improved Search
 ==================================
 Have you ever used the search functionality inside documentations hosted by Read The Docs?
 Mostly yes. Search can always be improved and in the era of Search Engines, the
-documentation search also plays a big role for the users. We have realized the importance,
-and got our GSoC student interested to take the challenge. The main goal was to refactor the
-search code together with upgrading the backend Search engine, as well as adding more features
-to the search functionality like exact match search, case insensitive search,
-search as you type, suggestions etc.
+documentation search also plays a big role for the users. The Read The Docs `core team`_
+has realized the importance, and got me to take the challenge as a Google Summer of Code student.
+The main goal of my GSoC project was to refactor the search code together with upgrading the backend
+Search engine, as well as adding more features to the search functionality like exact match search,
+case insensitive search, search as you type, suggestions etc.
+
+Google Summer of Code
+^^^^^^^^^^^^^^^^^^^^^
+Google Summer of Code is a global program where students work with an open source organization
+on a 3 month programming project. The core team of Read The Docs proposed some `Project Ideas`_,
+one of them was **Refactor & improve our search code**. I_, was keen to get my hand dirty with
+Elasticsearch_ and grasped the opportunity to do so by applying
+for this project and I got accepted.
+
+I have worked full time for last 3 months to upgrade the whole codebase
+to compatable with `Elasticsearch 6.x`_ and also implemented various features
+as like:
+
+- `Exact Matching Search`_
+- `Case Insensitive Search`_
+- `Improved Result Order`_,
+- `Zero Downtime Indexing`_
+
+Together with this, I am willing to implement more features like following:
+
+- `Search as You Type and Autocomplete`_
+- `Code Search`_ 
+
+All of my search related work can be looked in the `Search Project Board`_.
+
 
 Background
 ^^^^^^^^^^
@@ -22,32 +47,23 @@ of Read The Docs has lagged behind for quite a while now. Initially the search c
 was voluntarily contributed by `Rob Hudson`_,  `back in 2013`_ and then improved by other
 contributors. The time span and continuous technology growing made the search
 module got older and it had become outdated. Moreover The search infrastructure was already
-vulnerable as we were using `Elasticsearch 1.3.x`_ which was already reached its
+vulnerable as Read The Docs were using `Elasticsearch 1.3.x`_ which was already reached its
 End of Life in 2016. Therefore, the upgradation of search infrastructure was badly needed.
-
-Google Summer of Code
-~~~~~~~~~~~~~~~~~~~~~
-Google Summer of Code is a global program where students work with an open source organization
-on a 3 month programming project. The core team of Read The Docs proposed some `Project Ideas`_,
-one of them was **Refactor & improve our search code**. Our contributor (me) `Safwan Rahman`_,
-an undergraduate university student and open source contributor from Bangladesh was keen
-to get his hand dirty with Elasticsearch_ and grasped the opportunity to do so by applying
-for this project and got accepted.
-
-Safwan_ has worked full time for last 3 months to upgrade the whole codebase
-to compatable with `Elasticsearch 6.x`_ and also implemented various features
-like `Exact Matching Search`_, `Case Insensitive Search`_, `Improved Result Order`_,
-`Zero Downtime Indexing`_ and many more. Together with this, he is willing to implement
-`Search as You Type and Autocomplete`_, `Code Search`_ and many more.  All of his search related work can be
-looked in the `Search Project Board`_.
-
 
 Sphinx/MkDocs Built in Search vs Read The Docs Search
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-Sphinx/MkDocs already have built in search functionality. But the features are very limited and heavy.
+Sphinx/MkDocs already have built in search functionality. But the features are very limited.
 At Read The Docs, we have felt the limitations and therefore we index the documentations in our
-Elasticsearch_ index so that we can provide better results to the users. Currently, we do not index
-MkDocs documents to Elasticsearch_, but `any kind of help is welcome`_.
+Elasticsearch_ index so that we can provide better search experience like:
+
+- Search across multiple projects
+- Advance query syntex
+- Search inside subprojects
+- Improved search result order
+- Public Search API (Documentation pending)
+
+**Currently, we do not index MkDocs documents to** Elasticsearch_,
+but `any kind of help is welcome`_.
 
 New Features
 ^^^^^^^^^^^^
@@ -89,22 +105,22 @@ new search backend engine, we got 4x improved performance as well.
 
 There are 4 kind of search functionality in Read The Docs. The improvements are as following:
 
-- `File Search`_
+- `File Search`_: Search accross all the projects of Read The Docs.
 
   - Before: 1461 ms
   - After: 200 ms
 
-- `Projects Search`_
+- `Projects Search`_: Search for projects hosted in Read The Docs.
 
   - Before: 455 ms
   - After: 162 ms
 
-- `Doc Search API`_
+- `Doc Search API`_: The Public API which is used to perform search in documentation.
 
   - Before: 746 ms
   - After: 173 ms
 
-- `Project Doc Search`_
+- `Project Doc Search`_: Search inside a project documentations from readthedocs.org domain.
 
   - Before: 750 ms
   - After: 270 ms
@@ -113,8 +129,37 @@ There are 4 kind of search functionality in Read The Docs. The improvements are 
 Code Improvements
 ^^^^^^^^^^^^^^^^^
 Code quality is very much important in development world, specially in open source.
-As we have rewritten the search functionality from scratch, the code quality
-is improved in many ways. Please let us know if you are interested to contribute.
+As I have rewritten the search functionality from scratch, the code quality
+is improved in many ways like test coverage and documentations. So its easy for
+any contributor to start working on the search functionality
+
+Contributor Wanted
+^^^^^^^^^^^^^^^^^^
+As Read The Docs is an open source project backed by a small team of developers,
+most of them are busy to keep things up and running only. Therefore, its quite
+hard for them to take time to implement new features. If you know some bit of
+Django or Python and Elasticsearch, you can contribute into the search functionality
+of Read The Docs. If you need any support to start contributing, you can knock me or any
+member of  Read The Docs team. You can find all of us at `#readthedocs` freenode
+IRC channel or `readthedocs gitter`_ channel. I am `safwan` at IRC and `@safwanrahman`
+at gitter.
+
+Conclusion
+^^^^^^^^^^
+To conclude, I must say that the Search improvement in Read The Docs was very much 
+necessary and I could improve it in some extent in short amount of time. 
+There can be infinity number of ways it can be improved and I believe we can compete
+with major search engines in terms of documentation searching.
+As I have worked for only 3 months full time, some compelling features are left behind
+without implementing like `Search as You Type and Autocomplete`_,
+`Code Search`_ functionality. Moreover, proper documentation is needed for the search
+architecture. I have tried to write test cases for most of the scenario, but because of
+time constrains, a lot of code is out of test coverage. I strongly hope that
+we will get the left behind work done within a short amount of time. This can be done
+easily if we get more contributors donate their time for improving Read The Docs.
+We dont need superhero or coding guru, just need people who understand Python/Django and
+Elasticsearch and have some time to write some code for us. You are **SuperHero** to us
+if you can lend your time and effort to improve Read The Docs.
 
 .. _Rob Hudson: https://github.com/robhudson
 .. _back in 2013: https://github.com/rtfd/readthedocs.org/pull/493
@@ -124,8 +169,7 @@ is improved in many ways. Please let us know if you are interested to contribute
 .. _Elasticsearch 6.x: https://www.elastic.co/guide/en/elasticsearch/reference/6.3/index.html
 .. _Elasticsearch 6.x has major changes: https://www.elastic.co/guide/en/elasticsearch/reference/current/release-notes-6.0.0.html
 .. _Project Ideas: https://git.io/fN9GK
-.. _Safwan Rahman: https://github.com/safwanrahman
-.. _Safwan: https://github.com/safwanrahman
+.. _I: https://github.com/safwanrahman
 .. _Elasticsearch document: https://www.elastic.co/guide/en/elasticsearch/guide/current/document.html
 .. _Search Project Board: https://github.com/orgs/rtfd/projects/3
 .. _Exact Matching Search: https://github.com/rtfd/readthedocs.org/issues/2457
@@ -141,3 +185,5 @@ is improved in many ways. Please let us know if you are interested to contribute
 .. _Projects Search: https://readthedocs.org/search/?q=kuma&type=project
 .. _Doc Search API: https://readthedocs.org/api/v2/docsearch/?q=installation&project=docs&version=latest&language=en
 .. _Project Doc Search: https://readthedocs.org/projects/docs/search/?q=installation
+.. _readthedocs gitter: https://gitter.im/rtfd/readthedocs.org
+.. _core team: https://docs.readthedocs.io/en/latest/team.html#development-team
