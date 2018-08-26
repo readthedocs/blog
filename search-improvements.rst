@@ -17,7 +17,7 @@ Google Summer of Code
 ^^^^^^^^^^^^^^^^^^^^^
 Google Summer of Code is a global program where students work with an open source organization
 on a 3 month programming project. The core team of Read The Docs proposed some `Project Ideas`_,
-one of them was **Refactor & improve our search code**. I_, was keen to get my hand dirty with
+one of them was **Refactor & improve our search code**. I (`Safwan Rahman`_) was keen to get my hand dirty with
 Elasticsearch_ and grasped the opportunity to do so by applying
 for this project and I got accepted.
 
@@ -169,7 +169,7 @@ if you can lend your time and effort to improve Read The Docs.
 .. _Elasticsearch 6.x: https://www.elastic.co/guide/en/elasticsearch/reference/6.3/index.html
 .. _Elasticsearch 6.x has major changes: https://www.elastic.co/guide/en/elasticsearch/reference/current/release-notes-6.0.0.html
 .. _Project Ideas: https://git.io/fN9GK
-.. _I: https://github.com/safwanrahman
+.. _Safwan Rahman: https://github.com/safwanrahman
 .. _Elasticsearch document: https://www.elastic.co/guide/en/elasticsearch/guide/current/document.html
 .. _Search Project Board: https://github.com/orgs/rtfd/projects/3
 .. _Exact Matching Search: https://github.com/rtfd/readthedocs.org/issues/2457
