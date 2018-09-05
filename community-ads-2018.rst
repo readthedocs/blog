@@ -12,8 +12,6 @@ to projects, conferences, and other initiatives in the open source community.
 Many of these projects operate as Read the Docs did in the past with little to no income.
 These are not groups that traditionally have the resources to use paid advertising.
 
-
-
 .. _ethical advertising: https://docs.readthedocs.io/en/latest/advertising/ethical-advertising.html
 
 
@@ -33,7 +31,7 @@ We have run ads for:
 Get in touch. We can help!
 --------------------------
 
-If you run a non-profit or operate a funding strapped open source project,
+If you run a conference, non-profit, or a funding strapped open source project,
 we would love to help you get the word out.
 Make sure you qualify for our `community ads`_ and `send us an email`_
 to be considered for the program.
