@@ -1,4 +1,4 @@
-.. post:: September 12, 2018
+.. post:: September 6, 2018
    :tags: advertising, community, updates, community ads
    :author: David
    :location: SAN
