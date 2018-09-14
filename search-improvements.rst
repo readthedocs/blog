@@ -5,13 +5,13 @@
 
 Improved Search
 ==================================
-Have you ever used the search functionality inside documentations hosted by Read The Docs?
-Mostly yes. Search can always be improved and in the era of Search Engines, the
-documentation search also plays a big role for the users. The Read The Docs `core team`_
-has realized the importance, and got me to take the challenge as a Google Summer of Code student.
+Have you ever struggled with a poorly documented software project?
+What about a well documented project but you can't find the right section inside the docs?
+The Read the Docs `core team`_ has realized the importance of good search for documentation
+and got me to take the challenge as a Google Summer of Code student.
 The main goal of my GSoC project was to refactor the search code together with upgrading the backend
-Search engine, as well as adding more features to the search functionality like exact match search,
-case insensitive search, search as you type, suggestions etc.
+search engine, as well as adding more features to our search functionality like exact match search,
+case insensitive search, search as you type, suggestions and more.
 
 Google Summer of Code
 ^^^^^^^^^^^^^^^^^^^^^
@@ -22,8 +22,7 @@ Elasticsearch_ and grasped the opportunity to do so by applying
 for this project and I got accepted.
 
 I have worked full time for last 3 months to upgrade the whole codebase
-to compatable with `Elasticsearch 6.x`_ and also implemented various features
-as like:
+to compatible with `Elasticsearch 6.x`_ and also implemented various features like:
 
 - `Exact Matching Search`_
 - `Case Insensitive Search`_
@@ -35,44 +34,43 @@ Together with this, I am willing to implement more features like following:
 - `Search as You Type and Autocomplete`_
 - `Code Search`_ 
 
-All of my search related work can be looked in the `Search Project Board`_.
+All of my search related work can be seen in the `Search Project Board`_.
 
 
 Background
 ^^^^^^^^^^
-Search is a vital part of any documentation hosting platform as people can get the
-information they need. As a documentation hosting platform, same rule applies for
+Search is a vital part of any documentation hosting platform, so people can get the
+information they need. As a documentation hosting platform, the same rules apply to
 Read The Docs. Because of having a small core team, the search functionality
 of Read The Docs has lagged behind for quite a while now. Initially the search code
 was voluntarily contributed by `Rob Hudson`_,  `back in 2013`_ and then improved by other
-contributors. The time span and continuous technology growing made the search
-module got older and it had become outdated. Moreover The search infrastructure was already
-vulnerable as Read The Docs were using `Elasticsearch 1.3.x`_ which was already reached its
+contributors. The search infrastructure was already outdated as
+Read The Docs were using `Elasticsearch 1.3.x`_ which was already reached its
 End of Life in 2016. Therefore, the upgradation of search infrastructure was badly needed.
 
-Sphinx/MkDocs Built in Search vs Read The Docs Search
+Built in Search vs Read The Docs Search
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-Sphinx/MkDocs already have built in search functionality. But the features are very limited.
+Both Sphinx and MkDocs already have built in search functionality. But the features are very limited.
 At Read The Docs, we have felt the limitations and therefore we index the documentations in our
 Elasticsearch_ index so that we can provide better search experience like:
 
 - Search across multiple projects
-- Advance query syntex
+- Advanced query syntax
 - Search inside subprojects
 - Improved search result order
 - Public Search API (Documentation pending)
 
-**Currently, we do not index MkDocs documents to** Elasticsearch_,
+**Currently, we do not index MkDocs documents with** Elasticsearch_,
 but `any kind of help is welcome`_.
 
 New Features
 ^^^^^^^^^^^^
-The number of features that can be included in Search is infinity. There are always way to improve.
-In the 3 months of full time work, our GSoC student have implemented couple of features including
+In the 3 months of full time work, I have implemented couple of features including
 many bug fixes. Some of the major features are as following:
 
-- `Exact Matching Search`_: Its a highly needed feature for Read The Docs. Now you can search for
-  exact word in documentations by having your query inside quotation (`""`). So if you search
+- `Exact Matching Search`_: Exact matching is one of our most highly requested
+  features for Read the Docs. Now you can search for exact word in documentations
+  by having your query inside quotation (`""`). So if you search
   for `"Here is foo"` (with the quotation), you will get all the documentations where the full
   `Here is foo` phrase exist.
 
@@ -99,13 +97,13 @@ many bug fixes. Some of the major features are as following:
 
 Performance Improvements
 ^^^^^^^^^^^^^^^^^^^^^^^^
-Performance is always improtant for search. Because of our search was fast enough,
+Performance is always important for search. Because our search was fast enough,
 we did not focus to improve the performance. As we have rewritten all the codes with
 new search backend engine, we got 4x improved performance as well.
 
 There are 4 kind of search functionality in Read The Docs. The improvements are as following:
 
-- `File Search`_: Search accross all the projects of Read The Docs.
+- `File Search`_: Search across all the projects of Read The Docs.
 
   - Before: 1461 ms
   - After: 200 ms
@@ -133,14 +131,14 @@ As I have rewritten the search functionality from scratch, the code quality
 is improved in many ways like test coverage and documentations. So its easy for
 any contributor to start working on the search functionality
 
-Contributor Wanted
+Contributors Wanted
 ^^^^^^^^^^^^^^^^^^
 As Read The Docs is an open source project backed by a small team of developers,
 most of them are busy to keep things up and running only. Therefore, its quite
 hard for them to take time to implement new features. If you know some bit of
 Django or Python and Elasticsearch, you can contribute into the search functionality
-of Read The Docs. If you need any support to start contributing, you can knock me or any
-member of  Read The Docs team. You can find all of us at `#readthedocs` freenode
+of Read The Docs. If you need any support to start contributing, you can get in touch with
+me or any member of  Read The Docs team. You can find all of us at `#readthedocs` freenode
 IRC channel or `readthedocs gitter`_ channel. I am `safwan` at IRC and `@safwanrahman`
 at gitter.
 
@@ -148,17 +146,19 @@ Conclusion
 ^^^^^^^^^^
 To conclude, I must say that the Search improvement in Read The Docs was very much 
 necessary and I could improve it in some extent in short amount of time. 
-There can be infinity number of ways it can be improved and I believe we can compete
+There are an infinite number of ways it can be improved and I believe we can compete
 with major search engines in terms of documentation searching.
-As I have worked for only 3 months full time, some compelling features are left behind
-without implementing like `Search as You Type and Autocomplete`_,
+Due to the constraints of only working for three months,
+a number of compelling features were left out such as `Search as You Type and Autocomplete`_ and
 `Code Search`_ functionality. Moreover, proper documentation is needed for the search
 architecture. I have tried to write test cases for most of the scenario, but because of
-time constrains, a lot of code is out of test coverage. I strongly hope that
-we will get the left behind work done within a short amount of time. This can be done
-easily if we get more contributors donate their time for improving Read The Docs.
-We dont need superhero or coding guru, just need people who understand Python/Django and
-Elasticsearch and have some time to write some code for us. You are **SuperHero** to us
+time constrains, a lot of code is out of test coverage.
+
+
+I strongly hope that we will get the left behind work done within a short amount of time.
+This can be done easily if we get more contributors donate their time for improving Read The Docs.
+We dont need superhero or coding guru, just need people who understand Python, Django and
+Elasticsearch and have some time to write some code for us. You are **Superhero** to us
 if you can lend your time and effort to improve Read The Docs.
 
 .. _Rob Hudson: https://github.com/robhudson
