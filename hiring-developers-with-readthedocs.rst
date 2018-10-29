@@ -24,7 +24,11 @@ by browsing job boards or company careers pages.
 However, they are on Read the Docs reading about the libraries and frameworks they use.
 Even when people aren't actively looking for a new job,
 many are open to exploring new opportunities.
-We found that developers engage with hiring ads at a higher rate than any other kind of advertising.
+
+On Read the Docs, we found that developers engage with hiring ads
+at a higher rate than any other kind of advertising.
+With hiring ads, developers get ads that are relevant and interesting
+and companies reach the folks actively using the tech they are recruiting for.
 
 .. figure:: img/2018-ctr-adtype.png
    :alt: Click-through rate by ad type Q3 2018
