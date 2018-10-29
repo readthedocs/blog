@@ -1,4 +1,4 @@
-.. post:: November 1, 2018
+.. post:: October 30, 2018
    :tags: advertising, sustainability, hiring
    :author: David
    :location: SAN
