@@ -4,7 +4,7 @@
 Read the Docs 2018 Stats
 ========================
 
-2017 was another good year for Read the Docs.
+2018 was another good year for Read the Docs.
 We've settled into a sustainability model that is working for us,
 and have a team of 5 folks working full-time on the project.
 
