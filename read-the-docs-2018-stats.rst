@@ -61,6 +61,10 @@ This year, we had:
 * 3774 `commits`_ (up from 1058)
 * 797 `issues`_ - 189 open, 608 closed (up from 513)
 
+You can see the number of commits and issues has gone up quite a bit.
+This is largely because of the additional staffing we have had on the project,
+allowing us to be more active to both our users and to release more features.
+
 .. git rev-list --count --all --after="2017-12-31" --before="2019-01-01"
 
 .. _people: https://github.com/rtfd/readthedocs.org/graphs/contributors?from=2018-01-01&to=2018-12-31&type=c
@@ -82,9 +86,7 @@ We were :doc:`added to the Acceptable Ads <ad-blocker-update>` list later in the
 which regained around half of our lost revenue.
 So for the second half of the year we lost around 15% of revenue from advertising.
 
-We now have 5 full-time people working on the project.
-This has made it feel like we're able to move forward,
-instead of simply fighting to stay in the same place.
+This funding allowed us to expand from 4 to 5 full-time folks working on the project.
 
 We also moved hosting to Azure_ this year in August from Rackspace_,
 who both have sponsored our hosting.
