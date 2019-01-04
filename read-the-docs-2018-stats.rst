@@ -36,13 +36,7 @@ Our stats:
 
 .. From Google Analytics
 
-These numbers are not as accurate this year as in the past,
-because we have :doc:`implemented Do Not Track support </do-not-track>` to our Google Analytics setup.
-So we're losing a non-trivial number of users in that 
-
-We however remain one of the `largest sites`_ on the internet.
-
-.. _largest sites: http://www.alexa.com/siteinfo/readthedocs.io
+These numbers are not as accurate in the past, since we :doc:`implemented Do Not Track support </do-not-track>` in May, our analytics pageview figures understate our actual traffic.
 
 Site Stats
 ----------
@@ -80,6 +74,13 @@ Funding
     * $300,000 from advertising
     * $85,000 from commercial activities on readthedocs.com
     * $15,000 from donations
+
+The biggest impact to our revenue this year was :doc:`our ads being blocked <ads-and-adblocking>`.
+This happened in May,
+and caused an initial 32% of our ad revenue to disappear.
+We were :doc:`added to the Acceptable Ads <ad-blocker-update>` list later in the month,
+which regained around half of our lost revenue.
+So for the second half of the year we lost around 15% of revenue from advertising.
 
 We now have 5 full-time people working on the project.
 This has made it feel like we're able to move forward,
