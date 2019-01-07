@@ -87,6 +87,10 @@ which regained around half of our revenue.
 So for the second half of the year,
 our ad revenue was down about 15%.
 
+We are also exploring sharing revenue with our documentation authors.
+There are currently 3 projects enrolled in a revenue share,
+and we're hoping to expand that in 2019 to better support open source projects.
+
 This funding allowed us to expand from 4 to 5 full-time folks working on the project.
 
 We also moved hosting to Azure_ this year in August from Rackspace_,
