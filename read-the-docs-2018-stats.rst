@@ -81,10 +81,11 @@ Funding
 
 The biggest impact to our revenue this year was :doc:`our ads being blocked <ads-and-adblocking>`.
 This happened in May,
-and caused an initial 32% of our ad revenue to disappear.
+and caused an initial 32% reduction in our ad revenue.
 We were :doc:`added to the Acceptable Ads <ad-blocker-update>` list later in the month,
-which regained around half of our lost revenue.
-So for the second half of the year we lost around 15% of revenue from advertising.
+which regained around half of our revenue.
+So for the second half of the year,
+our ad revenue was down about 15%.
 
 This funding allowed us to expand from 4 to 5 full-time folks working on the project.
 
@@ -93,7 +94,6 @@ who both have sponsored our hosting.
 
 .. _Rackspace: http://rackspace.com/
 .. _Azure: https://azure.microsoft.com/en-us/
-.. _Ethical Advertising: http://docs.readthedocs.io/en/latest/ethical-advertising.html
 
 Conclusion
 ----------
