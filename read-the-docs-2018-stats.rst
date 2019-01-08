@@ -79,9 +79,9 @@ Funding
 -------
 
 * $294,000 in revenue from readthedocs.org (up from $218,000, 35%)
-    * $278,000 from advertising (up 59%)
-    * $16,000 from Gold users (up 16%)
-    * We have additional revenue from our commercial offering at readthedocs.com, but aren't including that in our community funding overview
+* $278,000 from advertising (up 59%)
+* $16,000 from Gold users (up 16%)
+* We have additional revenue from our commercial offering at readthedocs.com, but aren't including that in our community funding overview
 
 The biggest impact to our revenue this year was :doc:`our ads being blocked <ads-and-adblocking>`.
 This happened in May,
