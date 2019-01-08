@@ -51,7 +51,7 @@ The stats, in total numbers:
 * 155,000 users (up from 103k, 50%)
 
 We have been battling spam quite heavily again this year,
-so these numbers might be a bit skewed.
+so these numbers are a bit skewed.
 
 .. Project.objects.count()
 .. User.objects.count()
