@@ -31,8 +31,8 @@ Page Views
 
 Our stats:
 
-* 400 Million Page Views (up from 338M)
-* 77 Million Unique Visitors (up from 75M)
+* 400 Million Page Views (up from 338M, 18%)
+* 77 Million Unique Visitors (up from 75M, 3%)
 
 .. From Google Analytics
 
@@ -43,8 +43,8 @@ Site Stats
 
 The stats, in total numbers:
 
-* 100,000 projects (up from 77k)
-* 155,000 users (up from 103k)
+* 100,000 projects (up from 77k, 30%)
+* 155,000 users (up from 103k, 50%)
 
 We have been battling spam quite heavily again this year,
 so these numbers might be a bit skewed.
@@ -57,9 +57,9 @@ Community
 
 This year, we had:
 
-* 28 `people`_ who committed code to the main repository (up from 23)
-* 3774 `commits`_ (up from 1058)
-* 797 `issues`_ - 189 open, 608 closed (up from 513)
+* 28 `people`_ who committed code to the main repository (up from 23, 22%)
+* 3774 `commits`_ (up from 1058, 257%)
+* 797 `issues`_ - 189 open, 608 closed (up from 513, 55%)
 
 You can see the number of commits and issues has gone up quite a bit.
 This is largely because of the additional staffing we have had on the project,
@@ -74,10 +74,10 @@ allowing us to be more active to both our users and to release more features.
 Funding
 -------
 
-* $294,000 in revenue from readthedocs.org (up from $250,000)
+* $294,000 in revenue from readthedocs.org (up from $218,000, 35%)
     * $278,000 from advertising (up 59%)
     * $16,000 from Gold users (up 16%)
-    * We have additional revenue from our commercial offering at readthedocs.com, but aren't including that currently.
+    * We have additional revenue from our commercial offering at readthedocs.com, but aren't including that in our community funding overview
 
 The biggest impact to our revenue this year was :doc:`our ads being blocked <ads-and-adblocking>`.
 This happened in May,
