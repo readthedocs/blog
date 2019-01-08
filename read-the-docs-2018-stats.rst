@@ -91,6 +91,10 @@ We are also exploring sharing revenue with our documentation authors.
 There are currently 3 projects enrolled in a revenue share,
 and we're hoping to expand that in 2019 to better support open source projects.
 
+
+The project is now on firm finaicial footing.
+We have a cash reserve that will allow us to pay all of our staff for 3 months in the event of a loss of revenue,
+which allows us to be more aggressive with our revenue going forward. 
 This funding allowed us to expand from 4 to 5 full-time folks working on the project.
 
 We also moved hosting to Azure_ this year in August from Rackspace_,
