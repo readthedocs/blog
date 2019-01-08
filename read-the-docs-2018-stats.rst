@@ -4,7 +4,7 @@
 Read the Docs 2018 Stats
 ========================
 
-2018 was another good year for Read the Docs.
+2018 was another good year for `Read the Docs`_.
 We've settled into a sustainability model that is working for us,
 and have a team of 5 folks working full-time on the project.
 
@@ -19,12 +19,14 @@ as well as our source code.
 
 	Our posts from 2013_, 2014_, 2015_, 2016_, and 2017_ are also available.
 
+.. _Read the Docs: https://readthedocs.org/
 .. _30 days: http://www.seethestats.com/site/readthedocs.org
 .. _2013: https://blog.readthedocs.com/read-the-docs-2013-stats/
 .. _2014: https://blog.readthedocs.com/read-the-docs-2014-stats/
 .. _2015: https://blog.readthedocs.com/read-the-docs-2015-stats/
 .. _2016: https://blog.readthedocs.com/read-the-docs-2016-stats/
 .. _2017: https://blog.readthedocs.com/read-the-docs-2017-stats/
+
 
 Page Views
 ----------
@@ -36,7 +38,9 @@ Our stats:
 
 .. From Google Analytics
 
-These numbers are not as accurate in the past, since we :doc:`implemented Do Not Track support </do-not-track>` in May, our analytics pageview figures understate our actual traffic.
+These numbers are not completely accurate, since we :doc:`implemented Do Not Track support </do-not-track>` in May, our analytics pageview figures understate our actual traffic.
+We estimate that around 6% of users are not counted here.
+We also don't count all the users who block Google Analytics with a browser extension.
 
 Site Stats
 ----------
@@ -113,6 +117,3 @@ and we're committing way more code and dealing with a much larger number of user
 
 It feels like success to be able to properly support our community by improving the product,
 while creating a business model that we can be proud of.
-
-.. _Read the Docs: https://readthedocs.org/
-
