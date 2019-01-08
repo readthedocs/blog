@@ -95,7 +95,6 @@ We are also exploring sharing revenue with our documentation authors.
 There are currently 3 projects enrolled in a revenue share,
 and we're hoping to expand that in 2019 to better support open source projects.
 
-
 The project is now on firm financial footing.
 We have a cash reserve that will allow us to pay all of our staff for more than 3 months in the event of a loss of revenue,
 which allows us to be more flexible with our revenue going forward. 
