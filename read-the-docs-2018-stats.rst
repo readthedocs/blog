@@ -1,4 +1,4 @@
-.. post:: Jan 7, 2019
+.. post:: Jan 8, 2019
    :tags: stats, year-in-review
 
 Read the Docs 2018 Stats
