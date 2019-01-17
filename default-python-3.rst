@@ -1,5 +1,6 @@
 .. post:: Jan 11th, 2019
    :author: Anthony
+   :tags: python
 
 Defaulting to Python 3
 ======================
