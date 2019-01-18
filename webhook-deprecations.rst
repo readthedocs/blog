@@ -6,12 +6,20 @@ Incoming Webhook Deprecations
 =============================
 
 In the coming weeks and months, Read the Docs will be moving some projects away
-from our legacy incoming webhooks. About 2 years ago, these incoming webhooks
-were replaced with project webhook integrations, at which point we improved
-security and added several features to these incoming webhooks. New projects
-have been using these integrations by default since, but it's possible that
-your project is still using these deprecated incoming webhooks if your project
-was configured on Read the Docs more than 2 years ago.
+from our legacy incoming webhooks, towards our per-project webhook integrations.
+
+Our legacy incoming webhooks were our first attempt at allowing providers like
+GitHub to automatically trigger builds on for projects on Read the Docs. These
+webhooks lacked a number of security features, and so, about two years ago, we
+replaced these with per-project webhook integrations instead. We added a number
+of features to per-project webhook integrations at the time, and we stopped new
+projects from using the old incoming webhooks.
+
+It's possible that your project is still using these deprecated incoming
+webhooks if your project was configured on Read the Docs more than two years
+ago. If your project does not have an webhook integrations under the
+**Integrations** section of your project's admin dashboard, you might be using
+these legacy incoming webhooks.
 
 In order to continue building automatically, projects should reconfigure their
 repository to use a new project webhook integration instead. For more
