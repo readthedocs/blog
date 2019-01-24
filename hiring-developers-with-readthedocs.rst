@@ -82,4 +82,4 @@ and helps you appeal to people who care about your products and mission.
 
     `Find qualified candidates`_ already using your tech by promoting your job openings with Read the Docs.
 
-    .. _Find qualified candidates: https://readthedocs.org/sustainability/advertising/recruiting/
+    .. _Find qualified candidates: https://readthedocs.org/sustainability/advertising/recruiting/?utm_medium=referral&utm_source=readthedocs-blog&utm_campaign=hire-developers
