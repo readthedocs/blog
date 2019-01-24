@@ -78,6 +78,9 @@ Focusing on your best attributes shows you care about your developers
 and helps you appeal to people who care about your products and mission.
 
 
-**If your company is recruiting** `get in touch`_ **and let us help.**
+.. admonition:: Is your company hiring?
 
-.. _get in touch: mailto:ads@readthedocs.org
+    `Learn more`_ about how Read the Docs can promote your job openings to qualified candidates
+    who are already building great software using your tech stack.
+
+    .. _Learn more: https://readthedocs.org/sustainability/advertising/recruiting/
