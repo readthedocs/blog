@@ -14,7 +14,7 @@ search engine, as well as adding more features to our search functionality like 
 case insensitive search, search as you type, suggestions and more.
 
 Google Summer of Code
-^^^^^^^^^^^^^^^^^^^^^
+^^^^^^^^^^^^^^^^^^^^^ Contributors Wanted
 Google Summer of Code is a global program where students work with an open source organization
 on a 3 month programming project. The core team of Read The Docs proposed some `Project Ideas`_,
 one of them was **Refactor & improve our search code**. I (`Safwan Rahman`_) was keen to get my hand dirty with
@@ -29,7 +29,7 @@ to compatible with `Elasticsearch 6.x`_ and also implemented various features li
 - `Improved Result Order`_,
 - `Zero Downtime Indexing`_
 
-Together with this, I am willing to implement more features like following:
+Together with this, I am willing to implement more features like the following:
 
 - `Search as You Type and Autocomplete`_
 - `Code Search`_ 
@@ -46,7 +46,7 @@ of Read The Docs has lagged behind for quite a while now. Initially the search c
 was voluntarily contributed by `Rob Hudson`_,  `back in 2013`_ and then improved by other
 contributors. The search infrastructure was already outdated as
 Read The Docs were using `Elasticsearch 1.3.x`_ which was already reached its
-End of Life in 2016. Therefore, the upgradation of search infrastructure was badly needed.
+End of Life in 2016. Therefore, Upgrading the search infrastructure was badly needed.
 
 Built in Search vs Read The Docs Search
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -65,32 +65,32 @@ but `any kind of help is welcome`_.
 
 New Features
 ^^^^^^^^^^^^
-In the 3 months of full time work, I have implemented couple of features including
+In the 3 months of full time work, I have implemented a couple of features including
 many bug fixes. Some of the major features are as following:
 
 - `Exact Matching Search`_: Exact matching is one of our most highly requested
-  features for Read the Docs. Now you can search for exact word in documentations
-  by having your query inside quotation (`""`). So if you search
-  for `"Here is foo"` (with the quotation), you will get all the documentations where the full
-  `Here is foo` phrase exist.
+  features for Read the Docs. Now you can search for exact word in documentation
+  by having your query inside quotation (``""``). So if you search
+  for ``"Here is foo"`` (with the quotation), you will get all the documentation where the full
+  ``Here is foo`` phrase exists.
 
 - Simple Query String Syntax support: Now you can use `Simple Query String Syntax`_ for
-  searching. For example, if you search with `Mozilla +-Firefox`, you will get documentations
-  where the `Mozilla` word is present, but `Firefox` word is not present.
-  For more information, you can look at `Simple Query String Syntax`_ documentation.
+  searching. For example, if you search with ``Mozilla +-Firefox``, you will get documentation
+  where the ``Mozilla`` word is present, but ``Firefox`` word is not present.
+  For more information, you can look at the `Simple Query String Syntax`_ documentation.
 
 - `Case Insensitive Search`_: The search is now case insensitive. So if you search for `Foo`,
-  you will get all the documentations which have one of either `Foo`, `FOO`, `foo` or `fOO`.
+  you will get all the documentation which have one of either ``Foo``, ``FOO``, ``foo`` or ``fOO``.
 
 - `Improved Result order`_: The result order is improved dramatically. Therefore if you Search
-  with `Foo Bar`, you will first see the documentations which have both `Foo Bar`, then
-  you will see other documentations which have either `Foo` or `Bar`
+  with ``Foo Bar``, you will first see the documentation which have both ``Foo Bar``, then
+  you will see other documentation which have either ``Foo`` or ``Bar``
 
-- `Auto Removing from Search Index`_: In the past, if any page got removed from documentations,
-  the page was still available in documentations. But from now on, the page will be removed
+- `Auto Removing from Search Index`_: In the past, if any page got removed from documentation,
+  the page was still available in documentation. But from now on, the page will be removed
   automatically from the search index as soon as its no longer in the documentation.
 
-- `Zero Downtime Indexing`_: As search is a important part of documentation, there will be no
+- `Zero Downtime Indexing`_: As search is an important part of documentation, there will be no
   downtime while we reindex our Elasticsearch Index. So the search will be much more reliable
   than before.
 
@@ -98,7 +98,7 @@ many bug fixes. Some of the major features are as following:
 Performance Improvements
 ^^^^^^^^^^^^^^^^^^^^^^^^
 Performance is always important for search. Because our search was fast enough,
-we did not focus to improve the performance. As we have rewritten all the codes with
+we did not focus to improve the performance. As we have rewritten all the code with
 new search backend engine, we got 4x improved performance as well.
 
 There are 4 kind of search functionality in Read The Docs. The improvements are as following:
@@ -126,13 +126,13 @@ There are 4 kind of search functionality in Read The Docs. The improvements are 
 
 Code Improvements
 ^^^^^^^^^^^^^^^^^
-Code quality is very much important in development world, specially in open source.
+Code quality is very important in development world, specially in open source.
 As I have rewritten the search functionality from scratch, the code quality
-is improved in many ways like test coverage and documentations. So its easy for
+is improved in many ways like test coverage and documentation. So its easy for
 any contributor to start working on the search functionality
 
 Contributors Wanted
-^^^^^^^^^^^^^^^^^^
+^^^^^^^^^^^^^^^^^^^
 As Read The Docs is an open source project backed by a small team of developers,
 most of them are busy to keep things up and running only. Therefore, its quite
 hard for them to take time to implement new features. If you know some bit of
@@ -144,7 +144,7 @@ at gitter.
 
 Conclusion
 ^^^^^^^^^^
-To conclude, I must say that the Search improvement in Read The Docs was very much 
+To conclude, I must say that the Search improvement in Read The Docs was very
 necessary and I could improve it in some extent in short amount of time. 
 There are an infinite number of ways it can be improved and I believe we can compete
 with major search engines in terms of documentation searching.
@@ -158,7 +158,7 @@ time constrains, a lot of code is out of test coverage.
 I strongly hope that we will get the left behind work done within a short amount of time.
 This can be done easily if we get more contributors donate their time for improving Read The Docs.
 We dont need superhero or coding guru, just need people who understand Python, Django and
-Elasticsearch and have some time to write some code for us. You are **Superhero** to us
+Elasticsearch and have some time to write some code for us. You are a **Superhero** to us
 if you can lend your time and effort to improve Read The Docs.
 
 .. _Rob Hudson: https://github.com/robhudson
