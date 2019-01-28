@@ -48,12 +48,14 @@ blog_authors = {
     'Eric': ('Eric Holscher', 'http://ericholscher.com'),
     'Anthony': ('Anthony Johnson', 'http://ohess.org'),
     'David': ('David Fischer', ''),
+    'Santos': ('Santos Gallegos', ''),
 }
 blog_default_author = 'Eric'
 
 blog_locations = {
     'PDX': ('Portland, Oregon', 'http://www.portlandhikersfieldguide.org/'),
     'SAN': ('San Diego, CA', ''),
+    'CUE': ('Cuenca, Ecuador', ''),
 }
 blog_default_location = 'PDX'
 blog_feed_archives = True
