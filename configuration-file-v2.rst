@@ -8,7 +8,18 @@ New Configuration File
 
 We are happy to announce the new version of the `Read the Docs configuration file`_ (v2).
 
-.. _Read the Docs configuration file: http://docs.readthedocs.org/en/latest/config-file/v2
+.. _Read the Docs configuration file: https://docs.readthedocs.org/en/latest/config-file/v2
+
+.. code-block:: yaml
+
+   version: 2
+   python:
+     version: 3.7
+     install:
+       - requirements: docs/requirements.txt
+   sphinx:
+     configuration: docs/conf.py
+   formats: all
 
 If you are a recurrent Read the Docs user,
 chances are that you've configured your projects using a `.readthedocs.yml` file.
@@ -34,9 +45,44 @@ What did we change in the new version?
 New features
 ------------
 
-- Mkdocs support (previously it was only supported from the web interface).
+- MkDocs support (previously it was only supported from the web interface).
+
+.. code-block:: yaml
+
+   version: 2
+   mkdocs:
+     configuration: mkdocs.yml
+     fail_on_warning: true
+
 - Control over submodules, we don't always need them all to build our docs.
+
+.. code-block:: yaml
+
+   version: 2
+   submodules:
+     include:
+       - third-party/dependency
+     recursive: true
+
 - Support for multiple packages/requirements installations.
+
+.. code-block:: yaml
+
+   version: 2
+   python:
+     version: 3.7
+     install:
+       - requirements: docs/requirements.txt
+       - requirements: requirements.txt
+       - method: pip
+         path: package
+
+Future improvements
+-------------------
+
+- We are planning to support Pipfile in this version.
+- Show the current configuration used in each build.
+- Redirects
 
 Start using it
 --------------
