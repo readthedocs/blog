@@ -96,3 +96,14 @@ If you are using the v1, you can update to v2 following our `migration docs`_.
 If you have a problem using the configuration file, feel free to `file an issue`_.
 
 .. _`file an issue`: http://github.com/rtfd/readthedocs.org/issues
+
+Summer internship
+-----------------
+
+This project was part of my summer internship in Read the Docs,
+it was held at the same time as the Google Summer of Code (GSoC) project.
+
+Thanks to the `core team`_ (Anthony, David, Eric, and Manuel) for helping me in the process.
+Thanks to all contributors, sponsors, donors and users of Read the Docs to make the project sustainable.
+
+.. _core team: https://docs.readthedocs.io/en/latest/team.html#development-team
