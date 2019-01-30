@@ -117,3 +117,8 @@ strong {
 div.highlight pre {
     white-space: pre;
 }
+
+/* Remove the RTD flyout menu on the blog */
+.rst-versions.rst-badge {
+    display: none !important;
+}
