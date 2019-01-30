@@ -7,7 +7,7 @@
 Lessons From and For Hiring Managers
 ====================================
 
-Over the last four weeks, Eric Holscher and I did dozens of customer development interviews with engineering hiring managers.
+Over the last four weeks, the Read the Docs team did dozens of customer development interviews with engineering hiring managers.
 We wanted to learn more about hiring processes at various companies
 with the ultimate goal of building a product to help companies find developers.
 We talked to people looking for talent at five person companies all the way up to the biggest names in tech.
