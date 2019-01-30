@@ -13,7 +13,7 @@ with the ultimate goal of building a product to help companies find developers.
 We talked to people looking for talent at five person companies all the way up to the biggest names in tech.
 In this post, I am going to cover some of the common things we heard from hiring managers
 and **share some ways for hiring managers to improve their company's process**.
-In a week or two, I will write the second part to this blog with actionable tips
+In our next post in this series, I will write the second part to this blog with actionable tips
 for job seekers based on the same interviews.
 
 
