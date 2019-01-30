@@ -1,4 +1,4 @@
-.. post:: February 1, 2019
+.. post:: January 30, 2019
    :tags: advertising, sustainability, hiring
    :author: David
    :location: SAN
