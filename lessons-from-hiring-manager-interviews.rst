@@ -97,7 +97,7 @@ Recruiters can be worth it
 In each interview, we asked whether the company used recruiters or recruiting related services (eg. Hired, Triplebyte).
 Universally, hiring managers brought up how expensive recruiters are,
 but most of the people we talked to who had actually used recruiters in the past had a positive impression overall.
-Hiring takes a ton of time and typically takes it from senior folks at the company.
+Hiring takes a ton of time, typically from senior folks at the company.
 At smaller startups, that's frequently the CEO or CTO.
 Even though the price is high, recruiters who help speed that process along are worth it.
 
