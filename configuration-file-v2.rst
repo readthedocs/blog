@@ -24,7 +24,7 @@ We are happy to announce the new version of the `Read the Docs configuration fil
 If you are a recurrent Read the Docs user,
 chances are that you've configured your projects using a `.readthedocs.yml` file.
 
-Using the web interface is quickly,
+Using the web interface is quick,
 but the main advantages of using a configuration file over the web interface are:
 
 - Some settings are only available using a configuration file
