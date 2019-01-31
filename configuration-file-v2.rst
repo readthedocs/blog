@@ -28,7 +28,10 @@ Using the web interface is quick,
 but the main advantages of using a configuration file over the web interface are:
 
 - Some settings are only available using a configuration file
+  - We are moving away from using the web interface.
 - The settings are per version rather than per project.
+  - This would allow different versions of docs to be built with different versions of Python
+    or different requirements.
 - The settings live in your VCS.
 - Reproducible build environments over time.
 
@@ -53,6 +56,16 @@ New features
    mkdocs:
      configuration: mkdocs.yml
      fail_on_warning: true
+
+- More control over Sphinx.
+
+.. code-block:: yaml
+
+   version: 2
+   sphinx:
+      builder: html
+      configuration: docs/source/conf.py
+      fail_on_warning: true
 
 - Control over submodules, we don't always need them all to build our docs.
 
@@ -80,9 +93,9 @@ New features
 Future improvements
 -------------------
 
-- We are planning to support Pipfile in this version.
+- Pipfile support
 - Show the current configuration used in each build.
-- Redirects
+- Redirects per version of your docs.
 
 Start using it
 --------------
