@@ -27,12 +27,17 @@ chances are that you've configured your projects using a `.readthedocs.yml` file
 Using the web interface is quick,
 but the main advantages of using a configuration file over the web interface are:
 
-- Some settings are only available using a configuration file
-  - We are moving away from using the web interface.
+- Some settings are only available using a configuration file.
+
+We are moving away from using the web interface.
+
 - The settings are per version rather than per project.
-  - This would allow different versions of docs to be built with different versions of Python
-    or different requirements.
+   
+This would allow different versions of docs to be built with different versions of Python
+or different requirements.
+
 - The settings live in your VCS.
+
 - Reproducible build environments over time.
 
 What did we change in the new version?
