@@ -14,7 +14,7 @@ search engine, as well as adding more features to our search functionality like 
 case insensitive search, search as you type, suggestions and more.
 
 Google Summer of Code
-^^^^^^^^^^^^^^^^^^^^^ Contributors Wanted
+^^^^^^^^^^^^^^^^^^^^^
 Google Summer of Code is a global program where students work with an open source organization
 on a 3 month programming project. The core team of Read The Docs proposed some `Project Ideas`_,
 one of them was **Refactor & improve our search code**. I (`Safwan Rahman`_) was keen to get my hand dirty with
@@ -145,7 +145,7 @@ at gitter.
 Conclusion
 ^^^^^^^^^^
 To conclude, I must say that the Search improvement in Read The Docs was very
-necessary and I could improve it in some extent in short amount of time. 
+necessary and I'm glad I could improve it in such a short amount of time.
 There are an infinite number of ways it can be improved and I believe we can compete
 with major search engines in terms of documentation searching.
 Due to the constraints of only working for three months,
@@ -157,7 +157,7 @@ time constrains, a lot of code is out of test coverage.
 
 I strongly hope that we will get the left behind work done within a short amount of time.
 This can be done easily if we get more contributors donate their time for improving Read The Docs.
-We dont need superhero or coding guru, just need people who understand Python, Django and
+We don't need superhero or coding guru, just need people who understand Python, Django and
 Elasticsearch and have some time to write some code for us. You are a **Superhero** to us
 if you can lend your time and effort to improve Read The Docs.
 
