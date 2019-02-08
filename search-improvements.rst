@@ -17,7 +17,7 @@ Google Summer of Code
 ^^^^^^^^^^^^^^^^^^^^^
 Google Summer of Code is a global program where students work with an open source organization
 on a 3 month programming project. The core team of Read The Docs proposed some `Project Ideas`_,
-one of them was **Refactor & improve our search code**. I (`Safwan Rahman`_) was keen to get my hand dirty with
+one of them was **Refactor & improve our search code**. I (`Safwan Rahman`_) was keen to get my hands dirty with
 Elasticsearch_ and grasped the opportunity to do so by applying
 for this project and I got accepted.
 
@@ -26,10 +26,10 @@ to compatible with `Elasticsearch 6.x`_ and also implemented various features li
 
 - `Exact Matching Search`_
 - `Case Insensitive Search`_
-- `Improved Result Order`_,
+- `Improved Result Order`_
 - `Zero Downtime Indexing`_
 
-Together with this, I am willing to implement more features like the following:
+Together with this, we are planning more features like the following:
 
 - `Search as You Type and Autocomplete`_
 - `Code Search`_ 
