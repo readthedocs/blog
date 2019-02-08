@@ -21,7 +21,7 @@ one of them was **Refactor & improve our search code**. I (`Safwan Rahman`_) was
 Elasticsearch_ and grasped the opportunity to do so by applying
 for this project and I got accepted.
 
-I have worked full time for last 3 months to upgrade the whole codebase
+I have worked full time for from April to August to upgrade the whole codebase
 to compatible with `Elasticsearch 6.x`_ and also implemented various features like:
 
 - `Exact Matching Search`_
@@ -65,7 +65,7 @@ but `any kind of help is welcome`_.
 
 New Features
 ^^^^^^^^^^^^
-In the 3 months of full time work, I have implemented these features along with 
+In the 4 months of full time work, I have implemented these features along with
 many bug fixes. Some of the major features are as following:
 
 - `Exact Matching Search`_: Exact matching is one of our most highly requested
@@ -93,35 +93,6 @@ many bug fixes. Some of the major features are as following:
 - `Zero Downtime Indexing`_: As search is an important part of documentation, there will be no
   downtime while we reindex our Elasticsearch Index. So the search will be much more reliable
   than before.
-
-
-Performance Improvements
-^^^^^^^^^^^^^^^^^^^^^^^^
-Performance is always important for search. Because our search was fast enough,
-we did not focus to improve the performance. As we have rewritten all the code with
-new search backend engine, we got 4x improved performance as well.
-
-There are 4 kind of search functionality in Read The Docs. The improvements are as following:
-
-- `File Search`_: Search across all the projects of Read The Docs.
-
-  - Before: 1461 ms
-  - After: 200 ms
-
-- `Projects Search`_: Search for projects hosted in Read The Docs.
-
-  - Before: 455 ms
-  - After: 162 ms
-
-- `Doc Search API`_: The Public API which is used to perform search in documentation.
-
-  - Before: 746 ms
-  - After: 173 ms
-
-- `Project Doc Search`_: Search inside a project documentations from readthedocs.org domain.
-
-  - Before: 750 ms
-  - After: 270 ms
 
 
 Code Improvements
@@ -181,9 +152,5 @@ if you can lend your time and effort to improve Read The Docs.
 .. _Code Search: https://github.com/rtfd/readthedocs.org/issues/4289
 .. _Auto Removing from Search Index: https://github.com/rtfd/readthedocs.org/issues/2013
 .. _any kind of help is welcome: https://github.com/rtfd/readthedocs.org/issues/1088
-.. _File Search: https://readthedocs.org/search/?q=installation&type=file
-.. _Projects Search: https://readthedocs.org/search/?q=kuma&type=project
-.. _Doc Search API: https://readthedocs.org/api/v2/docsearch/?q=installation&project=docs&version=latest&language=en
-.. _Project Doc Search: https://readthedocs.org/projects/docs/search/?q=installation
 .. _readthedocs gitter: https://gitter.im/rtfd/readthedocs.org
 .. _core team: https://docs.readthedocs.io/en/latest/team.html#development-team
