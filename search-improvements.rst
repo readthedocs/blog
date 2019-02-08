@@ -65,7 +65,7 @@ but `any kind of help is welcome`_.
 
 New Features
 ^^^^^^^^^^^^
-In the 3 months of full time work, I have implemented a couple of features including
+In the 3 months of full time work, I have implemented these features along with 
 many bug fixes. Some of the major features are as following:
 
 - `Exact Matching Search`_: Exact matching is one of our most highly requested
