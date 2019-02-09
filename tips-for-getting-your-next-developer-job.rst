@@ -70,10 +70,14 @@ or even just a couple questions
 in order to make their job filtering candidates easier
 and get candidates who want to work there not those who just want a job.
 
-.. figure:: img/2019-hiring-manager-phrases.png
-   :alt: Some of the phrases heard from hiring managers in our interviews
 
-   Some of the phrases heard from hiring managers in our interviews
+.. figure:: img/2019-duckduckgo-application-questions.png
+   :alt: Questions from the DuckDuckGo application process
+
+   Questions from the DuckDuckGo application process.
+   This is your place to stand out!
+   DuckDuckGo was **not** one of the companies we interviewed.
+
 
 All the companies we talked to said when they post a job they got tons of applicants,
 but that high quality, qualified applicants were still in short supply.
@@ -122,14 +126,6 @@ You're far more likely to get a response, move on to the interview process,
 and ultimately get hired.
 
 
-.. figure:: img/2019-duckduckgo-application-questions.png
-   :alt: Questions from the DuckDuckGo application process
-
-   Questions from the DuckDuckGo application process.
-   This is your place to stand out!
-   DuckDuckGo was **not** one of the companies we interviewed.
-
-
 Establishing contact with companies
 -----------------------------------
 
@@ -160,6 +156,12 @@ Places like the monthly HackerNews Who's Hiring thread are fantastic
 because they allow direct interaction with the hiring manager
 and many companies list a person's direct email to inquire about a position,
 learn more directly from the source, and show you're interested.
+
+
+.. figure:: img/2019-hiring-manager-phrases.png
+   :alt: Some of the phrases heard from hiring managers in our interviews
+
+   Some of the phrases heard from hiring managers in our interviews
 
 
 Conclusion
