@@ -15,12 +15,12 @@ with the ultimate goal of building `a product to help companies find developers`
 
 Last time, we covered some :doc:`tips for hiring managers <lessons-from-hiring-manager-interviews>`
 based on what companies told us they were doing.
-This time, we put together tips for candidates looking for their next job
+This time, we put together **tips for candidates looking for their next job**
 based on insights we heard from hiring managers.
 
-Rather than covering how to crack developer interviews
+Rather than covering how to crack developer interviews which is its own challenge
 or how to gain the necessary technical skills,
-these tips will focus on:
+these tips will focus on getting your foot in the door. Specifically:
 
 * Making your application stand out
 * Improving your application response rate
@@ -29,15 +29,25 @@ these tips will focus on:
 .. _a product to help companies find developers: https://readthedocs.org/sustainability/advertising/recruiting/?utm_medium=referral&utm_source=readthedocs-blog&utm_campaign=next-developer-job
 
 
+.. figure:: img/2019-facebook-job-opening.png
+   :alt: A Facebook job post on LinkedIn with almost 300 applications in 2 weeks
+
+   That's almost 300 applications in 2 weeks on just on one of the job sites where this is posted.
+
+
 When applying, go deep not wide
 -------------------------------
 
 As a candidate, there is a temptation to play the numbers game and apply to as many jobs as possible.
 Many jobs sites make it easy to apply to many jobs quickly and this gives you that feeling that your job search is progressing.
 
-Based on what hiring managers told us, this isn't the best approach.
+**Based on what hiring managers told us, playing the numbers game isn't the best approach.**
 While it is a bit of a job-seekers market, especially for more senior talent,
 companies are looking people who want to work for their company and who believe in their mission.
+
+.. pull-quote::
+
+    "I don't want candidates who drive by job sites and pepper every job they find"
 
 Specifically using some quotes from our interviews, 
 hiring managers we talked to didn't want candidates who
@@ -60,6 +70,11 @@ or even just a couple questions
 in order to make their job filtering candidates easier
 and get candidates who want to work there not those who just want a job.
 
+.. figure:: img/2019-hiring-manager-phrases.png
+   :alt: Some of the phrases heard from hiring managers in our interviews
+
+   Some of the phrases heard from hiring managers in our interviews
+
 All the companies we talked to said when they post a job they got tons of applicants,
 but that high quality, qualified applicants were still in short supply.
 When 200 people apply to a job but only 20 are willing to do a cover letter,
@@ -71,7 +86,8 @@ this doesn't strictly mean you can use these techniques
 to apply to 2-3 jobs and you'll get hired.
 Sometimes by the time you apply, somebody is already in the final stages of getting hired.
 The position may not *really* be open anymore.
-Don't get discouraged in your job search. Finding the right match can take time.
+Don't get discouraged in your job search.
+**Finding the right match can take time.**
 
 
 Make yourself a referral: use your network
@@ -80,7 +96,7 @@ Make yourself a referral: use your network
 Hiring managers universally told us their top recruiting channel
 is referrals from existing employees.
 As a candidate, use this knowledge to your advantage and
-make yourself into a referral hire.
+**make yourself into a referral hire**.
 
 * Did you see an acquaintance on social media post about job openings at their company?
 * Does a friend or a friend of friend work at the company?
@@ -90,9 +106,13 @@ In all of these cases, you should contact that person before applying.
 Even if the person you know isn't on the hiring team,
 your contact might be able to put you in touch with the right person.
 
+.. pull-quote::
+
+    "Most [senior] people go through their network"
+
 For a mid-level to senior candidate with 7+ years of experience,
 this is even more important based on our interviews. At that stage of your career,
-hiring managers we talked to expect a high quality candidate to do due diligence
+**hiring managers we talked to expect a high quality candidate to do due diligence**
 on the company and team to make sure it's a mutual fit.
 
 Regardless of the exact route you take here,
@@ -102,14 +122,22 @@ You're far more likely to get a response, move on to the interview process,
 and ultimately get hired.
 
 
-Establishing contact with the company
--------------------------------------
+.. figure:: img/2019-duckduckgo-application-questions.png
+   :alt: Questions from the DuckDuckGo application process
+
+   Questions from the DuckDuckGo application process.
+   This is your place to stand out!
+   DuckDuckGo was **not** one of the companies we interviewed.
+
+
+Establishing contact with companies
+-----------------------------------
 
 Turning yourself into a referral is easier for a senior candidate.
 But what if this is your first or second job or don't know anybody at the company?
 
-After referral candidates, the next best hiring channel in our interviews
-was local meetups and engaging the local community.
+After referral candidates, **the next best hiring channel in our interviews
+was local meetups and engaging the local community**.
 Both startups and established companies -- especially when they are actively hiring --
 use meetups to find talent.
 If you're able to meet the hiring manager in person or establish some sort of connection,
@@ -118,7 +146,7 @@ in my experience, this raises your chances significantly.
 In our interviews, another channel that mid-size and larger companies
 we talked to used to recruit was to rely on their presense at conferences.
 For many companies,
-**recruiting was the primary motivator to sponsor a conference and have a booth**.
+recruiting was the primary motivator to sponsor a conference and have a booth.
 As a candidate, talking to the engineers at the booth and showing interest
 can ensure that your application doesn't get lost among all the applicants they get.
 
@@ -126,7 +154,7 @@ At a smaller company, it's frequently possible to figure out exactly
 who the hiring manager is from some combination of the website,
 hiring posts, and LinkedIn. This is a great way to make a valuable connection
 and make sure the role is a good fit.
-Contacting the hiring manager cold requires a bit of finesse. Make sure to be respectful.
+Contacting the hiring manager cold requires a bit of finesse so make sure to be respectful.
 
 Places like the monthly HackerNews Who's Hiring thread are fantastic
 because they allow direct interaction with the hiring manager
@@ -143,8 +171,8 @@ you are showing your intent and interest in the company.**
 
 You want to make sure the hiring manager or recruiter understands 
 that you're a serious candidate and you want to work there on their team.
-Using these methods will improve your response rate and help you get hired.
-By doing a one-click apply on a job site, this gets completely lost.
+Using these methods will improve your response rate and **help you get the interview**.
+By doing a one-click apply on a job site, this is completely lost.
 
 
 Thanks
