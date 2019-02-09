@@ -129,6 +129,8 @@ div.figure img {
 div.figure p.caption {
   font-size: 85%;
   line-height: 1.4;
+  margin-left: 2.5rem;
+  margin-right: 2.5rem;
 }
 
 /* Styled blockquotes */
