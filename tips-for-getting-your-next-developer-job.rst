@@ -32,7 +32,7 @@ these tips will focus on getting your foot in the door. Specifically:
 .. figure:: img/2019-facebook-job-opening.png
    :alt: A Facebook job post on LinkedIn with almost 300 applications in 2 weeks
 
-   That's almost 300 applications in 2 weeks on just on one of the job sites where this is posted.
+   That's almost 300 applications in 2 weeks on just one of the job sites where this is posted.
 
 
 When applying, go deep not wide
@@ -74,7 +74,7 @@ and get candidates who want to work there not those who just want a job.
 .. figure:: img/2019-duckduckgo-application-questions.png
    :alt: Questions from the DuckDuckGo application process
 
-   Questions from the DuckDuckGo application process.
+   Here's some of the questions from the DuckDuckGo application process.
    This is your place to stand out!
    DuckDuckGo was **not** one of the companies we interviewed.
 
@@ -161,7 +161,7 @@ learn more directly from the source, and show you're interested.
 .. figure:: img/2019-hiring-manager-phrases.png
    :alt: Some of the phrases heard from hiring managers in our interviews
 
-   Some of the phrases heard from hiring managers in our interviews
+   Here's some of the phrases we heard from hiring managers in interviews.
 
 
 Conclusion
