@@ -66,7 +66,7 @@ You don't want your resume to get lost in a stack of hundreds.
 
 As we mentioned :doc:`last time <lessons-from-hiring-manager-interviews>`,
 quite a few hiring managers we talked to started requiring a cover letter
-or even just a couple questions
+or even just a couple questions that are unique to the company
 in order to make their job filtering candidates easier
 and get candidates who want to work there not those who just want a job.
 
