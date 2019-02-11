@@ -18,13 +18,30 @@ based on what companies told us they were doing.
 This time, we put together **tips for candidates looking for their next job**
 based on insights we heard from hiring managers.
 
-Rather than covering how to crack developer interviews which is its own challenge
+Rather than covering how to crack developer interviews
 or how to gain the necessary technical skills,
 these tips will focus on getting your foot in the door. Specifically:
 
 * Making your application stand out
 * Improving your application response rate
 * Getting to the interview process
+
+
+When applying, go deep not wide
+-------------------------------
+
+.. pull-quote::
+
+    "I don't want candidates who drive by job sites and pepper every job they find"
+
+As a candidate, there is a temptation to play the numbers game and apply to as many jobs as possible.
+Many jobs sites make it easy to apply to many jobs quickly and this gives you that feeling that your job search is progressing.
+
+**Based on what hiring managers told us, playing the numbers game isn't the best approach.**
+While it is a bit of a job-seekers market, especially for more senior talent,
+companies are looking people who want to work for their company and who believe in their mission.
+Hiring managers told us they want applicants who
+"think about the company, then check for opportunities".
 
 .. _a product to help companies find developers: https://readthedocs.org/sustainability/advertising/recruiting/?utm_medium=referral&utm_source=readthedocs-blog&utm_campaign=next-developer-job
 
@@ -33,27 +50,6 @@ these tips will focus on getting your foot in the door. Specifically:
    :alt: A Facebook job post on LinkedIn with almost 300 applications in 2 weeks
 
    That's almost 300 applications in 2 weeks on just one of the job sites where this is posted.
-
-
-When applying, go deep not wide
--------------------------------
-
-As a candidate, there is a temptation to play the numbers game and apply to as many jobs as possible.
-Many jobs sites make it easy to apply to many jobs quickly and this gives you that feeling that your job search is progressing.
-
-**Based on what hiring managers told us, playing the numbers game isn't the best approach.**
-While it is a bit of a job-seekers market, especially for more senior talent,
-companies are looking people who want to work for their company and who believe in their mission.
-
-.. pull-quote::
-
-    "I don't want candidates who drive by job sites and pepper every job they find"
-
-Specifically using some quotes from our interviews, 
-hiring managers we talked to didn't want candidates who
-"drive by job sites and pepper every job they find".
-Instead, they want applicants who 
-"think about the company, then check for opportunities".
 
 
 Spend a little more time on your application
@@ -70,15 +66,6 @@ or even just a couple questions that are unique to the company
 in order to make their job filtering candidates easier
 and get candidates who want to work there not those who just want a job.
 
-
-.. figure:: img/2019-duckduckgo-application-questions.png
-   :alt: Questions from the DuckDuckGo application process
-
-   Here's some of the questions from the DuckDuckGo application process.
-   This is your place to stand out!
-   DuckDuckGo was **not** one of the companies we interviewed.
-
-
 All the companies we talked to said when they post a job they got tons of applicants,
 but that high quality, qualified applicants were still in short supply.
 When 200 people apply to a job but only 20 are willing to do a cover letter,
@@ -92,6 +79,13 @@ Sometimes by the time you apply, somebody is already in the final stages of gett
 The position may not *really* be open anymore.
 Don't get discouraged in your job search.
 **Finding the right match can take time.**
+
+.. figure:: img/2019-duckduckgo-application-questions.png
+   :alt: Questions from the DuckDuckGo application process
+
+   Here's some of the questions from the DuckDuckGo application process.
+   This is your place to stand out!
+   DuckDuckGo was **not** one of the companies we interviewed.
 
 
 Make yourself a referral: use your network
