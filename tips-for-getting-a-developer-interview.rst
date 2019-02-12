@@ -4,8 +4,8 @@
    :location: SAN
 
 
-Tips For Getting Your Next Developer Job
-========================================
+Tips for Getting a Developer Interview
+======================================
 
 Over the last month, the Read the Docs team conducted 30-40 customer development interviews
 with hiring managers and recruiters
