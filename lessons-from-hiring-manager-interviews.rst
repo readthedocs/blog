@@ -13,7 +13,7 @@ with the ultimate goal of building a product to help companies find developers.
 We talked to people looking for talent at five person companies all the way up to the biggest names in tech.
 In this post, I am going to cover some of the common things we heard from hiring managers
 and **share some ways for hiring managers to improve their company's process**.
-In our :doc:`next post in this series <tips-for-getting-your-next-developer-job>`, I will have some actionable tips
+In our :doc:`next post in this series <tips-for-getting-a-developer-interview>`, I will have some actionable tips
 for job seekers based on the same interviews.
 
 Since this is a long post, I figured I'd share some of the key takeaways:
@@ -191,10 +191,10 @@ I'd like to thank all the hiring managers who took time out of their days (or in
 If you're a hiring manager or an internal company recruiter and you'd like to share your experiences and help Read the Docs,
 please `get in touch <mailto:ads@readthedocs.org?subject=Lessons+From+Hiring+Managers+Post>`_.
 
-Check back soon for our :doc:`next post in this series <tips-for-getting-your-next-developer-job>`
+Check back soon for our :doc:`next post in this series <tips-for-getting-a-developer-interview>`
 which covers tips for candidates based on the same interviews!
 
-**Update:** This blog was updated to mention our :doc:`new post <tips-for-getting-your-next-developer-job>` in the series
+**Update:** This blog was updated to mention our :doc:`new post <tips-for-getting-a-developer-interview>` in the series
 
 
 .. admonition:: Ready to hire your next developer, fast!
