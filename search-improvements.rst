@@ -16,7 +16,7 @@ case insensitive search, search as you type, suggestions and more.
 Google Summer of Code
 ^^^^^^^^^^^^^^^^^^^^^
 Google Summer of Code is a global program where students work with an open source organization
-on a 3 month programming project. The core team of Read The Docs proposed some `Project Ideas`_,
+on a 3 month programming project. The core team of Read the Docs proposed some `Project Ideas`_,
 one of them was **Refactor & improve our search code**. I (`Safwan Rahman`_) was keen to get my hands dirty with
 Elasticsearch_ and grasped the opportunity to do so by applying
 for this project and I got accepted.
@@ -41,17 +41,17 @@ Background
 ^^^^^^^^^^
 Search is a vital part of any documentation hosting platform, so people can get the
 information they need. As a documentation hosting platform, the same rules apply to
-Read The Docs. Because of having a small core team, the search functionality
-of Read The Docs has lagged behind for quite a while now. Initially the search code
+Read the Docs. Because of having a small core team, the search functionality
+of Read the Docs has lagged behind for quite a while now. Initially the search code
 was voluntarily contributed by `Rob Hudson`_,  `back in 2013`_ and then improved by other
 contributors. The search infrastructure was already outdated as
-Read The Docs were using `Elasticsearch 1.3.x`_ which was already reached its
+Read the Docs were using `Elasticsearch 1.3.x`_ which was already reached its
 End of Life in 2016. Therefore, Upgrading the search infrastructure was badly needed.
 
-Built in Search vs Read The Docs Search
+Built in Search vs Read the Docs Search
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 Both Sphinx and MkDocs already have built in search functionality. But the features are very limited.
-At Read The Docs, we have felt the limitations and therefore we index the documentations in our
+At Read the Docs, we have felt the limitations and therefore we index the documentations in our
 Elasticsearch_ index so that we can provide better search experience like:
 
 - Search across multiple projects
@@ -104,18 +104,18 @@ any contributor to start working on the search functionality
 
 Contributors Wanted
 ^^^^^^^^^^^^^^^^^^^
-As Read The Docs is an open source project backed by a small team of developers,
+As Read the Docs is an open source project backed by a small team of developers,
 most of them are busy to keep things up and running only. Therefore, its quite
 hard for them to take time to implement new features. If you know some bit of
 Django or Python and Elasticsearch, you can contribute into the search functionality
-of Read The Docs. If you need any support to start contributing, you can get in touch with
-me or any member of  Read The Docs team. You can find all of us at `#readthedocs` freenode
+of Read the Docs. If you need any support to start contributing, you can get in touch with
+me or any member of  Read the Docs team. You can find all of us at `#readthedocs` freenode
 IRC channel or `readthedocs gitter`_ channel. I am `safwan` at IRC and `@safwanrahman`
 at gitter.
 
 Conclusion
 ^^^^^^^^^^
-To conclude, I must say that the Search improvement in Read The Docs was very
+To conclude, I must say that the Search improvement in Read the Docs was very
 necessary and I'm glad I could improve it in such a short amount of time.
 There are an infinite number of ways it can be improved and I believe we can compete
 with major search engines in terms of documentation searching.
@@ -127,10 +127,10 @@ time constrains, a lot of code is out of test coverage.
 
 
 I strongly hope that we will get the left behind work done within a short amount of time.
-This can be done easily if we get more contributors donate their time for improving Read The Docs.
+This can be done easily if we get more contributors donate their time for improving Read the Docs.
 We don't need superhero or coding guru, just need people who understand Python, Django and
 Elasticsearch and have some time to write some code for us. You are a **Superhero** to us
-if you can lend your time and effort to improve Read The Docs.
+if you can lend your time and effort to improve Read the Docs.
 
 .. _Rob Hudson: https://github.com/robhudson
 .. _back in 2013: https://github.com/rtfd/readthedocs.org/pull/493
