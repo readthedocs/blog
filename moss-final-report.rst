@@ -24,8 +24,8 @@ and it has been successful.
 The original grant covered the following items,
 which I'll talk about in more detail:
 
-* Add to Read The Docs the ability to build documentation from a release tarball of code in addition to the existing ability to build it from a version control system.
-* Add to Read The Docs the ability to generate API documentation by parsing the Python code rather than by importing it.
+* Add to Read the Docs the ability to build documentation from a release tarball of code in addition to the existing ability to build it from a version control system.
+* Add to Read the Docs the ability to generate API documentation by parsing the Python code rather than by importing it.
 * Add automatic documentation generation to the next version of the Python Package Index, Warehouse (https://warehouse.python.org/) - both API documentation and Sphinx documentation.
 * Build out a custom hosting infrastructure for a new domain (<package>.pythondocs.com) or (<package>.python.readthedocs.org).
 * Appropriate testing of the new code, and supporting the Python community in using the new facility.
