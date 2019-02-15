@@ -1,4 +1,4 @@
-.. post:: January 30, 2019
+.. post:: February 18, 2019
    :tags: feature
    :author: Santos
    :location: CUE
@@ -28,13 +28,11 @@ Using the web interface is quick,
 but the main advantages of using a configuration file over the web interface are:
 
 - Some settings are only available using a configuration file.
-
-We are moving away from using the web interface.
+  We are moving away from using the web interface.
 
 - The settings are per version rather than per project.
-   
-This would allow different versions of docs to be built with different versions of Python
-or different requirements.
+  This would allow different versions of docs to be built with different versions of Python
+  or different requirements.
 
 - The settings live in your VCS.
 
@@ -43,12 +41,22 @@ or different requirements.
 What did we change in the new version?
 -------------------------------------
 
-- All valid options from the web interface are available.
-- We reorganized and rename some previous options to be more clear.
-- New defaults, we don't merge the values from the web interface.
-- Users can install their projects in a more flexible way.
-- Strict validation for invalid options,
-  to avoid typos and provide more feedback on invalid configurations.
+**All the configurations from the web interface**.
+In the past not all options from the web interface were available in the configuration file,
+now they are!
+We also reorganized and renamed some options to make them more clear.
+
+**New defaults**,
+we don't merge the values from the web interface,
+this was generating confusion in our users.
+And this allow us to have some nice defaults without breaking existing projects.
+
+**More flexible installations**,
+users can install their projects in a more flexible way,
+like multiple requirements and packages from different locations.
+
+**Strict validation** for invalid options in the configuration file,
+to avoid typos and provide more feedback on invalid configurations.
 
 New features
 ------------
@@ -98,9 +106,23 @@ New features
 Future improvements
 -------------------
 
-- Pipfile support
-- Show the current configuration used in each build.
-- Redirects per version of your docs.
+We are already planning new features to support more projects and use cases.
+
+**Pipfile support**, this is one of our more requested features,
+and we are going to ship it soon.
+Keep an eye in `#3181`_.
+
+**Show the configuration used in each build**.
+We want to make more explicit to the users how we are building their docs.
+
+**Redirects per version** of your docs.
+Currently users can define global redirects only from the web interface,
+this is hard to maintain and review.
+One use case is when you change your docs structure between versions.
+Keep track of this upcoming feature in `#4221`_.
+
+.. _#3181: https://github.com/rtfd/readthedocs.org/issues/3181
+.. _#4221: https://github.com/rtfd/readthedocs.org/issues/4221
 
 Start using it
 --------------
