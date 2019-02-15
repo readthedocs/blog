@@ -56,11 +56,8 @@ blog_default_author = 'Eric'
 blog_locations = {
     'PDX': ('Portland, Oregon', 'http://www.portlandhikersfieldguide.org/'),
     'SAN': ('San Diego, CA', ''),
-<<<<<<< HEAD
+    'DHA': ('Dhaka, Bangladesh', 'https://wikitravel.org/en/Bangladesh'),
     'CUE': ('Cuenca, Ecuador', ''),
-=======
-    'DHA': ('Dhaka, Bangladesh', 'https://wikitravel.org/en/Bangladesh')
->>>>>>> master
 }
 blog_default_location = 'PDX'
 blog_feed_archives = True
