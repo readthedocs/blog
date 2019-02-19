@@ -39,7 +39,7 @@ but the main advantages of using a configuration file over the web interface are
 - Reproducible build environments over time.
 
 What did we change in the new version?
--------------------------------------
+--------------------------------------
 
 **All the configurations from the web interface**.
 In the past not all options from the web interface were available in the configuration file,
