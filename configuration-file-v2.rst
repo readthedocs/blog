@@ -48,7 +48,7 @@ We also reorganized and renamed some options to make them more clear.
 
 **New defaults**,
 we don't merge the values from the web interface,
-this was generating confusion in our users.
+because this was confusing our users.
 And this allow us to have some nice defaults without breaking existing projects.
 
 **More flexible installations**,
