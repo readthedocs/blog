@@ -48,14 +48,16 @@ blog_authors = {
     'Eric': ('Eric Holscher', 'http://ericholscher.com'),
     'Anthony': ('Anthony Johnson', 'http://ohess.org'),
     'David': ('David Fischer', ''),
-    'Safwan': ('Safwan Rahman', 'https://github.com/safwanrahman/')
+    'Safwan': ('Safwan Rahman', 'https://github.com/safwanrahman/'),
+    'Santos': ('Santos Gallegos', 'https://github.com/stsewd/'),
 }
 blog_default_author = 'Eric'
 
 blog_locations = {
     'PDX': ('Portland, Oregon', 'http://www.portlandhikersfieldguide.org/'),
     'SAN': ('San Diego, CA', ''),
-    'DHA': ('Dhaka, Bangladesh', 'https://wikitravel.org/en/Bangladesh')
+    'DHA': ('Dhaka, Bangladesh', 'https://wikitravel.org/en/Bangladesh'),
+    'CUE': ('Cuenca, Ecuador', ''),
 }
 blog_default_location = 'PDX'
 blog_feed_archives = True
