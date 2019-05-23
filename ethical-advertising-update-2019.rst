@@ -21,7 +21,7 @@ Despite a slow start to the year, we expect to earn about $75,000 from advertisi
 This brings our advertising revenue back to the level
 before our ads were :doc:`added to major ad blocking lists <ads-and-adblocking>`.
 
-While we do earn money from other sources such as our commercial offering,
+While we do earn money from other sources such as our `commercial offering <https://readthedocs.com>`_,
 advertising continues to be our largest source of revenue and has allowed us
 to expand our team to five full-time people.
 Compared with three years ago when we were scraping along with very little money,
