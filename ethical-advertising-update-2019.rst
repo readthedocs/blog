@@ -1,4 +1,4 @@
-.. post:: May 28, 2018
+.. post:: June 11, 2019
    :tags: advertising, business, sustainability, ethical ads
    :author: David
    :location: SAN
@@ -8,8 +8,7 @@ Ethical Advertising Update
 
 It has been three years since we first launched :doc:`ads on Read the Docs <ads-on-read-the-docs>`
 and while we gave a limited update in our :doc:`2018 stats<read-the-docs-2018-stats>`,
-we figured it was time to give an update on ethical advertising,
-how it is working, and some upcoming changes.
+we figured it was time to give an update on ethical advertising and how it is working.
 
 
 Results
@@ -19,7 +18,7 @@ Results
 
 Despite a slow start to the year, we expect to earn about $75,000 from advertising in Q2.
 This brings our advertising revenue back to the level
-before our ads were :doc:`added to major ad blocking lists <ads-and-adblocking>`.
+before our ads were :doc:`added to major ad blocking lists <ads-and-adblocking>` last year.
 
 While we do earn money from other sources such as our `commercial offering <https://readthedocs.com>`_,
 advertising continues to be our largest source of revenue and has allowed us
@@ -36,69 +35,46 @@ We've made great progress on advertising over the past year.
 * We survived a major hit to revenue from ad blocking
   without resorting to cat and mouse games of changing ad layouts and APIs to avoid ad blockers.
 * Our `community ads program`_ has been significantly expanded.
-  We are actively running free advertising for over ten open source software conferences.
+  We are actively running free community advertising promoting over ten open source projects and conferences.
 * While we never tracked users with advertising,
   we put in place stricter :doc:`Do Not Track <do-not-track>` privacy protections.
   We continue to believe that advertising can be well targeted without tracking users.
-* We launched an advertising vertical specific to
-  :doc:`promote open jobs <lessons-from-hiring-manager-interviews>` to our developer audience.
+* We launched an advertising vertical to let companies
+  :doc:`promote their open jobs <lessons-from-hiring-manager-interviews>` to developers.
+* Our advertising revenue share program tripled in size.
 
-.. _community ads program: https://docs.readthedocs.io/en/latest/advertising/ethical-advertising.html#community-ads
+.. _community ads program: https://docs.readthedocs.io/page/advertising/ethical-advertising.html#community-ads
 
 Our ethical advertising approach, with no user tracking, has been key to our sustainability
-and has allowed us to continue to build new features and give back to our community.
+and has allowed Read the Docs to continue to build new features and give back to our community.
 
 
-Our new ad format
------------------
+What's next
+-----------
 
-One type of ad we've wanted to try but it took a while to get it right was text-only ads.
-From the start, we were very keen on text-only advertisements
-because they aren't as obtrusive as image-based ads
-and they are easier for advertisers to create and experiment with multiple variations.
-What we didn't know was whether users would engage with them at similar rates to our other ads.
+We have some really interesting developments coming regarding ethical advertising.
 
-We ran a small experiment with a text-only house ad
-on the Read the Docs documentation itself and the results were very promising.
-Engagement rates were over double our site average
-and even compared favorably with the same ad in the sidebar including an image.
+We are looking to add a few more projects to our ad **revenue share program**
+and help more projects reach sustainability with an ethical advertising approach.
+If your project on Read the Docs does 100k+ pageviews per month
+and you are interested in exploring a new revenue stream, please `let us know`_.
 
-I'd like to thank Eric Berry over at `CodeFund <https://codefund.io/>`_ for some great ideas
-and insights around this kind of ad format.
+We are testing a **new text-only ad format** which we will detail in a future post.
+Text-only ads are something we've wanted for a while because we believe they are less intrusive to readers
+but easy for advertisers to experiment with multiple variations.
+So far the results have been very promising and we are planning to roll this out more widely.
 
-.. figure:: img/2019-text-only-ad.png
-   :alt: A text-only ad on the Read the Docs documentation. Yes, this new format will be blocked by most ad blockers.
-   :width: 80%
+Our **ethical ad network** is getting closer to launch.
+It's a shame, but there's a critical lack of funding for open source projects
+that form the building blocks of some extremely valuable software.
+We believe that advertising can fill some of that gap
+and Read the Docs can help by sharing some of the lessons we've learned building our own advertising.
+If you know a site that might be interested in being a beta tester
+of a pro-privacy ad network built specifically to help fund open source,
+please `get in touch`_.
 
-   A text-only footer advertisement on the Read the Docs documentation
-
-Currently, we only show advertising on a :doc:`subset of Sphinx themes <ads-on-other-themes>`
-and about 30% of our site traffic does not get an ad.
-We purposely did this slowly to make sure our ads look integrated with Read the Docs and less obtrusive to users.
-**This new ad format will allow us to show advertising on all documentation themes.**
-
-We plan to roll this new ad format out more widely in stages:
-
-* To start with, we are going to enable this ad format for community and house advertising
-  on pages that already have an ad on them.
-  As always, we never display two ads on the same page so this ad will be instead of any other ad.
-* After that, we will allow paid advertisers to use this new format.
-* We will email users of custom documentation themes to let them know this change is coming.
-* At first, we will show only community and house ads on these custom themes.
-* Finally, we'll turn on our normal ad rotation to all themes. We expect to complete this by July.
-
-We will closely monitor feedback from document authors, readers, and advertisers during this process.
-If you have questions or comments on this, please `let us know`_.
-
-.. _let us know: mailto:ads@readthedocs.org?subject=New+Ad+Format+Feedback
-
-Users can opt-out of paid advertising themselves and for any projects they maintain
-although they will still see community ads.
-Gold members of Read the Docs enjoy an ad-free experience
-and for companies we have our `commercial offering at readthedocs.com`_
-which is always ad-free.
-
-.. _commercial offering at readthedocs.com: https://readthedocs.com/
+.. _let us know: mailto:ads@readthedocs.org?subject=Ethical+Ads+revenue+share
+.. _get in touch: mailto:ads@readthedocs.org?subject=Ethical+Ad+Network+beta
 
 
 Thanks
