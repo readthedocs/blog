@@ -10,8 +10,8 @@ New Ad Format Coming to Read the Docs Community Sites
 We view our ad program as a way to keep Read the Docs itself sustainable,
 and to use it to better support the community.
 Advertising has allowed us to have full-time employees adding new features
-and responding to issues in our issue tracker
-and to share thousands of dollars with the open source community
+and responding to issues in our issue tracker.
+We have also been able to share thousands of dollars with the open source community
 via our revenue share program and grants.
 
 Currently, about 30% of our site traffic does not have any advertising.
@@ -22,7 +22,8 @@ with Read the Docs and less obtrusive to users.
 
 For a while, this wasn't a problem because we had not reached capacity with advertising.
 We did not have enough paid advertisers to support the amount of pageviews Read the Docs served.
-Fast forward a couple years, and our advertising model has proven to be successful.
+Fast forward a couple years,
+and our advertising model has :doc:`proven to be successful <ad-funding-read-the-docs-whats-next>`.
 In North America and Western Europe,
 **100% of pages that are eligible for paid advertising have a paid ad**.
 
@@ -44,7 +45,7 @@ We plan to roll this new ad format out more widely in stages:
 * We will email users of custom documentation themes to let them know this change is coming.
 * At first, we will show only community and house ads on these custom themes.
 * Finally, we'll turn on our normal ad rotation to all themes.
-  We expect to complete this in August.
+  We expect to complete this by the end of July.
 
 We will closely monitor feedback from document authors, readers, and advertisers during this process.
 If you have questions or comments on this, please `let us know`_.
