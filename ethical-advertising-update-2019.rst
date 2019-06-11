@@ -3,18 +3,24 @@
    :author: David
    :location: SAN
 
-Ethical Advertising Update
-==========================
+Ad Funding at Read the Docs and What's Next for Ethical Advertising
+===================================================================
 
 It has been three years since we first launched :doc:`ads on Read the Docs <ads-on-read-the-docs>`
 and while we gave a limited update in our :doc:`2018 stats<read-the-docs-2018-stats>`,
 we figured it was time to give an update on ethical advertising and how it is working.
 
 
-Results
--------
+Advertising without tracking
+----------------------------
 
 **Our ethical advertising model is still going strong.**
+We proved that it is possible to build a business model on top of advertising
+without resorting to user tracking.
+Unlike most other ad-supported sites, we show advertising based on the context of the page,
+not by creating behavoral profiles of large numbers of individual users.
+If you are browsing documentation for a Python project, you might see a relevant ad about Python.
+It's that simple and it works.
 
 Despite a slow start to the year, we expect to earn about $75,000 from advertising in Q2.
 This brings our advertising revenue back to the level
@@ -73,8 +79,8 @@ If you know a site that might be interested in being a beta tester
 of a pro-privacy ad network built specifically to help fund open source,
 please `get in touch`_.
 
-.. _let us know: mailto:ads@readthedocs.org?subject=Ethical+Ads+revenue+share
-.. _get in touch: mailto:ads@readthedocs.org?subject=Ethical+Ad+Network+beta
+.. _let us know: mailto:ads@readthedocs.org?subject=Ethical%20Ads%20revenue%20share
+.. _get in touch: mailto:ads@readthedocs.org?subject=Ethical%20Ad%20Network%20beta
 
 
 Thanks
@@ -83,7 +89,7 @@ Thanks
 Advertisers always have a choice where to direct their marketing spend
 and for many of them it would have been simpler to just go with the usual behemoth advertising platforms
 rather than advertising with a niche site like Read the Docs.
-I want to thank all our advertisers who believed in our ethical advertising approach.
+I want to thank all our advertisers who believe in our approach and continue to support us.
 
 
 .. admonition:: Would your company like to reach a 100% developer audience?
