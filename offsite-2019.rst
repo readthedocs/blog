@@ -6,11 +6,10 @@
 Read the Docs Offsite 2019
 ==========================
 
-We just finished our first offsite ever in April of 2019.
-The entire team gathered together in person for the first time.
-This was enabled by the sustainable revenue from our ethical ads and paid subscripions.
+The Read the Docs team just finished our first offsite ever in April of 2019.
+We all gathered together in person for the first time,
+and talked about the future of the project.
 
-This is the current full-time staff of Read the Docs.
 A picture will show this better than I can:
 
 .. figure:: /img/offsite-2019.png
@@ -19,7 +18,7 @@ A picture will show this better than I can:
    
    The team at the house we rented in Aruba
 
-The full list of attendees, from left to right:
+The full list of attendees, which is the full-time staff, from left to right:
 
 * David Fischer
 * Manuel Kaufmann
