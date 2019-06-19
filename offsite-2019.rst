@@ -10,20 +10,22 @@ We just finished our first offsite ever in April of 2019.
 The entire team gathered together in person for the first time.
 This was enabled by the sustainable revenue from our ethical ads and paid subscripions.
 
-The full list of attendees was:
-
-* Eric Holscher
-* Anthony Johnson
-* Manuel Kaufmann
-* David Fischer
-* Santos Gallegos
-
 This is the current full-time staff of Read the Docs.
 A picture will show this better than I can:
 
-.. image:: /img/offsite-2019.png
-   :width: 60%
+.. figure:: /img/offsite-2019.png
+   :width: 90%
    :align: center
+   
+   The team at the house we rented in Aruba
+
+The full list of attendees, from left to right:
+
+* David Fischer
+* Manuel Kaufmann
+* Eric Holscher
+* Anthony Johnson
+* Santos Gallegos
 
 Goals
 -----
