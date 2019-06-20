@@ -1,4 +1,4 @@
-.. post:: June 21, 2019
+.. post:: June 20, 2019
    :tags: business, offsite, team
    :author: Eric
    :location: PDX
