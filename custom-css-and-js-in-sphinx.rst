@@ -30,7 +30,9 @@ Adding additional stylesheets or scripts
 
 If your custom stylesheet is ``_static/css/custom.css``,
 you can add that CSS file to the documentation using the
-Sphinx option `html_css_files`_::
+Sphinx option `html_css_files`_:
+
+.. code-block:: python
 
     ## conf.py
 
@@ -44,7 +46,9 @@ Sphinx option `html_css_files`_::
     ]
 
 
-A similar approach can be used to add JavaScript files::
+A similar approach can be used to add JavaScript files:
+
+.. code-block:: python
 
     html_js_files = [
         'js/custom.js',
