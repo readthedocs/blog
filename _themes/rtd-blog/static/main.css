@@ -297,6 +297,7 @@ table {
 /* Default styling  for generic elements. Don't put class/id rules here */
 body {
   font-size: 16px;
+  line-height: 1.4;
   font-family: Lato;
 }
 h1,
