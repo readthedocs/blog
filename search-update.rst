@@ -1,0 +1,90 @@
+.. post:: July 15, 2019
+   :tags: gsoc, search, feature, in-doc-search
+   :author: Vaibhav
+   :location: LKO
+
+Search Update
+=============
+
+Giving users the ability to easily find the information that they
+are looking for has always been important for Read the Docs.
+This year, I, `Vaibhav Gupta`_, took the opportunity provided
+by Google Summer of Code to improve the search.
+The main goal of my `GSoC project`_ was to enable multiple hits per search result,
+improve the UI/UX around code search and to make an `Sphinx`_ extension to provide
+``search as you type`` experience to the users.
+
+Google Summer of Code
+---------------------
+
+Google Summer of Code is a global program where students work with
+an open source organization on a 3-month programming project.
+I got accepted in the program and was excited to spend my summer with Read the Docs.
+
+I have worked full time during the GSoC coding period and implemented various features.
+All of my search related work can be seen in the `In-Doc Search UI Project Board`_.
+
+Background
+----------
+
+Search code was voluntarily contributed by `Rob Hudson`_,
+`back in 2013`_ and then improved by other contributors.
+It was greatly improved and upgraded by `Safwan Rahman`_ during :doc:`GSoC'18 <search-improvements>`.
+Continuining on the same path,
+I have implemented some new features on top of the existing search backend.
+
+New Features
+------------
+
+During the GSoC period, I have worked on the following features:
+
+- Multiple Hits Per Search Result: This is one of the highly requested features.
+  Now, we support results from the sections of the docs, clicking on which will take you
+  to that particular section and not just to the top of the result page.
+  You don't have to scroll anymore to the desired result.
+
+- Code Search: We now support code search. If you want to search a particular function
+  or an API endpoint -- you can just type your query and you will find it in the results.
+  Eg: ``api/v3/`` or ``module.function``.
+
+- `In-Doc Search UI`_: We have worked on a Sphinx extension which adds a clean and minimal
+  search UI to your docs. It supports ``search as you type`` feature.
+  So, it is now possible to get instant results without being redirected to any other page.
+  Read the docs `here`_.
+
+Contributors Wanted
+-------------------
+
+As Read the Docs is an open source project backed by a small team of developers,
+most of them are busy to keep things up and running only.
+Therefore, it's quite hard for them to take time to implement new features.
+If you know some bit of Django or Python and Elasticsearch,
+you can contribute to the search functionality of Read the Docs.
+If you need any support to start contributing,
+you can get in touch with me or any member of Read the Docs team.
+You can find all of us at *#readthedocs* freenode IRC channel or `readthedocs gitter`_ channel.
+I am *dojutsu-user* at IRC and *@dojutsu-user* at gitter.
+
+Conclusion
+----------
+
+To conclude, I must say, these new features will make it
+easier to find the relevant information in the docs.
+There are an infinite number of ways it can be improved and I believe we can compete
+with major search engines in terms of documentation searching.
+We don’t need superhero or coding guru, just need people who understand Python,
+Django and Elasticsearch and have some time to write some code for us.
+You are a **Superhero** to us if you can lend your time and effort to improve Read the Docs.
+
+
+.. _Vaibhav Gupta: https://github.com/dojutsu-user
+.. _GSoC project: https://summerofcode.withgoogle.com/projects/#5465587940065280
+.. _Sphinx: http://www.sphinx-doc.org/en/master/
+.. _In-Doc Search UI Project Board: https://github.com/orgs/readthedocs/projects/7
+.. _Rob Hudson: https://github.com/robhudson
+.. _back in 2013: https://github.com/readthedocs/readthedocs.org/pull/493
+.. _Safwan Rahman: https://github.com/safwanrahman
+.. _In-Doc Search UI: https://github.com/readthedocs/readthedocs-sphinx-search
+.. Read the Docs: https://readthedocs-sphinx-search.readthedocs.io/en/latest/
+.. _readthedocs gitter: https://gitter.im/rtfd/readthedocs.org
+.. _here: https://readthedocs-sphinx-search.readthedocs.io/en/latest/
