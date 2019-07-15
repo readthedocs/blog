@@ -30,7 +30,7 @@ Background
 ==========
 
 Many of our users wanted a way to visualize the documentation update that was made in a pull/merge request.
-They also wanted to know the status of a build ``(passed/failed)`` before merging the pull/merge request to master.
+They also want to know whether the documentation build will pass before merging the pull/merge request to master.
 This would allow users to have more confidence on the pull request
 and make the pull/merge request less likely to break the documentation after merging.
 So, In reply to this Read the Docs `core team`_ selected **Autobuild docs for Pull Requests**
