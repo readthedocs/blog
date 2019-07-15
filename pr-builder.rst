@@ -83,7 +83,7 @@ This feature will improve our platform and make it a true Continuous Documentati
 I think that many users will benefit from this feature.
 
 We will extend on this feature and integrate it to other platforms like GitLab and BitBucket in the near future.
-We would like to add more features on this. So, It would be Great to have Feedback form the users.
+If there are additional features you'd like to see for building documentation in pull requests, please `let us know <mailto:team@readthedocs.org>`_.
 
 
 .. _Project Ideas: https://github.com/readthedocs/readthedocs.org/blob/3.5.3/docs/gsoc.rst#autobuild-docs-for-pull-requests
