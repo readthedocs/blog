@@ -82,7 +82,7 @@ To conclude, I would like to say this was a much needed feature for Read the Doc
 This feature will improve our platform and make it a true Continuous Documentation platform.
 I think that many users will benefit from this feature.
 
-We will extend on this feature and integrate it to other platforms like ``GitLab/BitBucket`` in the near future.
+We will extend on this feature and integrate it to other platforms like GitLab and BitBucket in the near future.
 We would like to add more features on this. So, It would be Great to have Feedback form the users.
 
 
