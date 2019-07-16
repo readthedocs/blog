@@ -11,8 +11,8 @@ are looking for has always been important for Read the Docs.
 This year, I, `Vaibhav Gupta`_, took the opportunity provided
 by Google Summer of Code to improve the search.
 The main goal of my `GSoC project`_ was to enable multiple hits per search result,
-improve the UI/UX around code search and to make an `Sphinx`_ extension to provide
-``search as you type`` experience to the users.
+improve the UI/UX around code search and to make an `Sphinx extension`_ to provide
+"search as you type" experience to the users.
 
 Google Summer of Code
 ---------------------
@@ -38,6 +38,15 @@ New Features
 
 During the GSoC period, I have worked on the following features:
 
+- `In-Doc Search UI`_: We have worked on a Sphinx extension which adds a clean and minimal
+  search UI to your docs. It supports "search as you type" feature.
+  So, it is now possible to get instant results without being redirected to any other page.
+  Read the docs `here`_.
+
+.. image:: /_static/in-doc-search-demo.gif
+    :width: 100%
+    :target: /_static/in-doc-search-demo.gif
+
 - Multiple Hits Per Search Result: This is one of the highly requested features.
   Now, we support results from the sections of the docs, clicking on which will take you
   to that particular section and not just to the top of the result page.
@@ -47,10 +56,20 @@ During the GSoC period, I have worked on the following features:
   or an API endpoint -- you can just type your query and you will find it in the results.
   Eg: ``api/v3/`` or ``module.function``.
 
-- `In-Doc Search UI`_: We have worked on a Sphinx extension which adds a clean and minimal
-  search UI to your docs. It supports ``search as you type`` feature.
-  So, it is now possible to get instant results without being redirected to any other page.
-  Read the docs `here`_.
+What Next?
+----------
+
+We don't intend to stop just yet.
+We are planning to work on some more cool features in the near future,
+some of which are:
+
+- **Search Analytics**:
+  Analytics is always helpful to know what your users are actually looking for in your docs.
+- **Search Results Ordered By Most Viewed Pages**:
+  It would be much more useful if the most viewed pages are shown first in the search results.
+- **Search Facets**:
+  Facets can be used to make search more accurate.
+  Like ``subproject: project query``.
 
 Contributors Wanted
 -------------------
@@ -79,12 +98,11 @@ You are a **Superhero** to us if you can lend your time and effort to improve Re
 
 .. _Vaibhav Gupta: https://github.com/dojutsu-user
 .. _GSoC project: https://summerofcode.withgoogle.com/projects/#5465587940065280
-.. _Sphinx: http://www.sphinx-doc.org/en/master/
+.. _Sphinx extension: https://readthedocs-sphinx-search.readthedocs.io/en/latest/
 .. _In-Doc Search UI Project Board: https://github.com/orgs/readthedocs/projects/7
 .. _Rob Hudson: https://github.com/robhudson
 .. _back in 2013: https://github.com/readthedocs/readthedocs.org/pull/493
 .. _Safwan Rahman: https://github.com/safwanrahman
 .. _In-Doc Search UI: https://github.com/readthedocs/readthedocs-sphinx-search
-.. Read the Docs: https://readthedocs-sphinx-search.readthedocs.io/en/latest/
 .. _readthedocs gitter: https://gitter.im/rtfd/readthedocs.org
 .. _here: https://readthedocs-sphinx-search.readthedocs.io/en/latest/
