@@ -63,13 +63,13 @@ We don't intend to stop just yet.
 We are planning to work on some more cool features in the near future,
 some of which are:
 
+- **Search Facets**:
+  Facets can be used to make search more accurate.
+  Like ``subproject: project query``.
 - **Search Analytics**:
   Analytics is always helpful to know what your users are actually looking for in your docs.
 - **Search Results Ordered By Most Viewed Pages**:
   It would be much more useful if the most viewed pages are shown first in the search results.
-- **Search Facets**:
-  Facets can be used to make search more accurate.
-  Like ``subproject: project query``.
 
 Contributors Wanted
 -------------------
