@@ -70,6 +70,10 @@ some of which are:
   Analytics is always helpful to know what your users are actually looking for in your docs.
 - **Search Results Ordered By Most Viewed Pages**:
   It would be much more useful if the most viewed pages are shown first in the search results.
+- **Search Inside Sections**:
+  It would be good if users have the option to get the
+  search results from a particular section of the documentation.
+  (`readthedocs/readthedocs-sphinx-search#23`_).
 
 Contributors Wanted
 -------------------
@@ -106,3 +110,4 @@ You are a **Superhero** to us if you can lend your time and effort to improve Re
 .. _In-Doc Search UI: https://github.com/readthedocs/readthedocs-sphinx-search
 .. _readthedocs gitter: https://gitter.im/rtfd/readthedocs.org
 .. _here: https://readthedocs-sphinx-search.readthedocs.io/en/latest/
+.. _readthedocs/readthedocs-sphinx-search#23: https://github.com/readthedocs/readthedocs-sphinx-search/issues/23
