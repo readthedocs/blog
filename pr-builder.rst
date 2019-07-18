@@ -9,7 +9,7 @@ Autobuild Documentation in Pull Requests
 Building Documentation for pull/merge request has always been one of the most requested feature of Read the Docs.
 This feature will allow users to build documentation for pull/merge request automatically using webhooks
 and get status notification to the Providers Status API (e.g. Github Status API).
-This will help users to check if the documentation build passed
+This will let users check if the documentation build passed
 and also how the documentation looks before merging it to master.
 
 As a student of Google Summer of Code (GSoC) 2019, I (`Maksudul Haque`_) was tasked with building this feature.
