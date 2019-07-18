@@ -6,7 +6,7 @@
 Autobuild Documentation in Pull Requests
 ========================================
 
-Building Documentation for pull/merge request has always been one of the most requested feature of Read the Docs.
+Building documentation for pull requests is one of the most requested features of Read the Docs.
 This feature will allow users to build documentation for pull/merge request automatically using webhooks
 and get status notification to the Providers Status API (e.g. Github Status API).
 This will let users check if the documentation build passed
