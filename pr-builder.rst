@@ -46,7 +46,7 @@ Some of the major features are as following:
   webhook event for a project from gitHub and trigger a build for that version.
 
 - **Synchronizing External Versions:** Whenever there is a new commit on the pull/merge request,
-  we synchronize the external version for that pull/merge request and trigger a new build with the latest changes.
+  we synchronize the external version for that pull request and trigger a new documentation build with the latest changes.
 
 - **Deleting External Versions:** Whenever the pull/merge request is closed or merged,
   we delete the external Version associated with that pull/merge request.
