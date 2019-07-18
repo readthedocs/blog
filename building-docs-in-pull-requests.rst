@@ -17,6 +17,12 @@ As a student of Google Summer of Code (GSoC) 2019, I (`Maksudul Haque`_) was tas
 The main goal of my project was to make it possible to build documentation whenever a pull request was created,
 and send build status notification to the Providers Status API.
 
+.. figure:: img/github-build-status-reporting.gif
+    :alt: GitHub Build Status Reporting for Pull Requests.
+    :width: 100%
+
+    GitHub Build Status Reporting for Pull Requests
+
 Google Summer of Code
 =====================
 
@@ -45,7 +51,7 @@ Some of the major features are as following:
 
 - **Creating External Versions:** We create an external version when we receive a pull request
   webhook event for a project from GitHub and trigger a build for that version.
-  * External versions are short-lived versions for a Read the Docs project that are separate from the project's main documentation.
+  External versions are short-lived versions for a Read the Docs project that are separate from the project's main documentation.
 
 - **Synchronizing External Versions:** Whenever there is a new commit on the pull request,
   we synchronize the external version for that pull request and trigger a new documentation build with the latest changes.
