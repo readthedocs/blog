@@ -67,7 +67,7 @@ Some of the major features are as following:
 Getting Started
 ===============
 
-**Autobuild Documentation in Pull Requests** is currently on Beta testing and only supports Github repositories.
+Build documentation in pull requests is currently on Beta testing and only supports Github repositories.
 If you want to dive in and enable this feature for your project you can `email us <mailto:support@readthedocs.org>`_.
 
 Contributors Wanted
