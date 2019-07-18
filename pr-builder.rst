@@ -55,7 +55,7 @@ Some of the major features are as following:
   we add a warning banner at the top of those documentations to let the users know that
   this documentation was generated for pull/merge requests and is not the main documentation for the project.
 
-- **Sending Status Notification to Status API:** We send Build status reports to Status API of the provider (e.g. GitHub) of
+We send build status reports to status API of the provider (e.g. GitHub) for
   the project. When a build is triggered for a pull/merge request we send `state: pending` notification with build URL
   and after the build has finished we send `state: success` notification if the build succeeded without any error
   or `state: failure` notification if the build failed with build URL.
