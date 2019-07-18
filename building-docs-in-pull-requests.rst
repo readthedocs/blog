@@ -19,7 +19,7 @@ and send build status notification to the Providers Status API.
 
 .. figure:: img/github-build-status-reporting.gif
     :alt: GitHub Build Status Reporting for Pull Requests.
-    :width: 100%
+    :width: 70%
 
     GitHub Build Status Reporting for Pull Requests
 
