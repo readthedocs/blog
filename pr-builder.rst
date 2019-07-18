@@ -13,7 +13,7 @@ This will help users to check if the documentation build passed
 and also how the documentation looks before merging it to master.
 
 As a student of Google Summer of Code (GSoC) 2019, I (`Maksudul Haque`_) was tasked with building this feature.
-The Main goal of my project was to make it possible to build documentation when ever a pull/merge request was created,
+The main goal of my project was to make it possible to build documentation whenever a pull request was created,
 and send build status notification to the Providers Status API.
 
 Google Summer of Code
