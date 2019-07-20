@@ -14,6 +14,12 @@ The main goal of my `GSoC project`_ was to enable multiple hits per search resul
 improve the UI/UX around code search and to make an `Sphinx extension`_ to provide
 "search as you type" experience to the users.
 
+Search as you type feature is live on our docs.
+You can go through these links to experience it.
+
+- https://docs.readthedocs.io/en/latest/?rtd_search=team
+- https://docs.readthedocs.io/en/latest/?rtd_search=analytics
+
 Google Summer of Code
 ---------------------
 
@@ -38,7 +44,7 @@ New Features
 
 During the GSoC period, I have worked on the following features:
 
-- `In-Doc Search UI`_: We have worked on a Sphinx extension which adds a clean and minimal
+- `In-Doc Search UI`_: This sphinx extension adds a clean and minimal
   search UI to your docs. It supports "search as you type" feature.
   So, it is now possible to get instant results without being redirected to any other page.
   Read the docs `here`_.
@@ -50,7 +56,6 @@ During the GSoC period, I have worked on the following features:
 - Multiple Hits Per Search Result: This is one of the highly requested features.
   Now, we support results from the sections of the docs, clicking on which will take you
   to that particular section and not just to the top of the result page.
-  You don't have to scroll anymore to the desired result.
 
 - Code Search: We now support code search. If you want to search a particular function
   or an API endpoint -- you can just type your query and you will find it in the results.
@@ -65,11 +70,15 @@ some of which are:
 
 - **Search Facets**:
   Facets can be used to make search more accurate.
-  Like ``subproject: project query``.
+  For example: In `Celery docs`_, facets can be used to search inside `Kombu docs`_ for "serializers",
+  like ``subproject: kombu serializers``.
+  (`readthedocs/readthedocs.org#5966`_)
 - **Search Analytics**:
   Analytics is always helpful to know what your users are actually looking for in your docs.
+  (`readthedocs/readthedocs.org#5967`_)
 - **Search Results Ordered By Most Viewed Pages**:
   It would be much more useful if the most viewed pages are shown first in the search results.
+  (`readthedocs/readthedocs.org#5968`_)
 - **Search Inside Sections**:
   It would be good if users have the option to get the
   search results from a particular section of the documentation.
@@ -79,7 +88,7 @@ Contributors Wanted
 -------------------
 
 As Read the Docs is an open source project backed by a small team of developers,
-most of them are busy to keep things up and running only.
+most of them are busy just keeping the site up and running.
 Therefore, it's quite hard for them to take time to implement new features.
 If you know some bit of Django or Python and Elasticsearch,
 you can contribute to the search functionality of Read the Docs.
@@ -91,8 +100,7 @@ I am *dojutsu-user* at IRC and *@dojutsu-user* at gitter.
 Conclusion
 ----------
 
-To conclude, I must say, these new features will make it
-easier to find the relevant information in the docs.
+These new features will make it much easier to find the relevant information in the docs.
 There are an infinite number of ways it can be improved and I believe we can compete
 with major search engines in terms of documentation searching.
 We don’t need superhero or coding guru, just need people who understand Python,
@@ -110,4 +118,9 @@ You are a **Superhero** to us if you can lend your time and effort to improve Re
 .. _In-Doc Search UI: https://github.com/readthedocs/readthedocs-sphinx-search
 .. _readthedocs gitter: https://gitter.im/rtfd/readthedocs.org
 .. _here: https://readthedocs-sphinx-search.readthedocs.io/en/latest/
+.. _Celery docs: http://docs.celeryproject.org/en/latest/
+.. _Kombu docs: http://docs.celeryproject.org/projects/kombu/en/latest/
+.. _readthedocs/readthedocs.org#5966: https://github.com/readthedocs/readthedocs.org/issues/5966
+.. _readthedocs/readthedocs.org#5967: https://github.com/readthedocs/readthedocs.org/issues/5967
+.. _readthedocs/readthedocs.org#5968: https://github.com/readthedocs/readthedocs.org/issues/5968
 .. _readthedocs/readthedocs-sphinx-search#23: https://github.com/readthedocs/readthedocs-sphinx-search/issues/23
