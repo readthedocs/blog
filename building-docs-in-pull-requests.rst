@@ -78,6 +78,14 @@ Getting Started
 Build documentation in pull requests is currently on Beta testing and only supports Github repositories.
 If you want to dive in and enable this feature for your project you can `email us <mailto:support@readthedocs.org>`_.
 
+Future Improvements
+===================
+
+We are planing to extend this feature to other platforms such as GitLab and BitBucket.
+We are also planning to make this feature more customizable through our configaration file (``.readthedocs.yaml``).
+If you have any improvements or features in mind we would love to know about it.
+Please feel free to send us an `email <mailto:support@readthedocs.org>`_.
+
 Contributors Wanted
 ===================
 
