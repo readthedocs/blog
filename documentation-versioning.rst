@@ -28,7 +28,7 @@ Problems of using tags for documentation versions
 The main problem of using VCS tags to build documentation versions is that they are static.
 Once a tag is created it can never be modified.
 
-This may not seem like a problem at first, since that's the main concept of :abbr:`VCS` tags.
+This may not seem like a problem at first, since that's the main concept of VCS tags.
 When talking about documentation versions,
 sometimes after making a release there is a typo in the docs, or a small code example that doesn't work,
 and we want to fix it.
@@ -63,7 +63,7 @@ In summary
 
 It's a good idea to have a plan about versioning our software and documentation before going to far.
 Knowing the limitation on the different strategies will give us more context to make a better decision.
-This will avoid us headaches in the future or even re-tagging :abbr:`VCS` tags just to fix small documentation issues.
+This will avoid us headaches in the future or even re-tagging VCS tags just to fix small documentation issues.
 
 Happy versioning!
 
