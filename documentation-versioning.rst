@@ -15,7 +15,7 @@ Project releases and documentation versions are strongly related each other.
 We usually want to have a release ``1.0.3`` with it's own documentation version ``1.0.3`` for that specific release.
 
 When we make a new release of our software,
-we create a new tag in our :abbr:`VCS` for this release and activate this new version on Read the Docs.
+we create a new tag in our :abbr:`VCS (Version Control System)` for this release and activate this new version on Read the Docs.
 At this point, Read the Docs will build and publish the new documentation version ``1.0.3`` for us.
 
 This approach of "VCS tag mapped to a Read the Docs version" works in most cases.
