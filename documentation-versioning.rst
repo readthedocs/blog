@@ -26,7 +26,7 @@ Problems of using tags for documentation versions
 -------------------------------------------------
 
 The main problem of using VCS tags to build documentation versions is that they are *static*.
-Once a tag is created it can never be modified.
+Once a tag is created it can never be modified. [#]_
 
 This may not seem like a problem at first, since that's the main concept of VCS tags.
 When talking about documentation versions,
@@ -68,3 +68,4 @@ This will avoid you headaches in the future or even re-tagging VCS tags just to 
 Happy versioning!
 
 .. _.readthedocs.yml: https://docs.readthedocs.io/page/config-file/v2.html
+.. [#] It's technically possible, but not recommended by all packaging tools
