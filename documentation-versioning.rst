@@ -1,5 +1,5 @@
 .. post:: July 23, 2019
-   :tags: vcs, versioning
+   :tags: versioncontrol, documentation
    :author: Manuel
    :location: BCN
 
