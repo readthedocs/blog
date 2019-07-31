@@ -16,7 +16,7 @@ You usually want to have a release ``1.0.3`` with it's own documentation version
 
 When you make a new release of your software,
 you create a new tag in your :abbr:`VCS (Version Control System)` for this release and activate this new version on Read the Docs.
-At this point, Read the Docs will build and publish the new documentation version ``1.0.3`` for us.
+At this point, Read the Docs will build and publish the new documentation version ``1.0.3`` for you.
 
 This approach of "VCS tag mapped to a Read the Docs version" works in most cases.
 There are sometimes problems with this approach that we can prevent using a different strategy.
