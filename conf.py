@@ -50,6 +50,7 @@ blog_authors = {
     'David': ('David Fischer', ''),
     'Safwan': ('Safwan Rahman', 'https://github.com/safwanrahman/'),
     'Santos': ('Santos Gallegos', 'https://github.com/stsewd/'),
+    'Manuel': ('Manuel Kaufmann', 'https://elblogdehumitos.com/'),
 }
 blog_default_author = 'Eric'
 
@@ -58,6 +59,7 @@ blog_locations = {
     'SAN': ('San Diego, CA', ''),
     'DHA': ('Dhaka, Bangladesh', 'https://wikitravel.org/en/Bangladesh'),
     'CUE': ('Cuenca, Ecuador', ''),
+    'BCN': ('Barcelona, Spain', 'https://www.barcelona.cat/en/'),
 }
 blog_default_location = 'PDX'
 blog_feed_archives = True
