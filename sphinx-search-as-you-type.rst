@@ -1,5 +1,5 @@
-.. post:: July 15, 2019
-   :tags: gsoc, search, feature, in-doc-search
+.. post:: August 09, 2019
+   :tags: gsoc, search, feature, in-doc-search, analytics
    :author: Vaibhav
    :location: LKO
 
@@ -10,15 +10,18 @@ Giving users the ability to easily find the information that they
 are looking for has always been important for Read the Docs.
 This year, I, `Vaibhav Gupta`_, took the opportunity provided
 by Google Summer of Code to improve the search.
-The main goal of my `GSoC project`_ was to enable multiple hits per search result,
-improve the UI/UX around code search and to make an `Sphinx extension`_ to provide
-"search as you type" experience to the users.
+The main goals of my `GSoC project`_ were:
+
+- to make an `Sphinx extension`_ to provide "search you type" experience to the users.
+- to add support for multiple hits per search result.
+- to improve the UI/UX around code search.
+- to add support for search analytics.
 
 Search as you type feature is live on our docs.
 You can go through these links to experience it.
 
-- https://docs.readthedocs.io/en/latest/?rtd_search=team
-- https://docs.readthedocs.io/en/latest/?rtd_search=analytics
+- https://docs.readthedocs.io/?rtd_search=team
+- https://docs.readthedocs.io/?rtd_search=contributing
 
 Google Summer of Code
 ---------------------
@@ -34,7 +37,7 @@ Background
 ----------
 
 Search code was voluntarily contributed by `Rob Hudson`_,
-`back in 2013`_ and then improved by other contributors.
+`back in 2013`_ and then improved upon by other contributors.
 It was greatly improved and upgraded by `Safwan Rahman`_ during :doc:`GSoC'18 <search-improvements>`.
 Continuining on the same path,
 I have implemented some new features on top of the existing search backend.
@@ -44,7 +47,7 @@ New Features
 
 During the GSoC period, I have worked on the following features:
 
-- `In-Doc Search UI`_: This sphinx extension adds a clean and minimal
+- **In-Doc Search UI**: `readthedocs-sphinx-search`_ is a sphinx extension that adds a clean and minimal
   search UI to your docs. It supports "search as you type" feature.
   So, it is now possible to get instant results without being redirected to any other page.
   Read the docs `here`_.
@@ -53,13 +56,21 @@ During the GSoC period, I have worked on the following features:
     :width: 100%
     :target: /_static/in-doc-search-demo.gif
 
-- Multiple Hits Per Search Result: This is one of the highly requested features.
-  Now, we support results from the sections of the docs, clicking on which will take you
+- **Multiple Hits Per Search Result**: This is one of the highly requested features.
+  We now support search results from the sections of the docs, clicking on which will take you
   to that particular section and not just to the top of the result page.
 
-- Code Search: We now support code search. If you want to search a particular function
+- **Code Search**: We now support code search. If you want to search a particular function
   or an API endpoint -- you can just type your query and you will find it in the results.
   Eg: ``api/v3/`` or ``module.function``.
+
+- **Search Analytics**: We now have support for search analytics.
+  These analytics makes it easy to know what the users are looking for in your documentation.
+  You can see these analytics in your project admin dashboard.
+  Currently, this feature is in beta state and and is available under a `feature flag`_.
+  We plan to make this available for everyone soon.
+  If you want to test this feature out and help giving us feedback,
+  please contact us via `GitHub issues`_.
 
 What Next?
 ----------
@@ -73,9 +84,6 @@ some of which are:
   For example: In `Celery docs`_, facets can be used to search inside `Kombu docs`_ for "serializers",
   like ``subproject: kombu serializers``.
   (`readthedocs/readthedocs.org#5966`_)
-- **Search Analytics**:
-  Analytics is always helpful to know what your users are actually looking for in your docs.
-  (`readthedocs/readthedocs.org#5967`_)
 - **Search Results Ordered By Most Viewed Pages**:
   It would be much more useful if the most viewed pages are shown first in the search results.
   (`readthedocs/readthedocs.org#5968`_)
@@ -115,12 +123,13 @@ You are a **Superhero** to us if you can lend your time and effort to improve Re
 .. _Rob Hudson: https://github.com/robhudson
 .. _back in 2013: https://github.com/readthedocs/readthedocs.org/pull/493
 .. _Safwan Rahman: https://github.com/safwanrahman
-.. _In-Doc Search UI: https://github.com/readthedocs/readthedocs-sphinx-search
-.. _readthedocs gitter: https://gitter.im/rtfd/readthedocs.org
+.. _readthedocs-sphinx-search: https://github.com/readthedocs/readthedocs-sphinx-search
 .. _here: https://readthedocs-sphinx-search.readthedocs.io/en/latest/
+.. _feature flag: http://docs.readthedocs.io/page/guides/feature-flags.html
+.. _GitHub issues: https://github.com/readthedocs/readthedocs.org/issues/new
 .. _Celery docs: http://docs.celeryproject.org/en/latest/
 .. _Kombu docs: http://docs.celeryproject.org/projects/kombu/en/latest/
 .. _readthedocs/readthedocs.org#5966: https://github.com/readthedocs/readthedocs.org/issues/5966
-.. _readthedocs/readthedocs.org#5967: https://github.com/readthedocs/readthedocs.org/issues/5967
 .. _readthedocs/readthedocs.org#5968: https://github.com/readthedocs/readthedocs.org/issues/5968
 .. _readthedocs/readthedocs-sphinx-search#23: https://github.com/readthedocs/readthedocs-sphinx-search/issues/23
+.. _readthedocs gitter: https://gitter.im/rtfd/readthedocs.org
