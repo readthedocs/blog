@@ -20,8 +20,8 @@ The main goals of my `GSoC project`_ were:
 Search as you type feature is live on our docs.
 You can go through these links to experience it.
 
-- https://docs.readthedocs.io/?rtd_search=team
 - https://docs.readthedocs.io/?rtd_search=contributing
+- https://docs.readthedocs.io/?rtd_search=api/v3/projects/
 
 Google Summer of Code
 ---------------------
