@@ -18,7 +18,7 @@ The main goals of my `GSoC project`_ were:
 - to add support for search analytics.
 
 Search as you type feature is live on our docs.
-You can go through these links to experience it.
+You can go through these links to experience it:
 
 - https://docs.readthedocs.io/?rtd_search=contributing
 - https://docs.readthedocs.io/?rtd_search=api/v3/projects/
@@ -36,7 +36,7 @@ All of my search related work can be seen in the `In-Doc Search UI Project Board
 Background
 ----------
 
-Search code was voluntarily contributed by `Rob Hudson`_,
+The search code was originally contributed by `Rob Hudson`_,
 `back in 2013`_ and then improved upon by other contributors.
 It was greatly improved and upgraded by `Safwan Rahman`_ during :doc:`GSoC'18 <search-improvements>`.
 Continuining on the same path,
@@ -52,9 +52,13 @@ During the GSoC period, I have worked on the following features:
   So, it is now possible to get instant results without being redirected to any other page.
   Read the docs `here`_.
 
-.. image:: /_static/in-doc-search-demo.gif
+.. figure:: /_static/in-doc-search-demo.gif
     :width: 100%
+    :align: center
     :target: /_static/in-doc-search-demo.gif
+    :alt: In-doc search ui demo
+
+    In-Doc Search UI Demo
 
 - **Multiple Hits Per Search Result**: This is one of the highly requested features.
   We now support search results from the sections of the docs, clicking on which will take you
@@ -71,6 +75,14 @@ During the GSoC period, I have worked on the following features:
   We plan to make this available for everyone soon.
   If you want to test this feature out and help giving us feedback,
   please contact us via `GitHub issues`_.
+
+.. figure:: /_static/search-analytics-demo.png
+    :width: 60%
+    :align: center
+    :target: /_static/search-analytics-demo.png
+    :alt: Search analytics in project admin dashboard
+
+    Search analytics demo dashboard
 
 What Next?
 ----------
