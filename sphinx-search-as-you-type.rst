@@ -121,7 +121,7 @@ Conclusion
 ----------
 
 These new features will make it much easier to find the relevant information in the docs.
-There are infinite number of ways it can be improved and I believe we can compete
+There are an infinite number of ways it can be improved and I believe we can compete
 with major search engines in terms of documentation searching.
 We don’t need superhero or coding guru, just need people who understand Python,
 Django and Elasticsearch and have some time to write some code for us.
