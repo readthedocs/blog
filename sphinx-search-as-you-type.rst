@@ -12,7 +12,7 @@ This year, I, `Vaibhav Gupta`_, took the opportunity provided
 by Google Summer of Code to improve the search.
 The main goals of my `GSoC project`_ were:
 
-- to make an `Sphinx extension`_ to provide "search you type" experience to the users.
+- to make a `Sphinx extension`_ to provide "search you type" experience to the users.
 - to add support for multiple hits per search result.
 - to improve the UI/UX around code search.
 - to add support for search analytics.
@@ -39,7 +39,7 @@ Background
 The search code was originally contributed by `Rob Hudson`_,
 `back in 2013`_ and then improved upon by other contributors.
 It was greatly improved and upgraded by `Safwan Rahman`_ during :doc:`GSoC'18 <search-improvements>`.
-Continuining on the same path,
+Continuing on the same path,
 I have implemented some new features on top of the existing search backend.
 
 New Features
@@ -71,7 +71,7 @@ During the GSoC period, I have worked on the following features:
 - **Search Analytics**: We now have support for search analytics.
   These analytics makes it easy to know what the users are looking for in your documentation.
   You can see these analytics in your project admin dashboard.
-  Currently, this feature is in beta state and and is available under a `feature flag`_.
+  Currently, this feature is in beta state and is available under a `feature flag`_.
   We plan to make this available for everyone soon.
   If you want to test this feature out and help giving us feedback,
   please contact us via `GitHub issues`_.
@@ -121,7 +121,7 @@ Conclusion
 ----------
 
 These new features will make it much easier to find the relevant information in the docs.
-There are an infinite number of ways it can be improved and I believe we can compete
+There are infinite number of ways it can be improved and I believe we can compete
 with major search engines in terms of documentation searching.
 We don’t need superhero or coding guru, just need people who understand Python,
 Django and Elasticsearch and have some time to write some code for us.
