@@ -1,4 +1,4 @@
-.. post:: August 09, 2019
+.. post:: August 12, 2019
    :tags: gsoc, search, feature, in-doc-search, analytics
    :author: Vaibhav
    :location: LKO
