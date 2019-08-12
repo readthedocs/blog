@@ -15,7 +15,7 @@
 In the last months, we have been working on making our API better.
 Considering the limitations of our current REST API v2,
 we decided to make a bigger step forward and create our new shiny API v3 with better and bigger features,
-putting the focus on the use cases we already known.
+putting the focus on the user cases we heard about from existing users.
 
 Our new API v3 has some big differences compared to the old one that make it more user-friendly and useful.
 
