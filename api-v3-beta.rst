@@ -35,13 +35,13 @@ Allowing us to build new good features on top of them, like:
 * `Check build status`_
 * `Manage redirects`_ and `environment variables programmatically`_
 
-.. _Import a new project: https://docs.readthedocs.io/en/latest/api/v3.html#project-create
-.. _List all my projects: https://docs.readthedocs.io/en/latest/api/v3.html#projects-list
-.. _Activate a version: https://docs.readthedocs.io/en/latest/api/v3.html#version-update
-.. _Trigger a build for a specific version: https://docs.readthedocs.io/en/latest/api/v3.html#build-triggering
-.. _Check build status: https://docs.readthedocs.io/en/latest/api/v3.html#build-details
-.. _Manage redirects: https://docs.readthedocs.io/en/latest/api/v3.html#redirects
-.. _environment variables programmatically: https://docs.readthedocs.io/en/latest/api/v3.html#environment-variables
+.. _Import a new project: https://docs.readthedocs.io/page/api/v3.html#project-create
+.. _List all my projects: https://docs.readthedocs.io/page/api/v3.html#projects-list
+.. _Activate a version: https://docs.readthedocs.io/page/api/v3.html#version-update
+.. _Trigger a build for a specific version: https://docs.readthedocs.io/page/api/v3.html#build-triggering
+.. _Check build status: https://docs.readthedocs.io/page/api/v3.html#build-details
+.. _Manage redirects: https://docs.readthedocs.io/page/api/v3.html#redirects
+.. _environment variables programmatically: https://docs.readthedocs.io/page/api/v3.html#environment-variables
 
 If you want to know more about it,
 please check out the full `APIv3 documentation`_.
