@@ -17,16 +17,16 @@ Considering the limitations of our current REST API v2,
 we decided to make a bigger step forward and create our new shiny API v3 with better and nicer features,
 putting the focus on the user cases we heard about from existing users.
 
-Our new API v3 has some big differences compared to the old one that make it more user-friendly and useful.
+Compared to API v2, our new API v3 has some big differences that make it more user-friendly and useful.
 
 These differences includes:
 
-* Authenticated only
-* Token based authentication
-* Read and Write
-* Project's slug resource based
+* API access requires authentication
+* Token based API authentication
+* Read and write
+* Resource lookup can use project's slug
 
-Allowing us to build new good features on top of them, like:
+Some examples of new queries and actions that will be possible with the API are:
 
 * :ref:`Import a new project <readthedocs:api/v3:Project create>`
 * :ref:`List all my projects <readthedocs:api/v3:Projects list>`
@@ -44,11 +44,11 @@ please check out the full `APIv3 documentation`_.
 Invite-only beta feature
 ------------------------
 
-APIv3 is currently in an invite-only Beta state on our Community site, https://readthedocs.org.
+APIv3 is currently in an invite-only beta state on our community site, https://readthedocs.org.
 In case you want to test it and give us feedback on it,
 please `email us`_ to get early access.
 
-We plan to add more features based on the feedback we receive from you to cover most of the common use cases.
+Based on the feedback we receive from you, we plan to add more features to cover most of the common use cases.
 Please, help us with your feedback to make the new APIv3 *even* better!
 
 .. _email us: support@readthedocs.org
