@@ -14,7 +14,7 @@
 
 In the last months, we have been working on making our API better.
 Considering the limitations of our current REST API v2,
-we decided to make a bigger step forward and create our new shiny API v3 with better and bigger features,
+we decided to make a bigger step forward and create our new shiny API v3 with better and nicer features,
 putting the focus on the user cases we heard about from existing users.
 
 Our new API v3 has some big differences compared to the old one that make it more user-friendly and useful.
@@ -49,7 +49,7 @@ please check out the full `APIv3 documentation`_.
 .. _APIv3 documentation: https://docs.readthedocs.io/page/api/v3.html
 
 
-Invite-only Beta feature
+Invite-only beta feature
 ------------------------
 
 APIv3 is currently in an invite-only Beta state on our Community site, https://readthedocs.org.
