@@ -28,20 +28,12 @@ These differences includes:
 
 Allowing us to build new good features on top of them, like:
 
-* `Import a new project`_
-* `List all my projects`_
-* `Activate a version`_
-* `Trigger a build for a specific version`_
-* `Check build status`_
-* `Manage redirects`_ and `environment variables programmatically`_
-
-.. _Import a new project: https://docs.readthedocs.io/page/api/v3.html#project-create
-.. _List all my projects: https://docs.readthedocs.io/page/api/v3.html#projects-list
-.. _Activate a version: https://docs.readthedocs.io/page/api/v3.html#version-update
-.. _Trigger a build for a specific version: https://docs.readthedocs.io/page/api/v3.html#build-triggering
-.. _Check build status: https://docs.readthedocs.io/page/api/v3.html#build-details
-.. _Manage redirects: https://docs.readthedocs.io/page/api/v3.html#redirects
-.. _environment variables programmatically: https://docs.readthedocs.io/page/api/v3.html#environment-variables
+* :ref:`Import a new project <readthedocs:api/v3:Project create>`
+* :ref:`List all my projects <readthedocs:api/v3:Projects list>`
+* :ref:`Activate a version <readthedocs:api/v3:Version update>`
+* :ref:`Trigger a build for a specific version <readthedocs:api/v3:Build triggering>`
+* :ref:`Check build status <readthedocs:api/v3:Build details>`
+* :ref:`Manage redirects <readthedocs:api/v3:Redirects>` and :ref:`environment variables programmatically <readthedocs:api/v3:Environment Variables>`
 
 If you want to know more about it,
 please check out the full `APIv3 documentation`_.
