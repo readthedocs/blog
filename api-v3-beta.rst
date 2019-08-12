@@ -6,7 +6,7 @@
 .. meta::
    :description lang=en:
 
-      Announcing API v3 Beta as invite-only status. Help us to make it *even* better!
+      Help us to make Read the Docs *even* better by joining our new API v3 invite-only beta!
 
 ========================
  Announcing API v3 Beta
