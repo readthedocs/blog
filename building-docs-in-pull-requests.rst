@@ -17,7 +17,7 @@ As a student of Google Summer of Code (GSoC) 2019, I (`Maksudul Haque`_) was tas
 The main goal of my project was to make it possible to build documentation whenever a pull request was created,
 and send build status notification to the Providers Status API.
 
-To see this feature in action you can click on one of the (`pull requests`_) on readthedocs.org repository.
+To see this feature in action you can click on one of the `pull requests`_ on readthedocs.org repository.
 
 .. figure:: img/github-build-status-reporting.gif
     :alt: GitHub Build Status Reporting for Pull Requests.
