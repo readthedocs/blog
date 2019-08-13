@@ -102,6 +102,7 @@ some of which are:
 - **Search Inside Sections**:
   It would be good if users have the option to get the
   search results from a particular section of the documentation.
+  For example: Getting results from only `Guides`_ of our `documentation`_.
   (`readthedocs/readthedocs-sphinx-search#23`_).
 
 Contributors Wanted
@@ -143,5 +144,7 @@ You are a **Superhero** to us if you can lend your time and effort to improve Re
 .. _Kombu docs: http://docs.celeryproject.org/projects/kombu/en/latest/
 .. _readthedocs/readthedocs.org#5966: https://github.com/readthedocs/readthedocs.org/issues/5966
 .. _readthedocs/readthedocs.org#5968: https://github.com/readthedocs/readthedocs.org/issues/5968
+.. _Guides: https://docs.readthedocs.io/page/guides/
+.. _documentation: https://docs.readthedocs.io/
 .. _readthedocs/readthedocs-sphinx-search#23: https://github.com/readthedocs/readthedocs-sphinx-search/issues/23
 .. _readthedocs gitter: https://gitter.im/rtfd/readthedocs.org
