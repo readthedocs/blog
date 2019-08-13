@@ -4,7 +4,7 @@
    :location: DHA
 
 GSOC 2019: Autobuild Documentation in Pull Requests
-========================================
+===================================================
 
 Building documentation for pull requests is one of the most requested features of Read the Docs.
 Similar to how a continuous integration system runs a test suite on every pull request,
@@ -78,7 +78,8 @@ Getting Started
 ===============
 
 Building documentation for pull requests is currently in Beta testing and only supports Github repositories.
-If you want to dive in and enable this feature for your project you can `email us <mailto:support@readthedocs.org>`_.
+If you want to dive in and enable this feature for your project you can `email us <mailto:support@readthedocs.org>`_
+with the URL of your ReadtheDocs project.
 
 Future Improvements
 ===================
@@ -86,7 +87,7 @@ Future Improvements
 We are planing to extend this feature to other platforms such as GitLab and BitBucket.
 We are also planning to make this feature more customizable through our configaration file (``.readthedocs.yaml``).
 If you have any improvements or features in mind for building documentation in pull requests we would love to know about it.
-Please feel free to `let us know <mailto:team@readthedocs.org>`_.
+Please feel free to let us know by submitting an `issue on GitHub`_.
 
 
 Contributors Wanted
@@ -114,3 +115,4 @@ We will keep making improvements along the way for a better user experience.
 .. _Pull Request Builder Board: https://github.com/orgs/readthedocs/projects/8
 .. _readthedocs gitter: https://gitter.im/rtfd/readthedocs.org
 .. _core team: https://docs.readthedocs.io/en/latest/team.html#development-team
+.. _issue on GitHub: https://github.com/readthedocs/readthedocs.org/issues/new
