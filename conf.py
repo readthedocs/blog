@@ -51,6 +51,7 @@ blog_authors = {
     'Safwan': ('Safwan Rahman', 'https://github.com/safwanrahman/'),
     'Santos': ('Santos Gallegos', 'https://github.com/stsewd/'),
     'Saadmk11': ('Maksudul Haque', 'https://github.com/saadmk11/'),
+    'Vaibhav': ('Vaibhav Gupta', 'https://github.com/dojutsu-user'),
 }
 blog_default_author = 'Eric'
 
@@ -59,6 +60,7 @@ blog_locations = {
     'SAN': ('San Diego, CA', ''),
     'DHA': ('Dhaka, Bangladesh', 'https://wikitravel.org/en/Bangladesh'),
     'CUE': ('Cuenca, Ecuador', ''),
+    'LKO': ('Lucknow, India', ''),
 }
 blog_default_location = 'PDX'
 blog_feed_archives = True
