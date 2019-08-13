@@ -1,10 +1,10 @@
-.. post:: August 12, 2019
+.. post:: August 13, 2019
    :tags: gsoc, search, feature, in-doc-search, analytics
    :author: Vaibhav
    :location: LKO
 
-Search Update
-=============
+GSOC 2019: Improved Search Results and Search As You Type
+=========================================================
 
 Giving users the ability to easily find the information that they
 are looking for has always been important for Read the Docs.
