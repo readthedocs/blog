@@ -50,6 +50,7 @@ blog_authors = {
     'David': ('David Fischer', ''),
     'Safwan': ('Safwan Rahman', 'https://github.com/safwanrahman/'),
     'Santos': ('Santos Gallegos', 'https://github.com/stsewd/'),
+    'Saadmk11': ('Maksudul Haque', 'https://github.com/saadmk11/'),
     'Vaibhav': ('Vaibhav Gupta', 'https://github.com/dojutsu-user'),
 }
 blog_default_author = 'Eric'
