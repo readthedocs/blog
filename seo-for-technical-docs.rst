@@ -59,7 +59,7 @@ Making your docs display better in search results
 
     Google search engine results with the page title, URL, and a description.
 
-Displaying better in search results, put simply, will cause more people to click through to your docs.
+Displaying more relevant information in search results will cause more people to click through to your docs.
 Again, your goal is not to use cheap tactics to rank better and trick users into clicking.
 Rather, you are trying to legitimately improve your content such that users
 better understand what to expect on a page before they click.
