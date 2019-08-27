@@ -64,7 +64,7 @@ Again, your goal is not to use cheap tactics to rank better and trick users into
 Rather, you are trying to legitimately improve your content such that users
 better understand what to expect on a page before they click.
 
-Some of the most important aspects of displaying better are:
+Some of the most important aspects of improved search listings are:
 
 * Use descriptive and accurate titles in the HTML ``<title>`` tag.
   With Sphinx, the ``<title>`` comes from the top heading on the page.
