@@ -1,4 +1,4 @@
-.. post:: August 8, 2019
+.. post:: August 27, 2019
    :tags: api, feature, reference
    :author: Manuel
    :location: BCN
