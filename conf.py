@@ -52,6 +52,7 @@ blog_authors = {
     'Santos': ('Santos Gallegos', 'https://github.com/stsewd/'),
     'Saadmk11': ('Maksudul Haque', 'https://github.com/saadmk11/'),
     'Vaibhav': ('Vaibhav Gupta', 'https://github.com/dojutsu-user'),
+    'Manuel': ('Manuel Kaufmann', 'https://elblogdehumitos.com/'),
 }
 blog_default_author = 'Eric'
 
@@ -61,6 +62,7 @@ blog_locations = {
     'DHA': ('Dhaka, Bangladesh', 'https://wikitravel.org/en/Bangladesh'),
     'CUE': ('Cuenca, Ecuador', ''),
     'LKO': ('Lucknow, India', ''),
+    'BCN': ('Barcelona, Spain', 'https://www.barcelona.cat/en/'),
 }
 blog_default_location = 'PDX'
 blog_feed_archives = True
