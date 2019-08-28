@@ -25,6 +25,7 @@ These differences includes:
 * Token based API authentication
 * Read and write
 * Resource lookup can use project's slug
+* Wider resource coverage
 
 Some examples of new queries and actions that will be possible with the API are:
 
