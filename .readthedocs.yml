@@ -1,6 +1,7 @@
 version: 2
 
 sphinx:
+  builder: dirthml
   configuration: conf.py
 
 python:
