@@ -239,7 +239,7 @@ htmlhelp_basename = 'ReadtheDocsBlogdoc'
 
 intersphinx_mapping = {
     'readthedocs': (
-        'https://docs.readthedocs.io/en/latest',
+        'https://docs.readthedocs.io/en/stable',
         None
     ),
 }
