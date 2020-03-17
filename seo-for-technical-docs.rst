@@ -123,7 +123,7 @@ Feedback on keywords users use to find your docs is also really helpful.
 This is true both for the phrases people searched for on a search engine
 and for the search terms people queried in Sphinx and Read the Docs' built-in search features.
 Analytics tools like Google Analytics can provide these insights,
-but as part of our :doc:`search improvements and search analytics <improved-search-and-search-as-you-type>`,
+but as part of our :doc:`search improvements and search analytics </improved-search-and-search-as-you-type>`,
 Read the Docs is going to show project maintainers the most common search queries to help them improve as well.
 
 

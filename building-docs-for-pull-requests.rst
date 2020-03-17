@@ -4,7 +4,7 @@
    :location: DHA
 
 GSOC 2019: Autobuild Documentation for Pull Requests
-===================================================
+====================================================
 
 Building documentation for pull requests is one of the most requested features of Read the Docs.
 Similar to how a continuous integration system runs a test suite on every pull request,

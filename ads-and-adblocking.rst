@@ -7,7 +7,7 @@
 Ads and Ad blockers
 ===================
 
-Last time, we shared how :doc:`ethical advertising works <ethical-advertising-works>`
+Last time, we shared how :doc:`ethical advertising works </ethical-advertising-works>`
 to keep Read the Docs sustainable without creepy ad targeting.
 This time, we will share about one of our biggest challenges with advertising.
 At the beginning of April, Read the Docs was added to one of the most popular
@@ -140,4 +140,4 @@ If you run an open source project affected by ad blockers, we would love to help
     audience who cares deeply about privacy,
     we would love to `hear from you`_ too.
 
-    .. _hear from you: https://readthedocs.org/sustainability/advertising/#advertise-cta
+    .. _hear from you: https://readthedocs.org/sustainability/advertising/

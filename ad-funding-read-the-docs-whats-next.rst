@@ -6,8 +6,8 @@
 Ad Funding at Read the Docs and What's Next for Ethical Advertising
 ===================================================================
 
-It has been three years since we first launched :doc:`ads on Read the Docs <ads-on-read-the-docs>`
-and while we gave a limited update in our :doc:`2018 stats<read-the-docs-2018-stats>`,
+It has been three years since we first launched :doc:`ads on Read the Docs </ads-on-read-the-docs>`
+and while we gave a limited update in our :doc:`2018 stats </read-the-docs-2018-stats>`,
 we figured it was time to give an update on ethical advertising and how it is working.
 
 
@@ -24,7 +24,7 @@ It's that simple and it works.
 
 Despite a slow start to the year, we expect to earn about $75,000 from advertising in Q2.
 This brings our advertising revenue back to the level
-before our ads were :doc:`added to major ad blocking lists <ads-and-adblocking>` last year.
+before our ads were :doc:`added to major ad blocking lists </ads-and-adblocking>` last year.
 
 While we do earn money from other sources such as our `commercial offering <https://readthedocs.com>`_,
 advertising continues to be our largest source of revenue and has allowed us
@@ -43,10 +43,10 @@ We've made great progress on advertising over the past year.
 * Our `community ads program`_ has been significantly expanded.
   We are actively running free community advertising promoting over ten open source projects and conferences.
 * While we never tracked users with advertising,
-  we put in place stricter :doc:`Do Not Track <do-not-track>` privacy protections.
+  we put in place stricter :doc:`Do Not Track </do-not-track>` privacy protections.
   We continue to believe that advertising can be well targeted without tracking users.
 * We launched an advertising vertical to let companies
-  :doc:`promote their open jobs <lessons-from-hiring-manager-interviews>` to developers.
+  :doc:`promote their open jobs </lessons-from-hiring-manager-interviews>` to developers.
 * Our advertising revenue share program tripled in size.
 
 .. _community ads program: https://docs.readthedocs.io/page/advertising/ethical-advertising.html#community-ads

@@ -1,5 +1,3 @@
-# -*- coding: utf-8 -*-
-#
 # Read the Docs Blog documentation build configuration file, created by
 # sphinx-quickstart on Thu Jul 31 11:23:11 2014.
 #

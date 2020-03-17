@@ -141,5 +141,5 @@ help `fund development on Read the Docs`_ on Gittip.
 .. _Read the Docs: http://readthedocs.org/
 .. _Dave Snider: https://twitter.com/enemykite
 .. _open an issue: http://github.com/snide/sphinx_rtd_theme/issues
-.. _theme documentation page: http://docs.readthedocs.org/en/latest/theme.html
+.. _theme documentation page: https://sphinx-rtd-theme.readthedocs.io/en/stable/
 .. _us on Twitter: http://twitter.com/readthedocs

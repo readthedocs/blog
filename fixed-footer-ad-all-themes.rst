@@ -16,14 +16,14 @@ via our revenue share program and grants.
 
 Currently, about 30% of our site traffic does not have any advertising.
 When we first launched ethical advertising in 2016,
-we launched only on :doc:`specific documentation themes <ads-on-other-themes>`.
+we launched only on :doc:`specific documentation themes </ads-on-other-themes>`.
 We purposely did this slowly to make sure our ads look integrated
 with Read the Docs and less obtrusive to users.
 
 For a while, this wasn't a problem because we had not reached capacity with advertising.
 We did not have enough paid advertisers to support the amount of pageviews Read the Docs served.
 Fast forward a couple years,
-and our advertising model has :doc:`proven to be successful <ad-funding-read-the-docs-whats-next>`.
+and our advertising model has :doc:`proven to be successful </ad-funding-read-the-docs-whats-next>`.
 In North America and Western Europe,
 **100% of pages that are eligible for paid advertising have a paid ad**.
 

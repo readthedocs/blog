@@ -8,7 +8,7 @@ Update on Ad Blocking and Acceptable Ads
 ========================================
 
 A few weeks ago, we shared about the
-:doc:`challenge ad blocking presented to our sustainability <ads-and-adblocking>`
+:doc:`challenge ad blocking presented to our sustainability </ads-and-adblocking>`
 and what we were doing about it.
 On May 4th, Read the Docs was added to the `Acceptable Ads list`_
 meaning that our visitors running ad blockers who choose to allow unintrusive advertising
@@ -28,7 +28,7 @@ Data on our inclusion in the Acceptable Ads list
 32% of Read the Docs visitors run an ad blocker
     Estimates around the web vary regarding what percentage of people
     run ad blockers and it varies heavily by industry.
-    We discussed this figure a bit in our :doc:`previous post<ads-and-adblocking>`.
+    We discussed this figure a bit in our :doc:`previous post </ads-and-adblocking>`.
 
 It took a month from application to inclusion in the list
     We discovered about our inclusion in the `EasyList`_ ad blocker list

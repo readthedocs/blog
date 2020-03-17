@@ -8,7 +8,7 @@ Uniregistry sponsors Read the Docs and Open Source
    :width: 100%
    :target: https://uniregistry.com/readthedocs
 
-Today we're excited to announce an important sponsorship partner in our `Ethical Advertising`_ campaign: `Uniregistry`_. Our goal with our ethical advertising program is to provide important funding for open source, and show that it can be done ethically -- without tracking our users and only offering ads from relevant partners. 
+Today we're excited to announce an important sponsorship partner in our :doc:`Ethical Advertising <readthedocs:advertising/ethical-advertising>` campaign: `Uniregistry`_. Our goal with our ethical advertising program is to provide important funding for open source, and show that it can be done ethically -- without tracking our users and only offering ads from relevant partners. 
 
 Domain registration was identified early as a natural partner to our program, because it sits in the stack of necessary infrastructure for all of us that work on making the internet. We wanted the right partner, because historically we feel that domain registration companies have had awful UX. We'll cover a few of the criteria we used to reach the conclusion to partner with Uniregistry.
 
@@ -76,7 +76,6 @@ and find it as useful as we do.
 Some small print: *Terms: Offer valid from March 31, 2017 to May 31, 2017 at 23:59:59 UTC for first year registrations and/or transfers in to Uniregistry.com. Excludes select extensions: .sucks & .game. Not including premiums. For redemption, you must have or create a new account at Uniregistry.com and comply with all Uniregistry.com registration policies and terms of service. Cannot be used in conjunction with any other offer, sale, discount or promotion; not redeemable for any other service; no cash value. This offer and all Uniregistry registration services are governed by the law of Grand Cayman, our home.*
 
 
-.. _Ethical Advertising: http://docs.readthedocs.io/en/latest/ethical-advertising.html
 .. _Uniregistry: https://uniregistry.com/readthedocs
 .. _Try it: https://uniregistry.com/readthedocs
 .. _Sign up: https://uniregistry.com/readthedocs
