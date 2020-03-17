@@ -18,5 +18,8 @@ jobs:
         python -m pip install --upgrade pip
         pip install -r requirements.txt
     - name: Build docs
+      env:
+        # Ignore warnings from code we don't have control over
+        PYTHONWARNINGS: ignore:FutureWarning
       run: |
         make html
