@@ -4,7 +4,7 @@
 Ads on the Alabaster Theme on Read the Docs Community Sites
 ===========================================================
 
-We've been running our `ethical advertising <http://docs.readthedocs.io/en/latest/ethical-advertising.html>`_ campaign for over a year now,
+We've been running our :doc:`ethical advertising <readthedocs:advertising/ethical-advertising>` campaign for over a year now,
 and it is starting to show success on making Read the Docs more sustainable. 
 
 Over this time,
@@ -56,7 +56,7 @@ In particular:
 * Projects that opt out of normal advertising, as previously supported, will now be shown *only* ads from our Community Ads partners.
 * Users will be able to opt out of all paid ads with a profile setting, but will still see Community Ads.
 
-You can `learn more <http://docs.readthedocs.io/en/latest/ethical-advertising.html#opting-out>`_ about opting out in our docs.
+You can :ref:`learn more <readthedocs:advertising/ethical-advertising:Opting Out>` about opting out in our docs.
 
 Community Ads
 ~~~~~~~~~~~~~

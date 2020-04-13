@@ -13,7 +13,7 @@ at companies ranging from 5-person companies to the biggest names in tech.
 We wanted to learn more about hiring processes at various companies
 with the ultimate goal of building `a product to help companies find developers`_.
 
-Last time, we covered some :doc:`tips for hiring managers <lessons-from-hiring-manager-interviews>`
+Last time, we covered some :doc:`tips for hiring managers </lessons-from-hiring-manager-interviews>`
 based on what companies told us they were doing.
 This time, we put together **tips for candidates looking for their next job**
 based on insights we heard from hiring managers.
@@ -60,7 +60,7 @@ that requires a cover letter or requires answers to a few questions,
 those are great ways to have your application stand out relative to other applicants.
 You don't want your resume to get lost in a stack of hundreds.
 
-As we mentioned :doc:`last time <lessons-from-hiring-manager-interviews>`,
+As we mentioned :doc:`last time </lessons-from-hiring-manager-interviews>`,
 quite a few hiring managers we talked to started requiring a cover letter
 or even just a couple questions that are unique to the company
 in order to make their job filtering candidates easier

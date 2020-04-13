@@ -25,7 +25,7 @@ What we implemented
 
 Not much needed to change to make Read the Docs support DNT
 and many of these changes were already necessary
-for the EU's new :doc:`privacy regulation <gdpr-what-it-means-for-readthedocs>`.
+for the EU's new :doc:`privacy regulation </gdpr-what-it-means-for-readthedocs>`.
 
 Here's a brief list of what we did for Do Not Track:
 
@@ -45,7 +45,7 @@ What DNT means for our advertising
 ----------------------------------
 
 Advertising at Read the Docs was already built with privacy in mind.
-With our `Ethical Ads`_, we previously committed to not tracking users,
+With our :doc:`Ethical Ads <readthedocs:advertising/ethical-advertising>`, we previously committed to not tracking users,
 not selling user data, and hosting ads ourselves
 which all align perfectly with Do Not Track.
 
@@ -53,13 +53,10 @@ Our support for DNT formalizes our commitment to the high standards
 for privacy produced by the EFF.
 It also make us one of very few ad networks that honor Do Not Track.
 
-.. _Ethical Ads: https://docs.readthedocs.io/en/latest/ethical-advertising.html
-
-
 The Ethical Ad Network
 ----------------------
 
-In a :doc:`previous post <ethical-advertising-works>`,
+In a :doc:`previous post </ethical-advertising-works>`,
 we mentioned that we are taking the same developer-centric, privacy-focused
 advertising we have on Read the Docs and expanding this to a larger ad network
 for open source infrastructure.
