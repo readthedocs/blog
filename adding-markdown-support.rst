@@ -15,13 +15,13 @@ we have the ability to support a markup language with a proper spec.
 `recommonmark`_ is the bridge that allows Commonmark to be used inside Sphinx.
 **This allows you to use both RST and Commonmark inside of your Sphinx project.**
 
-.. _Commonmark: http://commonmark.org/
+.. _Commonmark: https://commonmark.org/
 .. _recommonmark: https://github.com/rtfd/recommonmark
 
 Get started
 -----------
 
-We have documented how to `get started`_ with Commonmark inside of Sphinx.
+We have documented how to :ref:`get started <readthedocs:intro/getting-started-with-sphinx:Using Markdown with Sphinx>` with Commonmark inside of Sphinx.
 You simply::
 
     pip install recommonmark
@@ -97,6 +97,4 @@ Go ahead and try it out.
 Please file features ideas and bug reports on the `recommonmark bug tracker`_.
 
 .. _proposed draft: http://talk.commonmark.org/t/generic-directives-plugins-syntax/444
-.. _get started: http://docs.readthedocs.org/en/latest/getting_started.html#in-markdown
 .. _recommonmark bug tracker: https://github.com/rtfd/recommonmark/issues
-

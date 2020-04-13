@@ -38,7 +38,7 @@ Background
 
 The search code was originally contributed by `Rob Hudson`_,
 `back in 2013`_ and then improved upon by other contributors.
-It was greatly improved and upgraded by `Safwan Rahman`_ during :doc:`GSoC'18 <search-improvements>`.
+It was greatly improved and upgraded by `Safwan Rahman`_ during :doc:`GSoC'18 </search-improvements>`.
 Continuing on the same path,
 I have implemented some new features on top of the existing search backend.
 

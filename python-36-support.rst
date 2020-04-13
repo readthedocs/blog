@@ -14,15 +14,15 @@ build image.
 
 In the near future, this build image will be the default build image, but for
 now, you can manually opt your project in using our
-:doc:`YAML configuration file <readthedocs:yaml-config>`.
+:doc:`YAML configuration file <readthedocs:config-file/v2>`.
 
 What you need
 -------------
 
 In order to use Python 3.6, you need to select our ``latest`` build image, and
 you need to select to use Python 3.6. The build image is controlled with the
-:ref:`readthedocs:yaml__build__image` setting in the YAML config, and you can
-set the Python version with the :ref:`readthedocs:yaml__python__version`
+:ref:`readthedocs:config-file/v2:build.image` setting in the YAML config, and you can
+set the Python version with the :ref:`readthedocs:config-file/v2:python.version`
 setting.
 
 Your project's ``readthedocs.yml`` file should contain::
