@@ -49,5 +49,5 @@ we encourage you to talk to them and tell them to give it a try.
 
 We are excited to have more scientific documentation on our platform and we are doing our small part to make this happen and have better science in the world.
 
-.. _customo task router: https://github.com/readthedocs/readthedocs.org/blob/8e78d680d02aeba12644796b979ef62459f64932/readthedocs/builds/tasks.py#L11
+.. _custom task router: https://github.com/readthedocs/readthedocs.org/blob/8e78d680d02aeba12644796b979ef62459f64932/readthedocs/builds/tasks.py#L11
 .. _let us know: mailto:support@readthedocs.org
