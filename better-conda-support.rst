@@ -32,7 +32,7 @@ we were migrating all of our infrastructure to a different architecture:
 
 * Azure *Virtual machine scale sets* for autoscaling our servers,
 * Azure *storage accounts* to store all the user's documentation
-* Proxito , an internal service to remove lot of the state from our servers (more about this migration coming in a future post)
+* Proxito, an internal service to remove a lot of the state from our servers (more about this migration coming in a future post)
 
 This helped us to *reduce costs* and allowed us to spin up *bigger instances* for the builders.
 We have also made some other important operational changes:
