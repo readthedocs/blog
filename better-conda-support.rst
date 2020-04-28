@@ -19,8 +19,8 @@ causing a poor experience for other users.
 
 Our first solution was a dedicated server for these kind of projects.
 We would manually assign them to this server on user requests.
-This workaround worked okay, but it involves a bad experience for the user and also us doing a manual setup each time.
-Over the time, we hit again the same issue of OOM even given all the memory available to one project to build its documentation.
+This workaround worked okay, but it involves a bad experience for the user and also us doing a manual step each time.
+Over time, we hit again the same issue of OOM, even giving all the memory available to one project to build its documentation.
 After some research, we found that `this is a known issue in the conda community`_ and there are some different attempts to fix it (like `mamba`_).
 Unfortunately, none of them became the standard yet and the problem is still there.
 
@@ -38,7 +38,7 @@ This helped us to *reduce costs* and allowed us to spin up *bigger instances* fo
 We have also made some other important operational changes:
 
 * Our builders are now single-process, giving all the memory available to only one project without worrying about affecting others.
-* We added `custom task router`_ that routes small builds to small servers (3GB RAM), and big builders (7GB RAM) to larger servers. This removes the need for users to ask us to upgrade their isntances.
+* We added `custom task router`_ that routes small builds to small servers (3GB RAM), and big builds to larger servers (7GB RAM). This removes the need for users to ask us to upgrade their isntances.
 * Assigned all ``conda`` projects to be built by big servers by default.
 
 If you ever had a memory issue on Read the Docs,
