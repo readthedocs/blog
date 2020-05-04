@@ -20,6 +20,7 @@ To add a rule, you only need to choose a pattern and an action.
 After that, every new tag or branch that matches the pattern will trigger the action.
 
 .. image:: _static/automation-rule.png
+   :width: 100%
 
 Currently, we only have two actions available:
 
