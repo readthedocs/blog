@@ -1,4 +1,4 @@
-.. post:: April 30, 2020
+.. post:: May 4, 2020
    :tags: feature, automation-rules
    :author: Santos
    :location: CUE
