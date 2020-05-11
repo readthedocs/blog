@@ -1,3 +1,13 @@
+.. post:: May 12, 2020
+   :tags: community, cdn, hosting
+   :author: Eric
+
+.. meta::
+   :description lang=en:
+
+      Read the Docs Community now has a CDN enabled for all projects.
+
+
 Shipping a CDN on Read the Docs Community
 =========================================
 
