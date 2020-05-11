@@ -45,7 +45,7 @@ Implementation
 
 One of the coolest things that CloudFlare's CDN offers is something called `Cache Tags`_.
 This lets us add a ``Cache-Tag`` header to all the documentation that we serve,
-and bust the cache using just that tag.
+and invalidate the cache using just that tag.
 
 An example,
 when you load our docs,
@@ -62,10 +62,10 @@ or across the entire project.
 As you know,
 cache invalidation is one of the harder problems,
 so we take a pretty conservative approach.
-We bust the cache in the following scenarios:
+We invalidate the cache in the following scenarios:
 
-* Bust Project cache on Project or Domain save
-* Bust Version cache on documentation builds for specific versions
+* Project cache on Project or Domain save
+* Version cache on documentation builds for specific versions
 
 The client code is quite simple,
 a single HTTP request to Cloudflare's API with a list of ``tags`` to clear.
