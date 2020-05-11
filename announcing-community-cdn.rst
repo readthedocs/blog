@@ -26,7 +26,7 @@ this means that ``5,000 * 100 = 500,000`` different endpoints need to be configu
 
 We are lucky that CloudFlare has the global scale to be able to donate us this service.
 Specifically,
-their `SSL for SAAS`_ service is what we're using for both SSL and CDN across all our custom domains
+their `SSL for SAAS`_ service is what we're using for both SSL and CDN across all our custom domains.
 This allows us to offload the complexity to CloudFlare,
 and only focus on our integration.
 
@@ -43,10 +43,10 @@ we will return a header::
 
     GET https://docs.readthedocs.io/en/latest/
     ...
-    Cache_tag: docs-latest,docs
+    Cache-Tag: docs,docs-latest
 
 We return a tag that matches both the ``$project``, and the ``$project-$version``.
-This allows us to bust the cache for a specific version,
+This allows us to invalidate the cache for a specific version,
 or across the entire project.
 
 As you know,
@@ -58,7 +58,7 @@ We bust the cache in the following scenarios:
 * Bust Version cache on documentation builds for specific versions
 
 The client code is quite simple,
-a single HTTP request with a list of ``tags`` to clear.
+a single HTTP request to Cloudflare's API with a list of ``tags`` to clear.
 
 Outcomes
 --------
