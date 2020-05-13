@@ -53,6 +53,8 @@ The stats, in total numbers:
 
 We have been battling spam quite heavily again this year,
 so these numbers are a bit skewed.
+We do notice a uptick in usage across the site,
+both in terms of support and traffic.
 
 .. Project.objects.count()
 .. User.objects.count()
@@ -66,9 +68,12 @@ This year, we had:
 * 4793 `commits`_ (up from 3774)
 * 609 `issues`_ - 80 open, 529 closed (down from 797)
 
-We have continued to have a similar team working on the project.
-In particular I'm happy with our closed issue stats this year,
-which are much better than previousy years
+We have continued to have a similar team working on the project this year,
+but have actually made more commits.
+We moved our support queue from issues to email,
+which likely accounts for the lower issue count.
+We're quite happy with our closed issue stats this year,
+which are much better than previous years.
 
 .. git rev-list --count --all --after="2018-12-31" --before="2020-01-01"
 
@@ -85,7 +90,7 @@ Funding
 * We have additional revenue from our commercial offering at readthedocs.com, but aren't including that in our community funding overview
 
 Our advertising has been pretty steady for 2019.
-The small drop in the year-over-year comparision we account to the fact that ad blockers happened halfway through last year,
+The small drop in the year-over-year comparison we account to the fact that ad blockers happened halfway through last year,
 meaning that the comparison is 15% lower in terms of our total traffic.
 
 We continue to be hosted by Azure_,
