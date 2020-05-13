@@ -50,6 +50,7 @@ The stats, in total numbers:
 
 * 200,000 projects (up from 100k)
 * 400,000 users (up from 150k)
+* 11,033,748 builds (new this year)
 
 We have been battling spam quite heavily again this year,
 so these numbers are a bit skewed.
@@ -58,6 +59,7 @@ both in terms of support and traffic.
 
 .. Project.objects.count()
 .. User.objects.count()
+.. Build.objects.all()[0].pk
 
 Community
 ---------
@@ -102,3 +104,6 @@ You can find some posts on our blog about this.
 Conclusion
 ----------
 
+We continue to keep working to improve the documentation ecosystem in the software industry.
+We're excited about a number of new features that we're working on this year,
+and expect to continue to be a resource you can depend on for a long time to come :)
