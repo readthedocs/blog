@@ -92,7 +92,7 @@ Funding
 * We have additional revenue from our commercial offering at readthedocs.com, but aren't including that in our community funding overview
 
 Our advertising has been pretty steady for 2019.
-The small drop in the year-over-year comparison we account to the fact that ad blockers happened halfway through last year,
+The small drop in the year-over-year comparison we account to the fact that ad blockers happened halfway through 2018,
 meaning that the comparison is 15% lower in terms of our total traffic.
 
 We continue to be hosted by Azure_,
