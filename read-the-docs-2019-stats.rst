@@ -86,7 +86,7 @@ Funding
 
 Our advertising has been pretty steady for 2019.
 The small drop in the year-over-year comparision we account to the fact that ad blockers happened halfway through last year,
-meaning that the comparison is 30% higher in last year.
+meaning that the comparison is 15% lower in terms of our total traffic.
 
 We continue to be hosted by Azure_,
 and we're using a lot of their nicer feature to keep our costs down.
