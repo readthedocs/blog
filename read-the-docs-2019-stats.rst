@@ -79,11 +79,14 @@ which are much better than previousy years
 Funding
 -------
 
-* $TODO in revenue from readthedocs.org (from 294,000)
-* $TODO from advertising (from $278,000)
-* $TODO from Gold users (from $16,000)
+* $275,000 in revenue from readthedocs.org (from 294,000)
+* $249,000 from advertising (from $278,000)
+* $26,600 from Gold users (from $16,000)
 * We have additional revenue from our commercial offering at readthedocs.com, but aren't including that in our community funding overview
 
+Our advertising has been pretty steady for 2019.
+The small drop in the year-over-year comparision we account to the fact that ad blockers happened halfway through last year,
+meaning that the comparison is 30% higher in last year.
 
 We continue to be hosted by Azure_,
 and we're using a lot of their nicer feature to keep our costs down.
