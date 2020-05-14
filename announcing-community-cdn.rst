@@ -20,6 +20,9 @@ generously sponsored by `CloudFlare`_.
 This post will talk a bit more about how we implemented this,
 and why we're excited about it.
 
+We are also offering the CDN option to our Read the Docs for Business users on the Enterprise plan,
+you can `reach out`_ to us if you're interested. 
+
 Hosting thousands of domains is hard
 ------------------------------------
 
@@ -86,5 +89,7 @@ We hope that Read the Docs Community has gotten noticeably faster,
 and that in the near future it will continue to get better with the new features that this enables.
 
 .. _CloudFlare: https://www.cloudflare.com/ 
+.. _reach out: mailto:support@readthedocs.org
 .. _SSL for SAAS: https://www.cloudflare.com/ssl-for-saas-providers/
 .. _cache tags: https://support.cloudflare.com/hc/en-us/articles/200169246-Purging-cached-resources-from-Cloudflare#h_6d756ac9-c476-45e8-a5d4-e2a6e45d9dc7
+
