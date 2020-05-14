@@ -5,7 +5,7 @@
 .. meta::
    :description lang=en:
 
-      Read the Docs Community now has a CDN enabled for all projects.
+      Read the Docs Community now has Cloudflare CDN enabled for all projects resulting in faster and more secure documentation worldwide.
 
 
 Shipping a CDN on Read the Docs Community
