@@ -34,8 +34,8 @@ Page Views
 
 Our stats:
 
-* 465 Million Page Views (up from 400M)
-* 120 Million Unique Visitors (up from 77M)
+* 465 Million Page Views (from 400M)
+* 120 Million Unique Visitors (from 77M)
 
 .. From Google Analytics
 
@@ -48,8 +48,8 @@ Site Stats
 
 The stats, in total numbers:
 
-* 200,000 projects (up from 100k)
-* 400,000 users (up from 150k)
+* 200,000 projects (from 100k)
+* 400,000 users (from 150k)
 * 11,033,748 builds (new this year)
 
 We have been battling spam quite heavily again this year,
@@ -66,9 +66,9 @@ Community
 
 This year, we had:
 
-* 21 `people`_ who committed code to the main repository (down from 28)
-* 4793 `commits`_ (up from 3774)
-* 609 `issues`_ - 80 open, 529 closed (down from 797)
+* 21 `people`_ who committed code to the main repository (from 28)
+* 4793 `commits`_ (from 3774)
+* 609 `issues`_ - 80 open, 529 closed (from 797)
 
 We have continued to have a similar team working on the project this year,
 but have actually made more commits.
