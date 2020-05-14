@@ -1,4 +1,4 @@
-.. post:: May 12, 2020
+.. post:: May 18, 2020
    :tags: community, cdn, hosting
    :author: Eric
 
