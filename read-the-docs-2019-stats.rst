@@ -50,7 +50,7 @@ The stats, in total numbers:
 
 * 200,000 projects (from 100k)
 * 400,000 users (from 150k)
-* 11,033,748 builds (new this year)
+* 10,188,182 builds (new this year)
 
 We have been battling spam quite heavily again this year,
 so these numbers are a bit skewed.
@@ -59,7 +59,7 @@ both in terms of support and traffic.
 
 .. Project.objects.count()
 .. User.objects.count()
-.. Build.objects.all()[0].pk
+.. Build.objects.filter(date__year__lte=2019).first().pk
 
 Community
 ---------
