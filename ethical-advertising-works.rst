@@ -4,7 +4,7 @@
 Ethical Advertising Works
 =========================
 
-It has been two years since we first launched :doc:`ads on Read the Docs <ads-on-read-the-docs>`.
+It has been two years since we first launched :doc:`ads on Read the Docs </ads-on-read-the-docs>`.
 We figured it was time to report on the results that we've seen,
 and say thanks to those who have helped us along the way.
 

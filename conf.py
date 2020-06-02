@@ -1,5 +1,3 @@
-# -*- coding: utf-8 -*-
-#
 # Read the Docs Blog documentation build configuration file, created by
 # sphinx-quickstart on Thu Jul 31 11:23:11 2014.
 #
@@ -50,6 +48,8 @@ blog_authors = {
     'David': ('David Fischer', ''),
     'Safwan': ('Safwan Rahman', 'https://github.com/safwanrahman/'),
     'Santos': ('Santos Gallegos', 'https://github.com/stsewd/'),
+    'Saadmk11': ('Maksudul Haque', 'https://github.com/saadmk11/'),
+    'Vaibhav': ('Vaibhav Gupta', 'https://github.com/dojutsu-user'),
     'Manuel': ('Manuel Kaufmann', 'https://elblogdehumitos.com/'),
 }
 blog_default_author = 'Eric'
@@ -59,6 +59,7 @@ blog_locations = {
     'SAN': ('San Diego, CA', ''),
     'DHA': ('Dhaka, Bangladesh', 'https://wikitravel.org/en/Bangladesh'),
     'CUE': ('Cuenca, Ecuador', ''),
+    'LKO': ('Lucknow, India', ''),
     'BCN': ('Barcelona, Spain', 'https://www.barcelona.cat/en/'),
 }
 blog_default_location = 'PDX'
@@ -238,7 +239,7 @@ htmlhelp_basename = 'ReadtheDocsBlogdoc'
 
 intersphinx_mapping = {
     'readthedocs': (
-        'https://docs.readthedocs.io/en/latest',
+        'https://docs.readthedocs.io/en/stable',
         None
     ),
 }

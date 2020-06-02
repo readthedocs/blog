@@ -69,7 +69,7 @@ That's because:
 
 By enforcing privacy by default, the GDPR shifts the discussion on advertising.
 We want to create an advertising model that is a win for all parties especially users.
-We know from our experience that :doc:`ethical advertising works <ethical-advertising-works>`.
+We know from our experience that :doc:`ethical advertising works </ethical-advertising-works>`.
 It is possible to make money without giving away your users data.
 
 If you want to learn more about Ethical Ads at Read the Docs, please `get in touch`_!

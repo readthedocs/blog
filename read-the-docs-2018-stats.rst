@@ -83,10 +83,10 @@ Funding
 * $16,000 from Gold users (up 16%)
 * We have additional revenue from our commercial offering at readthedocs.com, but aren't including that in our community funding overview
 
-The biggest impact to our revenue this year was :doc:`our ads being blocked <ads-and-adblocking>`.
+The biggest impact to our revenue this year was :doc:`our ads being blocked </ads-and-adblocking>`.
 This happened in May,
 and caused an initial 32% reduction in our ad revenue.
-We were :doc:`added to the Acceptable Ads <ad-blocker-update>` list later in the month,
+We were :doc:`added to the Acceptable Ads </ad-blocker-update>` list later in the month,
 which regained around half of our revenue.
 So for the second half of the year,
 our ad revenue was down about 15%.

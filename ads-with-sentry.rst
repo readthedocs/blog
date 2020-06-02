@@ -4,7 +4,7 @@
 Running ads with Sentry
 =======================
 
-We're excited to announce our first partner in our `Ethical Advertising`_
+We're excited to announce our first partner in our :doc:`Ethical Advertising <readthedocs:advertising/ethical-advertising>`
 campaign: `Sentry`_.
 
 Sentry was a natural first partner,
@@ -32,7 +32,6 @@ We wholeheartedly recommend their product, and thank them for their sponsorship.
    :width: 330px
    :align: center
 
-.. _Ethical Advertising: http://docs.readthedocs.io/en/latest/ethical-advertising.html
 .. _Sentry: https://sentry.io/
 .. _Django REST framework: https://fund.django-rest-framework.org/topics/funding/
 .. _Django: https://www.djangoproject.com/fundraising/
