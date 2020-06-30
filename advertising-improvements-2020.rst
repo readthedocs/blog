@@ -65,6 +65,14 @@ This results in better value to our advertisers
 while still respecting the privacy of our readers.
 
 
+.. admonition:: Would your company like to get in front of more developers?
+
+    Tell your `marketing or recruiting team`_ about Read the Docs
+    and show them how they can reach over 7 million developers who Read the Docs each month!
+
+    .. _marketing or recruiting team: https://readthedocs.org/sustainability/advertising/?utm_medium=referral&utm_source=readthedocs-blog&utm_campaign=ethical-advertising-2020
+
+
 Open sourcing our ad server
 ---------------------------
 
@@ -94,10 +102,10 @@ we also strive to give a better experience and better results to the companies w
 I want to thank all our advertisers who believe in our approach and continue to support us
 and stay tuned to this space for more great features in the future!
 
+Our ethical ad network is just about ready for launch
+and we're actively looking for projects to beta test the network.
+If you run a developer focused website and you're looking for a way to earn money
+without selling out your visitors' privacy,
+please `get in touch`_.
 
-.. admonition:: Would your company like to get in front of more developers?
-
-    Tell your `marketing or recruiting team`_ about Read the Docs
-    and show them how they can reach over 7 million developers who Read the Docs each month!
-
-    .. _marketing or recruiting team: https://readthedocs.org/sustainability/advertising/?utm_medium=referral&utm_source=readthedocs-blog&utm_campaign=ethical-advertising-2020
+.. _get in touch: mailto:ads@readthedocs.org?subject=Ethical%20Ad%20Network%20beta
