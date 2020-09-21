@@ -12,49 +12,52 @@
 Embedding Content From Your Documentation
 =========================================
 
-We are happy to announce we have built a solid Embed API.
-You can use it to embed content from any of the project we host, *anywhere*.
-The Embed API is a very simple but super powerful idea:
-*returns the content of a specific section from a particular document in a project*.
+We are excited to announce the release of content embedding.
+This allows users to embed content from any of the projects we host, *anywhere*.
+Our approach to embedding content is a very simple but powerful idea:
+*return the content of a specific section from a particular document in a project*.
 
-This functionality brought us the ability to work in two different projects:
+We have built an `Embed API`_ as the backend that powers this feature.
+On top of this API,
+we have built two improvements to the experience of our platform.
 
+.. _Embed API: https://docs.readthedocs.io/en/latest/api/v2.html#get--api-v2-embed-
 
 Contextualized tooltips on documentation pages
 ----------------------------------------------
 
-We thought it would be awesome if we could add some extra context to a link within the same page.
-This would help the reader to understand in a better way the concept linked,
-without switching context and jumping into another completely different page,
-and maybe getting lost or distracted with lot of new content in the document opened.
+Our first goal was adding extra context to a link within the same page.
+This helps the reader understand a concept,
+without switching context and jumping into another completely different page.
 
-We had the concept already highlighted by a link,
-we had the Embed API that could return the exact content of the referenced section...
-*Let's add a tooltip with this content when the reader hovers the link!*
---and that's how `sphinx-hoverxref`_ was born.
+Documentation is already full of links to additional content,
+and with the new Embed API that can return that exact content,
+we thought *let's add a tooltip with this content when the reader hovers the link!*
+That's how `sphinx-hoverxref`_ was born.
 
-``sphinx-hoverxref`` allows the author of the documentation to easily add these tooltips,
-customize their style, decide which elements will show tooltips and more!
+``sphinx-hoverxref`` allows documentation authors to easily add these tooltips,
+customize their style, and decide which elements will show tooltips.
+We recommend `reading the docs`_ to see everything it can do. 
 
 .. figure:: /_static/sphinx-hoverxref-demo.gif
 
   Example of ``sphinx-hoverxref`` on Read the Docs documentation.
 
 .. _sphinx-hoverxref: https://sphinx-hoverxref.readthedocs.io/
-
+.. _reading the docs: https://sphinx-hoverxref.readthedocs.io/
 
 Inline help on our application website
 --------------------------------------
 
-Usually, we think that adding a text in the UI is not great and we are tempted to avoid it if possible.
-We try to reduce the words there and, in case the feature is big enough, add a link to the full documentation.
+Adding too much copy in your application can be overwhelming to users,
+meaning they don't read it.
+We try to keep the application copy minimal, and link out to documentation when appropriate.
 This pattern has worked fine over time, but it has the same problem of context switching to a completely different page.
 
 Since we've started working on a new re-design of our entire application UI (more on this coming soon!),
-we thought we could introduce the usage of the Embed API to add this extra documentation,
-with small links next to the feature we want to explain without overloading UI
-but giving the user the ability to have the exact contextualized paragraph for that particular feature.
-
+we added the usage of the Embed API to add this extra documentation.
+By adding a tooltip to our documentation links,
+we allow the user to maintain the content in our application but also learn more about the features they are using.
 
 In summary
 ----------
@@ -65,4 +68,4 @@ you can `read its full documentation`_ to learn more about it.
 .. _read its full documentation: https://docs.readthedocs.io/en/stable/guides/embedding-content.html
 
 We think it's a super powerful feature and we encourage you to use the extension we built on top of it,
-or even better, build your owns and share them with us!
+or even better, build your own and share them with us!
