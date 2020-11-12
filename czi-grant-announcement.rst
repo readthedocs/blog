@@ -59,7 +59,7 @@ The high-level roadmap for this part of the grant is:
 * Adapt the `Guides <https://docs.readthedocs.io/en/latest/guides/>`_ section of the Read the Docs documentation into a more full-featured Education section, along with standardizing and editing all existing guides
 * Expand our existing `Sphinx Tutorial <https://sphinx-tutorial.readthedocs.io/>`_, hopefully adding it upstream to Sphinx as the official tutorial
 * Write additional documentation guides focused on the scientific community, based on feedback from people in the community. This will likely include tutorials on integrating Jupyter with Sphinx, Jupyterbook, and other pain points that users have.
-* If time allows, we would also love to work on currating some of the documentation resources at `Write the Docs <https://www.writethedocs.org/topics/>`_, specifically topics that are relevent to scientific projects.
+* If time allows, we would also love to work on curating some of the documentation resources at `Write the Docs <https://www.writethedocs.org/topics/>`_, specifically topics that are relevant to scientific projects.
 
 As part of this work, we plan to contract someone in a technical writer/developer evangelist role.
 Someone with knowledge of the scientific community would be a great benefit,
