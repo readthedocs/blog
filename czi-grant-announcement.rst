@@ -79,4 +79,4 @@ We appreciate the trust that the Chan Zuckerberg Initiative has placed in us,
 and we will work hard to make sure the results of this grant will be adopted across the scientific ecosystem.
 
 If you want to keep up to date with this work,
-you can follow along on GitHub or `subscribe <#mc_embed_signup_scroll>`_ to our blog for updates.
+you can follow along on `GitHub <http://github.com/readthedocs/>`_ or `subscribe <#mc_embed_signup_scroll>`_ to our blog for updates.
