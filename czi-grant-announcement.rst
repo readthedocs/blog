@@ -32,11 +32,11 @@ You might be familiar with this functionality on GitHub or Wikipedia -- this pro
 
 The goal of the grant will be to expand this functionality by doing a few things:
 
-* Improving and documenting the backend Embed API on Read the Docs, allowing documentation content to be embedded anywhere on the web
+* Improving and documenting the backend Embed API on Read the Docs, allowing documentation content to be embedded anywhere on the web.
 * Building a JavaScript client for the Embed API, which includes tooltips showing the content on any website.
-* Integrating this JS client and backend API together in a new version of sphinx-hoverxref
-* Extending sphinx-hoverxref to work across multiple Read the Docs sites, allowing content hovers across the entire scientific documentation ecosystem
-* If time allows, also extending the backend Embed API to support Sphinx documentation hosted outside of Read the Docs, allowing even more interoperability between documentation
+* Integrating this JS client and backend API together in a new version of sphinx-hoverxref.
+* Extending sphinx-hoverxref to work across multiple Read the Docs sites, allowing content hovers across the entire scientific documentation ecosystem.
+* If time allows, also extending the backend Embed API to support Sphinx documentation hosted outside of Read the Docs, allowing even more interoperability between documentation.
 
 We are planning to contract a frontend developer to help with this work.
 The Python work will likely be carried out by our existing team,
@@ -55,8 +55,8 @@ Part of this work would be letting people know about the work in Part 1, promoti
 
 The high-level roadmap for this part of the grant is:
 
-* Improve documentation and promote the work in Part 1
-* Adapt the `Guides <https://docs.readthedocs.io/en/latest/guides/>`_ section of the Read the Docs documentation into a more full-featured Education section, along with standardizing and editing all existing guides
+* Improve documentation and promote the work in Part 1.
+* Adapt the `Guides <https://docs.readthedocs.io/en/latest/guides/>`_ section of the Read the Docs documentation into a more full-featured Education section, along with standardizing and editing all existing guides.
 * Expand our existing `Sphinx Tutorial <https://sphinx-tutorial.readthedocs.io/>`_, hopefully adding it upstream to Sphinx as the official tutorial
 * Write additional documentation guides focused on the scientific community, based on feedback from people in the community. This will likely include tutorials on integrating Jupyter with Sphinx, Jupyterbook, and other pain points that users have.
 * If time allows, we would also love to work on curating some of the documentation resources at `Write the Docs <https://www.writethedocs.org/topics/>`_, specifically topics that are relevant to scientific projects.
