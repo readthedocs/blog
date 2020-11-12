@@ -20,7 +20,7 @@ We plan to do a lot of outreach to various scientific community members,
 so that we can ensure we're building tools that are of use for them.
 We also plan to write content that will hopefully make the process of documenting scientific code easier.
 
-.. _Essential Open Source: https://chanzuckerberg.com/rfa/essential-open-source-software-for-science/
+.. _Essential Open Source for Science: https://chanzuckerberg.com/rfa/essential-open-source-software-for-science/
 
 Part 1: improve the interoperability of scientific documentation
 ----------------------------------------------------------------
