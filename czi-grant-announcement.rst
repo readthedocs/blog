@@ -2,8 +2,8 @@
    :tags: czi, grant, czi-grant,
    :author: Eric
 
-Announcing Chan Zuckerberg Grant to Expand the Interoperability of Scientific Documentation
-===========================================================================================
+Announcing Chan Zuckerberg Initiative Grant to Expand the Interoperability of Scientific Documentation
+======================================================================================================
 
 We're excited to announce that Read the Docs has received a $200,000 grant from the Chan Zuckerberg Initiative's `Essential Open Source for Science`_ (EOSS) program.
 Read the Docs is the largest open source documentation hosting platform in the world.
