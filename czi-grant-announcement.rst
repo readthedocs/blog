@@ -5,7 +5,7 @@
 Announcing Chan Zuckerberg Initiative Grant to Expand the Interoperability of Scientific Documentation
 ======================================================================================================
 
-We're excited to announce that Read the Docs has received a $200,000 grant from the Chan Zuckerberg Initiative's `Essential Open Source for Science`_ (EOSS) program.
+We're excited to announce that `Read the Docs`_ has received a $200,000 grant from the Chan Zuckerberg Initiative's `Essential Open Source for Science`_ (EOSS) program.
 Read the Docs is the largest open source documentation hosting platform in the world.
 We provide hosting for a many scientific software packages,
 including many that have received EOSS funding in the past.
@@ -20,6 +20,7 @@ We plan to do a lot of outreach to various scientific community members,
 so that we can ensure we're building tools that are of use for them.
 We also plan to write content that will hopefully make the process of documenting scientific code easier.
 
+.. _Read the Docs: https://readthedocs.org/
 .. _Essential Open Source for Science: https://chanzuckerberg.com/rfa/essential-open-source-software-for-science/
 
 Part 1: improve the interoperability of scientific documentation
