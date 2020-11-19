@@ -13,8 +13,8 @@ You can read more about this round of grants in the `official announcement <http
 
 Our grant has two parts:
 
-* Part 1 allows us to develop new software to improve the interoperability of scientific documentation
-* Part 2 allows us do advocacy work around the importance and value of documentation in the scientific community
+* Part 1 allows us to develop new software to improve the interoperability of scientific documentation.
+* Part 2 allows us do advocacy work around the importance and value of documentation in the scientific community.
 
 We're excited about the chance to work with the scientific community to improve the overall experience of writing and reading documentation.
 We plan to do a lot of outreach to various community members,
