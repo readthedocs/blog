@@ -7,17 +7,18 @@ Announcing Chan Zuckerberg Initiative Grant to Expand the Interoperability of Sc
 
 We're excited to announce that `Read the Docs`_ has received a $200,000 grant from the Chan Zuckerberg Initiative's `Essential Open Source for Science`_ (EOSS) program.
 Read the Docs is the largest open source documentation hosting platform in the world.
-We provide hosting for a many scientific software packages,
-including many that have received EOSS funding in the past.
+We provide hosting for many scientific software packages,
+including some that have received EOSS funding in the past.
+You can read more about this round of grants in the `official announcement <https://cziscience.medium.com/scaling-open-infrastructure-and-reproducibility-in-biomedicine-69546a399747>`_.
 
-This grant has two parts:
+Our grant has two parts:
 
 * Part 1 allows us to develop new software to improve the interoperability of scientific documentation
 * Part 2 allows us do advocacy work around the importance and value of documentation in the scientific community
 
 We're excited about the chance to work with the scientific community to improve the overall experience of writing and reading documentation.
-We plan to do a lot of outreach to various scientific community members,
-so that we can ensure we're building tools that are of use for them.
+We plan to do a lot of outreach to various community members,
+so that we can ensure we're building tools that provide the most value.
 We also plan to write content that will hopefully make the process of documenting scientific code easier.
 
 .. _Read the Docs: https://readthedocs.org/
@@ -26,10 +27,11 @@ We also plan to write content that will hopefully make the process of documentin
 Part 1: improve the interoperability of scientific documentation
 ----------------------------------------------------------------
 
-This work is something that we've been doing as a side project for some time now. We have an extension
-to Sphinx that we call `sphinx-hoverxref`_.
+This work is something that we've been doing as a side project for some time now.
+We have an extension to Sphinx that we call `sphinx-hoverxref`_.
 It provides hovering tooltips for Sphinx projects when hover over a link.
 You might be familiar with this functionality on GitHub or Wikipedia -- this project adds that functionality to any project hosted on Read the Docs.
+You can see a `live demo <https://cpython-ericholscher.readthedocs.io/en/sphinx-hoverxref/whatsnew/3.9.html>`_ on a fork of the Python documentation.
 
 The goal of the grant will be to expand this functionality by doing a few things:
 
@@ -59,7 +61,7 @@ The high-level roadmap for this part of the grant is:
 * Improve documentation and promote the work in Part 1.
 * Adapt the `Guides <https://docs.readthedocs.io/en/latest/guides/>`_ section of the Read the Docs documentation into a more full-featured Education section, along with standardizing and editing all existing guides.
 * Expand our existing `Sphinx Tutorial <https://sphinx-tutorial.readthedocs.io/>`_, hopefully adding it upstream to Sphinx as the official tutorial
-* Write additional documentation guides focused on the scientific community, based on feedback from people in the community. This will likely include tutorials on integrating Jupyter with Sphinx, Jupyterbook, and other pain points that users have.
+* Write additional documentation guides focused on the scientific community, based on feedback from people in the community. This will likely include tutorials on integrating Jupyter with Sphinx, `Jupyterbook <https://jupyterbook.org/intro.html>`_, and other pain points that users have.
 * If time allows, we would also love to work on curating some of the documentation resources at `Write the Docs <https://www.writethedocs.org/topics/>`_, specifically topics that are relevant to scientific projects.
 
 As part of this work, we plan to contract someone in a technical writer/developer evangelist role.
