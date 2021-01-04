@@ -1,14 +1,16 @@
+:orphan:
+
 Job Posting: Developer relations with documentation skills
 ==========================================================
 
-.. |role| replace:: Developer relations
+.. |role| replace:: developer relations
 
-.. include:: intro.rst
+.. include:: /hiring/intro.rst
 
 About the job
 -------------
 
-**This job will be our first |role| hire.**
+This job will be our first |role| hire.
 You will be responsible for developer marketing and improving our documentation.
 
 We have recently gotten a :doc:`grant to support scientific software</czi-grant-announcement>` in 2021.
@@ -23,7 +25,10 @@ Historically we have had a very developer-focused audience,
 but we are trying to make our documentation more appropriate for less technical users.
 One of our first priorities will be creating more beginner and tutorial content for Read the Docs.
 This could perhaps include some video or audio content,
-along with written words.
+along with written docs.
+
+The other major part of this job will be
+
 
 Technical Details
 -----------------
@@ -42,4 +47,4 @@ and doing similar things with our blog.
 This should make it easier to write and deploy new marketing pages,
 as well as make it easier to onboard people with less technical backgrounds.
 
-.. include:: hiring/details.rst
+.. include:: /hiring/details.rst

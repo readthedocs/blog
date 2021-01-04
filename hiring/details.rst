@@ -1,3 +1,17 @@
+Responsibilities
+----------------
+
+All of our team members are responsible for some of the basic operations of the project.
+As a small team,
+there are a lot of jobs to be done and not many hands to fill them.
+You will be responsible for owning projects in your area of the team,
+but also working on many other aspects in your time.
+
+User support is one of the main things you will be handling that spans the business.
+We have many GitHub issues and emails that come in each day,
+and we have a support rotation for dealing with them.
+You can expect being primarily responsible for handling support one day a week,
+along with folling up with users each day as necessary.
 
 Requirements
 ------------
@@ -41,6 +55,7 @@ Applying
 --------
 
 Send us an email at hiring@readthedocs.org with the title "Applying for |role|".
+**We will be accepting applications on an ongoing basis until the position is filled.**
 
 Please include:
 

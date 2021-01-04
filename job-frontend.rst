@@ -1,14 +1,16 @@
+:orphan:
+
 Job Posting: Frontend developer with design skills
 ==================================================
 
-.. |role| replace:: Frontend developer
+.. |role| replace:: frontend developer
 
-.. include:: intro.rst
+.. include:: /hiring/intro.rst
 
 About the job
 -------------
 
-**This job will be our first |role| hire.**
+This job will be our first |role| hire.
 We have a couple members of the team who have some knowledge in this space,
 but we will expect you to lead our efforts in this area.
 
@@ -50,4 +52,4 @@ The current technologies that we're using are:
 
 TODO: Write a bit more about our "frontend philosophy"
 
-.. include:: hiring/details.rst
+.. include:: /hiring/details.rst

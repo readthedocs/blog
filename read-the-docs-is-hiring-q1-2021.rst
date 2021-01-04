@@ -1,3 +1,8 @@
+.. post:: Jan 6, 2021
+   :tags: hiring, python, devrel, frontend
+   :author: Eric
+   :location: BND
+
 Read the Docs is hiring for multiple positions
 ==============================================
 
