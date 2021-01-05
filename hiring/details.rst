@@ -54,7 +54,7 @@ and we strive to have a stable team working to build something meaningful.
 Applying
 --------
 
-Send us an email at hiring@readthedocs.org with the title "Applying for |role|".
+Send us an email at hello@readthedocs.org with the title "Applying for |role|".
 **We will be accepting applications on an ongoing basis until the position is filled.**
 
 Please include:
