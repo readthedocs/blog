@@ -10,10 +10,10 @@ You can think of it a continuous integration for docs.
 We do around :doc:`500 million pageviews </read-the-docs-2019-stats>` each year.
 We are a small team,
 but **this role will have a large impact of millions of users.**
-Our codebase is entirely open source,
+Our codebase is almost entirely open source,
 and we feel strongly about supporting the community while sustaining the project in an ethical manner.
 
-We have two primary businesses:
+We have two primary products:
 
 * A free hosting service for open source projects, funded via ethical ads: https://readthedocs.org
 * A paid hosting service for companies, funded via subscriptions: https://readthedocs.com

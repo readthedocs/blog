@@ -11,25 +11,24 @@ User support is one of the main things you will be handling that spans the busin
 We have many GitHub issues and emails that come in each day,
 and we have a support rotation for dealing with them.
 You can expect being primarily responsible for handling support one day a week,
-along with folling up with users each day as necessary.
+along with following up with users each day as necessary.
 
 Requirements
 ------------
 
-This role is one where we expect someone to lead their part of the team.
 We want someone with experience and vision to improve the product as a whole,
 and can contribute across multiple domains.
 We are a small team and you will be given a lot autonomy in building and improving things,
 so being self-driven is an asset.
 
-Being familiar with some of most of the tools listed above would be great.
-Knowing similar tools and being excited about learning ours works well for us too.
+Being familiar with some or most of the tools listed above would be great,
+however we believe experience with similar tools should translate easily as well.
 Having some knowledge of the data science community is also useful,
 given the grant work that will be part of this role.
 **We realize that you might not know all of our tools,
 please reach out if you think you'd be a good fit.**
 
-Our team is primarily based in the US timezone with one member in an EU timezone.
+We are a fully remote company and our team is currently based in the US, South America, and in Europe.
 We hope to work with people that are based in timezone where we have some overlap with the entire team,
 which is around UTC-8 to UTC+1.
 
@@ -59,7 +58,7 @@ Send us an email at hello@readthedocs.org with the title "Applying for |role|".
 
 Please include:
 
-* A Resume/CV or something showing your experience
+* A resume/CV or something showing your experience
 * A bit about why you're excited to work on Read the Docs
 * Your current timezone
 * Anything else you'd like us to know to help consider your application

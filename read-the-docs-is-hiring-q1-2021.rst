@@ -6,7 +6,7 @@
 Read the Docs is hiring for multiple positions
 ==============================================
 
-Read the Docs has recently gotten a :doc:`grant to support scientific software</czi-grant-announcement>` in 2021.
+Read the Docs received a :doc:`grant to support scientific software</czi-grant-announcement>` at the beginning of this year.
 As part of this,
 we are hiring for two new positions related to the grant work:
 
