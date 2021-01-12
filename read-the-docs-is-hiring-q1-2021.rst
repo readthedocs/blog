@@ -41,6 +41,5 @@ You can think of it a continuous integration for docs.
 We do around 500 million pageviews each year.
 We are a small team,
 but **this role will have a large impact of millions of users.**
-Our codebase is entirely open source,
+Almost all of our codebase is open source
 and we feel strongly about supporting the community while sustaining the project in an ethical manner.
-
