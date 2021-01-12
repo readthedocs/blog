@@ -27,8 +27,11 @@ One of our first priorities will be creating more beginner and tutorial content 
 This could perhaps include some video or audio content,
 along with written docs.
 
-The other major part of this job will be
-
+The other major part of this job will be creating and promoting the grant work we're doing.
+We will need to do outreach into the Data Science community,
+and work to understand the needs of these users.
+Based on those needs,
+we will work to build new resources and raise awareness of existing resources that are relevent to these users.
 
 Technical Details
 -----------------
@@ -42,5 +45,14 @@ The current technologies that we're using are:
 * Twitter for most of our marketing and developer relations
 
 You will be responsible for authoring documentation and marketing content using reStructuredText, using Sphinx and Pelican.
+
+In terms of the develop relations work,
+the following skills will be useful:
+
+* Interviewing project owners to understand their documentation needs and how we can help them
+* Publishing blog posts promoting the content we're writing
+* Making small images and videos to make our content more compelling
+* Other content marketing and developer marketing skills will be very useful
+
 
 .. include:: /hiring/details.rst

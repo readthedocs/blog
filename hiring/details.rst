@@ -70,7 +70,7 @@ and we intend to reply to all candidates.
       enctype="multipart/form-data"
       accept-charset="utf-8"
     >
-      <input type="hidden" name="subject" value="|role| application">
+      <input type="hidden" name="subject" value="Job application">
       <input type="hidden" name="body" value="Content embedded below">
 
       <div>
