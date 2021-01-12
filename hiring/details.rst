@@ -5,10 +5,10 @@ All of our team members are responsible for some of the basic operations of the 
 As a small team,
 there are a lot of jobs to be done and not many hands to fill them.
 You will be responsible for owning projects in your area of the team,
-but also working on many other aspects in your time.
+but also working on many other things.
 
 User support is one of the main things you will be handling that spans the business.
-We have many GitHub issues and emails that come in each day,
+We have GitHub issues and emails that come in each day,
 and we have a support rotation for dealing with them.
 You can expect being primarily responsible for handling support one day a week,
 along with following up with users each day as necessary.
@@ -45,7 +45,7 @@ working on Read the Docs fully after the grant funding expires.
 
 The pay rate will vary with experience and the number of days worked.
 As a small, self-sustaining open source project we are not able to pay as much as large companies.
-We are able to provide a positive and very flexible work environment,
+We are able to provide a supportive and very flexible work environment,
 with a strong sense of mission.
 All of the members of our team have worked with us for more than 2 years,
 and we strive to have a stable team working to build something meaningful.
@@ -53,14 +53,62 @@ and we strive to have a stable team working to build something meaningful.
 Applying
 --------
 
-Send us an email at hello@readthedocs.org with the title "Applying for |role|".
 **We will be accepting applications on an ongoing basis until the position is filled.**
 
-Please include:
+Please fill out the below form to apply for this role.
+Normal response time is around 2-3 weeks,
+and we intend to reply to all candidates.
 
-* A resume/CV or something showing your experience
-* A bit about why you're excited to work on Read the Docs
-* Your current timezone
-* Anything else you'd like us to know to help consider your application
+.. raw:: html
+
+    <!-- Make it line up with the content -->
+    <div style="margin: .75rem .5rem;">
+    <form
+      method="POST"
+      name="fa-form-1"
+      action="https://webhook.frontapp.com/forms/036c4169294f3b04abaa/HAa1z5l3jHnqME6YJDt340VCgxeF8hVDWGjL3gwCaNzOFxR-Rzb62BFANsS4nRAONcsGlfN6TblFZehDKsQAJzck-iEDujTz3-u7vSBo8v8_UN2zeX4xqgQ3ht8"
+      enctype="multipart/form-data"
+      accept-charset="utf-8"
+    >
+      <div>
+        <label for="name">Name</label>
+        <input type="text" name="name">
+      </div>
+
+      <div>
+        <label for="email">Email</label>
+        <input type="email" name="email">
+      </div>
+
+      <div>
+        <label for="timezone">Timezone</label>
+        <input type="text" name="timezone">
+      </div>
+
+      <div>
+        <label for="why">1-2 paragraphs about why you're excited to work on Read the Docs</label>
+        <textarea name="why"></textarea>
+      </div>
+
+      <div>
+        <label for="project">1-2 paragraphs about a project you're proud of</label>
+        <textarea name="project"></textarea>
+      </div>
+
+      <div>
+        <label for="extra">Anything else you'd like us to know?</label>
+        <textarea name="extra"></textarea>
+      </div>
+
+      <div>
+        <label for="resume">Resume/CV</label>
+        <input type="file" name="resume">
+      </div>
+
+      <div>
+        <input type="submit" value="Submit Application">
+      </div>
+    </form>
+    </div>
 
 Thanks for your interest, and we hope to hear from you soon.
