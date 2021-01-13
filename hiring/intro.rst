@@ -1,5 +1,5 @@
 Thanks for your interest in working at Read the Docs.
-We are a small team of 5, and we're looking to add 2-3 people on 2021,
+We are a small team of 5, and we're looking to add 2-3 people in 2021,
 and we'd love for you to be one of them.
 
 About the company
