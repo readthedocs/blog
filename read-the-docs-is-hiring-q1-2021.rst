@@ -27,11 +27,8 @@ and the other 50% working on Read the Docs itself.
 The codebase and community we're building require a good amount of onboarding time,
 so we are excited to be able to use the grant funds to also improve the overall experience of Read the Docs users.
 
-Given that we only have a team of 5 people,
-we need to make sure we are able to support both our existing users and also the new work based on our grant.
-Having some of our existing team doing project management and Python development on the grant means we need additional Read the Docs capacity.
-We currently expect around 50% of one person's time from our existing team to be doing grant work each month,
-so these additional hires mean Read the Docs users ourside of the grant will still see additional improvements to the service.
+You can apply to the jobs with the links above to the full job descriptions,
+where you will be asked to fill out a form with a few questions.
 
 About Read the Docs
 -------------------
