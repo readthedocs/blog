@@ -1,5 +1,5 @@
-Responsibilities
-----------------
+Additional Responsibilities
+---------------------------
 
 All of our team members are responsible for some of the basic operations of the project.
 As a small team,
@@ -21,7 +21,7 @@ and can contribute across multiple domains.
 We are a small team and you will be given a lot autonomy in building and improving things,
 so being self-driven is an asset.
 
-Being familiar with some or most of the tools listed above would be great,
+Being familiar with some or most of the tools `listed above <#technical-details>`_ would be great,
 however we believe experience with similar tools should translate easily as well.
 Having some knowledge of the data science community is also useful,
 given the grant work that will be part of this role.
