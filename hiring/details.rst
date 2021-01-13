@@ -32,6 +32,7 @@ We are a fully remote company and our team is currently based in the US, South A
 We hope to work with people that are based in timezone where we have some overlap with the entire team,
 which is around UTC-8 to UTC+1.
 
+
 Structure
 ---------
 
@@ -40,6 +41,10 @@ We are currently only able to offer contracts to work on the project.
 Half of our team works 4 days, and the other half works 5 days,
 and we are happy to be flexible with whatever works best for you.
 
+After an initial interview,
+we normally do a small paid project to see how we work together.
+If that goes well,
+we will move towards a longer term contract.
 We plan for this role to continue after 2021,
 working on Read the Docs fully after the grant funding expires.
 

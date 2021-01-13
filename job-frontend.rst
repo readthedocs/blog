@@ -43,7 +43,7 @@ but you'll have a lot of influence in this major new initiative.
 Technical Details
 -----------------
 
-Read the Docs is a large Python & Django web application.
+Read the Docs is a `large Python & Django web application <https://github.com/readthedocs/readthedocs.org/tree/master/readthedocs>`_.
 The current technologies that we're using are:
 
 * Django templates for our application views
@@ -65,7 +65,7 @@ Separate from our application, we also maintain a `widely used Sphinx theme <htt
 Applying
 --------
 
-**We will be accepting applications on an ongoing basis until the position is filled.**
+We will be accepting applications on an ongoing basis until the position is filled.
 
 Please fill out the below form to apply for this role.
 Normal response time is around 2-3 weeks,

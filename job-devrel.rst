@@ -60,7 +60,7 @@ the following skills will be useful:
 Applying
 --------
 
-**We will be accepting applications on an ongoing basis until the position is filled.**
+We will be accepting applications on an ongoing basis until the position is filled.
 
 Please fill out the below form to apply for this role.
 Normal response time is around 2-3 weeks,
