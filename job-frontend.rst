@@ -52,7 +52,7 @@ The current technologies that we're using are:
 * Knockout for view/model binding
 * Webpack for bundling of CSS and JavaScript
 
-Our team is has more experience with Python and Django than with JavaScript, so our application UI is driven by a hybrid system that primarily relies on application code and Django templates for display. Most of the work that will go into maintaining our application views will be working with Semantic UI inside Django templates, with Knockout  connecting HTML to client side code where client side rendering and interaction is preferred.
+Our team has more experience with Python and Django than with JavaScript, so our application UI is driven by a hybrid system that primarily relies on application code and Django templates for display. Most of the work that will go into maintaining our application views will be working with Semantic UI inside Django templates, with Knockout  connecting HTML to client side code where client side rendering and interaction is preferred.
 
 Our marketing and landing page content will be a separate project that will use some of the same underlying technologies, but will have very few visual constraints compared to our application. We will be looking for your guidance here in building this project out.
 
