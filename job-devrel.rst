@@ -1,9 +1,9 @@
 :orphan:
 
-Job Posting: Developer relations with documentation skills
+Job Posting: Developer advocate with documentation skills
 ==========================================================
 
-.. |role| replace:: developer relations
+.. |role| replace:: developer advocate
 
 .. include:: /hiring/intro.rst
 
