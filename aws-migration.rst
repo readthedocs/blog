@@ -15,7 +15,7 @@ we are performing this upgrade during a Friday afternoon
 which is one of our lowest usage periods.
 
 During this maintenance window, **documentation will continue to be online**
-but new documentation builds will not trigger and the Read the Docs dashboard will be read-only.
+but new documentation builds will not trigger and the Read the Docs dashboard will be unavailable.
 New builds and webhooks will begin processing once the maintenance is over.
 
 We are moving our service to our new home on Amazon Web Services
@@ -27,4 +27,3 @@ This should simplify our operations considerably.
 We'd like to thank Microsoft Azure for sponsoring our hosting for the past 2.5 years.
 
 Thanks for your understanding of this maintenance downtime.
-
