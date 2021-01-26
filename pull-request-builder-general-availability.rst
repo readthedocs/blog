@@ -21,7 +21,7 @@ and improves the workflow for everyone working on documentation.
 
     GitHub Build Status Reporting for Pull Requests
 
-You can read more about this new feature in our :doc:`previous blog post announcing it </building-docs-for-pull-requests>` and in our `documentation for the feature <https://docs.readthedocs.io/en/latest/guides/autobuild-docs-for-pull-requests.html>`_.
+You can read more about this new feature in our :doc:`previous blog post announcing it </building-docs-for-pull-requests>` and in our `documentation for the feature <https://docs.readthedocs.io/page/guides/autobuild-docs-for-pull-requests.html>`_.
 
 
 Serving docs for every branch
