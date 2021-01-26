@@ -7,7 +7,7 @@
 Read the Docs Community downtime due to migrations to AWS
 =========================================================
 
-We wanted to make you aware that on Friday, January 29 at 1pm PST (4pm EST, 20:00 UTC),
+We wanted to make you aware that on Friday, February 12th at 1pm PST (4pm EST, 20:00 UTC),
 Read the Docs Community (readthedocs.org) will be having a **scheduled dashboard downtime of approximately 4 hours**.
 
 To ensure minimal impact for our users,
