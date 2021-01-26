@@ -1,4 +1,4 @@
-.. post:: Jan 8, 2021
+.. post:: Jan 27, 2021
    :tags: pr-builder, continuous-documentation, feature
    :author: Eric
    :location: BND
@@ -21,13 +21,13 @@ and improves the workflow for everyone working on documentation.
 
     GitHub Build Status Reporting for Pull Requests
 
-You can read more about this new feature in our :doc:`previous blog post announcing it </building-docs-for-pull-requests>` and in our `documentation for the feature <https://docs.readthedocs.io/page/guides/autobuild-docs-for-pull-requests.html>`_.
+You can read more about this new feature in our :doc:`previous blog post announcing it </building-docs-for-pull-requests>` and in our `documentation for the feature <https://docs.readthedocs.io/en/latest/guides/autobuild-docs-for-pull-requests.html>`_.
 
 
-Serving docs for every commit
+Serving docs for every branch
 -----------------------------
 
-Along with building and validating each commit on your repository,
+Along with building and validating each branch on your repository,
 **we also host a rendered version of the documentation.**
 This allows you to see exactly how the docs will look when they are deployed.
 
