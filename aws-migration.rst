@@ -1,4 +1,4 @@
-.. post:: Jan 25, 2021
+.. post:: Feb 5, 2021
    :tags: aws, downtime, infrastructure
    :author: Eric
    :location: BND
