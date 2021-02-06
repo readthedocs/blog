@@ -7,6 +7,8 @@
 Read the Docs for Business Maintenance Window - February 5
 ==========================================================
 
+**Update: This maintenance window has concluded at 5:40 PM PST.**
+
 We wanted to make you aware that on Friday, February 5 at 5:00pm PST (8:00pm EST, Saturday 01:00 UTC),
 Read the Docs for Business (readthedocs.com) will be having a **scheduled downtime of approximately 2 hours**.
 
