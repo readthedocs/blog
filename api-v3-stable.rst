@@ -34,7 +34,7 @@ These include:
 - Setting up documentation for a new project
 - Automating the release of a new version
 - Pausing a release if you detect a failed build
-- Automaticaly create redirects for changes files
+- Automatically create redirects for changes files
 
 If you want to know more about it,
 please check out the full `APIv3 documentation <https://docs.readthedocs.io/page/api/v3.html>`_.
