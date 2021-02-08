@@ -6,11 +6,10 @@
 API v3 is now stable
 =====================
 
-We are excited to announce that our API v3 has reached a stable release,
-and it's now available for all Read the Docs users.
-This includes Read the Docs Community and Read the Docs for Business.
+We are excited to announce that our `API v3 <https://docs.readthedocs.io/page/api/v3.html>`_ has reached a stable release,
+and is now available for all Read the Docs users.
 Since we :doc:`announced the API v3 beta </api-v3-beta>`,
-we have been adding extra functionality and bug-fixing some minor issues based on user feedback.
+we have been adding extra functionality and bug-fixing minor issues based on user feedback.
 
 The new API v3 *is not* a fully replacement (yet!) of API v2,
 but **we highly recommend using API v3 for all the new integrations**.
@@ -18,27 +17,27 @@ API v2 will be deprecated soon,
 though we don't have a firm timeline for deprecation.
 We will alert users with our plans when we do.
 
-
 New features
 -------------
 
 We're excited about the following actions that API v3 makes possible:
 
-- Ability to import new projects
+- Import new projects
 - Activate a version
 - Trigger builds
 - Check build status
 - Manage redirects
 
-API v3 allows you to easily manage common tasks like setting up documentation for a new project,
-automating the release of a new version,
-or pause a release if you detect a failed build.
-Hook the rename of a file in your VCS to the creation of a redirect in its docs,
-and more!
+API v3 allows you to easily manage common tasks on your Read the Docs project and organization.
+These include:
+
+* Setting up documentation for a new project
+* Automating the release of a new version
+* Pausing a release if you detect a failed build
+* Automaticaly create redirects for changes files
 
 If you want to know more about it,
 please check out the full `APIv3 documentation <https://docs.readthedocs.io/page/api/v3.html>`_.
-
 
 Help us make it better
 -------------------------
