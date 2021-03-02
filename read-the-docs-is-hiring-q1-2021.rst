@@ -11,7 +11,7 @@ As part of this,
 we are hiring for two new positions related to the grant work:
 
 * A :doc:`frontend developer with design skills </job-frontend>`
-* A :doc:`developer advocate with documentation skills </job-devrel>`
+* A :doc:`developer advocate with documentation skills </job-devrel>` (**This position has been filled, and is no longer active**)
 
 Please look at each of the job postings for much more detail on what to expect with the job.
 
