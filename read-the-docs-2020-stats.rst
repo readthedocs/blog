@@ -10,7 +10,7 @@ We managed to make it through,
 and continue to have 5 folks working full-time to make Read the Docs better for you.
 
 We are going into 2021 with a :doc:`new grant </czi-grant-announcement>`,
-which will require us to do some :doc:`hiring <jobs/index>`.
+which will require us to do some :doc:`hiring </jobs>`.
 We also launched our `EthicalAds network`_,
 which is bringing our approach to sustainability to the tech community as a whole.
 
