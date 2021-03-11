@@ -56,6 +56,7 @@ blog_default_author = 'Eric'
 
 blog_locations = {
     'PDX': ('Portland, Oregon', 'http://www.portlandhikersfieldguide.org/'),
+    'BND': ('Bend, Oregon', 'https://www.visitbend.com/'),
     'SAN': ('San Diego, CA', ''),
     'DHA': ('Dhaka, Bangladesh', 'https://wikitravel.org/en/Bangladesh'),
     'CUE': ('Cuenca, Ecuador', ''),
@@ -90,7 +91,7 @@ master_doc = 'index'
 
 # General information about the project.
 project = u'Read the Docs Blog'
-copyright = u'2018, Read the Docs, Inc'
+copyright = u'2021, Read the Docs, Inc'
 
 # The version info for the project you're documenting, acts as replacement for
 # |version| and |release|, also used in various other places throughout the
@@ -113,7 +114,7 @@ release = '1.0'
 
 # List of patterns, relative to source directory, that match files and
 # directories to ignore when looking for source files.
-exclude_patterns = ['_build']
+exclude_patterns = ['_build', 'hiring']
 
 # The reST default role (used for this markup: `text`) to use for all
 # documents.
