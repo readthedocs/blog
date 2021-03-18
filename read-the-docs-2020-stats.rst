@@ -116,4 +116,4 @@ We continue to work to improve Read the Docs for our users.
 We're excited for the growth we expect in 2021,
 and hope that you'll join us for the next chapter of our story.
 
-- The Read the Docs Team
+The Read the Docs Team
