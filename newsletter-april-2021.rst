@@ -26,7 +26,7 @@ Company highlights
    awarded <https://blog.readthedocs.com/czi-grant-announcement/>`_,
    improve our public facing documentation,
    and spread the word about our service.
--  xxx we saw an increment of X % page views
+-  The average daily pageviews went up by 9.4 % from the previous month.
 -  We have `a new status page <http://status.readthedocs.com/>`_ so you
    can see the availability history and current status of our infrastructure.
 
