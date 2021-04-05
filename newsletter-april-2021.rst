@@ -55,8 +55,8 @@ You can always see the latest changes to our platforms in our `Read the Docs Cha
 Current focus & known issues
 ----------------------------
 
--  xxx commercial site reliability
--  xxx security
+-  We have had some availability issues with our commercial hosting for the past few weeks. This was caused by massive I/O load spikes on our web servers, causing increased CPU contention and slower web requests. We tracked the issue down to a background process that was doing a lot of reads from our cloud storage. We have changed our infrastructure so background tasks and web requests are processed by different servers, which has addressed the stability issues. 
+-  We were made aware of an open redirect on documentation pages via a report to our `security` address. This was present in our codebase for the last 2 releases, and was fixed in a deployment on Thursday April 1. We'd like to thank Splunk and the Cryptography project for reporting this issue through proper channels. Please always follow our `security reporting guide <https://docs.readthedocs.io/en/latest/security.html>`_ to report potential security issues. 
 
 Upcoming features
 -----------------
