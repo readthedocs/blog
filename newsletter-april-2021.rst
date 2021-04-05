@@ -84,4 +84,4 @@ Upcoming features
    fine-tuned privacy controls on builds created from pull requests.
 
 Considering using Read the Docs for your next Sphinx or MkDocs project?
-Check out `our documentation <https://docs.readthedocs.io/>`!
+Check out `our documentation <https://docs.readthedocs.io/>`_!
