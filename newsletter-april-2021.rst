@@ -41,7 +41,7 @@ New features
    image to ``testing``. Please `open an
    issue <https://github.com/readthedocs/readthedocs.org/issues/new>`_
    if you find any problems with it.
--  Now `all newly created MkDocs projects use the latest version of `mkdocs` by
+-  Now `all newly created MkDocs projects use the latest version of mkdocs by
    default <https://github.com/readthedocs/readthedocs.org/pull/7869>`_.
    Existing projects can specify a specific version, but won't automatically
    be upgraded.
