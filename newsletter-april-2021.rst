@@ -52,6 +52,8 @@ New features
    conda <https://docs.readthedocs.io/en/stable/guides/conda.html>`_,
    and `started recommending MyST for writing Markdown with
    Sphinx <https://docs.readthedocs.io/en/stable/intro/getting-started-with-sphinx.html#using-markdown-with-sphinx>`_.
+-  We added the possibility to declare `publicly visible environment
+   variables <https://github.com/readthedocs/readthedocs.org/pull/7891>`_.
 
 You can always see the latest changes to our platforms in our `Read the Docs
 Changelog <https://docs.readthedocs.io/page/changelog.html>`_ and `Ethical Ad Server
