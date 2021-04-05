@@ -15,7 +15,7 @@ This is the first of our monthly newsletters, in which we would like to
 openly share with you the most relevant updates of Read the Docs,
 offer a summary of what new features we shipped to our users
 during the previous month,
-and advance what things we will be focusing on for the following weeks.
+and share what things we will be focusing on in the near future.
 
 Company highlights
 ------------------
@@ -28,7 +28,7 @@ Company highlights
    and spread the word about our service.
 -  xxx we saw an increment of X % page views
 -  We have `a new status page <http://status.readthedocs.com/>`__ so you
-   can have a glance at how our service is working.
+   can see the availability history and current status of our infrastructure.
 
 New features
 ------------
@@ -41,8 +41,8 @@ New features
    image to ``testing``. Please `open an
    issue <https://github.com/readthedocs/readthedocs.org/issues/new>`__
    if you find any problems with it.
--  Now `all MkDocs projects use the latest version by
-   default <https://github.com/readthedocs/readthedocs.org/pull/7869>`_.
+-  Now `all newly created MkDocs projects use the latest version of `mkdocs` by
+   default <https://github.com/readthedocs/readthedocs.org/pull/7869>`_. Existing projects can specify a specific version, but won't automatically be upgraded.
 -  We expanded a few areas of our user documentation: we added `a brand
    new guide on reproducible
    builds <https://docs.readthedocs.io/en/stable/guides/reproducible-builds.html>`__,
@@ -51,6 +51,7 @@ New features
    and `started recommending MyST for writing Markdown with
    Sphinx <https://docs.readthedocs.io/en/stable/intro/getting-started-with-sphinx.html#using-markdown-with-sphinx>`__.
 
+You can always see the latest changes to our platforms in our `Read the Docs Changelog <https://docs.readthedocs.io/page/changelog.html>`_ and `Ethical Ad Server Changelog <https://ethical-ad-server.readthedocs.io/page/developer/changelog.html>`_.
 Current focus & known issues
 ----------------------------
 
@@ -62,7 +63,7 @@ Upcoming features
 
 -  Anthony will work on releasing version 1.0 of ``sphinx_rtd_theme``
    with some changes and deprecations, and outline a plan for future
-   releases.
+   releases. He will also be working on our dashboard redesign, which we hope to launch in public beta soon. 
 -  On the EthicalAds side, David will focus on more customized ad
    targeting and improvements for the reporting interface.
 -  Our new hire, Juan Luis, will work with scientific projects to
@@ -71,17 +72,17 @@ Upcoming features
    newcomers <https://github.com/orgs/readthedocs/projects/93>`_.
 -  Eric will be split between `hiring a frontend
    developer <https://blog.readthedocs.com/job-frontend/>`_,
-   `the CZI grant <https://blog.readthedocs.com/czi-grant-announcement/>`_,
-   and Ads improvements.
+   doing project management on `the CZI grant <https://blog.readthedocs.com/czi-grant-announcement/>`_,
+   and improving ad performance for our EthicalAds publishers.
 -  Manuel, on the other hand, will focus on `Single Sign-On
    Authentication for our commercial
    site <https://docs.readthedocs.io/en/stable/commercial/single-sign-on.html>`_,
    and improving the stability of our deploy process.
 -  Installing custom system packages is a very common request, so
    Santos will be working on improving the build configuration, as
-   well as our Embed API.
+   well as formalizing a v3 of our Embed API.
 -  And finally, on the commercial side, we’ll work on allowing more
    fine-tuned privacy controls on builds created from pull requests.
 
 Considering using Read the Docs for your next Sphinx or MkDocs project?
-Check out `our documentation <https://docs.readthedocs.io/>`_!
+Check out `our documentation <https://docs.readthedocs.io/>`_ to get started!
