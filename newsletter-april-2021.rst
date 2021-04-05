@@ -27,43 +27,61 @@ Company highlights
    improve our public facing documentation,
    and spread the word about our service.
 -  xxx we saw an increment of X % page views
--  We have `a new status page <http://status.readthedocs.com/>`__ so you
+-  We have `a new status page <http://status.readthedocs.com/>`_ so you
    can see the availability history and current status of our infrastructure.
 
 New features
 ------------
 
--  There is a `new support form <https://docs.readthedocs.io/en/latest/support.html>`__
+-  There is a `new support form <https://docs.readthedocs.io/en/latest/support.html>`_
    in case you need to send us a request related to your project or
    account, like asking for more resources, change the project slug, and
    so forth.
 -  You can now build your project using Python 3.9 by setting your build
    image to ``testing``. Please `open an
-   issue <https://github.com/readthedocs/readthedocs.org/issues/new>`__
+   issue <https://github.com/readthedocs/readthedocs.org/issues/new>`_
    if you find any problems with it.
 -  Now `all newly created MkDocs projects use the latest version of `mkdocs` by
-   default <https://github.com/readthedocs/readthedocs.org/pull/7869>`_. Existing projects can specify a specific version, but won't automatically be upgraded.
+   default <https://github.com/readthedocs/readthedocs.org/pull/7869>`_.
+   Existing projects can specify a specific version, but won't automatically
+   be upgraded.
 -  We expanded a few areas of our user documentation: we added `a brand
    new guide on reproducible
-   builds <https://docs.readthedocs.io/en/stable/guides/reproducible-builds.html>`__,
+   builds <https://docs.readthedocs.io/en/stable/guides/reproducible-builds.html>`_,
    considerably improved our `guide on using
-   conda <https://docs.readthedocs.io/en/stable/guides/conda.html>`__,
+   conda <https://docs.readthedocs.io/en/stable/guides/conda.html>`_,
    and `started recommending MyST for writing Markdown with
-   Sphinx <https://docs.readthedocs.io/en/stable/intro/getting-started-with-sphinx.html#using-markdown-with-sphinx>`__.
+   Sphinx <https://docs.readthedocs.io/en/stable/intro/getting-started-with-sphinx.html#using-markdown-with-sphinx>`_.
 
-You can always see the latest changes to our platforms in our `Read the Docs Changelog <https://docs.readthedocs.io/page/changelog.html>`_ and `Ethical Ad Server Changelog <https://ethical-ad-server.readthedocs.io/page/developer/changelog.html>`_.
+You can always see the latest changes to our platforms in our `Read the Docs
+Changelog <https://docs.readthedocs.io/page/changelog.html>`_ and `Ethical Ad Server
+Changelog <https://ethical-ad-server.readthedocs.io/page/developer/changelog.html>`_.
+
 Current focus & known issues
 ----------------------------
 
--  We have had some availability issues with our commercial hosting for the past few weeks. This was caused by massive I/O load spikes on our web servers, causing increased CPU contention and slower web requests. We tracked the issue down to a background process that was doing a lot of reads from our cloud storage. We have changed our infrastructure so background tasks and web requests are processed by different servers, which has addressed the stability issues. 
--  We were made aware of an open redirect on documentation pages via a report to our `security` address. This was present in our codebase for the last 2 releases, and was fixed in a deployment on Thursday April 1. We'd like to thank Splunk and the Cryptography project for reporting this issue through proper channels. Please always follow our `security reporting guide <https://docs.readthedocs.io/en/latest/security.html>`_ to report potential security issues. 
+-  We have had some availability issues with our commercial hosting for the past
+   few weeks. This was caused by massive I/O load spikes on our web servers,
+   causing increased CPU contention and slower web requests. We tracked the issue
+   down to a background process that was doing a lot of reads from our cloud
+   storage. We have changed our infrastructure so background tasks and web
+   requests are processed by different servers, which has addressed the stability
+   issues.
+-  We were made aware of an open redirect on documentation pages via
+   a report to our `security` address. This was present in our codebase for the
+   last 2 releases, and was fixed in a deployment on Thursday April 1. We'd like
+   to thank Splunk and the Cryptography project for reporting this issue through
+   proper channels. Please always follow our `security reporting guide
+   <https://docs.readthedocs.io/en/latest/security.html>`_ to report potential
+   security issues.
 
 Upcoming features
 -----------------
 
 -  Anthony will work on releasing version 1.0 of ``sphinx_rtd_theme``
    with some changes and deprecations, and outline a plan for future
-   releases. He will also be working on our dashboard redesign, which we hope to launch in public beta soon. 
+   releases. He will also be working on our dashboard redesign, which we hope
+   to launch in public beta soon.
 -  On the EthicalAds side, David will focus on more customized ad
    targeting and improvements for the reporting interface.
 -  Our new hire, Juan Luis, will work with scientific projects to
@@ -72,7 +90,8 @@ Upcoming features
    newcomers <https://github.com/orgs/readthedocs/projects/93>`_.
 -  Eric will be split between `hiring a frontend
    developer <https://blog.readthedocs.com/job-frontend/>`_,
-   doing project management on `the CZI grant <https://blog.readthedocs.com/czi-grant-announcement/>`_,
+   doing project management on `the CZI
+   grant <https://blog.readthedocs.com/czi-grant-announcement/>`_,
    and improving ad performance for our EthicalAds publishers.
 -  Manuel, on the other hand, will focus on `Single Sign-On
    Authentication for our commercial
