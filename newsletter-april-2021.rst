@@ -52,7 +52,7 @@ New features
    Sphinx <https://docs.readthedocs.io/en/stable/intro/getting-started-with-sphinx.html#using-markdown-with-sphinx>`__.
 
 Current focus & known issues
--------------
+----------------------------
 
 -  xxx commercial site reliability
 -  xxx security
