@@ -54,10 +54,6 @@ Upcoming features
 
 -  Installing custom system packages is a very common request, and we
    plan to offer new configuration keys so users can do it.
--  We will be drafting a roadmap to drop support for Python 2.7. If your
-   project is still using it, please consider `reading this rationale
-   about its sunsetting <https://www.python.org/doc/sunset-python-2/>`__
-   and migrating to a newer version at your earliest convenience.
 -  On the commercial side, we’ll work on allowing more fine tuned
    privacy controls on builds created from pull requests.
 -  We intend to release version 1.0 of ``sphinx_rtd_theme`` with some
