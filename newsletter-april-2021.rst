@@ -20,7 +20,7 @@ and share what things we will be focusing on in the near future.
 Company highlights
 ------------------
 
--  We have a new colleague! `Juan Luis <https://blog.readthedocs.com/archive/author/juan-luis-cano-rodriguez/>`_
+-  We have a new colleague! `Juan Luis`_
    will be working with us as Developer Advocate, with a focus on fulfilling
    the goals of `the CZI grant we were
    awarded <https://blog.readthedocs.com/czi-grant-announcement/>`_,
@@ -80,30 +80,37 @@ Current focus & known issues
 Upcoming features
 -----------------
 
--  Anthony will work on releasing version 1.0 of ``sphinx_rtd_theme``
+-  `Anthony`_ will work on releasing version 1.0 of ``sphinx_rtd_theme``
    with some changes and deprecations, and outline a plan for future
    releases. He will also be working on our dashboard redesign, which we hope
    to launch in public beta soon.
--  On the EthicalAds side, David will focus on more customized ad
+-  On the EthicalAds side, `David`_ will focus on more customized ad
    targeting and improvements for the reporting interface.
--  Our new hire, Juan Luis, will work with scientific projects to
-   improve their documentation and migrate it to Read the Docs, and
-   `start drafting a Sphinx tutorial for
-   newcomers <https://github.com/orgs/readthedocs/projects/93>`_.
--  Eric will be split between `hiring a frontend
+-  `Eric`_ will be split between `hiring a frontend
    developer <https://blog.readthedocs.com/job-frontend/>`_,
    doing project management on `the CZI
    grant <https://blog.readthedocs.com/czi-grant-announcement/>`_,
    and improving ad performance for our EthicalAds publishers.
--  Manuel, on the other hand, will focus on `Single Sign-On
+-  Our new hire, `Juan Luis`_, will work with scientific projects to
+   improve their documentation and migrate it to Read the Docs, and
+   `start drafting a Sphinx tutorial for
+   newcomers <https://github.com/orgs/readthedocs/projects/93>`_.
+-  `Manuel`_, on the other hand, will focus on `Single Sign-On
    Authentication for our commercial
    site <https://docs.readthedocs.io/en/stable/commercial/single-sign-on.html>`_,
    and improving the stability of our deploy process.
 -  Installing custom system packages is a very common request, so
-   Santos will be working on improving the build configuration, as
+   `Santos`_ will be working on improving the build configuration, as
    well as formalizing a v3 of our Embed API.
 -  And finally, on the commercial side, we’ll work on allowing more
    fine-tuned privacy controls on builds created from pull requests.
 
 Considering using Read the Docs for your next Sphinx or MkDocs project?
 Check out `our documentation <https://docs.readthedocs.io/>`_ to get started!
+
+.. _Anthony: https://github.com/agjohnson
+.. _David: https://github.com/davidfischer
+.. _Eric: https://github.com/ericholscher
+.. _Juan Luis: https://github.com/astrojuanlu
+.. _Manuel: https://github.com/humitos
+.. _Santos: https://github.com/stsewd
