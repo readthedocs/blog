@@ -10,13 +10,21 @@
 Read the Docs newsletter - April 2021
 =====================================
 
-xxx
+This is the first of our monthly newsletters, in which we would like to
+openly share with you the most relevant updates of Read the Docs,
+offer a summary of what new features we shipped to our users
+during the previous month,
+and advance what things we will be focusing on for the following weeks.
 
 Company highlights
 ------------------
 
--  We have a new colleague! Juan Luis will be working with us as
-   Developer Advocate to …
+-  We have a new colleague! `Juan Luis <https://blog.readthedocs.com/archive/author/juan-luis-cano-rodriguez/>`_
+   will be working with us as Developer Advocate, with a focus on fulfilling
+   the goals of `the CZI grant we were
+   awarded <https://blog.readthedocs.com/czi-grant-announcement/>`_,
+   improve our public facing documentation,
+   and spread the word about our service.
 -  xxx we saw an increment of X % page views
 -  We have `a new status page <http://status.readthedocs.com/>`__ so you
    can have a glance at how our service is working.
@@ -74,4 +82,5 @@ Upcoming features
 -  And finally, on the commercial side, we’ll work on allowing more
    fine-tuned privacy controls on builds created from pull requests.
 
-xxx
+Considering using Read the Docs for your next Sphinx or MkDocs project?
+Check out `our documentation <https://docs.readthedocs.io/>`!
