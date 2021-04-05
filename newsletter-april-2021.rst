@@ -5,7 +5,8 @@
 
 .. meta::
    :description lang=en:
-      xxx
+      Company updates and new features from last month,
+      current focus, and upcoming features from April.
 
 Read the Docs newsletter - April 2021
 =====================================
