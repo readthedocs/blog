@@ -32,9 +32,7 @@ New features
    image to ``testing``. Please `open an
    issue <https://github.com/readthedocs/readthedocs.org/issues/new>`__
    if you find any problems with it.
--  We added the possibility to use the latest version of MkDocs. `Let us
-   know <https://readthedocs.org/support/>`__ if you want to enable it
-   for your project.
+-  Now all MkDocs projects use the latest version by default.
 -  We expanded a few areas of our user documentation: we added `a brand
    new guide on reproducible
    builds <https://docs.readthedocs.io/en/stable/guides/reproducible-builds.html>`__,
