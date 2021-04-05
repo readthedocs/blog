@@ -33,8 +33,8 @@ Company highlights
 New features
 ------------
 
--  There is a `new support form <https://readthedocs.org/support/>`__ in
-   case you need to send us a request related to your project or
+-  There is a `new support form <https://docs.readthedocs.io/en/latest/support.html>`__
+   in case you need to send us a request related to your project or
    account, like asking for more resources, change the project slug, and
    so forth.
 -  You can now build your project using Python 3.9 by setting your build
