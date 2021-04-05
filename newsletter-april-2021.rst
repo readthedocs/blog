@@ -1,7 +1,7 @@
 .. post:: April 5, 2021
    :tags: newsletter
    :author: Juan Luis
-   :location: Madrid
+   :location: MAD
 
 .. meta::
    :description lang=en:
