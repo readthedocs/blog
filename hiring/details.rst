@@ -4,20 +4,18 @@ Additional Responsibilities
 All of our team members are responsible for some of the basic operations of the project.
 As a small team,
 there are a lot of jobs to be done and not many hands to fill them.
-You will be responsible for owning projects in your area of the team,
-but also working on many other things.
+This means you will learn a lot about the functioning of a small open source project.
 
-User support is one of the main things you will be handling that spans the business.
+User support is one of the main things you will be handling that spans the company.
 We have GitHub issues and emails that come in each day,
 and we have a support rotation for dealing with them.
-You can expect being primarily responsible for handling support one day a week,
-along with following up with users each day as necessary.
+You can expect being the first line of support one day a week,
+but you can always ask the team for help with issues.
 
 Requirements
 ------------
 
-We want someone with experience and vision to improve the product as a whole,
-and can contribute across multiple domains.
+We hope for someone with experience and vision to improve the product.
 We are a small team and you will be given a lot autonomy in building and improving things,
 so being self-driven is an asset.
 
@@ -37,16 +35,14 @@ Structure
 ---------
 
 We are currently only able to offer contracts to work on the project.
-**The plan would be for us to contract with you to work between 3-5 days a week.**
+We would contract you to work 4-5 days a week.
 Half of our team works 4 days, and the other half works 5 days,
 and we are happy to be flexible with whatever works best for you.
 
 After an initial interview,
-we normally do a small paid project to see how we work together.
-If that goes well,
-we will move towards a longer term contract.
-We plan for this role to continue after 2021,
-working on Read the Docs fully after the grant funding expires.
+we normally do a small paid project (4-6 hours) to see how we work together.
+Assuming that goes well,
+we will offer a contract until the end of the calendar year.
 
 The pay rate will vary with experience and the number of days worked.
 As a small, self-sustaining open source project we are not able to pay as much as large companies.
