@@ -72,8 +72,9 @@ Current focus & known issues
    storage. We have changed our infrastructure so background tasks and web
    requests are processed by different servers, which has addressed the stability
    issues.
--  We were made aware of an open redirect on documentation pages via
-   a report to our ``security`` address. This was present in our codebase for the
+-  We were made aware of an `open redirect on documentation
+   pages <https://github.com/readthedocs/readthedocs.org/security/advisories/GHSA-625x-cj64-6j7h>`_
+   via a report to our ``security`` address. This was present in our codebase for the
    last 2 releases, and was fixed in a deployment on Thursday April 1. We'd like
    to thank Splunk and the Cryptography project for reporting this issue through
    proper channels. Please always follow our `security reporting guide
