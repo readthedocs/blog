@@ -84,8 +84,8 @@ Upcoming features
    with some changes and deprecations, and outline a plan for future
    releases. He will also be working on our dashboard redesign, which we hope
    to launch in public beta soon.
--  On the EthicalAds side, `David`_ will focus on more customized ad
-   targeting and improvements for the reporting interface.
+-  On the EthicalAds side, `David`_ will focus on improving our contextual ad targeting
+   and improvements for the reporting interface.
 -  `Eric`_ will be split between `hiring a frontend
    developer <https://blog.readthedocs.com/job-frontend/>`_,
    doing project management on `the CZI
