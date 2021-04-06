@@ -30,6 +30,9 @@ Company highlights
 -  We have `a new status page <http://status.readthedocs.com/>`_ so you
    can see the availability history and current status of our infrastructure.
 
+.. Pageviews stats obtained from Google Analytics, https://readthedocs.io property,
+   and divided by the total number of days in the month
+
 New features
 ------------
 
