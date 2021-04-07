@@ -27,7 +27,7 @@ Company highlights
    improve our public facing documentation,
    and spread the word about our service.
 -  The average daily pageviews went up by 9.4 % from the previous month.
--  We have `a new status page <http://status.readthedocs.com/>`_ so you
+-  We have `a new status page <https://status.readthedocs.com/>`_ so you
    can see the availability history and current status of our infrastructure.
 
 .. Pageviews stats obtained from Google Analytics, https://readthedocs.io property,
