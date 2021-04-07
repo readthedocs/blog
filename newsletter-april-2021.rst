@@ -27,7 +27,7 @@ Company highlights
    improve our public facing documentation,
    and spread the word about our service.
 -  The average daily pageviews went up by 9.4 % from the previous month.
--  We have `a new status page <http://status.readthedocs.com/>`_ so you
+-  We have `a new status page <https://status.readthedocs.com/>`_ so you
    can see the availability history and current status of our infrastructure.
 
 .. Pageviews stats obtained from Google Analytics, https://readthedocs.io property,
@@ -55,9 +55,10 @@ New features
    conda <https://docs.readthedocs.io/en/stable/guides/conda.html>`_,
    and `started recommending MyST for writing Markdown with
    Sphinx <https://docs.readthedocs.io/en/stable/intro/getting-started-with-sphinx.html#using-markdown-with-sphinx>`_.
-   We also cleaned up some old contribution documentation, and renamed
+-  We also cleaned up some old contribution documentation, and renamed
    `our installation instructions <https://docs.readthedocs.io/en/stable/development/install.html>`_
-   for clarity.
+   for clarity. Now Docker Compose is our recommended method to install
+   Read the Docs, which will make contributing easier.
 -  We added the possibility to declare `publicly visible environment
    variables <https://github.com/readthedocs/readthedocs.org/pull/7891>`_.
 
