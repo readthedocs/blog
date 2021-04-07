@@ -9,7 +9,7 @@ Read the Docs is a large `open source project <https://github.com/readthedocs/re
 You can think of it a `continuous integration <https://en.wikipedia.org/wiki/Continuous_integration>`_ for docs.
 We serve over :doc:`500 million pageviews </read-the-docs-2020-stats>` each year.
 We are a small team,
-but this role will have a large impact of millions of users.
+but this role will have a large impact on millions of users.
 Our codebase is almost entirely open source,
 and we feel strongly about supporting the open source community while sustaining the project in an ethical manner.
 
