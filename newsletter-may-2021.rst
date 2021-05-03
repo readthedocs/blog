@@ -79,14 +79,25 @@ Current focus & known issues
 Upcoming features
 -----------------
 
--  xxx
--  `Eric`_ is focused on onboarding a new hire on our EthicalAds team,
+-  `Anthony`_ will keep working on releasing `sphinx_rtd_theme` 1.0,
+   start getting users to test our new user interface,
+   and iron out our Data Processing Agreements.
+-  On the EthicalAds side, `David`_ will be improving
+   the KPI reporting for our publishers,
+   and onboarding `Ra`_ on the team along with `Eric`_.
+-  `Eric`_ is focused on onboarding our new hire on the EthicalAds team,
    finishing a CZI grant proposal for funding in 2021-2022,
    and figuring out how the team can handle growing from 5 to 8 folks in 2021!
 -  `Juan Luis`_ will work with `Eric`_ on the new CZI proposal,
    continue discussing with the Sphinx community about `the new
    tutorial <https://github.com/sphinx-doc/sphinx/issues/9165>`_,
    and have more Customer Development calls with existing users.
+-  `Manuel`_ will continue improving our operations and deployment procedures,
+   make single sign-on discoverable by users,
+   and release a new version of `sphinx-hoverxref <https://github.com/readthedocs/sphinx-hoverxref/>`_
+   compatible with newer versions of Sphinx and MathJax.
+-  And finally, `Santos`_ will wrap up our new infrastructure and configuration changes
+   allowing users to install custom `apt` packages.
 
 Considering using Read the Docs for your next Sphinx or MkDocs project?
 Check out `our documentation <https://docs.readthedocs.io/>`_ to get started!
