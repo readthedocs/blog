@@ -20,6 +20,8 @@ and share what we'll be focusing on in the near future.
 Company highlights
 ------------------
 
+-  The team keeps growing! `Ra`_ will join us next week
+   to do account management for EthicalAds.
 -  We reworked our deploy procedure to almost remove the need to interrupt builds.
    Therefore, you should see less build retries during our deploy timeframe,
    normally Tuesday morning Pacific time.
@@ -94,4 +96,5 @@ Check out `our documentation <https://docs.readthedocs.io/>`_ to get started!
 .. _Eric: https://github.com/ericholscher
 .. _Juan Luis: https://github.com/astrojuanlu
 .. _Manuel: https://github.com/humitos
+.. _Ra: https://www.linkedin.com/in/quetzalcoatlus/
 .. _Santos: https://github.com/stsewd
