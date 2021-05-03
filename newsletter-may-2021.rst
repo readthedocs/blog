@@ -31,6 +31,10 @@ Company highlights
    some projects have already migrated without effort,
    and we are looking forward to helping MyST-Parser thrive!
    Thanks to the Executable Books Project folks for creating this project.
+-  Our `frontend developer position <https://blog.readthedocs.com/job-frontend/>`_ is still open!
+   We are actively looking for candidates,
+   if you know people that could potentially be interested
+   feel free to forward them the link above.
 
 .. Pageviews stats obtained from Google Analytics, https://readthedocs.io property,
    and divided by the total number of days in the month
