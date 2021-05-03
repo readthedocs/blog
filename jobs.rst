@@ -21,8 +21,4 @@ These are jobs working on our core documentation products:
 Jobs at EthicalAds
 ------------------
 
-These are our advertising-specific openings working on our ethical ad network:
-
-* `Ads Account Manager (Part Time) <https://www.ethicalads.io/jobs/account-manager-part-time/>`_
-
-
+There are no current openings working on ads at this time.
