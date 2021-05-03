@@ -63,11 +63,13 @@ Current focus & known issues
    finding a balance between stability and maintainability,
    and we hope we can do the best for our users and the Sphinx community.
 -  xxx
+- Cloudflare has changed how their SSL works, so we're figuring out how that might impact users of custom domains on our Community site. It will likely only impact projects that are proxying to us, not domains that follow our `recommended custom domain configuration <https://docs.readthedocs.io/en/latest/custom_domains.html#custom-domain-support>`_. 
 
 Upcoming features
 -----------------
 
 -  xxx
+- Eric is focused on onboarding a new hire on our EthicalAds team, finishing a CZI grant proposal for funding in 2021-2022, and figuring out how the team can handle growing from 5 to 8 folks in 2021!
 
 Considering using Read the Docs for your next Sphinx or MkDocs project?
 Check out `our documentation <https://docs.readthedocs.io/>`_ to get started!
