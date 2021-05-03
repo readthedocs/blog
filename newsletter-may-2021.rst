@@ -78,9 +78,13 @@ Upcoming features
 -----------------
 
 -  xxx
--  Eric is focused on onboarding a new hire on our EthicalAds team,
+-  `Eric`_ is focused on onboarding a new hire on our EthicalAds team,
    finishing a CZI grant proposal for funding in 2021-2022,
    and figuring out how the team can handle growing from 5 to 8 folks in 2021!
+-  `Juan Luis`_ will work with `Eric`_ on the new CZI proposal,
+   continue discussing with the Sphinx community about `the new
+   tutorial <https://github.com/sphinx-doc/sphinx/issues/9165>`_,
+   and have more Customer Development calls with existing users.
 
 Considering using Read the Docs for your next Sphinx or MkDocs project?
 Check out `our documentation <https://docs.readthedocs.io/>`_ to get started!
