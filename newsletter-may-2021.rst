@@ -65,11 +65,14 @@ Current focus & known issues
 ----------------------------
 
 -  We are working with the Sphinx maintainers
-   to help testing the upcoming Sphinx release
+   to help testing the upcoming Sphinx 4.0.0 release
    and decrease the risk of breakage.
    It is an ongoing effort that requires
    finding a balance between stability and maintainability,
    and we hope we can do the best for our users and the Sphinx community.
+   Read `the release notes <https://www.sphinx-doc.org/en/master/changes.html>`_
+   to check for any breaking changes,
+   and if in doubt, pin your declared dependency to ``<4``.
 -  Cloudflare has changed how their SSL works,
    so we're figuring out how that might impact users of custom domains on our Community site.
    It will likely only impact projects that are proxying to us,
