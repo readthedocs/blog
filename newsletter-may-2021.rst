@@ -69,7 +69,6 @@ Current focus & known issues
    It is an ongoing effort that requires
    finding a balance between stability and maintainability,
    and we hope we can do the best for our users and the Sphinx community.
--  xxx
 -  Cloudflare has changed how their SSL works,
    so we're figuring out how that might impact users of custom domains on our Community site.
    It will likely only impact projects that are proxying to us,
