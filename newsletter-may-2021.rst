@@ -52,6 +52,7 @@ New features
    guide <https://docs.readthedocs.io/en/stable/development/install.html>`_
    with more clear instructions for static assets
    and some extra verification procedures.
+   Thanks `Coco <https://github.com/cocobennett>`_ for this contribution!
 -  We rolled up `a new keyword detection algorithm in our ad
    client <https://github.com/readthedocs/ethical-ad-client/pull/48>`_,
    which should make the ads you see more meaningful and useful.
