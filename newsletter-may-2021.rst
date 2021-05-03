@@ -21,7 +21,7 @@ Company highlights
 ------------------
 
 -  We reworked our deploy procedure to almost remove the need to interrupt builds.
-   Therefore, you should see less build retries during our deploy timeframe.
+   Therefore, you should see less build retries during our deploy timeframe, normally Tuesday morning Pacific time.
 -  After some careful deliberation,
    we started the process to `deprecate recommonmark in favor of
    MyST <https://github.com/readthedocs/recommonmark/issues/221>`_,
