@@ -11,11 +11,11 @@
 Read the Docs newsletter - May 2021
 ===================================
 
-Welcome to a new edition of our monthly newsletter, in which we would like to
-openly share with you the most relevant updates of Read the Docs,
-offer a summary of what new features we shipped to our users
+Welcome to a new edition of our monthly newsletter, where we
+openly share the most relevant updates around Read the Docs,
+offer a summary of new features we shipped
 during the previous month,
-and share what things we will be focusing on in the near future.
+and share what we'll be focusing on in the near future.
 
 Company highlights
 ------------------
