@@ -56,6 +56,13 @@ New features
 -  We rolled up `a new keyword detection algorithm in our ad
    client <https://github.com/readthedocs/ethical-ad-client/pull/48>`_,
    which should make the ads you see more meaningful and useful.
+-  We are about to disable Federated Learning of Cohorts (FLoC)
+   on our dashboard as well as on documentation sites
+   because of `privacy concerns <https://www.eff.org/deeplinks/2021/03/googles-floc-terrible-idea>`_.
+   On Read the Docs and EthicalAds, we maintain our commitment
+   to avoid user-targeted advertisement,
+   and `use only contextual targeting
+   instead <https://docs.readthedocs.io/en/stable/advertising/advertising-details.html#our-targeting-details>`_.
 
 You can always see the latest changes to our platforms in our `Read the Docs
 Changelog <https://docs.readthedocs.io/page/changelog.html>`_ and `Ethical Ad Server
