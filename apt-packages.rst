@@ -6,13 +6,13 @@
 .. meta::
    :description lang=en:
       We have deployed a long awaited feature:
-      the ability to install custom operative system packages.
+      the ability to install custom operating system packages.
 
-Install custom operative system packages
-========================================
+Install custom operating system packages (apt)
+==============================================
 
 We are thrilled to announce that now Read the Docs users
-can declare custom operative system packages in their project configuration
+can declare custom operating system packages in their project configuration
 that will get installed in our Ubuntu-based builders using ``apt``.
 This has been a long awaited feature,
 and we think it will simplify the configuration of many projects,
