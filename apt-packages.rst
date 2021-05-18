@@ -50,6 +50,8 @@ contains a simple example:
 
 .. code-block:: yaml
 
+   version: 2
+
    build:
      image: latest
      apt_packages:
