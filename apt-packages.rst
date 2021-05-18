@@ -56,6 +56,9 @@ contains a simple example:
        - libclang
        - cmake
 
+(Notice that at the moment our images are based Ubuntu 18.04,
+this will change in the near future)
+
 And you can draw inspiration from some community projects that are using this feature already:
 
 - `geoserver-rest`_, a Python library to interact with GeoServer, uses `apt_packages`
