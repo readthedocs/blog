@@ -47,8 +47,6 @@ New features
   You can read more `in our dedicated blog post </apt-packages>`_.
 - Now redirects also work `even if you are using
   HTTP <https://github.com/readthedocs/readthedocs.org/issues/8183>`_.
-- Our API v2 now allows `filtering more
-  endpoints <https://github.com/readthedocs/readthedocs.org/pull/8189>`_.
 
 You can always see the latest changes to our platforms in our `Read the Docs
 Changelog <https://docs.readthedocs.io/page/changelog.html>`_ and `Ethical Ad Server
