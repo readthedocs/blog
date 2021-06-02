@@ -73,7 +73,8 @@ Upcoming features
   continue working on SSO to make it discoverable by users,
   and keep pushing the Embed API v3 design document
   as well as new ideas for how our builders work.
-- `Santos`_ will write a proposal to improve logging of structured telemetry
+- `Santos`_ will work on enabling pull request builds of commercial projects to be public,
+  continue unifying our community and commercial codebases,
   and work with `Manuel`_ on defining the new builders.
 
 Considering using Read the Docs for your next Sphinx or MkDocs project?
