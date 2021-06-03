@@ -47,8 +47,7 @@ New features
   HTTP <https://github.com/readthedocs/readthedocs.org/issues/8183>`_.
 
 You can always see the latest changes to our platforms in our `Read the Docs
-Changelog <https://docs.readthedocs.io/page/changelog.html>`_ and `Ethical Ad Server
-Changelog <https://ethical-ad-server.readthedocs.io/page/developer/changelog.html>`_.
+Changelog <https://docs.readthedocs.io/page/changelog.html>`_.
 
 Current focus & known issues
 ----------------------------
