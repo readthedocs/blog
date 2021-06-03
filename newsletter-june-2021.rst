@@ -49,15 +49,6 @@ New features
 You can always see the latest changes to our platforms in our `Read the Docs
 Changelog <https://docs.readthedocs.io/page/changelog.html>`_.
 
-Current focus & known issues
-----------------------------
-
-After the recent news of `GitHub <https://github.blog/2021-04-22-github-actions-update-helping-maintainers-combat-bad-actors/>`_
-and `GitLab <https://about.gitlab.com/blog/2021/05/17/prevent-crypto-mining-abuse/>`_
-restricting their free offerings to prevent crypto mining abuse,
-we started researching ways to detect and prevent
-this situation from happening to us in the future.
-
 Upcoming features
 -----------------
 
@@ -80,6 +71,15 @@ Upcoming features
   so we can move away from injecting extensions on behalf of the users
   and expand the extensibility of our platform
   (see `our ongoing discussion <https://github.com/readthedocs/readthedocs.org/pull/8190/>`_).
+
+Possible issues
+---------------
+
+After the recent news of `GitHub <https://github.blog/2021-04-22-github-actions-update-helping-maintainers-combat-bad-actors/>`_
+and `GitLab <https://about.gitlab.com/blog/2021/05/17/prevent-crypto-mining-abuse/>`_
+restricting their free offerings to prevent crypto mining abuse,
+we started researching ways to detect and prevent
+this situation from happening to us in the future.
 
 Considering using Read the Docs for your next Sphinx or MkDocs project?
 Check out `our documentation <https://docs.readthedocs.io/>`_ to get started!
