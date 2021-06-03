@@ -76,7 +76,10 @@ Upcoming features
   as well as new ideas for how our builders work.
 - `Santos`_ will work on enabling pull request builds of commercial projects to be public,
   continue unifying our community and commercial codebases,
-  and work with `Manuel`_ on defining the new builders.
+  and work with `Manuel`_ on defining our new philosophy for our builders,
+  so we can move away from injecting extensions on behalf of the users
+  and expand the extensibility of our platform
+  (see `our ongoing discussion <https://github.com/readthedocs/readthedocs.org/pull/8190/>`_).
 
 Considering using Read the Docs for your next Sphinx or MkDocs project?
 Check out `our documentation <https://docs.readthedocs.io/>`_ to get started!
