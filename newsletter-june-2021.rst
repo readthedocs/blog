@@ -52,7 +52,11 @@ Changelog <https://docs.readthedocs.io/page/changelog.html>`_.
 Current focus & known issues
 ----------------------------
 
-[TBC]
+After the recent news of `GitHub <https://github.blog/2021-04-22-github-actions-update-helping-maintainers-combat-bad-actors/>`_
+and `GitLab <https://about.gitlab.com/blog/2021/05/17/prevent-crypto-mining-abuse/>`_
+restricting their free offerings to prevent crypto mining abuse,
+we started researching ways to detect and prevent
+this situation from happening to us in the future.
 
 Upcoming features
 -----------------
