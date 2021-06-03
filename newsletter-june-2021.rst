@@ -35,7 +35,7 @@ Company highlights
 - We added a `Data Processing Agreement <https://docs.readthedocs.io/en/stable/legal/dpa/>`_
   to our official documentation.
 - We are iterating on an improved roadmap workflow to make sure our team
-   stays productive as we grow. 
+  stays productive as we grow.
 
 New features
 ------------
