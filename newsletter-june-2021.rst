@@ -23,7 +23,8 @@ Company highlights
 - We applied to the next round of the CZI Essential Open Source Software for Science!
   Our proposal is even more ambitious than the previous one,
   and we are excited about the possibilities for our users
-  if we finally get accepted.
+  if we get accepted.
+  The funding would cover 2 years of work, starting in 2022.
 - We keep making progress on the current CZI grant work:
   `Juan Luis`_ sent the first pull request for `our new Sphinx
   tutorial <https://github.com/sphinx-doc/sphinx/pull/9276>`_,
@@ -33,8 +34,8 @@ Company highlights
   (we will write a dedicated blog post about this soon).
 - We added a `Data Processing Agreement <https://docs.readthedocs.io/en/stable/legal/dpa/>`_
   to our official documentation.
-- We are making progress towards a new streamlined workflow
-  that helps us while the company grows.
+- We are iterating on an improved roadmap workflow to make sure our team
+   stays productive as we grow. 
 
 .. Pageviews stats obtained from Google Analytics, https://readthedocs.io property,
    and divided by the total number of days in the month
@@ -45,7 +46,7 @@ New features
 - We added a new configuration key, ``build.apt_packages``,
   that allow our users to install custom operating system packages.
   You can read more `in our dedicated blog post </apt-packages>`_.
-- Now redirects also work `even if you are using
+- Now redirects also work `if you are using
   HTTP <https://github.com/readthedocs/readthedocs.org/issues/8183>`_.
 
 You can always see the latest changes to our platforms in our `Read the Docs
@@ -68,7 +69,7 @@ Upcoming features
   and soften the CORS restrictions of our current Embed API.
 - `Juan Luis`_ will continue writing the new Sphinx tutorial
   and scheduling Customer Development calls with scientific users,
-  besides advertising more options for projects to remove ads.
+  along with advertising more options for projects to remove ads.
 - `Manuel`_ will wrap up the new sphinx-hoverxref release,
   continue working on SSO to make it discoverable by users,
   and keep pushing the Embed API v3 design document
