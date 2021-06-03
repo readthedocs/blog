@@ -37,9 +37,6 @@ Company highlights
 - We are iterating on an improved roadmap workflow to make sure our team
    stays productive as we grow. 
 
-.. Pageviews stats obtained from Google Analytics, https://readthedocs.io property,
-   and divided by the total number of days in the month
-
 New features
 ------------
 
