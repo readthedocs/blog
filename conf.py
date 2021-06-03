@@ -77,6 +77,7 @@ templates_path.append(os.path.join(
 ))
 templates_path.append(ablog.get_html_templates_path())
 
+html4_writer = True
 
 if os.environ.get('READTHEDOCS', None) == 'True':
     skip_pickling = True
