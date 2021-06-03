@@ -64,9 +64,9 @@ Upcoming features
 - `Anthony_` will keep working on our new UI templates
   as well as pushing ``sphinx_rtd_theme``,
   and continue assisting with the Frontend hiring process.
-- `Eric`_ will write a design document for audit tracking in our service,
-  polish our internal workflow and methodology changes with `Anthony`_,
-  and soften the CORS restrictions of our current Embed API.
+- `Eric`_ will continue to focus on improving the product for our Enterprise users.
+  This includes working on auditing functionality, security process improvements,
+  and other small features. He will also keep working on improving the ads platform.
 - `Juan Luis`_ will continue writing the new Sphinx tutorial
   and scheduling Customer Development calls with scientific users,
   along with advertising more options for projects to remove ads.
