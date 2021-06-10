@@ -49,7 +49,8 @@ it scans the cross-references and attaches floating windows to them
 that embed the contents of the page the xrefs point to.
 This way, when the user is interested in a particular topic,
 they can hover the mouse over the link
-and display the floating window instead.
+and display the floating window
+instead of opening the link.
 
 Moreover, the floating windows created by `sphinx-hoverxref`_
 also work if the embedded content requires a particular extension to be rendered.
