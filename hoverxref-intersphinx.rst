@@ -20,11 +20,13 @@ of the work we are doing to improve interoperability of documentation in general
 and scientific documentation in particular,
 thanks to the `CZI grant </czi-grant-announcement>`_ we received last year.
 
-.. figure:: img/sphinx-hoverxref-math.png
-   :width: 100%
+.. figure:: img/sphinx-hoverxref-showcase.gif
+   :width: 60%
    :align: center
-   :alt: sphinx-hoverxref displaying a tooltip including an equation
-   :target: _images/sphinx-hoverxref-math.png
+   :alt: sphinx-hoverxref displaying tooltips for cross references
+   :target: _images/sphinx-hoverxref-showcase.gif
+
+   sphinx-hoverxref displaying a tooltip including an equation
 
 .. _sphinx-hoverxref: https://sphinx-hoverxref.readthedocs.io/
 
@@ -65,11 +67,15 @@ is a Sphinx extension
 that generates automatic links to the documentation of objects in other projects,
 and now it's possible to show floating windows on them too.
 
-.. figure:: img/sphinx-hoverxref-intersphinx.gif
-   :width: 100%
+.. figure:: img/sphinx-hoverxref-intersphinx.png
+   :width: 80%
    :align: center
-   :alt: sphinx-hoverxref displaying a modal window embedding an external project
-   :target: _images/sphinx-hoverxref-intersphinx.gif
+   :alt: A project (left) embedding content from another project linked through intersphinx (right)
+         using sphinx-hoverxref
+   :target: _images/sphinx-hoverxref-intersphinx.png
+
+   A project (left) embedding content from another project linked through intersphinx (right)
+   using sphinx-hoverxref
 
 To enable it, the user needs to specify
 which projects from the `intersphinx_mapping <https://www.sphinx-doc.org/en/master/usage/extensions/intersphinx.html#confval-intersphinx_mapping>`_
