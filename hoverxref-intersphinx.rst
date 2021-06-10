@@ -24,7 +24,7 @@ thanks to the `CZI grant </czi-grant-announcement>`_ we received last year.
    :width: 60%
    :align: center
    :alt: sphinx-hoverxref displaying tooltips for cross references
-   :target: _images/sphinx-hoverxref-showcase.gif
+   :target: /_images/sphinx-hoverxref-showcase.gif
 
    sphinx-hoverxref displaying a tooltip including an equation
 
@@ -72,7 +72,7 @@ and now it's possible to show floating windows on them too.
    :align: center
    :alt: A project (left) embedding content from another project linked through intersphinx (right)
          using sphinx-hoverxref
-   :target: _images/sphinx-hoverxref-intersphinx.png
+   :target: /_images/sphinx-hoverxref-intersphinx.png
 
    A project (left) embedding content from another project linked through intersphinx (right)
    using sphinx-hoverxref
