@@ -83,6 +83,7 @@ will be scanned by ``sphinx-hoverxref``, using a new configuration value:
 
 .. code-block:: python
 
+   # Values of the intersphinx_mapping keys that you want to enable hoverxref on
    hoverxref_intersphinx = [
       "astropy",
       "numpy",
