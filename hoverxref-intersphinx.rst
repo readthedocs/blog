@@ -12,8 +12,8 @@ New release of sphinx-hoverxref with support for intersphinx
 ============================================================
 
 We have released version 0.6b1 of `sphinx-hoverxref`_,
-a Sphinx extension that shows a floating window
-that embeds the content of a cross-reference.
+a Sphinx extension that shows a *content preview*
+of a cross-reference.
 
 This extension is an essential part
 of the work we are doing to improve interoperability of documentation in general,
@@ -30,8 +30,8 @@ thanks to the `CZI grant </czi-grant-announcement>`_ we received last year.
 
 .. _sphinx-hoverxref: https://sphinx-hoverxref.readthedocs.io/
 
-Embedding documentation fragments
----------------------------------
+Embedding content previews
+--------------------------
 
 Technical documentation is full of cross-references (or *xrefs*):
 hyperlinks to related parts of the documentation (or even to an external project)
@@ -46,15 +46,15 @@ can be distracting, since opening them might need either a context switch
 or keeping a new browser tab for a later moment.
 
 Here is where `sphinx-hoverxref`_ comes to the rescue:
-it scans the cross-references and attaches floating windows to them
+it scans the cross-references and attaches content previews to them
 (either *tooltips* or *modal* dialogues)
 that embed the contents of the page the xrefs point to.
 This way, when the user is interested in a particular topic,
 they can hover the mouse over the link
-and display the floating window
+and display the content preview
 instead of opening the link.
 
-Moreover, the floating windows created by `sphinx-hoverxref`_
+Moreover, the content previews created by `sphinx-hoverxref`_
 also work if the embedded content requires a particular extension to be rendered.
 This makes it possible to embed content that includes mathematical equations, for example.
 
