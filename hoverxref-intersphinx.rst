@@ -66,7 +66,8 @@ Support for ``intersphinx``
 ---------------------------
 
 Version 0.6b1 of `sphinx-hoverxref`_ introduces opt-in support for Intersphinx linking.
-``sphinx.ext.intersphinx`` is a Sphinx extension
+`sphinx.ext.intersphinx <https://www.sphinx-doc.org/en/master/usage/extensions/intersphinx.html>`_
+is a Sphinx extension
 that generates automatic links to the documentation of objects in other projects,
 and now it's possible to show floating windows on them too.
 
