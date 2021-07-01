@@ -1,7 +1,7 @@
 Sphinx==1.7.9
 
 # Used to rewrite the Atom feed to use absolute links
-lxml==4.2.1
+lxml==4.6.3
 
 ablog==0.9.5
 # This dependencie from ablog needs to be pinned
