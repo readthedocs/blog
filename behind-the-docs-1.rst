@@ -1,5 +1,5 @@
-.. post:: July 1, 2021
-   :tags: behind-the-docs
+.. post:: July 6, 2021
+   :tags: behind-the-scenes, media, podcast, talk
    :author: Juan Luis
    :location: MAD
 
