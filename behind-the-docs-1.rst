@@ -22,7 +22,7 @@ this blog post is for you.
 Eric @ Sustain podcast
 ----------------------
 
-`Eric`_ was the special guest of `Episode 66 of Sustain`_ back in February,
+`Eric`_ was the special guest of `Sustain <https://podcast.sustainoss.org/>`_ back in February,
 "a podcast about sustaining open source in the long haul".
 Eric started by telling the story of how he and `Anthony`_ co-founded Read the Docs,
 talked about the `Write the Docs <https://www.writethedocs.org/>`_ community,
@@ -41,7 +41,7 @@ Juan Luis @ Data for Future podcast
 -----------------------------------
 
 Also in June, `Juan Luis`_ was invited for the second time
-to `Episode #39 of Data for Future`_,
+to `Data for Future <https://dataforfuture.org/>`_,
 a podcast that seeks to "inspire positive actions
 towards an environmentally sustainable and socially just future through technology".
 In an informal conversation,
