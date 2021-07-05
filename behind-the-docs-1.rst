@@ -8,8 +8,8 @@
       Learn more about Read the Docs directly from its team members:
       appearances in the media during the first half of 2021.
 
-Behind the Docs episode 1
-=========================
+Early 2021 talks and podcasts from Read the Docs
+================================================
 
 During the first half of 2021 several team members of Read the Docs
 have talked about the company in podcasts and online events.
