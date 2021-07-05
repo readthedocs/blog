@@ -13,7 +13,7 @@ Early 2021 talks and podcasts from Read the Docs
 
 During the first half of 2021 several team members of Read the Docs
 have talked about the company in podcasts and online events.
-If you want to learn more about our company and the work we do
+If you want to learn more about our company
 directly from the people that are a core part of it,
 and hear our thoughts on other topics
 like open source sustainability and developer advocacy,
