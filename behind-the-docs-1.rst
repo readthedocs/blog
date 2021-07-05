@@ -37,28 +37,8 @@ Listen to Eric online:
 
 .. _Episode 66 of Sustain: https://podcast.sustainoss.org/66
 
-"Bootstrapping a sustainable open source project" @ Upstream 2021 online conference
------------------------------------------------------------------------------------
-
-Read the Docs and EthicalAds supported `Upstream 2021 <https://upstream.live/>`_ in June,
-a one-day online event about "open source, the developers who use it, and the maintainers who make it".
-`Eric`_ delivered a talk titled `"Bootstrapping a sustainable open source project: The Read the Docs story"`_,
-in which he dived into some of the less known details of how Read the Docs was created,
-shared the different funding strategies the company attempted over the years,
-opened up about the dangers of burnout,
-and detailed the different commercial plans of Read the Docs
-as well as some thoughts about pricing schemes.
-
-Watch Eric online:
-
-.. image:: /img/eric-upstream.png
-   :align: center
-   :target: `"Bootstrapping a sustainable open source project: The Read the Docs story"`_
-
-.. _`"Bootstrapping a sustainable open source project: The Read the Docs story"`: https://explore.tidelift.com/upstream/main/session-eric-holscher
-
-"Making documentation sexy" @ Data for Future podcast
------------------------------------------------------
+Juan Luis @ Data for Future podcast
+-----------------------------------
 
 Also in June, `Juan Luis`_ was invited for the second time
 to `Episode #39 of Data for Future`_,
@@ -78,6 +58,26 @@ Listen to Juan Luis online:
    :target: `Episode #39 of Data for Future`_
 
 .. _Episode #39 of Data for Future: https://dataforfuture.org/episodes/39-making-documentation-sexy-juan-luis-cano-read-the-docs/
+
+Eric @ Upstream 2021 online conference
+--------------------------------------
+
+Read the Docs and EthicalAds supported `Upstream 2021 <https://upstream.live/>`_ in June,
+a one-day online event about "open source, the developers who use it, and the maintainers who make it".
+`Eric`_ delivered a talk titled `"Bootstrapping a sustainable open source project: The Read the Docs story"`_,
+in which he dived into some of the less known details of how Read the Docs was created,
+shared the different funding strategies the company attempted over the years,
+opened up about the dangers of burnout,
+and detailed the different commercial plans of Read the Docs
+as well as some thoughts about pricing schemes.
+
+Watch Eric online:
+
+.. image:: /img/eric-upstream.png
+   :align: center
+   :target: `"Bootstrapping a sustainable open source project: The Read the Docs story"`_
+
+.. _`"Bootstrapping a sustainable open source project: The Read the Docs story"`: https://explore.tidelift.com/upstream/main/session-eric-holscher
 
 ---
 
