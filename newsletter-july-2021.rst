@@ -94,7 +94,7 @@ Upcoming features
   He will also write a new guide about how to use unsupported VCS platforms
   on Read the Docs.
 
-.. _Aaron: https://github.com/blendify
+.. _Aaron Carlisle: https://github.com/blendify
 
 Possible issues
 ---------------
