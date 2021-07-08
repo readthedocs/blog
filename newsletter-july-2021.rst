@@ -44,7 +44,7 @@ New features
 - We added a JSON schema of our configuration file to
   `JSON Schema Store <https://www.schemastore.org/json/>`_.
   If your editor has support for JSON schema,
-  it will now give you autocompletion and highlight for
+  it will now give you autocompletion and linting for
   `our .readthedocs.yml <https://docs.readthedocs.io/en/stable/config-file/v2.html>`_.
 
 .. figure:: /img/rebuild.png
