@@ -31,7 +31,8 @@ Company highlights
   and will be publicly available soon in the official Sphinx documentation.
 - We finalized the design of our upcoming
   `Embed API v3 <https://docs.readthedocs.io/en/stable/development/design/embed-api.html>`_,
-  which will allow sites outside Read the Docs to embed our documentation.
+  which will open up more possibilities of embedding content inside and outside Read the Docs.
+  Watch this space for updates on the topic.
 - One extra person will join our team as Frontend Developer.
   More details coming soon!
 
