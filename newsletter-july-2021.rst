@@ -6,13 +6,13 @@
 .. meta::
    :description lang=en:
       Company updates and new features from last month,
-      current focus, and upcoming features from July.
+      current focus, and upcoming features in July.
 
 Read the Docs newsletter - July 2021
 ====================================
 
 Welcome to a new edition of our monthly newsletter, where we
-openly share the most relevant updates around Read the Docs,
+share the most relevant updates around Read the Docs,
 offer a summary of new features we shipped
 during the previous month,
 and share what we'll be focusing on in the near future.
@@ -77,21 +77,19 @@ Upcoming features
   and onboarding our new Frontend hire.
 - Eric_ will continue working on our sales process
   and doing pull request reviews,
-  and will propose some pricing changes
-  in our commercial site.
+  along with managing other ongoing projects. 
   In addition, he will push forward the proposal to add audit tracking
   along with Manuel_.
 - `Juan Luis`_ is now collaborating more closely with the Sphinx team
   and will submit the third part of our beginners tutorial.
   In addition, he will lead a documentation sprint at SciPy,
-  and start working on an introduction tutorial for Read the Docs.
+  and start working on an introductory tutorial for Read the Docs.
 - Manuel_ has already started with the implementation of our Embed API v3
   and will continue working on it for the coming weeks,
   apart from improving our data backups
   and implementing the first pieces of our audit tracking.
 - Santos_ will keep on working with the refactoring of our codebases
-  so our commercial and community sites are easier to maintain,
-  and address some redirection issues we have observed for certain users.
+  so our commercial and community sites are easier to maintain.
   He will also write a new guide about how to use unsupported VCS platforms
   on Read the Docs.
 
