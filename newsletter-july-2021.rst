@@ -28,7 +28,7 @@ Company highlights
 - The first two parts of the Sphinx tutorial we are writing
   in the context of the :doc:`CZI grant </czi-grant-announcement>`
   were merged to the development branch,
-  and will be publicly available soon.
+  and will be publicly available soon in the official Sphinx documentation.
 - We finalized the design of our upcoming
   `Embed API v3 <https://docs.readthedocs.io/en/stable/development/design/embed-api.html>`_,
   which will allow sites outside Read the Docs to embed our documentation.
