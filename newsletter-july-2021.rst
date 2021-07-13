@@ -1,4 +1,6 @@
-.. post:: July 8, 2021
+.. Temporarily post-date post to get it into email.
+
+.. post:: July 13, 2021
    :tags: newsletter, python
    :author: Juan Luis
    :location: MAD
