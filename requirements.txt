@@ -1,4 +1,5 @@
 Sphinx==2.4.4
+sphinxext-opengraph==0.4.2
 
 # Used to rewrite the Atom feed to use absolute links
 lxml==4.6.3

@@ -32,6 +32,7 @@ extensions = [
     'ablog',
     'sphinx.ext.intersphinx',
     'atom_absolute',
+    'sphinxext.opengraph',
 ]
 
 blog_title = 'Read the Docs Blog'
@@ -247,6 +248,12 @@ intersphinx_mapping = {
         None
     ),
 }
+
+ogp_site_name = "Read the Docs Blog"
+ogp_image = (
+    'https://docs.ops.verbthenouns.com/projects/guidelines/'
+    '_images/logo-wordmark-dark.png'
+)
 
 # -- Options for LaTeX output ---------------------------------------------
 
