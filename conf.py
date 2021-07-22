@@ -253,7 +253,7 @@ ogp_site_name = "Read the Docs Blog"
 # ogp_use_first_image = True  # https://github.com/readthedocs/blog/pull/118
 ogp_image = (
     'https://docs.ops.verbthenouns.com/projects/guidelines/'
-    '_images/logo-wordmark-dark.png'
+    '_images/logo-dark.png'
 )
 # Inspired by https://github.com/executablebooks/MyST-Parser/pull/404/
 ogp_custom_meta_tags = [
