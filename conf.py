@@ -253,7 +253,7 @@ ogp_site_name = "Read the Docs Blog"
 # ogp_use_first_image = True  # https://github.com/readthedocs/blog/pull/118
 ogp_image = (
     'https://blog.readthedocs.com/'
-    '_images/logo-opengraph.png'
+    '_static/logo-opengraph.png'
 )
 # Inspired by https://github.com/executablebooks/MyST-Parser/pull/404/
 ogp_custom_meta_tags = [
