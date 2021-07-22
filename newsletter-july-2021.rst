@@ -105,7 +105,7 @@ On an unrelated note, we are receiving more support requests from our users
 about some software versions in our Docker images,
 and we have decided to give that work more priority.
 
----
+----
 
 Considering using Read the Docs for your next Sphinx or MkDocs project?
 Check out `our documentation <https://docs.readthedocs.io/>`_ to get started!

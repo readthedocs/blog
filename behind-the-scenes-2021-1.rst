@@ -79,7 +79,7 @@ Watch Eric online:
 
 .. _`"Bootstrapping a sustainable open source project: The Read the Docs story"`: https://explore.tidelift.com/upstream/main/session-eric-holscher
 
----
+----
 
 Considering using Read the Docs for your next Sphinx or MkDocs project?
 Check out `our documentation <https://docs.readthedocs.io/>`_ to get started!
