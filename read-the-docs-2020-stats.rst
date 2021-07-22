@@ -94,10 +94,8 @@ and we're appreciative of all the work people contribute.
 Funding
 -------
 
-.. note:: We have not figured out our revenue numbers from 2020 yet, and will update this post when we have them.
-
-* $TBD advertising (from $249,000)
-* $TBD Gold users (from $26,600)
+* $234,000 advertising (from $249,000)
+* $30,000 Gold users and donations (from $26,600)
 * 5 paid staff (same as last year)
 * We have additional revenue from our commercial offering at readthedocs.com, but aren't including that in our community funding overview
 
