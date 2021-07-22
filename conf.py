@@ -250,6 +250,7 @@ intersphinx_mapping = {
 }
 
 ogp_site_name = "Read the Docs Blog"
+ogp_use_first_image = True
 ogp_image = (
     'https://docs.ops.verbthenouns.com/projects/guidelines/'
     '_images/logo-wordmark-dark.png'
