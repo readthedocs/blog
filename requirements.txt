@@ -1,4 +1,4 @@
-Sphinx==1.7.9
+Sphinx==2.4.4
 
 # Used to rewrite the Atom feed to use absolute links
 lxml==4.2.1
