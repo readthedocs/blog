@@ -255,6 +255,10 @@ ogp_image = (
     'https://docs.ops.verbthenouns.com/projects/guidelines/'
     '_images/logo-wordmark-dark.png'
 )
+# Inspired by https://github.com/executablebooks/MyST-Parser/pull/404/
+ogp_custom_meta_tags = [
+    '<meta name="twitter:card" content="summary_large_image" />',
+]
 
 # -- Options for LaTeX output ---------------------------------------------
 
