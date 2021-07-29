@@ -11,12 +11,13 @@ Thanks for your interest in working at Read the Docs.
 We are a small team growing slowly and deliberately,
 and we’d love for you to join us.
 
+If you don't see a role that fits you listed here,
+please `email us <mailto:support@readthedocs.com>`_ anyway so that we can get to know you if we have any future roles.
+
 Jobs at Read the Docs
 ---------------------
 
-These are jobs working on our core documentation products:
-
-* `Front-end developer with design skills <https://blog.readthedocs.com/job-frontend/>`_
+There are no current openings working on Read the Docs at this time.
 
 Jobs at EthicalAds
 ------------------
