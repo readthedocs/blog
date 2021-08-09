@@ -36,7 +36,7 @@ Company highlights
 New features
 ------------
 
-- Our commercial site `now allows projects to go public rather than private
+- Our commercial site `now allows pull request previews to be public rather than private
   only <https://docs.readthedocs.io/en/stable/versions.html#privacy-levels>`_,
   and `to control the privacy level of pull request
   builds <https://docs.readthedocs.io/en/stable/pull-requests.html#privacy-levels>`_
