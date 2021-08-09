@@ -55,6 +55,9 @@ New features
   
    Button to close notifications
 
+- We released `sphinx-hoverxref 0.7b1 <https://pypi.org/project/sphinx-hoverxref/0.7b1/>`_,
+  which adds compatibility with Sphinx 4.1.
+
 You can always see the latest changes to our platforms in our `Read the Docs
 Changelog <https://docs.readthedocs.io/page/changelog.html>`_.
 
