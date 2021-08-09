@@ -11,7 +11,7 @@
 Read the Docs newsletter - August 2021
 ======================================
 
-Welcome to a new edition of our monthly newsletter, where we
+Welcome to the latest edition of our monthly newsletter, where we
 share the most relevant updates around Read the Docs,
 offer a summary of new features we shipped
 during the previous month,
@@ -30,8 +30,8 @@ Company highlights
   We thank the Sphinx maintainers for the thorough reviews
   and CZI for making it possible.
 - `We are now tracking changes in our
-  database <https://github.com/readthedocs/readthedocs.org/pull/8355/>`_, which is
-  the first step in our roadmap to offer audit tracking on our platform.
+  database <https://github.com/readthedocs/readthedocs.org/pull/8355/>`_,
+  which will help us with support issues and additional auditing features on Read the Docs for Business.
 
 New features
 ------------
@@ -73,7 +73,7 @@ Upcoming features
   of version 1.0 of our Sphinx theme, and some finance work.
 - Eric_ will continue overseeing the implementation of the next stages of
   our audit tracking along with Santos_, doing code review, and improving
-  our sales process.
+  our sales & marketing processes.
 - `Juan Luis`_ will expand the Sphinx tutorial while doing basic
   bug triaging for the project, and start with a much needed tutorial for
   Read the Docs itself. 
