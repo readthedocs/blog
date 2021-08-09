@@ -45,6 +45,8 @@ New features
   builds <https://docs.readthedocs.io/en/stable/pull-requests.html#privacy-levels>`_
   as well. As a result, we have dropped privacy levels for projects on our community site,
   since they used to be a source of confusion.
+- We released `sphinx-hoverxref 0.7b1 <https://pypi.org/project/sphinx-hoverxref/0.7b1/>`_,
+  which adds compatibility with Sphinx 4.1.
 - We fixed a long-standing usability issue in both our community and commercial sites:
   notifications now have a close button.
 
@@ -54,9 +56,6 @@ New features
    :alt: Button to close notifications
   
    Button to close notifications
-
-- We released `sphinx-hoverxref 0.7b1 <https://pypi.org/project/sphinx-hoverxref/0.7b1/>`_,
-  which adds compatibility with Sphinx 4.1.
 
 You can always see the latest changes to our platforms in our `Read the Docs
 Changelog <https://docs.readthedocs.io/page/changelog.html>`_.
