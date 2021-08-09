@@ -1,4 +1,4 @@
-.. post:: August 2, 2021
+.. post:: August 9, 2021
    :tags: newsletter, python
    :author: Juan Luis
    :location: MAD
