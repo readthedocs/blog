@@ -40,7 +40,7 @@ New features
   only <https://docs.readthedocs.io/en/stable/versions.html#privacy-levels>`_,
   and `to control the privacy level of pull request
   builds <https://docs.readthedocs.io/en/stable/pull-requests.html#privacy-levels>`_
-  as well. After this, we will drop privacy levels for projects on our community site,
+  as well. As a result, we have dropped privacy levels for projects on our community site,
   since they used to be a source of confusion.
 - We fixed a long-standing usability issue in both our community and commercial sites:
   notifications now have a close button.
