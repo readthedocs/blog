@@ -36,6 +36,9 @@ Company highlights
 New features
 ------------
 
+- We added support for Python 3.10b4 in our ``testing`` Docker images!
+  `The final 3.10.0 release will be in October <https://www.python.org/dev/peps/pep-0619/>`_,
+  but you can already test a development version.
 - Our commercial site `now allows pull request previews to be public rather than private
   only <https://docs.readthedocs.io/en/stable/versions.html#privacy-levels>`_,
   and `to control the privacy level of pull request
