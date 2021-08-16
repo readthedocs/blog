@@ -5,12 +5,12 @@ Job Posting: Frontend developer with design skills
 
 .. |role| replace:: frontend developer
 
+**Update: This role has been filled. If you're interested in working with us, we're always happy to hear from you, but we aren't actively hiring for this role currently.**
+
 .. include:: /hiring/intro.rst
 
 About the job
 -------------
-
-**Update: This role has been filled. If you're interested in working with us, we're always happy to hear from you, but we aren't actively hiring for this role currently.**
 
 This job will be our first |role| hire.
 We have a couple members of the team who have some knowledge in this space,
@@ -68,63 +68,66 @@ Applying
 
 We will be accepting applications on an ongoing basis until the position is filled.
 
-Please fill out the below form to apply for this role.
-Normal response time is around 2-3 weeks,
-and we intend to reply to all candidates.
+**Update: This role has been filled. If you're interested in working with us, we're always happy to hear from you, but we aren't actively hiring for this role currently.**
 
-.. raw:: html
+..
+   Please fill out the below form to apply for this role.
+   Normal response time is around 2-3 weeks,
+   and we intend to reply to all candidates.
 
-    <!-- Make it line up with the content -->
-    <div style="margin: .75rem .5rem;">
-    <form
-      method="POST"
-      name="fa-form-1"
-      action="https://webhook.frontapp.com/forms/036c4169294f3b04abaa/HAa1z5l3jHnqME6YJDt340VCgxeF8hVDWGjL3gwCaNzOFxR-Rzb62BFANsS4nRAONcsGlfN6TblFZehDKsQAJzck-iEDujTz3-u7vSBo8v8_UN2zeX4xqgQ3ht8"
-      enctype="multipart/form-data"
-      accept-charset="utf-8"
-    >
-      <input type="hidden" name="subject" value="Frontend job application">
-      <input type="hidden" name="body" value="Content embedded below">
+   .. raw:: html
 
-      <div>
-        <label for="name">Name</label>
-        <input type="text" name="name">
-      </div>
+       <!-- Make it line up with the content -->
+       <div style="margin: .75rem .5rem;">
+       <form
+         method="POST"
+         name="fa-form-1"
+         action="https://webhook.frontapp.com/forms/036c4169294f3b04abaa/HAa1z5l3jHnqME6YJDt340VCgxeF8hVDWGjL3gwCaNzOFxR-Rzb62BFANsS4nRAONcsGlfN6TblFZehDKsQAJzck-iEDujTz3-u7vSBo8v8_UN2zeX4xqgQ3ht8"
+         enctype="multipart/form-data"
+         accept-charset="utf-8"
+       >
+         <input type="hidden" name="subject" value="Frontend job application">
+         <input type="hidden" name="body" value="Content embedded below">
 
-      <div>
-        <label for="email">Email</label>
-        <input type="email" name="email">
-      </div>
+         <div>
+           <label for="name">Name</label>
+           <input type="text" name="name">
+         </div>
 
-      <div>
-        <label for="timezone">Timezone</label>
-        <input type="text" name="timezone">
-      </div>
+         <div>
+           <label for="email">Email</label>
+           <input type="email" name="email">
+         </div>
 
-      <div>
-        <label for="why">1-2 paragraphs about why you're excited to work on Read the Docs</label>
-        <textarea name="why"></textarea>
-      </div>
+         <div>
+           <label for="timezone">Timezone</label>
+           <input type="text" name="timezone">
+         </div>
 
-      <div>
-        <label for="project">1-2 paragraphs about a project you're proud of</label>
-        <textarea name="project"></textarea>
-      </div>
+         <div>
+           <label for="why">1-2 paragraphs about why you're excited to work on Read the Docs</label>
+           <textarea name="why"></textarea>
+         </div>
 
-      <div>
-        <label for="extra">Anything else you'd like us to know?</label>
-        <textarea name="extra"></textarea>
-      </div>
+         <div>
+           <label for="project">1-2 paragraphs about a project you're proud of</label>
+           <textarea name="project"></textarea>
+         </div>
 
-      <div>
-        <label for="resume">Resume/CV</label>
-        <input type="file" name="resume">
-      </div>
+         <div>
+           <label for="extra">Anything else you'd like us to know?</label>
+           <textarea name="extra"></textarea>
+         </div>
 
-      <div>
-        <input type="submit" value="Submit Application">
-      </div>
-    </form>
-    </div>
+         <div>
+           <label for="resume">Resume/CV</label>
+           <input type="file" name="resume">
+         </div>
 
-Thanks for your interest, and we hope to hear from you soon.
+         <div>
+           <input type="submit" value="Submit Application">
+         </div>
+       </form>
+       </div>
+
+   Thanks for your interest, and we hope to hear from you soon.
