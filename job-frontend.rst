@@ -5,12 +5,12 @@ Job Posting: Frontend developer with design skills
 
 .. |role| replace:: frontend developer
 
+**Update: This role has been filled. If you're interested in working with us, we're always happy to hear from you, but we aren't actively hiring for this role currently.**
+
 .. include:: /hiring/intro.rst
 
 About the job
 -------------
-
-**Update: This role has been filled. If you're interested in working with us, we're always happy to hear from you, but we aren't actively hiring for this role currently.**
 
 This job will be our first |role| hire.
 We have a couple members of the team who have some knowledge in this space,
