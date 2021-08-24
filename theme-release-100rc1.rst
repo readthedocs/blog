@@ -16,9 +16,8 @@ we're happy to announce that release candidate version 1.0.0rc1 was
 release by `testing the release candidate <Testing_>`_ and raising any potential
 bugs on `our issue tracker <issue-tracker_>`_.
 
-The version of our next release was incremented to 1.0.0 due to several
-backwards incompatible changes, however this release also adds support for
-`Sphinx`_ 4, and fixes several issues stemming from `docutils`_ 0.17.
+Version 1.0.0 adds support for `Sphinx`_ 4, fixes several issues stemming
+from `docutils`_ 0.17, and contains several backwards-incompatible changes.
 
 .. _sphinx_rtd_theme: https://github.com/readthedocs/sphinx_rtd_theme
 .. _released to PyPI: https://pypi.org/project/sphinx-rtd-theme/1.0.0rc1/
@@ -78,7 +77,7 @@ file, you can pin this dependency with:
 
 .. code::
 
-    sphinx_rtd_theme==1.0.0rc1
+    sphinx_rtd_theme~=1.0.0rc1
 
 If you notice any new, unwanted behavior, feel free to open an issue
 `on our issue tracker <issue-tracker_>`_.
@@ -96,7 +95,7 @@ and Internet Explorer 11.
 As the theme moves away from supporting direct installation through our GitHub
 repository, we want to preserve development previews of theme releases. In
 addition to several more focused releases on the theme roadmap, we will also be
-periodically be publishing development releases to PyPI. This will be the
+periodically publishing development releases to PyPI. This will be the
 prescribed method to use unreleased theme changes.
 
 Our next official release, currently targeted for October or November, will be
