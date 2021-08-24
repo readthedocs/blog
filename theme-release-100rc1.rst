@@ -26,24 +26,32 @@ from `docutils`_ 0.17, and contains several backwards-incompatible changes.
 .. _Sphinx: https://pypi.org/project/Sphinx/
 .. _docutils: https://pypi.org/project/docutils/
 
-Highlights
-----------
+Backwards incompatible changes
+------------------------------
 
-Here are some of the most significant changes included in release 1.0.0:
+Users need to be aware of several backwards incompatible changes before
+upgrading:
 
 Support dropped for old dependencies
     Support is removed for Sphinx versions 1.6 or older, and for Python versions
     3.0 to 3.3. Theme developers no longer test using these versions and
     compatibility is not guaranteed for these versions.
 
-HTML4 support will be dropped soon
-    Support for the Sphinx HTML4 writer will be deprecated in release 2.0.
+HTML4 support will be removed
+    Support for the Sphinx HTML4 writer will be deprecated in release 2.0. A
+    deprecation warning was added to alert users still using the HTML4 writer.
 
-Installation from source won't be supported soon
+Installation from source will be deprecated soon
     Tentatively scheduled for release 3.0, installation from source will no
     longer be a supported installation method. Currently, users are installing
     directly from our GitHub repository, which complicates development of static
-    assets.
+    assets. A deprecation warning was added to alert users of the upcoming
+    change.
+
+Highlights
+----------
+
+Here are some of the most significant additions included in release 1.0.0:
 
 Support for new dependencies
     The theme now supports Sphinx 4 and docutils 0.17, both the latest in each
@@ -58,9 +66,9 @@ Added 4 new translations
     languages. This will provide project maintainers with localized navigation
     elements and accessibility content.
 
-`The theme roadmap <roadmap_>`_ has more information on upcoming releases, and backwards
-incompatible changes for each. A full list of changes included in this release
-is available in `the theme changelog <changelog_>`_.
+`The theme roadmap <roadmap_>`_ has more information on upcoming releases, and
+backwards incompatible changes for each. A full list of changes included in this
+release is available in `the theme changelog <changelog_>`_.
 
 .. _roadmap: https://sphinx-rtd-theme.readthedocs.io/en/latest/development.html#roadmap
 .. _changelog: https://sphinx-rtd-theme.readthedocs.io/en/latest/changelog.html
@@ -88,20 +96,20 @@ Upcoming changes
 We have several upcoming releases planned, covered in more depth in
 `the theme roadmap <roadmap_>`_.
 
-Of note, our 2.0 release will be dropping support for a number of old
-dependencies, including Sphinx versions < 3.0, Sphinx HTML4 writer support,
-and Internet Explorer 11.
+Our next official release, currently targeted for October or November, will be
+version 1.1. This release will contain additional bug fixes and will be the last
+release supporting Sphinx versions less than 3.0. The next planed release will
+be version 2.0, in early 2022.
+
+The 2.0 release will be dropping support for a number of old dependencies,
+including Sphinx versions < 3.0, Sphinx HTML4 writer support, and Internet
+Explorer 11.
 
 As the theme moves away from supporting direct installation through our GitHub
 repository, we want to preserve development previews of theme releases. In
 addition to several more focused releases on the theme roadmap, we will also be
 periodically publishing development releases to PyPI. This will be the
 prescribed method to use unreleased theme changes.
-
-Our next official release, currently targeted for October or November, will be
-version 1.1. This release will contain additional bug fixes and will be the last
-release supporting Sphinx versions less than 3.0. The next planed release will
-be version 2.0, in early 2022.
 
 Thanks!
 -------
