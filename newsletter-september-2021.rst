@@ -1,0 +1,90 @@
+.. post:: September 2, 2021
+   :tags: newsletter, python
+   :author: Juan Luis
+   :location: MAD
+
+.. meta::
+   :description lang=en:
+      Company updates and new features from last month,
+      current focus, and upcoming features in September.
+
+Read the Docs newsletter - September 2021
+=========================================
+
+Welcome to the latest edition of our monthly newsletter, where we
+share the most relevant updates around Read the Docs,
+offer a summary of new features we shipped
+during the previous month,
+and share what we'll be focusing on in the near future.
+
+Company highlights
+------------------
+
+- We have finally published
+  :doc:`the first release candidate of version 1.0.0 of our Sphinx theme </theme-release-100rc1>`,
+  which adds support for recent versions of Sphinx and docutils among other things,
+  and announced our future plans for it.
+  Check out the linked blog post to know more.
+- The :doc:`first part of the new Read the Docs tutorial <readthedocs:tutorial/index>`,
+  which we wrote as part of :doc:`our CZI grant </czi-grant-announcement>`, is online!
+  We hope that it serves as a better starting point for people seeking to learn how to use our platform.
+
+New features
+------------
+
+- We added the possibility for users to `remove themselves from a
+  project <https://github.com/readthedocs/readthedocs.org/pull/8384>`_
+  without having to ask an owner to remove them
+  (as long as they are not the only owner of the project).
+- We fixed `a small usability issue with our search-as-you-type
+  box <https://github.com/readthedocs/readthedocs-sphinx-search/pull/93>`_,
+  that ignored the first typed characters under certain circumstances.
+- We made several documentation updates and improvements
+  about `commercial project sharing <https://github.com/readthedocs/readthedocs.org/pull/8239/>`_,
+  `logging out <https://github.com/readthedocs/readthedocs.org/pull/8286/>`_,
+  and `unofficial support for Gitea <https://github.com/readthedocs/readthedocs.org/pull/8402>`_,
+  among other minor fixes.
+
+Thanks to our external contributors `Mozi`_, `Maksudul Haque`_,
+`Stefano Costa`_, and `Christian Clauss`_.
+
+You can always see the latest changes to our platforms in our `Read the Docs
+Changelog <https://docs.readthedocs.io/page/changelog.html>`_.
+
+.. _Mozi: https://github.com/pzhlkj6612
+.. _Maksudul Haque: https://github.com/saadmk11
+.. _Stefano Costa: https://github.com/steko
+.. _Christian Clauss: https://github.com/cclauss
+
+Upcoming features
+-----------------
+
+.. TBC after the next sprint planning
+
+- Ana_
+- Anthony_
+- Eric_
+- `Juan Luis`_
+- Manuel_
+- Santos_
+
+Possible issues
+---------------
+
+We have been `making changes to how we store cookies <https://github.com/readthedocs/readthedocs.org/pull/8304>`_
+to make our site more secure.
+This has caused some minor issues in certain web browsers
+or to `users that were embedding our pages inside an
+iframe <https://github.com/readthedocs/readthedocs.org/pull/8422>`_.
+
+----
+
+Considering using Read the Docs for your next Sphinx or MkDocs project?
+Check out `our documentation <https://docs.readthedocs.io/>`_ to get started!
+
+.. _Ana: https://github.com/nienn
+.. _Anthony: https://github.com/agjohnson
+.. _Eric: https://github.com/ericholscher
+.. _Juan Luis: https://github.com/astrojuanlu
+.. _Manuel: https://github.com/humitos
+.. _Santos: https://github.com/stsewd
