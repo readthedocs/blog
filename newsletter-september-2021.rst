@@ -63,12 +63,22 @@ Upcoming features
 
 .. TBC after the next sprint planning
 
-- Ana_
-- Anthony_
-- Eric_
-- `Juan Luis`_
-- Manuel_
-- Santos_
+- Ana_ will continue researching tools for conducting automated testing on our Sphinx theme,
+  review pull requests corresponding to the 1.1 milestone,
+  and make some small styling improvements to our documentation.
+- Anthony_ will work with Ana_ on testing our Sphinx theme,
+  in addition to resuming work on our new user interface
+  and doing some financial updates.
+- Eric_ will keep pushing updates on our Commercial landing page
+  and continue working on our sales process.
+- `Juan Luis`_ will continue working on our Read the Docs tutorial,
+  improving our onboarding experience,
+  and put our email marketing and on-site notifications to work.
+- Manuel_ will finish the work on our new Docker images and build process,
+  and keep designing our upcoming GitHub Application.
+- Santos_ will implement a new Slack integration,
+  work with Manuel_ on the GitHub Application,
+  and build a user interface for audit tracking.
 
 Possible issues
 ---------------
