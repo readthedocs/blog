@@ -61,7 +61,6 @@ Changelog <https://docs.readthedocs.io/page/changelog.html>`_.
 Upcoming features
 -----------------
 
-.. TBC after the next sprint planning
 
 - Ana_ will continue researching tools for conducting automated testing on our Sphinx theme,
   review pull requests corresponding to the 1.1 milestone,
