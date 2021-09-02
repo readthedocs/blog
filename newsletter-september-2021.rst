@@ -39,11 +39,13 @@ New features
 - We fixed `a small usability issue with our search-as-you-type
   box <https://github.com/readthedocs/readthedocs-sphinx-search/pull/93>`_,
   that ignored the first typed characters under certain circumstances.
-- We made several documentation updates and improvements
-  about `commercial project sharing <https://github.com/readthedocs/readthedocs.org/pull/8239/>`_,
-  `logging out <https://github.com/readthedocs/readthedocs.org/pull/8286/>`_,
-  and `unofficial support for Gitea <https://github.com/readthedocs/readthedocs.org/pull/8402>`_,
-  among other minor fixes.
+- Commercial users can now `share specific versions of their
+  projects <https://docs.readthedocs.io/en/stable/commercial/sharing.html>`_
+  and `log out from the flyout
+  menu <https://docs.readthedocs.io/en/stable/versions.html#logging-out>`_.
+- We have documented our `unofficial support for
+  Gitea <https://github.com/readthedocs/readthedocs.org/pull/8402>`_,
+  and made other minor documentation fixes.
 
 Thanks to our external contributors `Mozi`_, `Maksudul Haque`_,
 `Stefano Costa`_, and `Christian Clauss`_.
