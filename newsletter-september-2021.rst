@@ -76,7 +76,7 @@ Possible issues
 We have been `making changes to how we store cookies <https://github.com/readthedocs/readthedocs.org/pull/8304>`_
 to make our site more secure.
 This has caused some minor issues in certain web browsers
-or to `users that were embedding our pages inside an
+or to `users that were embedding private documentation pages inside an
 iframe <https://github.com/readthedocs/readthedocs.org/pull/8422>`_.
 
 ----
