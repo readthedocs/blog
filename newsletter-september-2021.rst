@@ -20,7 +20,7 @@ and share what we'll be focusing on in the near future.
 Company highlights
 ------------------
 
-- We have finally published
+- We have published
   :doc:`the first release candidate of version 1.0.0 of our Sphinx theme </theme-release-100rc1>`,
   which adds support for recent versions of Sphinx and docutils among other things,
   and announced our future plans for it.
@@ -69,7 +69,8 @@ Upcoming features
   in addition to resuming work on our new user interface
   and doing some financial updates.
 - Eric_ will keep pushing updates on our Commercial landing page
-  and continue working on our sales process.
+  and continue working on our sales processes. He's also 
+  working to continue building EthicalAds as well. 
 - `Juan Luis`_ will continue working on our Read the Docs tutorial,
   improving our onboarding experience,
   and put our email marketing and on-site notifications to work.
