@@ -32,6 +32,10 @@ Company highlights
 New features
 ------------
 
+- Commercial users can now `share specific versions of their
+  projects <https://docs.readthedocs.io/en/stable/commercial/sharing.html>`_
+  and `log out from the flyout
+  menu <https://docs.readthedocs.io/en/stable/versions.html#logging-out>`_.
 - We added the possibility for users to `remove themselves from a
   project <https://github.com/readthedocs/readthedocs.org/pull/8384>`_
   without having to ask an owner to remove them
@@ -39,10 +43,6 @@ New features
 - We fixed `a small usability issue with our search-as-you-type
   box <https://github.com/readthedocs/readthedocs-sphinx-search/pull/93>`_,
   that ignored the first typed characters under certain circumstances.
-- Commercial users can now `share specific versions of their
-  projects <https://docs.readthedocs.io/en/stable/commercial/sharing.html>`_
-  and `log out from the flyout
-  menu <https://docs.readthedocs.io/en/stable/versions.html#logging-out>`_.
 - We have documented our `unofficial support for
   Gitea <https://github.com/readthedocs/readthedocs.org/pull/8402>`_,
   and made other minor documentation fixes.
