@@ -10,6 +10,21 @@
 Theme release 1.0.0rc1
 ======================
 
+.. admonition:: Update: Version 1.0.0 has been released!
+
+    The 1.0.0 version of sphinx_rtd_theme was released Sept 13, 2021. You can
+    install the latest version with:
+
+    .. code:: console
+
+        $ pip install "sphinx-rtd-theme~=1.0.0"
+
+    Alternatively, you can upgrade the version installed using:
+
+    .. code:: console
+
+        $ pip install --upgrade sphinx-rtd-theme
+
 We are closing in on the next official release of `sphinx_rtd_theme`_, and
 we're happy to announce that release candidate version 1.0.0rc1 was
 `released to PyPI`_ last week! Project maintainers can contribute to the final
