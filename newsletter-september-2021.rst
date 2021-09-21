@@ -25,7 +25,7 @@ Company highlights
   which adds support for recent versions of Sphinx and docutils among other things,
   and announced our future plans for it.
   Check out the linked blog post to know more.
-  **Update**: We have released 1.0 to Pypi.
+  **Update**: We have released 1.0 to PyPI
 - The :doc:`first part of the new Read the Docs tutorial <readthedocs:tutorial/index>`,
   which we wrote as part of :doc:`our CZI grant </czi-grant-announcement>`, is online!
   We hope that it serves as a better starting point for people seeking to learn how to use our platform.
