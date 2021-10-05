@@ -40,6 +40,17 @@ New features
   and `thebe <https://github.com/executablebooks/thebe/pull/472>`_
   are already using it,
   and we will make an announcement with more information soon.
+- We have added a new section to our Dashboard that exposes user security logs.
+
+.. figure:: /img/security-log.png
+   :align: center
+   :width: 80%
+   :alt: Security logs
+
+   Security logs
+
+- We have added a button on the Analytics section to download all your data,
+  so you are not limited by the last 30 days that we show.
 - We have revamped our onboarding process.
   If you are new to Read the Docs, you can now clone
   `our template repository <https://github.com/readthedocs/tutorial-template>`_
