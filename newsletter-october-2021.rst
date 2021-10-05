@@ -76,7 +76,7 @@ Upcoming features
 - Anthony_ will resume work on our new product interface
   and wrap up some financial updates.
 - Eric_ will focus on expanding our CDN functionality on the commercial site,
-  as well as addressing some upcoming changes from our provider.
+  as well as addressing some upcoming changes to how custom domains work on Read the Docs Community.
 - `Juan Luis`_ will document several recent changes,
   such us the new build specification and our support for generic webhooks,
   and continue expanding our tutorial and improving the SEO of our docs.
