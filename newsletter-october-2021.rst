@@ -84,6 +84,10 @@ We are detecting an increasing number of spammy projects on our platform.
 While this rarely affects legitimate users, it is still a concern to us
 and we are planning to take measures to tackle it.
 
+In addition, some projects experienced networking issues due to
+`the expiration of Let's Encrypt root certificate <https://github.com/readthedocs/readthedocs.org/issues/8555>`_.
+We deployed a fix shortly after the problem was reported.
+
 ----
 
 Considering using Read the Docs for your next Sphinx or MkDocs project?
