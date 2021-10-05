@@ -52,8 +52,8 @@ New features
 - We have added a button on the Analytics section to download all your data,
   so you are not limited by the last 30 days that we show.
 - We have revamped our onboarding process.
-  If you are new to Read the Docs, you can now clone
-  `our template repository <https://github.com/readthedocs/tutorial-template>`_
+  If you are new to Read the Docs, you can now
+  `fork our template repository <https://github.com/readthedocs/tutorial-template>`_
   and follow :doc:`our tutorial <readthedocs:tutorial/index>`
   to learn how to use the platform.
   We plan to keep expanding the tutorial during the coming weeks.
