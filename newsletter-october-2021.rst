@@ -62,8 +62,8 @@ New features
 
 Thanks to our external contributors `Mozi`_ and `Dmitry`_.
 
-You can always see the latest changes to our platforms in our `Read the Docs
-Changelog <https://docs.readthedocs.io/page/changelog.html>`_.
+You can always see the latest changes to our platforms in our :doc:`Read the Docs
+Changelog <readthedocs:changelog>`.
 
 .. _Mozi: https://github.com/pzhlkj6612
 .. _Dmitry: https://github.com/mitya57
