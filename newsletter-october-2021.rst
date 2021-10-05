@@ -84,7 +84,7 @@ Upcoming features
   release a new version of sphinx-hoverxref that uses our new embed API,
   and gather feedback on our new build specification.
 - Santos_ will continue consolidating our Community and Commercial codebases,
-  finish the work on generic webbooks for easier integration with Slack and other tools
+  finish the work on generic webbooks for easier integration with Slack and other tools,
   enable Commercial users to create new subscriptions after they cancel,
   and collaborate with Eric_ on the CDN issues.
 
