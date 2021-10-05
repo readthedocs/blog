@@ -32,14 +32,14 @@ Company highlights
 New features
 ------------
 
-- You can now use our newer build specification
-  that uses a newer image based on Ubuntu 20.04
+- You can now use :ref:`our newer build specification <readthedocs:config-file/v2:build (beta specification)>`
+  that leverages a newer image based on Ubuntu 20.04
   and gives more control over the versions of
   Python, Node.js, Rust, and Go.
   Projects like `pypa/cryptography <https://github.com/pyca/cryptography/pull/6330>`_
   and `thebe <https://github.com/executablebooks/thebe/pull/472>`_
   are already using it,
-  and we will publish documentation for it and make an announcement soon.
+  and we will make an announcement with more information soon.
 - We have revamped our onboarding process.
   If you are new to Read the Docs, you can now clone
   `our template repository <https://github.com/readthedocs/tutorial-template>`_
