@@ -1,4 +1,4 @@
-.. post:: October 7, 2021
+.. post:: October 6, 2021
    :tags: newsletter, python
    :author: Juan Luis
    :location: MAD
