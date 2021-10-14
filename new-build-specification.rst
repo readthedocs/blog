@@ -33,7 +33,7 @@ Since these are managed through the operating system package manager,
 and we do not provide a way to add custom Personal Package Archives,
 such upgrades were not possible.
 
-On the other hand, many Python projects use a secondary programming language
+Many Python projects use a secondary programming language
 for a variety of reasons. Established compiled languages like C, C++, and FORTRAN
 have readily available compilers that will work for the majority of use cases.
 However, other younger technologies move at a faster pace,
@@ -43,10 +43,10 @@ This affected projects that combine backend and frontend code
 that need Node.js to compile their JavaScript sources, such as Jupyter extensions,
 and libraries with performance-critical code written in Rust or Go.
 
-We have often suggested our users to specify custom versions of non-Python dependencies
+We have often suggested specifying custom versions of non-Python dependencies
 `using conda <https://docs.readthedocs.io/en/stable/guides/conda.html>`_,
 to specify custom versions of non-Python dependencies,
-but again this requires learning another tool that might be unfamiliar for some projects.
+but this requires learning another tool that might be unfamiliar for some projects.
 
 New ``build.os`` configuration
 ------------------------------
