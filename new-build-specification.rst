@@ -8,13 +8,14 @@
       You can now use a build image based on Ubuntu 20.04 on Read the Docs
       with some extra features.
 
-New build specification
-=======================
+Ubuntu 20.04, Python 3.10, and custom versions of Node, Rust, and Go
+====================================================================
 
 We are excited to announce that now Read the Docs users
 can use a newer build specification in their projects
-that will change the base image to one based on a newer version of Ubuntu,
-as well as allow them to easily specify the version of Python, Node.js, Rust, or Go.
+that will change the base image to one based on Ubuntu 20.04,
+ship the recently released Python 3.10,
+and allow users to easily specify the version of Node.js, Rust, and Go.
 This feature has been a long time in the making,
 and we think it will simplify the configuration of many projects.
 
