@@ -52,8 +52,9 @@ New ``build`` YAML configuration
 --------------------------------
 
 To overcome all these problems, we have added a new configuration value,
-``build.apt_packages``, that receive a list of APT packages
-that will be installed in our Ubuntu-based images.
+``build.tools``, that receive a dictionary of toolchain versions.
+This new configuration requires specifying the base image name
+in ``build.os``, currently `ubuntu-20.04`.
 :doc:`Our configuration documentation <readthedocs:config-file/v2>`
 contains a simple example:
 
