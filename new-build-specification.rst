@@ -48,8 +48,8 @@ We have often suggested specifying custom versions of non-Python dependencies
 to specify custom versions of non-Python dependencies,
 but this requires learning another tool that might be unfamiliar for some projects.
 
-New ``build.os`` configuration
-------------------------------
+New ``build`` YAML configuration
+--------------------------------
 
 To overcome all these problems, we have added a new configuration value,
 ``build.apt_packages``, that receive a list of APT packages
