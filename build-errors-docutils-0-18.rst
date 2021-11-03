@@ -17,7 +17,7 @@ are usually rather cryptic errors referencing `Sphinx`_ and `docutils`_.
 So, what is happening?
 
 These errors are due to an incompatibility bewteen old versions of `Sphinx`_ and
-one of it's dependencies, `docutils`_. You probably have not directly interacted
+one of its dependencies, `docutils`_. You probably have not directly interacted
 with docutils, but this is the library that provides reStructuredText parsing to
 both Sphinx and to the Python standard library documentation tooling.
 
@@ -48,11 +48,12 @@ release by default.
 Fixing the error
 ----------------
 
-We'll be assisting the `Sphinx`_ and `docutils`_ maintainers to find a solution
-that doesn't involve manual intervention, but for now we suggest you manually
+We have proposed to the `Sphinx`_ and `docutils`_ maintainers
+`a solution that doesn't involve manual intervention <https://github.com/sphinx-doc/sphinx/issues/9807>`_.
+However, for now we suggest you manually
 resolve this issue for any of your projects that have encountered the bug.
 
-There are two changes that will resolve this issue:
+There are two ways to resolve this issue:
 
 Upgrade `Sphinx`_ to version 3 or later
     We recommend this option for most users. If your project doesn't
