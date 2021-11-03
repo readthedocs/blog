@@ -5,7 +5,10 @@
 
 .. meta::
     :description lang=en:
-        TBD
+        Recent changes in the underlying dependencies of Sphinx
+        have caused errors in certain old projects.
+        In this post we describe why this is happening,
+        and give two possible solutions.
 
 Build errors with docutils 0.18
 ===============================
