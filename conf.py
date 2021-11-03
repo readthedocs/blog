@@ -65,6 +65,7 @@ blog_locations = {
     'LKO': ('Lucknow, India', ''),
     'BCN': ('Barcelona, Spain', 'https://www.barcelona.cat/en/'),
     'MAD': ('Madrid, Spain', 'https://www.esmadrid.com/en'),
+    'GEG': ('Spokane, Washington', ''),
 }
 blog_default_location = 'PDX'
 blog_feed_archives = True

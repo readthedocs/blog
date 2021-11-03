@@ -32,7 +32,7 @@ Company highlights
 New features
 ------------
 
-- You can now use :ref:`our newer build specification <readthedocs:config-file/v2:build (beta specification)>`
+- You can now use :ref:`our newer build specification <readthedocs:config-file/v2:build>`
   that leverages a newer image based on Ubuntu 20.04
   and gives more control over the versions of
   Python, Node.js, Rust, and Go.
