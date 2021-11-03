@@ -82,6 +82,26 @@ you normally install dependencies for your project. If you are not currently
 specifying any dependencies on Read the Docs, you most likely will want to use
 the :ref:`python.install.requirements <readthedocs:config-file/v2:Requirements file>` configuration option.
 
+This is how the reference ``.readthedocs.yaml`` and ``docs/requirements.txt`` files
+would look like:
+
+.. code-block:: yaml
+   :caption: .readthedocs.yaml
+
+   version: 2
+
+   python:
+     install:
+     - requirements: docs/requirements.txt
+
+.. code-block::
+   :caption: docs/requirements.txt
+
+   docutils<0.18
+
+If you still experience problems, feel free to
+`open an issue <https://github.com/readthedocs/readthedocs.org/issues/>`_.
+
 .. seealso::
     :ref:`Read the Docs tutorial <readthedocs:tutorial/index:Customizing the build process>`
         An introduction to our configuration file and some basic usage examples
