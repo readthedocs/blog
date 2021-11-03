@@ -7,8 +7,8 @@
     :description lang=en:
         TBD
 
-New errors in recent builds
-===========================
+Build errors with docutils 0.18
+===============================
 
 Starting about a week ago, some users started reporting new errors with
 their project builds. In most cases, these errors appeared out of nowhere and
