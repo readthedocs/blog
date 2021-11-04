@@ -27,8 +27,10 @@ Company highlights
 - We upgraded our systems to Python 3.8 and Ubuntu 20.04 LTS.
   This will allow us to leverage newer Python features
   and use more up to date dependencies.
-- :doc:`The Read the Docs tutorial <readthedocs:tutorial/index>` is now complete!
-  :doc:`xxx </czi-grant-announcement>`
+- :doc:`The Read the Docs tutorial <readthedocs:tutorial/index>` we started writing
+  as part of :doc:`the CZI grant we received </czi-grant-announcement>`
+  is now complete! We plan to keep updating it with user feedback
+  and keep improving other parts of our documentation.
 
 New features
 ------------
