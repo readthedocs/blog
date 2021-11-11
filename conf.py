@@ -248,6 +248,10 @@ intersphinx_mapping = {
         'https://docs.readthedocs.io/en/stable',
         None
     ),
+    'jupyterbook': (
+        'https://jupyterbook.org/',
+        None
+    ),
 }
 
 ogp_site_name = "Read the Docs Blog"
