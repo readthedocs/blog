@@ -62,8 +62,8 @@ As a result, Jupyter Book projects could not be hosted on Read the Docs - until 
 .. _Sphinx: https://www.sphinx-doc.org/
 .. _MkDocs: https://www.mkdocs.org/
 
-How to do deploy a Jupyter Book project to Read the Docs
---------------------------------------------------------
+How to deploy a Jupyter Book project to Read the Docs
+-----------------------------------------------------
 
 With the current development version of Jupyter Book,
 you can now export a Sphinx ``conf.py`` configuration
