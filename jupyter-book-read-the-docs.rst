@@ -11,7 +11,20 @@
 Read the Docs ❤️ Jupyter Book
 =============================
 
-[intro about the things we have collaborated on in the past months, will write it later]
+We are proud to announce that now Jupyter Book projects are supported on Read the Docs!
+
+Both Read the Docs and The Executable Book Project, the folks behind Jupyter Book,
+share a common passion for documentation,
+and we have been collaborating on various topics for some time already.
+For example, we started promoting MyST in favor of our recommonmark
+:doc:`back in April this year </newsletter-april-2021>`,
+and we wrote a guide on :doc:`using Jupyter notebook with Sphinx <readthedocs:guides/jupyter>`
+that benefitted a lot from their feedback.
+
+Now we are happy to announce that Jupyter Book itself is supported on Read the Docs,
+after some thorough discussion about the possible implementations
+and thanks in large part to the Jupyter Book developers,
+who addressed all the minor incompatibilities that prevented this from happening.
 
 What is Jupyter Book?
 ---------------------
@@ -27,7 +40,10 @@ seeking to build open source tools
 that facilitate publishing computational narratives
 using the Jupyter ecosystem.
 
-Jupyter Book enables users to
+Even though Jupyter Book is much younger than Read the Docs as a project,
+it has become very popular in recent times
+among scientific software developers and educators.
+It enables users to
 write publication-quality content in Markdown thanks to MyST_
 (a Markdown dialect compatible with Sphinx
 :doc:`we started promoting back in April this year </newsletter-april-2021>`),
