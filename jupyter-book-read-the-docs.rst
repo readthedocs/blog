@@ -8,7 +8,7 @@
       Jupyter Book is now supported on Read the Docs,
       in this post we explain what is needed to make it work.
 
-Jupyter Book ❤️ Read the Docs
+Read the Docs ❤️ Jupyter Book
 =============================
 
 [intro about the things we have collaborated on in the past months, will write it later]
