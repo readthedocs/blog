@@ -252,6 +252,10 @@ intersphinx_mapping = {
         'https://jupyterbook.org/',
         None
     ),
+    'hoverxref': (
+        'https://sphinx-hoverxref.readthedocs.io/en/stable',
+        None
+    ),
 }
 
 ogp_site_name = "Read the Docs Blog"
