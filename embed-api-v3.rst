@@ -92,7 +92,7 @@ Current limitations
 -------------------
 
 We would like to invite the community to try out these features and
-send our feedback. In particular, the current version still has some limitations
+send us feedback. In particular, the current version still has some limitations
 that we would like to address soon:
 
 - For security reasons, we have an allowlist of external domains
