@@ -43,6 +43,14 @@ intersphinx support in `sphinx-hoverxref`_ 0.6b1,
 which allowed users to include modals and tooltips
 also for cross references to other projects.
 
+.. figure:: img/sphinx-hoverxref-showcase.gif
+   :width: 60%
+   :align: center
+   :alt: sphinx-hoverxref displaying tooltips for cross references
+   :target: /_images/sphinx-hoverxref-showcase.gif
+
+   sphinx-hoverxref displaying a tooltip including an equation
+
 .. _sphinx-hoverxref: https://sphinx-hoverxref.readthedocs.io/
 
 Embed API v3 and sphinx-hoverxref 1.0
