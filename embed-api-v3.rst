@@ -53,6 +53,10 @@ also for cross references to other projects.
 
 .. _sphinx-hoverxref: https://sphinx-hoverxref.readthedocs.io/
 
+Some big projects already using it include `Tweepy <https://docs.tweepy.org/>`_,
+a Python client for Twitter, and `Scrapy <https://docs.scrapy.org/>`_,
+a framework for crawling websites.
+
 Embed API v3 and sphinx-hoverxref 1.0
 -------------------------------------
 
@@ -152,10 +156,6 @@ Or visually explore the query in the `web interface`__ instead.
 
 The :ref:`reference documentation <api/v3:embed>`
 includes more detail about the parameters and return values of the API.
-
-Some big projects already using it include `Tweepy <https://docs.tweepy.org/>`_,
-a Python client for Twitter, and `Scrapy <https://docs.scrapy.org/>`_,
-a framework for crawling websites.
 
 Try it out!
 -----------
