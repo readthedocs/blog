@@ -17,7 +17,7 @@ along with its official client, sphinx-hoverxref 1.0.
 This work has been possible in part thanks to the
 :doc:`the CZI grant we received </czi-grant-announcement>`.
 
-Why using content embedding?
+Why use content embedding?
 ----------------------------
 
 As we wrote in
@@ -74,7 +74,7 @@ To test the API directly, you can do
 
    $ curl -s "https://readthedocs.org/api/v3/embed/\
    > ?url=https://docs.readthedocs.io/en/latest/features.html\
-   > %23read-the-docs-features" | jq
+   > %23read-the-docs-features" | python -m json.tool
    {
      "url": "https://docs.readthedocs.io/en/latest/features.html#read-the-docs-features",
      "fragment": "read-the-docs-features",
