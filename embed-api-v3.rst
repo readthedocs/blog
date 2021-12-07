@@ -17,8 +17,8 @@ along with its official client, sphinx-hoverxref 1.0.
 This work has been possible in part thanks to the
 :doc:`the CZI grant we received </czi-grant-announcement>`.
 
-Why use content embedding?
-----------------------------
+The value of content embedding
+------------------------------
 
 As we wrote in
 :doc:`our first blog post about sphinx-hoverxref </hoverxref-intersphinx>`,
@@ -56,19 +56,83 @@ also for cross references to other projects.
 Embed API v3 and sphinx-hoverxref 1.0
 -------------------------------------
 
-Even though some projects were already using it,
-the extension used older versions of our Embed API,
-and by that time we already had a plan to overcome some of its limitations.
-Among other things, we wanted the Embed API to
-
-- Support embedding content from pages hosted outside Read the Docs, and
-- Avoid coupling with Sphinx internal format,
-  and directly parse the HTML instead.
-
 After some months of work, **we are excited to publish v3 of our Embed API,
 and with it, version 1.0 of sphinx-hoverxref**.
 
-To test the API directly, you can do
+Among other things,
+the new versions allow you to
+:ref:`embed content from pages hosted outside Read the Docs <guides/embedding-content:embedding content from your documentation>`.
+For security reasons, we have an allowlist of such external domains
+that currently includes Python, NumPy, SciPy, SymPy,
+and we would like to invite the community to suggest more domains to add.
+
+Other additions and fixes include:
+
+- Support for JS and CSS assets in Sphinx 4.1+.
+- Support for ``glossary`` / ``term`` and sphinxcontrib-bibtex.
+- Avoid showing the browser built-in tooltip for links that have the extension enabled.
+
+Finally, version 3 of the Embed API
+paves the way for supporting non-Sphinx projects in the future.
+
+Embedding content with sphinx-hoverxref
+---------------------------------------
+
+To use sphinx-hoverxref in your Read the Docs project,
+:doc:`declare it as part of your dependencies <guides/reproducible-builds>`:
+
+.. code-block::
+   :caption: requirements.txt
+   :emphasize-lines: 3
+
+   sphinx==4.3.1
+   sphinx_rtd_theme==1.0.0
+   sphinx-hoverxref==1.0.0
+
+And add it to your list of Sphinx extensions:
+
+.. code-block::
+   :caption: conf.py
+   :emphasize-lines: 3
+
+   extensions = [
+       # ...other extensions
+       "hoverxref.extension",
+   ]
+
+To enable the extension on all ``:ref:`` of your documentation,
+set the ``hoverxref_auto_ref`` to ``True``:
+
+.. code-block::
+   :caption: conf.py
+
+   hoverxref_auto_ref = True
+
+And you will start seeing tooltips on your internal references.
+Apart from ``:ref:`` roles, you can also enable tooltips on:
+
+- :ref:`Code objects from any Sphinx domain <hoverxref:Usage:Tooltip on Sphinx Domains>`,
+- :ref:`Glossary terms <hoverxref:Usage:Tooltip on glossary terms>`,
+- :ref:`BibTeX citations <hoverxref:Usage:Tooltip on sphinxcontrib-bibtex cites>`,
+- :ref:`Pages containing extra JavaScript like sphinx-tabs and
+  MathJax <hoverxref:Usage:Tooltip with content that needs extra rendering steps>`,
+- :ref:`Intersphinx references <hoverxref:Usage:Tooltip on intersphinx content>`,
+- :ref:`And custom objects! <hoverxref:Usage:Tooltip on custom object>`
+
+.. note::
+
+   sphinx-hoverxref includes the JavaScript embed client in the HTML assets,
+   but it is not yet available as a standalone library that can be reused
+   with standard frontend packaging tools.
+   If you would like to see this happening,
+   `let us know <https://github.com/readthedocs/sphinx-hoverxref/issues/>`_.
+
+Calling the Embed API directly
+------------------------------
+
+As explained in :ref:`our embedding
+guide <guides/embedding-content:calling the embed api directly>`,
+you can call the API directly from any HTTP client:
 
 .. code-block:: console
 
@@ -86,31 +150,18 @@ Or visually explore the query in the `web interface`__ instead.
 
 .. __: https://readthedocs.org/api/v3/embed/?url=https://docs.readthedocs.io/en/latest/features.html%23read-the-docs-features
 
-Making the backend do the request has several advantages:
-
-- It can return to the client only the fragment of interest, instead of
-  the whole page, reducing processing times in the browser.
-- It can cache the result, thanks to the generous support of CloudFlare.
+The :ref:`reference documentation <api/v3:embed>`
+includes more detail about the parameters and return values of the API.
 
 Some big projects already using it include `Tweepy <https://docs.tweepy.org/>`_,
 a Python client for Twitter, and `Scrapy <https://docs.scrapy.org/>`_,
 a framework for crawling websites.
 
-Current limitations
--------------------
+Try it out!
+-----------
 
 We would like to invite the community to try out these features and
-send us feedback. In particular, the current version still has some limitations
-that we would like to address soon:
-
-- For security reasons, we have an allowlist of external domains
-  the Embed API works with. We would like to invite the community
-  to suggest more domains to add there, and evaluate them case by case.
-- The JavaScript embed client is included in the assets of `sphinx-hoverxref`_,
-  but it is not yet available as a standalone library that can be reused
-  with standard frontend packaging tools.
-
-With the help of our users, we will keep moving towards
+send us feedback. With the help of our users, we will keep moving towards
 a more cohesive documentation ecosystem of interlinked Python projects.
 
 ----
