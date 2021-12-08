@@ -155,7 +155,7 @@ Or visually explore the query in the `web interface`__ instead.
 
 .. __: https://readthedocs.org/api/v3/embed/?url=https://docs.readthedocs.io/en/latest/features.html%23read-the-docs-features
 
-The :ref:`reference documentation <api/v3:embed>`
+The :ref:`reference documentation <readthedocs:api/v3:embed>`
 includes more detail about the parameters and return values of the API.
 
 Try it out!
