@@ -68,7 +68,8 @@ the new versions allow you to
 :ref:`embed content from pages hosted outside Read the Docs <guides/embedding-content:embedding content from your documentation>`.
 For security reasons, we have an allowlist of such external domains
 that currently includes Python, NumPy, SciPy, SymPy,
-and we would like to invite the community to suggest more domains to add.
+and we would like to
+`invite the community to suggest more domains to add <https://github.com/readthedocs/readthedocs.org/issues>`_.
 
 Other additions and fixes include:
 
