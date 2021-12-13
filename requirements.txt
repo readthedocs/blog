@@ -3,7 +3,7 @@ sphinxext-opengraph==0.4.2
 docutils<0.18
 
 # Used to rewrite the Atom feed to use absolute links
-lxml==4.6.3
+lxml==4.6.5
 
 ablog==0.9.5
 # This dependencie from ablog needs to be pinned
