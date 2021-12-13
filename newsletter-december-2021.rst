@@ -86,7 +86,7 @@ With the Christmas holidays coming up, we will have a few slow weeks ahead.
 Possible issues
 ---------------
 
-However, last week we accidentally banned a small number of legitimate users
+Last week we accidentally banned a small number of legitimate users
 and they saw their projects temporarily blocked.
 As soon as we noticed this we apologized to the affected users
 and rolled back the ban, and the documentation is now serving normally.
