@@ -32,7 +32,7 @@ New features
 
 - We revamped our support for :doc:`webhooks <readthedocs:build-notifications>`:
   now they have a dedicated section in the project settings,
-  you can customize the payload using the Django template syntax,
+  you can customize the payload as yo wish
   and you can inspect the status of each webhook delivery.
   Interested in receiving build notifications on :ref:`Slack <readthedocs:build-notifications:slack>`
   or :ref:`Discord <readthedocs:build-notifications:discord>`? Now you can!
