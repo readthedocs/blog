@@ -25,14 +25,14 @@ Company highlights
   has dramatically decreased.
 - We started tracking usage of different parts of our application
   in a more systematic fashion which will enable us to make
-  better decisions going forward.
+  better product design decisions going forward.
 
 New features
 ------------
 
 - We revamped our support for :doc:`webhooks <readthedocs:build-notifications>`:
   now they have a dedicated section in the project settings,
-  you can customize the payload as yo wish
+  you can customize the payload,
   and you can inspect the status of each webhook delivery.
   Interested in receiving build notifications on :ref:`Slack <readthedocs:build-notifications:slack>`
   or :ref:`Discord <readthedocs:build-notifications:discord>`? Now you can!
@@ -44,7 +44,7 @@ New features
 
    Revamped webhooks
 
-- We improved our security audit logs to show information from all the organization
+- On Read the Docs for Business, we improved our security audit logs to show information from all the organization
   according to its plan.
 
 .. figure:: /img/organization-audit-logs.png
@@ -74,7 +74,7 @@ With the Christmas holidays coming up, we will have a few slow weeks ahead.
   which is already making good progress.
 - Anthony_ will work with Ana_ on the structure of our new community site
   and document our upcoming new user interface.
-- Eric_ will continue working on our commercial CDN with Santos_.
+- Eric_ will continue working on our commercial SSL provisioning and CDN with Santos_.
 - `Juan Luis`_ will continue promoting our Embed API as well as wrap up
   his work on the Sphinx tutorial.
 - Manuel_ will adjust the new logging and spam fighting systems,
