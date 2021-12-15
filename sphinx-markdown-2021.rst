@@ -31,15 +31,36 @@ especially `the Executable Book Project <https://executablebooks.org>`_,
 we have devoted lots of resources to help consolidate Markdown
 as a compelling markup language for Sphinx.
 
+Writing Markdown in Sphinx
+--------------------------
+
 To that end, we recognized the potential of MyST as a successor of recommonmark,
 and :doc:`deprecated the latter in favor of MyST-Parser </newsletter-april-2021>`.
-Luckily the migration was trivial for most projects,
-but we still wanted to spread the word about
-the best practices for creating Sphinx projects on Read the Docs using MyST Markdown.
+To :doc:`start writing Markdown in Sphinx <sphinx:usage/markdown>`,
+you need to follow three steps:
+
+* Install ``MyST-Parser``: ``pip install myst-parser``
+
+* Add ``myst_parser`` to the list of Sphinx extensions:
+
+.. code-block:: python
+   :emphasize-lines: 3
+
+   extensions = [
+       # ...other extensions
+       "myst_parser",
+   ]
+
+* Start writing content in ``*.md`` files!
+
+You can find more information in the :doc:`MyST-Parser documentation <myst-parser:index>`.
 
 Talks and workshops at conferences
 ----------------------------------
 
+Luckily the migration to MyST-Parser was trivial for most projects,
+but we still wanted to spread the word about
+the best practices for creating Sphinx projects on Read the Docs using MyST Markdown.
 We set the goal of presenting at every large scientific Python event out there,
 and all our proposals were accepted [1]_! Throughout 2021, we were present in several events:
 
