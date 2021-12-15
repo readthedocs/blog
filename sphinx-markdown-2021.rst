@@ -1,11 +1,13 @@
-.. post:: Dec 15, 2021
-   :tags: media, talk, conference
+.. post:: Dec 16, 2021
+   :tags: media, talk, conference, markdown, commonmark
    :author: Juan Luis
    :location: MAD
 
 .. meta::
    :description lang=en:
-      ...
+      During 2021 we have promoted the use of Markdown in Sphinx in various ways.
+      In this post we show how you can start using it in your project today,
+      and give some extra pointers.
 
 Sphinx and Markdown around the world in 2021
 ============================================
