@@ -256,6 +256,14 @@ intersphinx_mapping = {
         'https://sphinx-hoverxref.readthedocs.io/en/stable',
         None
     ),
+    'sphinx': (
+        'https://www.sphinx-doc.org/en/master/',
+        None
+    ),
+    'myst-parser': (
+        'https://myst-parser.readthedocs.io/en/v0.16.0/',
+        None
+    ),
 }
 
 ogp_site_name = "Read the Docs Blog"
