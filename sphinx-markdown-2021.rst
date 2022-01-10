@@ -15,11 +15,11 @@ Sphinx and Markdown around the world in 2021
 Read the Docs has been committed to improving the accessibility
 and user experience of Sphinx since the start,
 and that includes the markup language in which the documentation is written.
-After carefully listening to users
-that wanted to use Markdown in Sphinx as well as reStructuredText,
-:doc:`we announced recommonmark more than six years ago </adding-markdown-support>`
+Years ago, after carefully listening to users,
+:doc:`we announced recommonmark </adding-markdown-support>`
 to help bridging the immense popularity of Markdown
 with the powerful capabilities of Sphinx.
+(It is now deprecated in favor of MyST - keep reading to know more.)
 
 It is no surprise that Markdown is in such demand:
 thanks in large part to the huge popularity of GitHub,
