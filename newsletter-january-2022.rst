@@ -31,7 +31,7 @@ December and January have been slow months,
 and we mainly worked on internal changes and documentation improvements.
 Among the major user-facing changes:
 
-- We splitted the developer documentation from the user documentation to avoid confusion
+- We split the developer documentation from the user documentation to avoid confusion
   and made our :doc:`Read the Docs for Business docs <readthedocs:commercial/index>` more visible.
 - We expanded our user documentation with more examples on how to use MyST Markdown
   and a :doc:`guide to migrate from reST to MyST <readthedocs:guides/migrate-rest-myst>`
@@ -68,8 +68,8 @@ to accomodate for modern standards that will make our life easier,
 and in particular setuptools has been introducing some breaking changes in recent times.
 We anticipated this sort of breakage for our users
 so `we pinned the setuptools version in late
-November <https://github.com/readthedocs/readthedocs.org/pull/8711>`_,
-however a small number of projects did not have this version cap active
+November <https://github.com/readthedocs/readthedocs.org/pull/8711>`_.
+However, a small number of projects did not have this version cap active
 because of a bug on our side
 and experienced failing builds after a new setuptools release.
 We quickly fixed the problem
