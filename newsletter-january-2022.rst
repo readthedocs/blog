@@ -32,6 +32,10 @@ December and January have been slow months,
 and we mainly worked on internal changes and documentation improvements.
 Among the major user-facing changes:
 
+- We changed the Google Analytics from a persistent 30 day cookie
+  to `a session cookie that is deleted when the browser is
+  closed <https://github.com/readthedocs/readthedocs.org/pull/8694>`_.
+  This will result in less data collected from users.
 - We split the developer documentation from the user documentation to avoid confusion
   and made our :doc:`Read the Docs for Business docs <readthedocs:commercial/index>` more visible.
 - We expanded our user documentation with more examples on how to use MyST Markdown
