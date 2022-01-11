@@ -23,6 +23,7 @@ Company highlights
 - We are now managing custom domains for our corporate users using Cloudflare SSL for SaaS,
   which will remove the manual work that was needed on our side
   and make the process of setting up a custom domain almost instantaneous.
+  It also will allow us to offer a CDN much easier in the future. 
 
 New features
 ------------
