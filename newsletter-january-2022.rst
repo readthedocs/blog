@@ -51,8 +51,10 @@ Upcoming features
 - Ana_ will continue working on the new landing pages,
   polishing the copywriting along with `Juan Luis`_
   and translating the mockups to Pelican templates.
-- Anthony_ (TBC)
-- Eric_ (TBC)
+- Anthony_ will continue working on frontend scaffolding
+  and finance bits.
+- Eric_ will continue to focus on business and sales efforts,
+  and performing code review.
 - `Juan Luis`_ will work with Ana_ in the new landing pages,
   and with Manuel_ in a new process to migrate users from legacy
   or deprecated configurations.
