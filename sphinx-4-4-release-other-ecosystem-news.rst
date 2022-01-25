@@ -1,23 +1,23 @@
 .. post:: January 25, 2022
-   :tags: sphinx
+   :tags: sphinx, release
    :author: Juan Luis
    :location: MAD
 
 .. meta::
    :description lang=en:
-      In this post we spread the word about
-      the most relevant news of the Sphinx ecosystem of the past weeks,
-      including Sphinx itself as well as extensions and themes developed by the community.
+      In this post we talk about the latest release of Sphinx 4.4
+      and include other relevant news
+      from the Sphinx ecosystem of extensions and themes.
 
-Sphinx ecosystem news - January 2022
-====================================
+Sphinx 4.4 release and other ecosystem news
+===========================================
 
 In this post we spread the word about
 the most relevant news of the Sphinx ecosystem of the past weeks,
 including Sphinx itself as well as extensions and themes developed by the community.
 
-Highlights
-----------
+Sphinx 4.4 release
+------------------
 
 **Sphinx 4.4** was released on January 17th with numerous changes, including:
 
@@ -60,24 +60,24 @@ Proper error messages when autosummary does not find a package
 You can read the `complete Sphinx 4.4.0 release
 notes <https://www.sphinx-doc.org/en/master/changes.html#release-4-4-0-released-jan-17-2022>`_ online.
 
-**pydata-sphinx-theme**, a Sphinx theme based on Bootstrap CSS developed by the PyData community,
-`got a new 0.8 release <https://github.com/pydata/pydata-sphinx-theme/releases/tag/v0.8.0>`_
-on January 15th. The Read the Docs team collaborated with the developers
-to make some of the new features behave correctly in our platform, in particular
-`the custom version
-switcher <https://pydata-sphinx-theme.readthedocs.io/en/latest/user_guide/configuring.html#add-a-dropdown-to-switch-between-docs-versions>`_.
-As `Chris Holdgraf summarizes in this Twitter
-thread <https://twitter.com/choldgraf/status/1482435411301449729>`_,
-the new version brings other interesting additions,
-like `better depth control of the left
-sidebar <https://pydata-sphinx-theme.readthedocs.io/en/latest/user_guide/configuring.html#navigation-depth-and-collapsing-of-the-sidebar>`_
-and `custom SVG
-icons <https://pydata-sphinx-theme.readthedocs.io/en/latest/user_guide/configuring.html#local-image-icons>`_.
+Sphinx themes and extensions
+----------------------------
 
-Extensions
-----------
+Several other extensions and themes saw new releases recently, including:
 
-Several new extensions saw new releases recently, including:
+`pydata-sphinx-theme 0.8 <https://github.com/pydata/pydata-sphinx-theme/releases/tag/v0.8.0>`_
+   pydata-sphinx-theme is a Sphinx theme based on Bootstrap CSS developed by the PyData community,
+   The Read the Docs team collaborated with the developers
+   to make some of the new features of 0.8 behave correctly in our platform, in particular
+   `the custom version
+   switcher <https://pydata-sphinx-theme.readthedocs.io/en/latest/user_guide/configuring.html#add-a-dropdown-to-switch-between-docs-versions>`_.
+   As `Chris Holdgraf summarizes in this Twitter
+   thread <https://twitter.com/choldgraf/status/1482435411301449729>`_,
+   the new version brings other interesting additions,
+   like `better depth control of the left
+   sidebar <https://pydata-sphinx-theme.readthedocs.io/en/latest/user_guide/configuring.html#navigation-depth-and-collapsing-of-the-sidebar>`_
+   and `custom SVG
+   icons <https://pydata-sphinx-theme.readthedocs.io/en/latest/user_guide/configuring.html#local-image-icons>`_.
 
 `sphinx-codeautolink 0.9 <https://sphinx-codeautolink.readthedocs.io/en/stable/release_notes.html#id2>`_
    sphinx-codeautolink is a Sphinx extension to automatically include links inside code blocks.
@@ -113,3 +113,6 @@ and `direct integration with Jupyter notebooks <https://twitter.com/choldgraf/st
    :alt: Preview of MyST integrated in Jupyter notebooks.
 
    Preview of MyST integrated in Jupyter notebooks.
+
+We are excited about seeing new and old Sphinx extensions being developed by the community,
+and we thank the Sphinx maintainers for their excellent work.
