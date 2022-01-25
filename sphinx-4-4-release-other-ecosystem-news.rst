@@ -60,6 +60,16 @@ Proper error messages when autosummary does not find a package
 You can read the `complete Sphinx 4.4.0 release
 notes <https://www.sphinx-doc.org/en/master/changes.html#release-4-4-0-released-jan-17-2022>`_ online.
 
+Using Sphinx 4.4 on Read the Docs
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Sphinx 4.4 is supported on Read the Docs. By default, RTD will install the latest version for you,
+as described in :ref:`our documentation <readthedocs:builds:external dependencies>`.
+If you are :ref:`pinning your dependencies <readthedocs:guides/reproducible-builds:pinning dependencies>`
+to improve the reproducibility of your builds,
+you can change the pinned version to ``sphinx==4.4.0``
+in either your ``requirements.txt`` or ``environment.yml``.
+
 Sphinx themes and extensions
 ----------------------------
 
@@ -116,3 +126,8 @@ and `direct integration with Jupyter notebooks <https://twitter.com/choldgraf/st
 
 We are excited about seeing new and old Sphinx extensions being developed by the community,
 and we thank the Sphinx maintainers for their excellent work.
+
+----
+
+Considering using Read the Docs for your next Sphinx?
+Check out `our documentation <https://docs.readthedocs.io/>`_ to get started!
