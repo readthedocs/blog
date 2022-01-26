@@ -1,4 +1,4 @@
-.. post:: January 25, 2022
+.. post:: January 26, 2022
    :tags: sphinx, release
    :author: Juan Luis
    :location: MAD
