@@ -24,7 +24,7 @@ Company updates
   There are lots of interesting features this will enable,
   so stay tuned for updates there.
 - We're sad to announce that Juan Luis has moved on from Read the Docs as our developer advocate.
-  The work he did was vital towards getting our :doc:`CZI grant <czi-grant-announcement>` mostly finished, and we thank him for his time spent bettering the RTD, Sphinx, and docs community.
+  The work he did was vital towards getting our :doc:`CZI grant </czi-grant-announcement>` mostly finished, and we thank him for his time spent bettering the RTD, Sphinx, and docs community.
 - On a related note, we're going to be hiring again soon to fill another position.
   It will be a bit different and likely a product-focused Python development position.
   If you're interested, please `let us know`_.
