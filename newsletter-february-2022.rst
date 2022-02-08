@@ -29,17 +29,17 @@ Company updates
   It will be a bit different and likely a product-focused Python development position.
   If you're interested, please `let us know`_.
 
-.. _let us know: mailto:ads@readthedocs.org?subject=Job%20Posting
+.. _let us know: mailto:hello@readthedocs.org?subject=Job%20Posting
 
 New features
 ------------
 
-In January we continued to work on refactors and internal changed.
+In January we continued to work on refactors and internal changes.
 Among the major user-facing changes:
 
-- We fixed a bug in BitBucket that didn't allow us to properly sync user permissions.
+- We fixed a bug in Bitbucket that didn't allow us to properly sync user permissions.
   This resulted in a few support requests, but has now been resolved.
-- We improved our ability to mark projects at non-spam,
+- We improved our ability to mark projects as non-spam,
   so that we can validate a project isn't spam and then make sure it doesn't get flagged by our automated system.
 
 You can always see the latest changes to our platforms in our :doc:`Read the Docs
@@ -61,7 +61,7 @@ Upcoming features
 Possible issues
 ---------------
 
-We continue to see a good place of development on the Sphinx project,
+We continue to see a good pace of development on the Sphinx project,
 with them adding support for docutils 0.18,
 and removing jQuery in a major refactor of their Javascript.
 We're working to ensure that our theme and other parts of the ecosystem don't break with these changes,
