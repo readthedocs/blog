@@ -1,4 +1,4 @@
-.. post:: Feb 2, 2022
+.. post:: Feb 8, 2022
    :tags: newsletter, python
    :author: Eric Holscher
    :location: BND
