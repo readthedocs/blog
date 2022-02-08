@@ -23,7 +23,7 @@ Company updates
 - We have mostly finished migrating Read the Docs for Business users to Cloudflare for SSL.
   There are lots of interesting features this will enable,
   so stay tuned for updates there.
-- We're sad to announce that Juan Luis has moved on from Read the Docs as our developer advocate.
+- We're sad to announce that `Juan Luis`_ has moved on from Read the Docs as our developer advocate.
   The work he did was vital towards getting our :doc:`CZI grant </czi-grant-announcement>` mostly finished, and we thank him for his time spent bettering the RTD, Sphinx, and docs community.
 - On a related note, we're going to be hiring again soon to fill another position.
   It will be a bit different and likely a product-focused Python development position.
@@ -48,6 +48,7 @@ Changelog <readthedocs:changelog>`.
 Upcoming features
 -----------------
 
+- Cancelling a build is a long requested feature, and we're getting close to implementing it.
 - We're looking at tracking 404 pages in our project analytics,
   so that projects can easily fix up missing or outdated page links.
 - We are hoping to launch our revamped landing pages this month,
@@ -73,6 +74,8 @@ there will likely still be some issues that sneak through with the release of Sp
 
 Considering using Read the Docs for your next Sphinx or MkDocs project?
 Check out `our documentation <https://docs.readthedocs.io/>`_ to get started!
+
+.. Keeping this here for now, in case we need to link to ourselves :)
 
 .. _Ana: https://github.com/nienn
 .. _Anthony: https://github.com/agjohnson

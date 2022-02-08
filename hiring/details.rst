@@ -26,23 +26,26 @@ given the grant work that will be part of this role.
 **We realize that you might not know all of our tools,
 please reach out if you think you'd be a good fit.**
 
-We are a fully remote company and our team is currently based in the US, South America, and in Europe.
+We are a fully remote company and our team is currently based in the US, South America, and Europe.
 We hope to work with people that are based in timezone where we have some overlap with the entire team,
-which is around UTC-8 to UTC+1.
-
+which is around **UTC-8 to UTC+1**.
 
 Structure
 ---------
 
-We are currently only able to offer contracts to work on the project.
+We are currently only able to offer a contract to work on the project.
 We would contract you to work 4-5 days a week.
 Half of our team works 4 days, and the other half works 5 days,
 and we are happy to be flexible with whatever works best for you.
+We do offer the ability to expense work-related computer equipment,
+home office gear, and other approved expenses.
 
 After an initial interview,
 we normally do a small paid project (4-6 hours) to see how we work together.
 Assuming that goes well,
 we will offer a contract until the end of the calendar year.
+This contract then would be renewed yearly,
+along with evaluating pay and other benefits.
 
 The pay rate will vary with experience and the number of days worked.
 As a small, self-sustaining open source project we are not able to pay as much as large companies.
