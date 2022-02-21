@@ -28,3 +28,7 @@ for example:
 
 **Note that this applies only to repositories hosted on GitHub**,
 repositories using providers that support the Git protocol won't be affected.
+
+At Read the Docs we will try keep you informed about deprecations
+or breaking changes from external tools that may impact your builds so you can
+take action before it happens.
