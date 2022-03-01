@@ -29,6 +29,6 @@ for example:
 **Note that this applies only to repositories hosted on GitHub**,
 repositories using providers that support the Git protocol won't be affected.
 
-At Read the Docs we will try keep you informed about deprecations
-or breaking changes from external tools that may impact your builds so you can
-take action before it happens.
+Read the Docs tries to keep users informed about deprecations
+and breaking changes that may impact projects.
+To receive future updates like this, <a href="https://landing.mailerlite.com/webforms/landing/p8b7z2">subscribe to our newsletter</a>.
