@@ -31,4 +31,4 @@ repositories using providers that support the Git protocol won't be affected.
 
 Read the Docs tries to keep users informed about deprecations
 and breaking changes that may impact projects.
-To receive future updates like this, <a href="https://landing.mailerlite.com/webforms/landing/p8b7z2">subscribe to our newsletter</a>.
+To receive future updates like this, `subscribe to our newsletter <https://landing.mailerlite.com/webforms/landing/p8b7z2>`__.
