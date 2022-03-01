@@ -1,4 +1,4 @@
-.. post:: February 16, 2022
+.. post:: March 1, 2022
    :tags: github, git, deprecation
    :author: Santos
    :location: CUE
