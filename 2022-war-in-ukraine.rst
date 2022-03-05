@@ -21,7 +21,7 @@ and we have users all over the world, including in Ukraine and Russia.
 
 
 Impact on our services
----------
+----------------------
 
 We are continuing to monitor news that could potentially affect our users,
 including sanctions applied to the region.
