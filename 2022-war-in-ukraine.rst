@@ -53,4 +53,4 @@ for the `United Nations Crisis Relief Fund <https://crisisrelief.un.org/>`_
 and other missions aimed at humanitarian aid for Ukraine.
 If you can donate to help provide humanitarian aid, please do.
 
-At Read the Docs, we are hoping that peace is restored as quickly as possible.
+We are hoping that peace is restored as quickly as possible.
