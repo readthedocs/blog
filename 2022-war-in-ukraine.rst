@@ -16,8 +16,8 @@ and how it relates to our employees, customers, and our services to the open sou
 
 Read the Docs is a very small company, with only seven employees,
 and fortunately none of them are currently in harm's way.
-Our impact, however, on the open source ecosystem is bigger than our size
-and we have users all over the world including in Ukraine and Russia.
+Our impact on the open source ecosystem, however, is bigger than our size,
+and we have users all over the world, including in Ukraine and Russia.
 
 
 Impact on our services
