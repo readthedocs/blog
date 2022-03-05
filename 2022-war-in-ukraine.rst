@@ -6,6 +6,9 @@
 War in Ukraine and what it means for Read the Docs
 ==================================================
 
+With news surrounding the invasion of Ukraine evolving rapidly,
+we felt it was necessary to provide an update to our users and customers.
+
 At Read the Docs, we are outraged and saddened by the invasion of Ukraine
 and we condemn this act of violence as wrong and unlawful.
 We are monitoring the situation in Europe
