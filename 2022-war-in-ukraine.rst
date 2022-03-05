@@ -20,7 +20,7 @@ Our impact, however, on the open source ecosystem is bigger than our size
 and we have users all over the world including in Ukraine and Russia.
 
 
-Sanctions
+Impact on our services
 ---------
 
 We are continuing to monitor the situation with respect to sanctions.
