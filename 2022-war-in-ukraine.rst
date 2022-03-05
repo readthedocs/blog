@@ -23,13 +23,17 @@ and we have users all over the world including in Ukraine and Russia.
 Impact on our services
 ---------
 
-We are continuing to monitor the situation with respect to sanctions.
-Read the Docs is hosted and incorporated in the United States
-and we may be compelled to take action.
+We are continuing to monitor news that could potentially affect our users,
+including sanctions applied to the region.
 
-We aim to be a platform for all developers
-and we do not intend to prevent users from specific countries from using our platform
-especially as it relates to open source work.
+At this moment, users in Russia and Belarus are likely affected by financial sanctions,
+and subscription payments from these countries may be declined.
+These transactions are impacted by both sanctions targeting banks in the region
+as well as credit card processing limitations.
+
+Our documentation services are otherwise not currently affected however.
+Read the Docs is hosted and incorporated in the United States,
+and so any further changes to US sanctions could apply to our services.
 
 Read the Docs is currently partially blocked in Russia by the Russian government.
 While we are working to resolve this,
