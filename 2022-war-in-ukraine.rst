@@ -35,7 +35,7 @@ Read the Docs is currently partially blocked in Russia by the Russian government
 While we are working to resolve this,
 it does not appear that this block is related to war in Ukraine.
 
-Other than the government blocking and financial sanctions, our services are not otherwise impacted.
+Other than the government blocking and financial sanctions, our services are not impacted.
 Read the Docs is hosted and incorporated in the United States,
 and so any further changes to US sanctions would apply to our services.
 
