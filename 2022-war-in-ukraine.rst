@@ -26,11 +26,6 @@ Impact on our services
 We are continuing to monitor news that could potentially affect our users,
 including sanctions applied to the region.
 
-At this moment, users in Russia and Belarus are likely affected by financial sanctions,
-and subscription payments from these countries may be declined.
-These transactions are impacted by both sanctions targeting banks in the region
-as well as credit card processing limitations.
-
 Read the Docs is currently partially blocked in Russia by the Russian government.
 While we are working to resolve this,
 it does not appear that this block is related to war in Ukraine.
