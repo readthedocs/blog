@@ -31,13 +31,13 @@ and subscription payments from these countries may be declined.
 These transactions are impacted by both sanctions targeting banks in the region
 as well as credit card processing limitations.
 
-Our documentation services are otherwise not currently affected however.
-Read the Docs is hosted and incorporated in the United States,
-and so any further changes to US sanctions could apply to our services.
-
 Read the Docs is currently partially blocked in Russia by the Russian government.
 While we are working to resolve this,
 it does not appear that this block is related to war in Ukraine.
+
+Other than the government blocking and financial sanctions, our services are not otherwise impacted.
+Read the Docs is hosted and incorporated in the United States,
+and so any further changes to US sanctions would apply to our services.
 
 
 What we are doing and what you can do
