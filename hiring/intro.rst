@@ -1,5 +1,5 @@
 Thanks for your interest in working at Read the Docs.
-We are a small team of 6, and we're looking to add 1-2 people in 2022,
+We are a small team of less than 10, and we're looking to add 1-2 people in 2022,
 and we'd love for you to be one of them.
 
 About the company
