@@ -19,17 +19,27 @@ About the job
 
 You will join our existing backend team of Python developers.
 As a more product-focused role,
-we intend for you to be able to engage in our sales and marketing process.
-You will work to understand more about our business,
-and write code that solves problems for customers as a primary focus.
+we intend for you to be able to engage in on business as well as our product.
+This includes helping plan out our feature roadmap,
+communicating with users via email and video calls,
+and working to ensure we have a great product and business.
 
 Along with writing code,
-this role will also focus on writing technical marketing copy,
+this role will also focus on writing technical marketing blog posts,
 documentation,
-and sales collatoral.
-We are hoping that you will be able to integrate into our business,
-as well as into our open source project.
+and sales copy.
 
+In terms of abilities that we have in mind for this role:
+
+* Create design documents that argue for both the business & technical benefits of features.
+* Implement features in a Python codebase.
+* Be able to review code of our core team, as well as contributors to our open source projects in a respectful manner.
+* Be able to engage with customers via email support and rarely on video calls.
+* Write blog posts that help promote our features, and the things that you work on.
+
+We understand that nobody will match exactly what we've listed -- it's totally fine if you don't.
+If you're excited to help us bootstrap our open source project to over $1 million in revenue in the next couple years,
+this role is for you so please apply!
 
 Technical Details
 -----------------
@@ -37,23 +47,23 @@ Technical Details
 Read the Docs is a `large Python & Django web application <https://github.com/readthedocs/readthedocs.org/tree/master/readthedocs>`_.
 The current technologies that we're using are:
 
-* Sphinx/reStructuredText for documentation
-* Read the Docs for building & hosting documentation :)
+* Python & Django for our web application
+* Celery for our backend processes
+* Cloudflare & AWS for our major infrastructure
+* Sphinx, reStructuredText, and Markdown for documentation and blog posts
 * Twitter for most of our marketing and developer relations
-
+* Read the Docs for building & hosting documentation :)
 
 .. include:: /hiring/details.rst
-
 
 Applying
 --------
 
 We will be accepting applications on an ongoing basis until the position is filled.
 
-..
-    Please fill out the below form to apply for this role.
-    Normal response time is around 2-3 weeks,
-    and we intend to reply to all candidates.
+Please fill out the below form to apply for this role.
+Normal response time is 3-5 days,
+and we intend to reply to all candidates who complete the application.
 
     .. raw:: html
 
