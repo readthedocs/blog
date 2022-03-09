@@ -22,8 +22,8 @@ Company updates
 
 It's been pretty quiet on the company front in February,
 with nothing much to report.
-We're actively working on our latest job description,
-which will be a product-focused Python development position.
+**We're actively working on our latest job description,
+which will be a product-focused Python development position.**
 f you're interested, please `let us know`_.
 
 .. _let us know: mailto:hello@readthedocs.org?subject=Job%20Posting
@@ -34,7 +34,7 @@ New features
 In February we continued to work on refactors and internal changes.
 Among the major user-facing changes:
 
-- We now have the CDN on Read the Docs for Business in beta, with a couple accounts testing it. If you're interested, please `contact us`_.
+- **We now have the CDN on Read the Docs for Business in beta**, with a couple accounts testing it. If you're interested, please `contact us`_.
 - You can now `cancel builds <https://github.com/readthedocs/readthedocs.org/pull/8850>`_ via a button in the dashboard. This will save resources, and allow you to ensure that you don't hit concurrency limits if you trigger a few builds at once.
 - Projects that are imported via the API are now required to have a VCS repository linked to them, if your organization has `VCS SSO <https://docs.readthedocs.io/en/latest/commercial/single-sign-on.html#sso-with-vcs-provider-github-bitbucket-or-gitlab>`_ turned on, so that users will be able to access it.
 
@@ -44,7 +44,7 @@ Changelog <readthedocs:changelog>`.
 Upcoming features
 -----------------
 
-- We're working on pre and post-build steps, and hope to have those released in the next week or two. This is a long-requested feature that we're really excited to be able to share with folks.
+- **We're working on pre and post-build steps**, and hope to have those released in the next week or two. This is a long-requested feature that we're really excited to be able to share with folks.
 - We're getting much closer on our landing page update. They are being served from a super secret URL, and will be made our official front page before long...
 - We continue to work on tracking 404 pages in our project analytics,
   so that projects can easily fix up missing or outdated page links.
