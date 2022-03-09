@@ -44,6 +44,7 @@ Changelog <readthedocs:changelog>`.
 Upcoming features
 -----------------
 
+- We're working on pre and post-build steps, and hope to have those released in the next week or two. This is a long-requested feature that we're really excited to be able to share with folks.
 - We're getting much closer on our landing page update. They are being served from a super secret URL, and will be made our official front page before long...
 - We continue to work on tracking 404 pages in our project analytics,
   so that projects can easily fix up missing or outdated page links.
