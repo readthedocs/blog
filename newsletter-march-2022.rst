@@ -5,7 +5,7 @@
 
 .. meta::
    :description lang=en:
-      Company updates and new features from last month,
+      Company updates and new features from the last month,
       current focus, and upcoming features.
 
 Read the Docs newsletter - March 2022
