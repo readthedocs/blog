@@ -11,15 +11,6 @@
 Read the Docs newsletter - March 2022
 =====================================
 
-Welcome to the latest edition of our monthly newsletter, where we
-share the most relevant updates around Read the Docs,
-offer a summary of new features we shipped
-during the previous month,
-and share what we'll be focusing on in the near future.
-
-Company updates
----------------
-
 It's been pretty quiet on the company front in February,
 with nothing much to report.
 **We're actively working on our latest job description,
