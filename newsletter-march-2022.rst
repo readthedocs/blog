@@ -39,7 +39,7 @@ Upcoming features
 - We're getting much closer on our landing page update. They are being served from a super secret URL, and will be made our official front page before long...
 - We continue to work on tracking 404 pages in our project analytics,
   so that projects can easily fix up missing or outdated page links.
-- We have `made process on support <https://github.com/readthedocs/readthedocs.org/issues/8811>`_ for multiple ``readthedocs.yml`` files in a single git repo.
+- We have `made process on support <https://github.com/readthedocs/readthedocs.org/issues/8811>`_ for multiple projects in a single git repo.
 
 Possible issues
 ---------------
