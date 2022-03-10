@@ -15,7 +15,7 @@ It's been pretty quiet on the company front in February,
 with nothing much to report.
 **We're actively working on our latest job description,
 which will be a product-focused Python development position.**
-f you're interested, please `let us know`_.
+If you're interested, please `let us know`_.
 
 .. _let us know: mailto:hello@readthedocs.org?subject=Job%20Posting
 
