@@ -33,7 +33,7 @@ The pay rate will vary with experience and the number of days worked.
 As a small, self-sustaining open source project we are not able to pay as much as large companies.
 We are able to provide a supportive and very flexible work environment,
 with a strong sense of mission.
-All of the members of our team have worked with us for more than 2 years,
+Most of the members of our team have worked with us for more than 4 years,
 and we strive to have a stable team working to build something meaningful.
 
 Additional details
