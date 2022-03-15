@@ -1,58 +1,53 @@
 :orphan:
 
-Job Posting: Product-focused Python Developer
-=============================================
+Job Posting: Product-focused Application Developer
+==================================================
 
-.. |role| replace:: Python developer
+.. |role| replace:: developer
 
 * Location: Fully Remote
 * Timezone: UTC-8 to UTC+1
 * Schedule: 4 or 5 days
 * Salary: $60,000-$90,000
 * Status: Contractor
-* Experience: 4+ years in a software-related job
+* Experience: 3+ years in a software-related job
 
 .. include:: /hiring/intro.rst
 
 About the job
 -------------
 
-You will join our existing backend team of Python developers.
-As a more product-focused role,
-we intend for you to be able to engage in on business as well as our product.
-This includes helping plan out our feature roadmap,
-communicating with users via email and video calls,
-and working to ensure we have a great product and business.
+Our company is quite small,
+so this job will require doing many different things.
+You will join our team that is focused on building and growing our various Read the Docs products.
+This means you will work to help us figure out what features to build,
+work with the team to build those features,
+and then figure out how to explain them to our users.
 
-Along with writing code,
-this role will also focus on writing technical marketing blog posts,
-documentation,
-and sales copy.
-
-In terms of abilities that we have in mind for this role:
+Each day will be a bit different, but some of the tasks that we might ask you to do are:
 
 * Create design documents that argue for both the business & technical benefits of features.
-* Implement features in a Python codebase.
+* Implement features in our `Python & Django web app <https://github.com/readthedocs/readthedocs.org/tree/master/readthedocs>`_.
 * Be able to review code of our core team, as well as contributors to our open source projects in a respectful manner.
-* Be able to engage with customers via email support and rarely on video calls.
-* Write blog posts that help promote our features, and the things that you work on.
+* Be able to engage with customers via email support.
+* Write docs and blog posts for some of the work that you've done
 
-We understand that nobody will match exactly what we've listed -- it's totally fine if you don't.
-If you're excited to help us bootstrap our open source project to over $1 million in revenue in the next couple years,
-this role is for you so please apply!
+We don't expect you to be experienced in doing all these tasks,
+but hope for someone who is excited to learn how to do them.
 
-Technical Details
------------------
+Who would be a good fit?
+------------------------
 
-Read the Docs is a `large Python & Django web application <https://github.com/readthedocs/readthedocs.org/tree/master/readthedocs>`_.
-The current technologies that we're using are:
+Any of these people would be a good fit:
 
-* Python & Django for our web application
-* Celery for our backend processes
-* Cloudflare & AWS for our major infrastructure
-* Sphinx, reStructuredText, and Markdown for documentation and blog posts
-* Twitter for most of our marketing and developer relations
-* Read the Docs for building & hosting documentation :)
+* Someone who has built, documented, and blogged about a feature in an open source project
+* Someone who has advocated for a new feature being built at their current company, and then built it
+* Someone who has worked to get a feature that they built used by more people via a blog post and improved docs
+* Anyone who has used Read the Docs, and could tell us why they would build a new feature in the product
+
+The thing we want is to work with skilled people who are excited to work on our product.
+If that's you,
+please apply below!
 
 .. include:: /hiring/details.rst
 

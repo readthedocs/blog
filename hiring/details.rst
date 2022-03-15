@@ -1,10 +1,10 @@
-Additional Responsibilities
----------------------------
+Everyone on our team does customer support
+------------------------------------------
 
 All of our team members are responsible for some of the basic operations of the project.
 As a small team,
 there are a lot of jobs to be done and not many hands to fill them.
-This means you will learn a lot about the functioning of a small open source project.
+This means you will learn a lot about the functioning of a small (but mighty!) company and open source project.
 
 User support is one of the main things you will be handling that spans the company.
 We have GitHub issues and emails that come in each day,
@@ -12,18 +12,19 @@ and we have a support rotation for dealing with them.
 You can expect being the first line of support one day a week,
 but you can always ask the team for help with issues.
 
-Structure and interview process
--------------------------------
+Hiring and interview process
+----------------------------
 
-We are currently only able to offer a contract to work on the project.
+You would be hired as a contractor and not an employee,
+because that is all we can support currently.
 We would contract you to work 4-5 days a week.
 Half of our team works 4 days, and the other half works 5 days,
 and we are happy to be flexible with whatever works best for you.
 We do offer the ability to expense work-related computer equipment,
 home office gear, and other approved expenses.
 
-After an initial set of 2 interviews,
-we normally do a small paid project (4-6 hours) to see how we work together.
+After an initial set of 2-3 interviews,
+we normally do a small paid project (4-6 hours, $500) to see how we work together.
 Assuming that goes well,
 we will offer a contract until the end of the calendar year.
 This contract then would be renewed yearly,
@@ -35,17 +36,6 @@ We are able to provide a supportive and very flexible work environment,
 with a strong sense of mission.
 Most of the members of our team have worked with us for more than 4 years,
 and we strive to have a stable team working to build something meaningful.
-
-Additional details
-------------------
-
-We are a small team and you will be given a lot autonomy in building and improving things,
-so being self-driven is an asset.
-Being familiar with some or most of the tools `listed above <#technical-details>`_ would be great,
-however we believe experience with similar tools should translate easily as well.
-
-**We realize that you might not know all of our tools,
-please reach out if you think you'd be a good fit.**
 
 We are a fully remote company and our team is currently based in the US, South America, and Europe.
 We hope to work with people that are based in timezone where we have some overlap with the entire team,

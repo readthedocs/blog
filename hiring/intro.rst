@@ -16,5 +16,3 @@ We have two primary products:
 
 * A free hosting service for open source projects, funded via ethical ads: https://readthedocs.org
 * A paid hosting service for companies, funded via subscriptions: https://readthedocs.com
-
-This role would primarily be working on the core Read the Docs codebase and other Python code that we maintain.
