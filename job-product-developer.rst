@@ -95,18 +95,18 @@ and we intend to reply to all candidates who complete the application.
           </div>
 
           <div>
-            <label for="project">1-2 paragraphs about a project you're proud of</label>
+            <label for="project">1-2 paragraphs about something you're proud to have worked on</label>
             <textarea name="project"></textarea>
-          </div>
-
-          <div>
-            <label for="extra">Anything else you'd like us to know?</label>
-            <textarea name="extra"></textarea>
           </div>
 
           <div>
             <label for="resume">Resume/CV</label>
             <input type="file" name="resume">
+          </div>
+
+          <div>
+            <label for="extra">Anything else you'd like us to know?</label>
+            <textarea name="extra"></textarea>
           </div>
 
           <div>
