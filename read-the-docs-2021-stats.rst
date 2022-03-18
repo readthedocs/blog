@@ -82,7 +82,7 @@ This year, we had:
 * 2126 `commits`_ (from 3636)
 * 376 `issues`_ - 88 open, 288 closed (from 532)
 
-We have been working to move user support issues to email from GitHub,
+We have been working to move user support issues to email from GitHub (keeping code issues in GitHub),
 which likely addresses the reduction in ticket numbers.
 We are also working to expand our ecosystem of projects,
 so the commits to the main repository are down.
