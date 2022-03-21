@@ -26,6 +26,15 @@ for example:
 - `Git submodule URLs <https://git-scm.com/docs/git-submodule/#Documentation/git-submodule.txt-set-url--ltpathgtltnewurlgt>`__
 - `Pip VCS support <https://pip.pypa.io/en/stable/topics/vcs-support/#git>`__
 
+If you are trying to clone a repository using the Git protocol, you may see an error like this:
+
+.. code-block::
+
+   Cloning into 'testing'...
+   fatal: remote error:
+   The unauthenticated git protocol on port 9418 is no longer supported.
+   Please see https://github.blog/2021-09-01-improving-git-protocol-security-github/ for more information.
+
 **Note that this applies only to repositories hosted on GitHub**,
 repositories using providers that support the Git protocol won't be affected.
 
