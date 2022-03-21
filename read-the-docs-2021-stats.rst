@@ -1,4 +1,4 @@
-.. post:: Mar 17, 2022
+.. post:: Mar 21, 2022
    :tags: stats, year-in-review
 
 Read the Docs 2021 Stats
