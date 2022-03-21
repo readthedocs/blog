@@ -8,14 +8,14 @@ Read the Docs 2021 Stats
 That said,
 Read the Docs had a lot of good things happen this year.
 
-We did a majority of the owrk on our :doc:`CZI grant </czi-grant-announcement>`,
+We did a majority of the work on our :doc:`CZI grant </czi-grant-announcement>`,
 grew our team from 5 to 8,
 and continued to grow our `EthicalAds network`_.
-It's been a year of continued growth,
+It's been another year of steady growth,
 and we hope to continue that into 2022.
 
 As we have for the past 8 years (!!),
-we are proud to share our 2021 stats post.
+we are proud to share some of our stats from 2021.
 
 .. _EthicalAds network: https://www.ethicalads.io/
 
@@ -37,25 +37,25 @@ we are proud to share our 2021 stats post.
 .. _2020: https://blog.readthedocs.com/read-the-docs-2020-stats/
 
 
-Page Views
+Page views
 ----------
 
 Our stats:
 
-* 700 Million Page Views (from 580 million)
-* 196 Million Unique Visitors (from 156 million)
+* 700 million page views (from 580 million)
+* 196 million unique visitors (from 156 million)
 
 .. From Google Analytics
 
-These numbers are not completely accurate, since we :doc:`implemented Do Not Track support </do-not-track>` our analytics pageview figures understate our actual traffic.
+These numbers are not completely accurate. Since we :doc:`implemented Do Not Track support </do-not-track>` our analytics pageview figures understate our actual traffic.
 We estimate that around 6% of users are not counted here.
 We also don't count all the users who block Google Analytics with a browser extension.
 
-Of note, we host a `major documentation site <http://faq-login-unico.servicos.gov.br/en/latest/>`_ for the Brazilian government,
-which is our largest site by a wide margin,
-but they are in both years data.
+Also of note, we host a `major documentation site <http://faq-login-unico.servicos.gov.br/en/latest/>`_ for the Brazilian government,
+which is our most viewed site by a wide margin,
+but this site is was also included in last year's stats.
 
-Site Stats
+Site stats
 ----------
 
 The stats, in total numbers:
@@ -67,7 +67,7 @@ The stats, in total numbers:
 We have been battling spam quite heavily again this year,
 so these numbers are a bit skewed.
 We have worked to improve our spam detection though,
-and are in a much better place with spam this year.
+and we have been responding to spam more consistently this last year.
 
 .. Project.objects.filter(pub_date__year=2021).count()
 .. User.objects.filter(date_joined__year=2021).count()
@@ -99,17 +99,18 @@ and we're appreciative of all the work people contribute.
 Funding
 -------
 
-* TODO advertising (from $234,000)
-* TODO Gold users and donations (from $30,000)
+* $380,000 advertising (from $234,000)
+* $35,000 Gold users and donations (from $30,000)
 * 8 paid staff (from 5)
-* We have additional revenue from our commercial offering at readthedocs.com, but aren't including that in our community funding overview
+* We have additional revenue from our `Read the Docs for Business`_, but aren't including that in our community funding overview
 
 We are excited to continue to grow our advertising business,
 and expand it to the larger community.
-We are also seeing continued growth of our paid product at https://readthedocs.com,
+We are also seeing continued growth of our paid product, `Read the Docs for Business`_,
 which is allowing us to fund further growth of the Read the Docs codebase for all our users.
 
 .. _EthicalAds: https://www.ethicalads.io/
+.. _Read the Docs for Business: https://readthedocs.com/
 
 
 Conclusion
