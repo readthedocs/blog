@@ -10,7 +10,7 @@ Read the Docs had a lot of good things happen this year.
 
 We did a majority of the work on our :doc:`CZI grant </czi-grant-announcement>`,
 grew our team from 5 to 8,
-and continued to grow our `EthicalAds network`_.
+and continued to grow our `EthicalAds network`_ & `Read the Docs for Business`_.
 It's been another year of steady growth,
 and we hope to continue that into 2022.
 
