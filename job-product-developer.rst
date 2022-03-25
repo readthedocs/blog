@@ -5,7 +5,7 @@ Job Posting: Product-focused Application Developer
 
 .. |role| replace:: developer
 
-* Location: Fully Remote
+* Location: Fully remote
 * Timezone: UTC-8 to UTC+1
 * Schedule: 4 or 5 days
 * Salary: $60,000-$90,000
@@ -31,6 +31,7 @@ Each day will be a bit different, but some of the tasks that we might ask you to
 * Be able to review code of our core team, as well as contributors to our open source projects in a respectful manner.
 * Be able to engage with customers via email support.
 * Write docs and blog posts for some of the work that you've done
+* Assist with weekly releases by monitoring, testing, and debugging our application
 
 We don't expect you to be experienced in doing all these tasks,
 but hope for someone who is excited to learn how to do them.
@@ -44,6 +45,7 @@ Any of these people would be a good fit:
 * Someone who has advocated for a new feature being built at their current company, and then built it
 * Someone who has worked to get a feature that they built used by more people via a blog post and improved docs
 * Anyone who has used Read the Docs, and could tell us why they would build a new feature in the product
+* Someone who has contributed to Sphinx development, or has built and maintained a Sphinx extension
 
 The thing we want is to work with skilled people who are excited to work on our product.
 If that's you,

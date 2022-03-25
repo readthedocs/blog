@@ -6,7 +6,7 @@ About the company
 -----------------
 
 Read the Docs is a large `open source project <https://github.com/readthedocs/readthedocs.org>`_ providing documentation building and hosting.
-You can think of it as a `continuous integration <https://en.wikipedia.org/wiki/Continuous_integration>`_ for software docs.
+You can think of it as `continuous integration <https://en.wikipedia.org/wiki/Continuous_integration>`_ for software docs.
 We serve over :doc:`500 million pageviews </read-the-docs-2020-stats>` each year.
 **This role will have a large impact on millions of users.**
 Our codebase is almost entirely open source,
