@@ -22,4 +22,4 @@ Jobs at Read the Docs
 Jobs at EthicalAds
 ------------------
 
-There are no current openings working on ads at this time.
+There are no current openings working at EthicalAds at this time.
