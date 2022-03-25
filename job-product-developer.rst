@@ -28,13 +28,16 @@ Each day will be a bit different, but some of the tasks that we might ask you to
 
 * Create design documents that argue for both the business & technical benefits of features.
 * Implement features in our `Python & Django web app <https://github.com/readthedocs/readthedocs.org/tree/master/readthedocs>`_.
-* Be able to review code of our core team, as well as contributors to our open source projects in a respectful manner.
-* Be able to engage with customers via email support.
-* Write docs and blog posts for some of the work that you've done
-* Assist with weekly releases by monitoring, testing, and debugging our application
+* Review code that other members of our team has written, as well as contributors to our open source projects, in a respectful manner.
+* Engage with customers via email support, offering helpful suggestions or explaining tradeoffs in our product.
+* Write docs and blog posts for some of the work that you've done.
+* Assist with weekly releases by monitoring, testing, and debugging our application.
+* Create a landing page that explains how our product is great for a specific set of users (eg. data scientists, Python developers, SaaS product docs, etc.)
 
 We don't expect you to be experienced in doing all these tasks,
 but hope for someone who is excited to learn how to do them.
+If you're really great at 1-2 of them,
+that's a great starting point for this role.
 
 Who would be a good fit?
 ------------------------

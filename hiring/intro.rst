@@ -16,3 +16,6 @@ We have two primary products:
 
 * A free hosting service for open source projects, funded via ethical ads: https://readthedocs.org
 * A paid hosting service for companies, funded via subscriptions: https://readthedocs.com
+
+We are pretty excited to be paid to work on a large open source project,
+and we hope you will be too!
