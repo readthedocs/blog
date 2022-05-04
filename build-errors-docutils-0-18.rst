@@ -50,7 +50,7 @@ release by default.
 
 The reason so many projects use an old version of Sphinx
 is that, :ref:`before October 2020, Read the Docs had a more strict pinning
-policy <readthedocs:builds:External dependencies>`
+policy <readthedocs:build-default-versions:external dependencies>`
 and Sphinx 1.8 was the default version.
 New projects are not affected.
 
