@@ -26,7 +26,7 @@ you probably wished you could easily specify this.
 You might have used a hacky solution inside your Sphinx's ``conf.py`` file,
 but this was not a great solution to this problem.
 
-That solution wasn't support,
+That solution wasn't supported,
 and it had another important limitation: it only ran the commands *from inside* Sphinx's build command.
 It was impossible to run a command after cloning the repository,
 or before starting the Sphinx build process.
