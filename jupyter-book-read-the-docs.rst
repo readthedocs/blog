@@ -96,6 +96,12 @@ users can either :ref:`manually export the configuration <jupyterbook:sphinx:con
 running a command at will,
 or :ref:`set up an automation to do it on every change <jupyterbook:sphinx:convert:pre-commit>`.
 
+.. note:: Update April 4th, 2022
+
+   This process is now simplified by using Read the Docs' ``build.jobs.pre_build`` config
+   key and does not requires having the ``conf.py`` in sync with ``_config.yml`` and pushed to the repository anymore.
+   Check out Jupyter's :doc:`official documentation <jupyterbook:publish/readthedocs>` to find out the configuration required.
+
 To see this in action, have a look at
 `this example project <https://github.com/astrojuanlu/jupyterbook-on-read-the-docs>`_
 that contains the bare minimum to make :doc:`the demo book <jupyterbook:start/create>`
