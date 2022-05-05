@@ -44,7 +44,6 @@ Let's say your project requires to run a command immediately *after* clonning th
 In that case, you will want to use the ``build.jobs.post_checkout`` config key:
 
 .. code:: yaml
-   :caption: .readthedocs.yaml
    :emphasize-lines: 6-10
 
     version: 2
