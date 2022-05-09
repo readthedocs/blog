@@ -70,7 +70,7 @@ We are already discussing how we can expand this feature in the future.
 We'd like to support more complex build processes,
 or even projects that are not using Sphinx or MkDocs.
 That would open the door to a lot new possibilities.
-So, subscribe to our mailing list and stay tuned!
+So, `subscribe to our mailing list <https://landing.mailerlite.com/webforms/landing/p8b7z2>`_ and stay tuned!
 
 Try it out now!
 ---------------
