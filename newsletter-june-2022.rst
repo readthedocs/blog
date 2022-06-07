@@ -32,7 +32,7 @@ We've continued building a number of features and bug fixes in our roadmap:
 - Static files are now served from documentation domains, instead of from ``assets.readthedocs.com``. This allows them to be cached at the CDN with the same rules as all other version-specific files.
 - There is a nicer UI for cancelled builds now, which will show as the build status. This will make it more clear when a build failed or was cancelled for some reason.
 - We have shipped a new release of `sphinx-hoverxref <https://sphinx-hoverxref.readthedocs.io/en/latest/>`_ with better support for intersphinx content embedding.
-- We've shipped support for forced redirects in testing for now. This will allow users to configure redirects that happen when a page exists (200 response), which enables a bunch of neat use cases.
+- We've shipped support for forced redirects in testing for now. This will allow users to configure redirects that happen when a page exists (200 response), which enables a bunch of neat use cases. `Contact us` if you want to try it out!
 
 You can always see the latest changes to our platforms in our :doc:`Read the Docs Changelog <readthedocs:changelog>`.
 
@@ -57,4 +57,4 @@ Check out `our documentation <https://docs.readthedocs.io/>`_ to get started!
 
 .. Keeping this here for now, in case we need to link to ourselves :)
 
-.. _contact us: mailto:hello@readthedocs.org
+.. _Contact us: mailto:hello@readthedocs.org
