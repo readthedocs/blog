@@ -12,9 +12,8 @@ Read the Docs newsletter - June 2022
 ====================================
 
 We're excited to welcome `Benjamin Balder Bach`_ to our team,
-joining in a part-time contractor company for now.
-He's a developer with a history of working with Django and Read the Docs in previous roles,
-and will be a wonderful addition to the team.
+joining as a part-time contractor for now.
+He's a developer with a history of working as an Open Source maintainer and event organizer in the Django community. He has also previously contributed to Read the Docs and will be a wonderful addition to the team.
 
 We're also excited to see people using our new `build.jobs feature`_ that we previously announced.
 There are a lot of interesting ways to adapt the build process with this,
@@ -32,7 +31,7 @@ We've continued building a number of features and bug fixes in our roadmap:
 - We have shipped a beta implementation of ``build.commands``, which allows users to `fully customize the commands run during builds <https://docs.readthedocs.io/en/latest/build-customization.html#override-the-build-process>`_. This enables support for other documentation tools, and we're excited to see what you can do with it!
 - Static files are now served from documentation domains, instead of from ``assets.readthedocs.com``. This allows them to be cached at the CDN with the same rules as all other version-specific files.
 - There is a nicer UI for cancelled builds now, which will show as the build status. This will make it more clear when a build failed or was cancelled for some reason.
-- We have shipped a new release of `sphinx-hoverxref <https://sphinx-hoverxref.readthedocs.io/en/latest/>`_ with better support for furo & intersphinx content embedding.
+- We have shipped a new release of `sphinx-hoverxref <https://sphinx-hoverxref.readthedocs.io/en/latest/>`_ with better support for intersphinx content embedding.
 - We've shipped support for forced redirects in testing for now. This will allow users to configure redirects that happen when a page exists (200 response), which enables a bunch of neat use cases.
 
 You can always see the latest changes to our platforms in our :doc:`Read the Docs Changelog <readthedocs:changelog>`.
