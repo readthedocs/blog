@@ -4,7 +4,7 @@ docutils<0.18
 jinja2<3.1.0
 
 # Used to rewrite the Atom feed to use absolute links
-lxml==4.6.5
+lxml==4.9.1
 
 ablog==0.9.5
 # This dependencie from ablog needs to be pinned
