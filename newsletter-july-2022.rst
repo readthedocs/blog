@@ -32,7 +32,7 @@ We've continued building a number of features and bug fixes in our roadmap:
 - We added support for **HTML theme authors** to define where our `flyout menu`_ is put in their documentation pages. This is an ongoing effort to allow theme authors to integrate our features nicely into the look & feel of docs.
 - **sphinx-hoverxref** works `nicely with Jupyter Book <https://github.com/executablebooks/sphinx-book-theme/issues/577>` now and we `fixed manual references <https://github.com/readthedocs/sphinx-hoverxref/issues/199>`_. 
 - We improved the **UX around VCS support and pull request previews**, so that it's more obvious how to enable the notifications on your repository, and warn you if you don't have your account configured correctly.
-- To better support security, we have enabled **Content Security Policy headers** on our main dashboard sites.
+- To better support security, we have enabled **Content Security Policy headers** on our main dashboard sites. You can contact support if you'd like to enable this on your own documentation domain.
 - We have improved our **dashboard translation workflow**, so that translations are now deployed each week, making our site easier to use for many folks around the world.
 
 You can always see the latest changes to our platforms in our :doc:`Read the Docs Changelog <readthedocs:changelog>`.
