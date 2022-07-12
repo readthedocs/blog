@@ -51,7 +51,7 @@ We are collecting entries for `Awesome Read the Docs Projects`_ - please do tell
 .. _Setuptools: https://setuptools.pypa.io/en/latest/
 .. _disnake: https://docs.disnake.dev/en/latest/
 .. _Awesome Read the Docs Projects: https://github.com/readthedocs-examples/.github/
-.. _Opening a Pull Request: https://github.com/readthedocs-examples/.github/blob/main/contributing.md
+.. _opening a Pull Request: https://github.com/readthedocs-examples/.github/blob/main/contributing.md
 
 Upcoming features
 -----------------

@@ -94,7 +94,7 @@ can potentially produce changes in the ``conf.py``.
 As described in :doc:`the official documentation <jupyterbook:publish/readthedocs>`,
 users can either :ref:`manually export the configuration <jupyterbook:sphinx:convert>`
 running a command at will,
-or :ref:`set up an automation to do it on every change <jupyterbook:sphinx:convert:pre-commit>`.
+or set up an automation to do it on every change.
 
 .. note:: Update April 4th, 2022
 
