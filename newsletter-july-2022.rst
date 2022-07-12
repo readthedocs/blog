@@ -30,6 +30,7 @@ We've continued building a number of features and bug fixes in our roadmap:
 
 - We have shipped an initial set of **Example projects**, which allow users to `get started quickly`_ with Sphinx and MkDocs. We will add more examples in the upcoming month, the first one will be a Jupyter Notebook example. If you have any particular ideas in mind or know of a really cool real-world project that others should check out, please don't hesitate to reach out.
 - We added support for **HTML theme authors** to define where our `flyout menu`_ is put in their documentation pages. This is an ongoing effort to allow theme authors to integrate our features nicely into the look & feel of docs.
+- **sphinx-hoverxref** works `nicely with Jupyter Book <https://github.com/executablebooks/sphinx-book-theme/issues/577>` now and we `fixed manual references <https://github.com/readthedocs/sphinx-hoverxref/issues/199>`_. 
 - We improved the **UX around VCS support and pull request previews**, so that it's more obvious how to enable the notifications on your repository, and warn you if you don't have your account configured correctly.
 - To better support security, we have enabled **Content Security Policy headers** on our main dashboard sites.
 - We have improved our **dashboard translation workflow**, so that translations are now deployed each week, making our site easier to use for many folks around the world.
@@ -44,8 +45,8 @@ Some awesome documentation projects
 
 We are collecting entries for `Awesome Read the Docs Projects`_ - please do tell us about your favorites, either by sending an email or `opening a Pull Request`_!
 
-* `Setuptools`_ has made use of many cool theme settings and displays syntax alternatives in a tabbed interface -- see our `🤏 small 🧵 thread on Twitter <https://twitter.com/readthedocs/status/1546527820150718469>`_
-* `disnake`_ uses many light/dark interface tricks and has added many features for browsing API references -- see our `🤏 small 🧵 thread on Twitter <https://twitter.com/readthedocs/status/1541830875037503489>`_
+* `Setuptools`_ has made use of many cool theme settings and displays syntax alternatives in a tabbed interface -- see our `🧵 on Twitter <https://twitter.com/readthedocs/status/1546527820150718469>`_
+* `disnake`_ uses many light/dark interface tricks and has added many features for browsing API references -- see our `second 🧵 on Twitter <https://twitter.com/readthedocs/status/1541830875037503489>`_
 
 .. _Setuptools: https://setuptools.pypa.io/en/latest/
 .. _disnake: https://docs.disnake.dev/en/latest/
