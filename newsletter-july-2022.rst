@@ -28,7 +28,7 @@ New features
 
 We've continued building a number of features and bug fixes in our roadmap:
 
-- We have shipped an initial set of **Example projects**, which allow users to `get started quickly`_ with Sphinx and Mkdocs. We're excited to continue to build more example projects to help folks bootstrap their docs projects.
+- We have shipped an initial set of **Example projects**, which allow users to `get started quickly`_ with Sphinx and MkDocs. We will add more examples in the upcoming month, the first one will be a Jupyter Notebook example. If you have any particular ideas in mind or know of a really cool real-world project that others should check out, please don't hesitate to reach out.
 - We added support for **HTML theme authors** to define where our `flyout menu`_ is put in their documentation pages. This is an ongoing effort to allow theme authors to integrate our features nicely into the look & feel of docs.
 - We improved the **UX around VCS support and pull request previews**, so that it's more obvious how to enable the notifications on your repository, and warn you if you don't have your account configured correctly.
 - To better support security, we have enabled **Content Security Policy headers** on our main dashboard sites.
@@ -39,6 +39,18 @@ You can always see the latest changes to our platforms in our :doc:`Read the Doc
 .. _get started quickly: https://docs.readthedocs.io/en/latest/examples.html
 .. _flyout menu: https://docs.readthedocs.io/en/latest/flyout-menu.html
 
+Some awesome documentation projects
+-------------------------------------------
+
+We are collecting entries for `Awesome Read the Docs Projects`_ - please do tell us about your favorites, either by sending an email or `opening a Pull Request`_!
+
+* `Setuptools`_ has made use of many cool theme settings and displays syntax alternatives in a tabbed interface -- see our `🤏 small 🧵 thread on Twitter <https://twitter.com/readthedocs/status/1546527820150718469>`_
+* `disnake`_ uses many light/dark interface tricks and has added many features for browsing API references -- see our `🤏 small 🧵 thread on Twitter <https://twitter.com/readthedocs/status/1541830875037503489>`_
+
+.. _Setuptools: https://setuptools.pypa.io/en/latest/
+.. _disnake: https://docs.disnake.dev/en/latest/
+.. _Awesome Read the Docs Projects: https://github.com/readthedocs-examples/.github/
+.. _Opening a Pull Request: https://github.com/readthedocs-examples/.github/blob/main/contributing.md
 
 Upcoming features
 -----------------
@@ -56,6 +68,8 @@ Possible issues
 
 Considering using Read the Docs for your next documentation project?
 Check out `our documentation <https://docs.readthedocs.io/>`_ to get started!
+
+Questions? Comments? Ideas for the next newsletter? `Contact us`_!
 
 .. Keeping this here for now, in case we need to link to ourselves :)
 
