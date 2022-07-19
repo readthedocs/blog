@@ -5,6 +5,8 @@ Job Posting: Product-focused Application Developer
 
 .. |role| replace:: developer
 
+**Update: This role has been filled. If you're interested in working with us, we're always happy to hear from you, but we aren't actively hiring for this role currently.**
+
 * Location: Fully remote
 * Timezone: UTC-8 to UTC+1
 * Schedule: 4 or 5 days
@@ -65,6 +67,7 @@ Please fill out the below form to apply for this role.
 Normal response time is 3-5 days,
 and we intend to reply to all candidates who complete the application.
 
+..
     .. raw:: html
 
         <!-- Make it line up with the content -->
