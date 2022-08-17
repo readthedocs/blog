@@ -23,7 +23,7 @@ New features
 
 We've continued building a number of features and bug fixes in our roadmap:
 
-- We have more **Example projects**, which allow users to `get started quickly`_ with our products. We shipped an example for JupyterBook this month, which is of growing interest to our scientific users.
+- We have more **Example projects**, which allow users to `get started quickly`_ with our products. We shipped an example for Jupyter Book this month, which is of growing interest to our scientific users.
 - Scientific users are important for us, so we've put together a `landing page <https://docs.readthedocs.io/en/latest/science.html>`_ that highlights the benefits that our scientific users are seeing. 
 - We created a `GitHub action <https://github.com/readthedocs/actions>`_ that allows users to have a link to the Pull Request preview automatically added to the PR description. If users find this useful, we will continue to expand this functionality, and perhaps add it to our core platform so no configuration is needed. 
 - We improved the security and safety of our platform by making sure all invites for a team or project have to be approved by the user.
