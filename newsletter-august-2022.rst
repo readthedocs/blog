@@ -23,16 +23,18 @@ New features
 
 We've continued building a number of features and bug fixes in our roadmap:
 
-- We have more **Example projects**, which allow users to `get started quickly`_ with our products. We shipped an example for Jupyter Book this month, which is of growing interest to our scientific users.
+- We have more **Example projects**, which allow users to `get started quickly`_ with our products.
+We shipped `an example for Jupyter Book <example_jb>`_ this month, which is of growing interest to scientific and academic projects.
 - Scientific users are important for us, so we've put together a `landing page <https://docs.readthedocs.io/en/latest/science.html>`_ that highlights the benefits that our scientific users are seeing. 
 - We created a `GitHub action <https://github.com/readthedocs/actions>`_ that allows users to have a link to the Pull Request preview automatically added to the PR description. If users find this useful, we will continue to expand this functionality, and perhaps add it to our core platform so no configuration is needed. 
-- We improved the security and safety of our platform by making sure all invites for a team or project have to be approved by the user.
+- We improved the convenience and security of our platform by making sure all invites for a team or project are seen and approved by the invited user.
 
 
 You can always see the latest changes to our platforms in our :doc:`Read the Docs Changelog <readthedocs:changelog>`.
 
 .. _get started quickly: https://docs.readthedocs.io/en/latest/examples.html
 .. _flyout menu: https://docs.readthedocs.io/en/latest/flyout-menu.html
+.. _example_jb: https://example-jupyter-book.readthedocs.io/
 
 Awesome documentation projects
 ------------------------------
@@ -60,6 +62,7 @@ Upcoming features
 - We are working on some improvements to our URL handling code, which will allow us to support more flexible URL configurations for projects.
 - As mentioned before, we are shifting some of our focus to frontend & marketing these next few months. We're getting close to shipping our new landing page, which we're excited about.
 - We're continuing to focus on outreach for our new build customization features, so that we can continue to improve them with your feedback.
+- Our main theme `sphinx_rtd_theme` will soon be revived after a period of inactivity and we will do a number of smaller releases in Q3 and Q4.
 
 Possible issues
 ---------------
