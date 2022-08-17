@@ -67,7 +67,10 @@ Upcoming features
 Possible issues
 ---------------
 
-We are actively working to deprecate jQuery from our code, as well as `guide the Sphinx ecosystem <https://github.com/sphinx-doc/sphinx/issues/10608>`_ through the transition. 
+We have `unpinned Pillow for some Python versions <https://github.com/readthedocs/readthedocs.org/pull/9473>`_.
+This could break some builds, but we haven't receive any complaints yet.
+
+We continue to actively deprecate jQuery from our code, as well as `guide the Sphinx ecosystem <https://github.com/sphinx-doc/sphinx/issues/10608>`_ through the transition. 
 
 ----
 
