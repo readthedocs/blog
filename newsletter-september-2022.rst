@@ -46,7 +46,7 @@ Possible issues
 
 We have been having an ongoing issue with our Gitlab integration,
 where we can't refresh OAuth tokens for users.
-This has caused GitLab syncing to randomly break around 30 days after users enable it.
+This has caused GitLab integration to randomly break after users enable it.
 We believe we have found a fix for this,
 which will be deployed soon.
 
