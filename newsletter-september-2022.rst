@@ -44,6 +44,12 @@ Upcoming features
 Possible issues
 ---------------
 
+We have been having an ongoing issue with our Gitlab integration,
+where we can't refresh OAuth tokens for users.
+This has caused GitLab syncing to randomly break around 30 days after users enable it.
+We believe we have found a fix for this,
+which will be deployed soon.
+
 We are planning to be more active in deprecating old and outdated approaches to using our platform in Q4.
 We don't have anything firm to announce here yet,
 but we do plan to be more active in removing these features in the coming months.
