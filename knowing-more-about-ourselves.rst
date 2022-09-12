@@ -54,7 +54,7 @@ Plotting it nicely
 ------------------
 
 `EthicalAds <https://www.ethicalads.io/>`_, the privacy-focused ad network Read the Docs is behind,
-suggested us to `Metabase <https://www.metabase.com/>`_ since they were already using it for a similar use case and they were happy with it.
+suggested us to use `Metabase <https://www.metabase.com/>`_ since they were already using it for a similar use case and they were happy with it.
 We connected our PostgreSQL replica database to it and started plotting this data to get some insights from it.
 We found awesome things we want to start sharing with all the documentation community,
 since we think it will useful not only for ourselves but also for package maintainers.
