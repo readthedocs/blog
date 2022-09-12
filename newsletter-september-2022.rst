@@ -56,6 +56,15 @@ but we do plan to be more active in removing these features in the coming months
 
 We continue to actively deprecate jQuery from our code, as well as `guide the Sphinx ecosystem <https://github.com/sphinx-doc/sphinx/issues/10608>`_ through the transition. 
 
+Tip of the month
+----------------
+
+This month's tip comes from our Twitter account:
+
+.. raw:: html
+
+   <blockquote class="twitter-tweet" data-dnt="true"><p lang="en" dir="ltr">Did you know that you can set up Slack notifications for your builds on Read the Docs? Get immediate feedback about your builds and never lose a failing build again! Full documentation at <a href="https://t.co/TONuhWUypq">https://t.co/TONuhWUypq</a> <a href="https://t.co/sP1kGHBF2d">pic.twitter.com/sP1kGHBF2d</a></p>&mdash; Read the Docs (@readthedocs) <a href="https://twitter.com/readthedocs/status/1565320733860909056?ref_src=twsrc%5Etfw">September 1, 2022</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
 ----
 
 Considering using Read the Docs for your next documentation project?
