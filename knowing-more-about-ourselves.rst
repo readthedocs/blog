@@ -64,6 +64,8 @@ Sphinx extensions used in the last 15 days
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 .. image:: img/sphinx-extensions.png
+   :align: center
+	 :width: 100%
 
 .. note::
 
@@ -75,30 +77,40 @@ Sphinx adoption over time
 ~~~~~~~~~~~~~~~~~~~~~~~~~
 
 .. image:: img/sphinx-adoption.png
+   :align: center
+	 :width: 100%
 
 
 Projects using MyST to write Markdown
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 .. image:: img/myst-parser.png
+   :align: center
+	 :width: 100%
 
 
 VCS types used by projects with success builds in last year
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 .. image:: img/project-vcs-types.png
+   :align: center
+	 :width: 100%
 
 
 Docker image used on build in last 15 days
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 .. image:: img/build-docker-images.png
+   :align: center
+	 :width: 100%
 
 
 Build time per project
 ~~~~~~~~~~~~~~~~~~~~~~
 
 .. image:: img/build-times.png
+   :align: center
+	 :width: 100%
 
 
 Analyzing the data
