@@ -63,7 +63,7 @@ since we think it will useful not only for ourselves but also for package mainta
 Sphinx extensions used in the last 15 days
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-.. image:: sphinx-extensions.png
+.. image:: img/sphinx-extensions.png
 
 .. note::
 
@@ -74,31 +74,31 @@ Sphinx extensions used in the last 15 days
 Sphinx adoption over time
 ~~~~~~~~~~~~~~~~~~~~~~~~~
 
-.. image:: sphinx-adoption.png
+.. image:: img/sphinx-adoption.png
 
 
 Projects using MyST to write Markdown
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-.. image:: myst-parser.png
+.. image:: img/myst-parser.png
 
 
 VCS types used by projects with success builds in last year
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-.. image:: project-vcs-types.png
+.. image:: img/project-vcs-types.png
 
 
 Docker image used on build in last 15 days
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-.. image:: build-docker-images.png
+.. image:: img/build-docker-images.png
 
 
 Build time per project
 ~~~~~~~~~~~~~~~~~~~~~~
 
-.. image:: build-times.png
+.. image:: img/build-times.png
 
 
 Analyzing the data
