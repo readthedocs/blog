@@ -27,7 +27,7 @@ The latest updates from our team:
 
 - 🎉 We have soft launched the `initial version of our new landing pages <https://about.readthedocs.com/>`_ and started sharing it with the community. We plan to eventually have this as our primary landing page once we've gotten more feedback on it. 
 - We have improved out logic for `cancelling builds when a commit is pushed to an already building version <https://github.com/readthedocs/readthedocs.org/pull/9549>`_. This will improve user experience waiting on a build that will be overwritten, and save our servers some time as well!
-- We continued improving our docs pages. This month we did `badges <https://docs.readthedocs.io/en/stable/badges.html>` & `build troubleshooting <https://docs.readthedocs.io/en/stable/build-troubleshooting.html>`_.
+- We continued improving our docs pages. This month we did `badges <https://docs.readthedocs.io/en/stable/badges.html>`_ & `build troubleshooting <https://docs.readthedocs.io/en/stable/build-troubleshooting.html>`_.
 - A lot of work has continued to standardize our codebase on the ``djstripe`` package, instead of our own custom stripe webhook implementation.
 - We improved our custom domain handling so that users who haven't properly activated their domain will get reminded about it a few times, and then we'll stop trying to configure it.
 
