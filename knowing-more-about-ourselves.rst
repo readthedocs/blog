@@ -46,7 +46,8 @@ This new data allows us to answer a whole new set of questions,
 and is mainly related to the build process
 The new information that we're collecting includes:
 
-* Python dependencies installed during a documentation build
+* OS and Python version used to build the documentation
+* Python and Conda dependencies installed during a documentation build
 * Apt packages installed prior to building docs
 * The entire contents of the `Read the Docs configuration file <https://docs.readthedocs.io/en/stable/config-file/index.html>`_
 
