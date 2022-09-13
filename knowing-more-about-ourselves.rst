@@ -1,4 +1,4 @@
-.. post:: September 12, 2022
+.. post:: September 13, 2022
    :tags: metabase, data, grant
    :author: Manuel
    :location: BCN
@@ -72,6 +72,13 @@ Sphinx extensions used in the last 15 days
    :align: center
    :width: 100%
 
+
+This plot helps us to understand the Sphinx ecosystem in general and
+to measure the adoption of our own extensions:
+`sphinx-hoverxref <https://sphinx-hoverxref.readthedocs.io/>`_  and `sphinx-notfound-page <https://sphinx-notfound-page.readthedocs.io/>`_.
+We plan to share these results to the Sphinx maintainers,
+since this will be helpful on the conversation we are having about `Removing JavaScript Dependencies <https://github.com/sphinx-doc/sphinx/issues/10070>`_.
+
 .. note::
 
    We excluded ``sphinx-rtd-theme`` and ``sphinxcontrib-websupport`` because they are too high and break the relation with the others in the graph.
@@ -85,12 +92,32 @@ Sphinx adoption over time
    :width: 100%
 
 
+On this plot we can see that with each new release of Sphinx,
+the old version decrease while the just released one increases.
+This is mainly because most of the projects are not pinning Sphinx and Read the Docs is installing the latest version by default.
+Note that versions marked with a red rectangle are the most relevant ones for this analysis,
+and are highlighted just to improve readability.
+
+There is something that's pretty prominent on this plot as well.
+The old version 1.8.6 has around 1000 projects, which could look suspicious at first sight.
+However, this is because Read the Docs still defaults to 1.8.6 on projects created before Oct 20, 2020.
+This is to keep compatibility with old projects and avoid breaking their builds without notification.
+
+
 Projects using MyST to write Markdown in Sphinx
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 .. image:: /img/myst-parser.png
    :align: center
    :width: 100%
+
+
+This is a similar plot than the previous one but for `MyST parser <https://myst-parser.readthedocs.io/>`_.
+We are interested in knowing how many projects are writing Markdown using Sphinx.
+Many people don't know it's possible to write Markdown while keep using Sphinx and all the amazing features it has.
+Interestingly, the number of projects using MyST parser, currently, is higher than the number of projects using MkDocs.
+If you are reading this and you didn't know about MyST parser,
+we strongly recommend you to give it a try!
 
 
 VCS types used by projects with successful builds in last year
@@ -101,6 +128,10 @@ VCS types used by projects with successful builds in last year
    :width: 100%
 
 
+This simple plot helped us while discussing about `start deprecating old VCS support <https://github.com/readthedocs/readthedocs.org/issues/8840>`_.
+We can immediately notice that 99% of the projects with success builds in the last year are using Git as VCS.
+
+
 Docker image used in the last 15 days
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
@@ -109,12 +140,34 @@ Docker image used in the last 15 days
    :width: 100%
 
 
+We had a similar deprecation discussion about the old Docker images that we still maintain.
+These images have been `generating some issues lately <https://github.com/readthedocs/readthedocs.org/issues/9527#issuecomment-1222063156>`_ due to the old packages installed on them,
+they make the UX more complex since they user has more options to decide between,
+and also have some other technical benefits while doing deploys.
+
+With that context in mind and the insights we can get from this plot,
+we could say that ``testing``, ``stable`` and ``7.0`` could start being deprecated
+and finally removed in the near future since they are not used by many projects.
+
+
 Build time per project
 ~~~~~~~~~~~~~~~~~~~~~~
 
 .. image:: /img/build-times.png
    :align: center
    :width: 100%
+
+
+Thanks to this plot we were able to find some anomalies in the last weeks.
+We noticed that there were a few projects consuming 3x build time that their successor.
+This was due the development workflow they follow (multiple pushes with small commits),
+making our platform to trigger multiple builds where each of them took more than 15 minutes to complete.
+This generated a bad UX, since they had to wait for *all the old builds to finish*
+before being able to see the results from the latest builds --  which was the only valid one.
+
+After noticing this happening pretty frequently to this projects,
+we prioritized the work on `Cancel old builds <https://github.com/readthedocs/readthedocs.org/issues/8961>`_,
+reducing the computing time for our servers and the waiting time for our users: Win-Win!
 
 
 Analyzing the data
@@ -150,6 +203,3 @@ or if  there are any data or plots you are interested in so that we can query ou
 We will continue taking a look at this data in the following months.
 Try to find more insights that helps us to make better decision for our product and users.
 Subscribe to our newsletter so you don't miss it!
-
-
-
