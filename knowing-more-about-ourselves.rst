@@ -159,11 +159,11 @@ Build time per project
    :width: 100%
 
 
-Thanks to this plot we were able to find some anomalies in the last weeks.
-We noticed that there were a few projects consuming 3x build time that their successor.
+Thanks to this plot we were able to find some anomalies in our builds.
+We noticed that there were a few projects consuming 3x build time between different builds.
 This was due to the development workflow they follow (multiple pushes with small commits),
 making our platform to trigger multiple builds where each of them took more than 15 minutes to complete.
-This generated a bad UX, since they had to wait for *all the old builds to finish*
+This caused a bad UX, since they had to wait for *all the old builds to finish*
 before being able to see the results from the latest builds --  which was the only valid one.
 
 After noticing this happening pretty frequently to these projects,
