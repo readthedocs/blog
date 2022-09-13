@@ -5,7 +5,7 @@
 
 .. meta::
    :description lang=en:
-      Collect and analyze project and build data to make better decision about our product
+      Collect and analyze project and build data to make better decisions about our product
       with a strong focus on the user experience.
 
 Knowing more about how people use our service
@@ -40,7 +40,7 @@ A few examples would be:
 * build metadata (e.g. number of builds, length of builds)
 * platform information (redirects, webhooks, search queries, pageviews)
 
-With our new data collections project,
+With our new data collection project,
 we were able to collect a lot of new, interesting data.
 This new data allows us to answer a whole new set of questions,
 and is mainly related to the build process.
