@@ -23,7 +23,7 @@ Last year, with the growth of our product and the team,
 plus the `CZI grant we received <https://blog.readthedocs.com/czi-grant-announcement/>`_,
 we started asking ourselves some questions that we couldn't answer with the data we had.
 We decided to `start working on a project <https://github.com/readthedocs/readthedocs.org/pull/8124>`_
-to collect relevant data to answer a large number questions about how people use our service.
+to collect relevant data to answer a large number of questions about how people use our service.
 
 What data are we collecting?
 ----------------------------
@@ -43,10 +43,10 @@ A few examples would be:
 With our new data collections project,
 we were able to collect a lot of new, interesting data.
 This new data allows us to answer a whole new set of questions,
-and is mainly related to the build process
+and is mainly related to the build process.
 The new information that we're collecting includes:
 
-* OS and Python version used to build the documentation
+* OS and Python versions used to build the documentation
 * Python and Conda dependencies installed during a documentation build
 * Apt packages installed prior to building docs
 * The entire contents of the `Read the Docs configuration file <https://docs.readthedocs.io/en/stable/config-file/index.html>`_
@@ -82,7 +82,7 @@ since this will be helpful on the conversation we are having about `Removing Jav
 
 .. note::
 
-   We excluded ``sphinx-rtd-theme`` and ``sphinxcontrib-websupport`` because they are too high and break the relation with the others in the graph.
+   We excluded our own theme and Sphinx's core depedencies because they are too high and break the relation with the others in the graph.
    Also, only extensions used by more than 10 projects are showed.
 
 Sphinx adoption over time
@@ -94,7 +94,7 @@ Sphinx adoption over time
 
 
 On this plot we can see that with each new release of Sphinx,
-the old version decrease while the just released one increases.
+the old versions decrease while the just released one increases.
 This is mainly because most of the projects are not pinning Sphinx and Read the Docs is installing the latest version by default.
 Note that versions marked with a red rectangle are the most relevant ones for this analysis,
 and are highlighted just to improve readability.
@@ -143,8 +143,8 @@ Docker image used in the last 15 days
 
 We had a similar deprecation discussion about the old Docker images that we still maintain.
 These images have been `generating some issues lately <https://github.com/readthedocs/readthedocs.org/issues/9527#issuecomment-1222063156>`_ due to the old packages installed on them,
-they make the UX more complex since they user has more options to decide between,
-and also have some other technical benefits while doing deploys.
+they make the UX more complex since users have more options to decide between,
+and also have some technical benefits while doing deploys.
 
 With that context in mind and the insights we can get from this plot,
 we could say that ``testing``, ``stable`` and ``7.0`` could start being deprecated
@@ -161,12 +161,12 @@ Build time per project
 
 Thanks to this plot we were able to find some anomalies in the last weeks.
 We noticed that there were a few projects consuming 3x build time that their successor.
-This was due the development workflow they follow (multiple pushes with small commits),
+This was due to the development workflow they follow (multiple pushes with small commits),
 making our platform to trigger multiple builds where each of them took more than 15 minutes to complete.
 This generated a bad UX, since they had to wait for *all the old builds to finish*
 before being able to see the results from the latest builds --  which was the only valid one.
 
-After noticing this happening pretty frequently to this projects,
+After noticing this happening pretty frequently to these projects,
 we prioritized the work on `Cancel old builds <https://github.com/readthedocs/readthedocs.org/issues/8961>`_,
 reducing the computing time for our servers and the waiting time for our users: Win-Win!
 
@@ -193,7 +193,7 @@ and how our users use it.
 Conclusion
 ----------
 
-We are really happy with data we were able to plot so far!
+We are really happy with the data we were able to plot so far!
 At the moment, we only have data for the last ~6 months and it has been useful already.
 It has been very interesting to use these plots to make arguments when evaluating the deprecation of a feature,
 or even when *suggesting a new UX* in the discussions we've had recently.
