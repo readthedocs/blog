@@ -10,7 +10,7 @@ Some `months ago`_ GitLab started enforcing an expiration time of two hours for 
 
 .. _months ago: https://gitlab.com/gitlab-org/gitlab/-/blob/master/CHANGELOG.md#1500-2022-05-20
 
-Unfortunately, our application `wasn't ready`__ to handle this change,
+Unfortunately, our application `wasn't ready`_ to handle this change,
 so your OAuth tokens may have expired.
 OAuth tokens are used to interact with the GitLab API,
 for reporting the status of merge requests, creating webhooks, listing repositories etc.
