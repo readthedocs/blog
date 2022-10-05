@@ -34,7 +34,6 @@ Besides, on October 3rd we enabled it for all the projects, which is reflected o
    :align: center
    :width: 100%
 
-
 Today, we are happy to announce that we are enabling this feature for all the projects.
 We have received really good feedback from our test users,
 particularly around the user experience when triggering multiple builds frequently.
