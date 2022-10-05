@@ -11,14 +11,15 @@
 Auto-cancel invalid builds
 ==========================
 
-Read the Docs allows you to keep the documentation always up to date in a simple way
-by triggering a new build each time developers push to the repository imported.
-This is usually fine, but depending on the developers workflow, there could be situations
-where the push are done one immediately after the other making the first builds triggered invalid.
+Read the Docs allows you to keep your documentation up to date in a simple way,
+by triggering a new build each time developers push a git repository. 
+Depending on the your workflow, there could be situations
+where multiple pushes are done during a short time window.
+This causes a situation where you have to wait a long time for a build that will be immediately overwritten.
 
-To avoid waiting for those invalid builds to be executed first and finally execute the latest one with the final changes,
-we implemented a new feature to cancel those invalid builds and only execute the latest one.
-This considerably improves the user experience and also reduce resource costs and energy waste.
+To avoid waiting for those builds to be executed,
+we implemented a new feature to cancel these useless builds and only execute the latest one.
+This considerably improves the user experience and also reduces resource costs and energy waste.
 
 More than a month ago,
 `we enabled this feature for a subset of projects <https://github.com/readthedocs/readthedocs.org/issues/8961#issuecomment-1231867076>`_
@@ -31,8 +32,10 @@ The following plot shows cancelled builds per project:
    :width: 100%
 
 
-Today, we are happy to announce that we decided to enable this feature for all the projects because we have received really good feedback about it
-and we noticed a pretty good improvement on the user experience when triggering multiple builds frequently.
+Today, we are happy to announce that we are enabling this feature for all the projects.
+We have received really good feedback from our test users,
+particularly around the user experience when triggering multiple builds frequently.
 
-Thanks you all for you help while working on this feature and we hope you get a better experience starting today.
-Let us know if you find anything not working as expected.
+We appreciate the feedback that our test users gave us,
+and we're excited to roll this out to all our users.
+Please let us know if you any new issues around cancelled builds as we roll out this feature more widely.
