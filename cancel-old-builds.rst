@@ -1,20 +1,20 @@
-.. post:: October 4, 2022
+.. post:: October 5, 2022
    :tags: builds, ci
    :author: Manuel
    :location: BCN
 
 .. meta::
    :description lang=en:
-      A new feature that auto-cancels invalid builds was deployed. It improves the user experience,
+      A new feature that auto-cancels useless builds was deployed. It improves the user experience,
       reduces resource costs and also energy waste.
 
-Auto-cancel invalid builds
-==========================
+Auto-canceling builds when pushing to the same branch twice
+===========================================================
 
 Read the Docs allows you to keep your documentation up to date in a simple way,
-by triggering a new build each time developers push a git repository. 
-Depending on the your workflow, there could be situations
-where multiple pushes are done during a short time window.
+by triggering a new build each time developers push a git repository.
+Depending on your workflow,
+there could be situations where multiple pushes are done during a short time window.
 This causes a situation where you have to wait a long time for a build that will be immediately overwritten.
 
 To avoid waiting for those builds to be executed,
@@ -24,8 +24,11 @@ This considerably improves the user experience and also reduces resource costs a
 More than a month ago,
 `we enabled this feature for a subset of projects <https://github.com/readthedocs/readthedocs.org/issues/8961#issuecomment-1231867076>`_
 to do a small test before rolling it out to all the projects.
-In the past 30 days, we have cancelled around 6k builds on this subset of projects.
-The following plot shows cancelled builds per project:
+In the past month, we have cancelled around 5k builds due to this reason on this subset of projects.
+The following plot shows cancelled builds per day in the last 2 months.
+Before August 29th, when this feature was enabled, only *manually* canceled builds are shown.
+After enabling the feature and adding it to some projects, we can notice an increase of cancelled builds.
+Besides, on October 3rd we enabled it for all the projects, which is reflected on the plot showing a peak on it:
 
 .. image:: /img/cancelled-builds.png
    :align: center
