@@ -16,7 +16,17 @@ OAuth tokens are used to interact with the GitLab API,
 for reporting the status of merge requests, creating webhooks, and listing repositories.
 In order for Read the Docs to have access to new fresh tokens,
 you need to re-connect your GitLab account.
-You can do this by clicking the ``Login with GitLab`` button on the Read the Docs login page.
+You can do this by:
+
+- Going to your RTD account settings
+- Click on ``Connected services``
+- Click on ``Connect to GitLab``
+
+Or by following the link:
+
+- https://readthedocs.org/accounts/gitlab/login/?process=connect
+- Or https://readthedocs.com/accounts/gitlab/login/?process=connect
+  if you are using Read the Docs for Business.
 
 We apologize for any inconvenience caused.
 
