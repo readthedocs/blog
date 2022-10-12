@@ -15,7 +15,7 @@ September was exciting because a few members of our team finally got to gather i
 Manuel, Benjamin, and Eric all attended Djangocon Europe in September,
 and had lots of great discussions around documentation.
 
-Also, as we mentioned in Q4 we're going to be focusing on our core platform features.
+Also, as we mentioned, in Q4 we're going to be focusing on our core platform features.
 This means we'll have fewer new features to talk about, 
 but lots of smaller improvements to the overall experience of using Read the Docs.
 
@@ -24,7 +24,7 @@ New features
 
 The latest updates from our team:
 
-- We fully rolled out support for auto-cancelling users when a user pushes to a branch. We wrote up a `full post <https://blog.readthedocs.com/cancel-old-builds/>`_ on the blog about it, where you can read more.
+- We fully rolled out support for auto-cancelling running builds when a user does multiple pushes to a branch in a small window of time. We wrote up a `full post <https://blog.readthedocs.com/cancel-old-builds/>`_ on the blog about it, where you can read more.
 - Redirects can now be edited directly in our dashboard. This was an oversight that we are glad to have finally fixed the UX around.
 - We fixed the bug we had previously mentioned around Gitlab tokens expiring. This caused PR builds for these users to stop properly reporting status. If you login with Gitlab again on our service, they will continue working indefinitely now.
 
@@ -36,7 +36,7 @@ Upcoming features
 Our roadmap hasn't progressed too much from last month,
 and we continue to focus on these core platform upgrades:
 
-- We're working on improving our integration with mkdocs-material, which is a great theme for mkdocs documentation projects.
+- We're working on improving our integration with Material for MkDocs, which is a great theme for MkDocs documentation projects.
 - Many improvements to our URL handling code, which will allow us to support more flexible URL configurations for projects.
 - A search redesign to make it nicer across our dashboard and in-doc search experiences. 
 
