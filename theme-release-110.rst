@@ -8,7 +8,7 @@
         Information on sphinx-rtd-theme version 1.1.0
 
 
-Theme release 1.1.0
+Announcing sphinx_rtd_theme 1.1.0
 ===================
 
 We are happy to announce the release of new version of our theme, `sphinx-rtd-theme`_. In this release, we have focused on bug fixes, backwards compatibility, and making the way for future releases.
