@@ -21,14 +21,14 @@ Changes and new features 💄
 ---------------------------
 
 Visually, we have a couple of small tweaks that most people won't notice unless we mention them here 😇
-The general strategy of the theme is to avoid breaking stuff, and that also goes for the visual parts.
+The objective of 1.1 release is to maintain backwards compatibility, and that also goes for the visual parts.
 
 * The ``<kbd>`` tag now has a nicer styling.
-* Breadcrumb styling has been updated
+* Breadcrumb styling has been updated.
 * Table cells with multiple paragraphs now have a correct formatting.
-* Definition lists rendered correctly in API docs
-* Issues with citation rendering and styling fixed
-* Long URLs break into several lines instead of overflowing
+* Definition lists rendered correctly in API docs.
+* Issues with citation rendering and styling fixed.
+* Long URLs break into several lines instead of overflowing.
 
 .. image:: img/sphinx-rtd-theme-110-screenshot1.png
    :width: 30%
@@ -42,14 +42,14 @@ The general strategy of the theme is to avoid breaking stuff, and that also goes
    :width: 30%
    :target: _images/sphinx-rtd-theme-110-screenshot3.png
 
-In the engine-room, we have ensured the long-term stability for users of the theme by putting upper bounds on ``Sphinx<6`` and ``docutils<0.18``.
+In the engine room, we have ensured the long-term stability for users of the theme by putting upper bounds on ``Sphinx<6`` and ``docutils<0.18``.
 
 We also fixed an issue that caused the theme to fail when Sphinx ``5.2.0.post0`` was released and will ensure that this doesn't happen again.
 
 `Read the full changelog <changelog>`_
 
 
-.. _changelog: https://github.com/readthedocs/sphinx_rtd_theme/blob/master/docs/changelog.rst
+.. _changelog: https://sphinx-rtd-theme.readthedocs.io/en/stable/changelog.html
 
 
 How to upgrade
@@ -57,10 +57,9 @@ How to upgrade
 
 If you are using the theme for the first time, please refer the general `installation instructions <install>`_.
 
-For projects hosted on Read the Docs, the general update instruction is to modify your project's ``requirements.txt`` where you should add ``sphinx-rtd-theme==1.1.0`` (or replace any existing entries).
+For most projects, including projects hosted on Read the Docs, the general update instruction is to modify your project's ``requirements.txt`` where you should add ``sphinx-rtd-theme==1.1.0`` (or replace any existing entries).
 
-If your project doesn't have a Python requirements file ``requirements.txt``, you need to add one in order to use newer versions of sphinx-rtd-theme.
-Read the Docs doesn't automatically update Python packages such as ``Sphinx`` or ``sphinx-rtd-theme`` because this risks breaking existing projects.
+If you have a project on Read the Docs without a Python requirements file ``requirements.txt``, you need to add one in order to use newer versions of sphinx-rtd-theme.
 You can read more about adding a ``requirements.txt`` in our :doc:`Documentation about Reproducible Builds <readthedocs:guides/reproducible-builds>`.
 
 .. _install: https://sphinx-rtd-theme.readthedocs.io/en/stable/installing.html
@@ -79,3 +78,14 @@ Here are the highlights from our roadmap:
 If you wish to see more details, `view the full roadmap <roadmap>`_.
 
 .. _roadmap: https://sphinx-rtd-theme.readthedocs.io/en/stable/development.html#roadmap 
+
+
+Contributing
+------------
+
+If you experience any issues with the theme, we welcome you to visit the GitHub repository `readthedocs/sphinx-rtd-theme <repo>`.
+
+For support questions, consider asking in one of the `Read the Docs community support channels <support>`_.
+
+.. _repo: https://github.com/readthedocs/sphinx_rtd_theme/
+.. _support: https://dev.readthedocs.io/en/latest/contribute.html#get-in-touch
