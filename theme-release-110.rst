@@ -31,16 +31,16 @@ The objective of 1.1 release is to maintain backwards compatibility, and that al
 * Long URLs break into several lines instead of overflowing.
 
 .. image:: img/sphinx-rtd-theme-110-screenshot1.png
-   :width: 30%
-   :target: _images/sphinx-rtd-theme-110-screenshot1.png
+   :scale: 12%
+   :align: right
 
 .. image:: img/sphinx-rtd-theme-110-screenshot2.png
-   :width: 30%
-   :target: _images/sphinx-rtd-theme-110-screenshot2.png
+   :scale: 16%
+   :align: right
 
 .. image:: img/sphinx-rtd-theme-110-screenshot3.png
-   :width: 30%
-   :target: _images/sphinx-rtd-theme-110-screenshot3.png
+   :scale: 16%
+   :align: right
 
 In the engine room, we have ensured the long-term stability for users of the theme by putting upper bounds on ``Sphinx<6`` and ``docutils<0.18``.
 
