@@ -46,23 +46,18 @@ In the engine room, we have ensured the long-term stability for users of the the
 
 We also fixed an issue that caused the theme to fail when Sphinx ``5.2.0.post0`` was released and will ensure that this doesn't happen again.
 
-`Read the full changelog <changelog>`_
-
-
-.. _changelog: https://sphinx-rtd-theme.readthedocs.io/en/stable/changelog.html
+`Read the full changelog <https://sphinx-rtd-theme.readthedocs.io/en/stable/changelog.html>`_
 
 
 How to upgrade
 --------------
 
-If you are using the theme for the first time, please refer the general `installation instructions <install>`_.
+If you are using the theme for the first time, please refer the general `installation instructions <https://sphinx-rtd-theme.readthedocs.io/en/stable/installing.html>`_.
 
 For most projects, including projects hosted on Read the Docs, the general update instruction is to modify your project's ``requirements.txt`` where you should add ``sphinx-rtd-theme==1.1.0`` (or replace any existing entries).
 
 If you have a project on Read the Docs without a Python requirements file ``requirements.txt``, you need to add one in order to use newer versions of sphinx-rtd-theme.
 You can read more about adding a ``requirements.txt`` in our :doc:`Documentation about Reproducible Builds <readthedocs:guides/reproducible-builds>`.
-
-.. _install: https://sphinx-rtd-theme.readthedocs.io/en/stable/installing.html
 
 
 Upcoming releases
@@ -75,17 +70,12 @@ Here are the highlights from our roadmap:
 * sphinx-rtd-theme 1.2: `Address jQuery removal from Sphinx <https://github.com/readthedocs/readthedocs.org/pull/9665>`_, `adds docutils 0.18 support <https://github.com/readthedocs/readthedocs.org/pull/9665>`, possibly also `docutils 0.19 support <https://github.com/readthedocs/sphinx_rtd_theme/pull/1336>`_
 * sphinx-rtd-theme 2.0: Adds Sphinx 6.x support, dropping legacy support for several Sphinx releases and old browsers.
 
-If you wish to see more details, `view the full roadmap <roadmap>`_.
-
-.. _roadmap: https://sphinx-rtd-theme.readthedocs.io/en/stable/development.html#roadmap 
+If you wish to see more details, `view the full roadmap <https://sphinx-rtd-theme.readthedocs.io/en/stable/development.html#roadmap>`_.
 
 
 Contributing
 ------------
 
-If you experience any issues with the theme, we welcome you to visit the GitHub repository `readthedocs/sphinx-rtd-theme <repo>`.
+If you experience any issues with the theme, we welcome you to visit the GitHub repository `readthedocs/sphinx-rtd-theme <https://github.com/readthedocs/sphinx_rtd_theme/>`.
 
-For support questions, consider asking in one of the `Read the Docs community support channels <support>`_.
-
-.. _repo: https://github.com/readthedocs/sphinx_rtd_theme/
-.. _support: https://dev.readthedocs.io/en/latest/contribute.html#get-in-touch
+For support questions, consider asking in one of the `Read the Docs community support channels <https://dev.readthedocs.io/en/latest/contribute.html#get-in-touch>`_.
