@@ -79,8 +79,6 @@ templates_path.append(os.path.join(
 ))
 templates_path.append(ablog.get_html_templates_path())
 
-html4_writer = True
-
 if os.environ.get('READTHEDOCS', None) == 'True':
     skip_pickling = True
 
@@ -96,7 +94,7 @@ master_doc = 'index'
 
 # General information about the project.
 project = u'Read the Docs Blog'
-copyright = u'2021, Read the Docs, Inc'
+copyright = u'Read the Docs, Inc'
 
 # The version info for the project you're documenting, acts as replacement for
 # |version| and |release|, also used in various other places throughout the

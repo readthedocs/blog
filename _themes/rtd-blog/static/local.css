@@ -1,3 +1,8 @@
+h1, h2, h3, h4, h5, h6
+{
+  margin: 1em 0;
+}
+
 div.section h1 {
     font-size: 1.3em;
 }
@@ -16,7 +21,7 @@ div.section h4, div.section h5, div.section h6 {
 
 div.section ul {
     list-style: inside;
-    margin: 1em;
+    margin: 1em 0;
 }
 
 div.section p {
@@ -96,14 +101,17 @@ table.footnote td.label {
     padding: .65em;
 }
 
+.postlist {
+  margin: 1em 0;
+}
+
 .postlist li {
     list-style: none;
 }
 
-.postlist p.first {
+.postlist p.first, .postlist .ablog-post-title {
     font-size: 24px;
 }
-
 
 img.align-center {
     display: block;
