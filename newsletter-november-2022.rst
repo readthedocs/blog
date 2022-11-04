@@ -19,11 +19,11 @@ New features
 
 The latest updates from our team:
 
-- :doc:`sphinx-rtd-theme 1.1.0 </theme-release-110>` has been released with minor improvements and as a step towards more development in the near future.
+- :doc:`sphinx-rtd-theme 1.1.0 </theme-release-110>` has been released with minor improvements and as a big step towards future releases with larger changes.
 - After rolling out auto-cancelling builds `last month <https://blog.readthedocs.com/cancel-old-builds/>`_, we have already recorded a whopping 10% decrease in builds.
   We're really happy with how this turned out, not least that it effectively reduces our cloud footprint by 10% 🌱.
 - We started incrementally refactoring our own documentation to match the `Diátaxis framework <https://diataxis.fr/>`_. We will be writing more about this, as we are currently gaining practical experience.
-- Much thanks to `AA-Turner <https://github.com/AA-Turner>`_ and the Sphinx community for working together on a proposal and releasing the extension `sphinxcontrib-jquery <http://pypi.org/project/sphinxcontrib-jquery>`_. This extension is required for themes and extensions that need jQuery from Sphinx 6 and onewards. Sphinx 6.0 is scheduled for December 2022.
+- Much thanks to `AA-Turner <https://github.com/AA-Turner>`_ and the Sphinx community for working together on a proposal and releasing the extension `sphinxcontrib-jquery <http://pypi.org/project/sphinxcontrib-jquery>`_. This extension is required for themes and extensions that need jQuery from Sphinx 6 and onewards. Sphinx 6.0 is scheduled for December 2022 and will no longer bundle jQuery.
 
 You can always see the latest changes to our platforms in our :doc:`Read the Docs Changelog <readthedocs:changelog>`.
 
@@ -31,7 +31,7 @@ You can always see the latest changes to our platforms in our :doc:`Read the Doc
 Upcoming features
 -----------------
 
-- Soon, a 1.2.0 release of :ref:`sphinx-rtd-theme <sphinx_rtd_theme110_upcoming_releases>` will support docutils 0.18 and Sphinx 6.
+- A 1.2.0 release of :ref:`sphinx-rtd-theme <sphinx_rtd_theme110_upcoming_releases>` will support docutils 0.18 and Sphinx 6.
 - We're working on improving our integration with Material for MkDocs, which is a great theme for MkDocs documentation projects.
 - Many improvements to our URL handling code, which will allow us to support more flexible URL configurations for projects.
 - A search redesign to make it nicer across our dashboard and in-doc search experiences. 
@@ -52,15 +52,18 @@ but we do plan to be more active in removing these features in the coming months
 Tip of the month
 ----------------
 
-TBD
+This Tip of the Month comes from our own experience. We have greatly benefitted from the following two Python/Django projects:
+
+- `blacken-docs <https://github.com/adamchainz/blacken-docs>`_ is a pre-commit linter that checks and formats your Python code. In other words, it helps you make sure that your documentation's code examples look great.
+- `django-upgrade <https://github.com/adamchainz/django-upgrade>`_ saves us a lot of time each time we upgrade to the latest Django version.
+
+As you might have noticed, both of these projects are maintained by `Adam Johnson <https://adamj.eu/>`_. Thanks, Adam 👋
 
 
 Awesome Project of the month
 ----------------------------
 
-`As we also tweeted <https://twitter.com/readthedocs/status/1581949857865965569>`_, we are really big fans of how the `Wagtail <https://wagtail.org/>`_ community has built its documentation on `docs.wagtail.org <https://docs.wagtail.org/>`_.
-
-Our favorite parts are...
+`As we also tweeted <https://twitter.com/readthedocs/status/1581949857865965569>`_, we are really big fans of how the `Wagtail <https://wagtail.org/>`_ community has built its documentation on `docs.wagtail.org <https://docs.wagtail.org/>`_. Our favorite parts are...
 
 Custom theme 🎨:
   Wagtail uses a beautiful custom Sphinx theme with dark mode support
