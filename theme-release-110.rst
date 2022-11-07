@@ -60,6 +60,8 @@ If you have a project on Read the Docs without a Python requirements file ``requ
 You can read more about adding a ``requirements.txt`` in our :doc:`Documentation about Reproducible Builds <readthedocs:guides/reproducible-builds>`.
 
 
+.. _sphinx_rtd_theme110_upcoming_releases:
+
 Upcoming releases
 -----------------
 
