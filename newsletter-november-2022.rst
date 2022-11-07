@@ -54,7 +54,7 @@ Tip of the month
 
 This tip of the month comes from our own experience. We have greatly benefitted from the following two Python/Django projects:
 
-- `blacken-docs <https://github.com/adamchainz/blacken-docs>`_ is a pre-commit linter that checks and formats your Python code. In other words, it helps you make sure that your documentation's code examples look great.
+- `blacken-docs <https://github.com/adamchainz/blacken-docs>`_ is a pre-commit linter that checks and formats your Python code embedded in your documentation. In other words, it helps you make sure that your documentation's code examples look great.
 - `django-upgrade <https://github.com/adamchainz/django-upgrade>`_ saves us a lot of time each time we upgrade to the latest Django version.
 
 As you might have noticed, both of these projects are maintained by `Adam Johnson <https://adamj.eu/>`_. Thanks, Adam 👋
