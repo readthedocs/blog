@@ -52,7 +52,7 @@ but we do plan to be more active in removing these features in the coming months
 Tip of the month
 ----------------
 
-This Tip of the Month comes from our own experience. We have greatly benefitted from the following two Python/Django projects:
+This tip of the month comes from our own experience. We have greatly benefitted from the following two Python/Django projects:
 
 - `blacken-docs <https://github.com/adamchainz/blacken-docs>`_ is a pre-commit linter that checks and formats your Python code. In other words, it helps you make sure that your documentation's code examples look great.
 - `django-upgrade <https://github.com/adamchainz/django-upgrade>`_ saves us a lot of time each time we upgrade to the latest Django version.
