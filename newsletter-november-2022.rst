@@ -23,7 +23,7 @@ The latest updates from our team:
 - After rolling out auto-cancelling builds `last month <https://blog.readthedocs.com/cancel-old-builds/>`_, we have already recorded a whopping 10% decrease in builds.
   We're really happy with how this turned out, not least that it effectively reduces our cloud footprint by 10% 🌱.
 - We started incrementally refactoring our own documentation to match the `Diátaxis framework <https://diataxis.fr/>`_. We will be writing more about this, as we are currently gaining practical experience.
-- Much thanks to `AA-Turner <https://github.com/AA-Turner>`_ and the Sphinx community for working together on a proposal and releasing the extension `sphinxcontrib-jquery <http://pypi.org/project/sphinxcontrib-jquery>`_. This extension is required for themes and extensions that need jQuery from Sphinx 6 and onewards. Sphinx 6.0 is scheduled for December 2022 and will no longer bundle jQuery.
+- Much thanks to `AA-Turner <https://github.com/AA-Turner>`_ and the Sphinx community for working together on a proposal and releasing the extension `sphinxcontrib-jquery <http://pypi.org/project/sphinxcontrib-jquery>`_. This extension is required for themes and extensions that need jQuery from Sphinx 6 and onward. Sphinx 6.0 is scheduled for December 2022 and will no longer bundle jQuery.
 
 You can always see the latest changes to our platforms in our :doc:`Read the Docs Changelog <readthedocs:changelog>`.
 
