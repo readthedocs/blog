@@ -1,4 +1,4 @@
-.. post:: Nov 1, 2022
+.. post:: Nov 8, 2022
    :tags: newsletter, python
    :author: Ben
    :location: MLM
@@ -80,7 +80,7 @@ Personas 👩🏽‍💻​:
 5 out of 6 contributors write documentation 🎉 🎉 🎉:
   Wagtail has a stunning amount of documentation contributors! Out of the ~600 contributors to Wagtail, ~500 of those have written documentation. Most of them added changelog entries or release notes, since adding code changes requires updating the changelog. This is a great way to potentially turn your code contributors into documentation contributors.
 
-Awesome List 🕶️
+Awesome Read the Docs Projects List 🕶️
 ---------------
 
 Looking for more inspiration? Check out our new list: `Awesome Read the Docs Projects <https://github.com/readthedocs-examples/awesome-read-the-docs>`_.
