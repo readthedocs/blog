@@ -1,4 +1,4 @@
-.. post:: Nov 8, 2022
+.. post:: Nov 7, 2022
    :tags: newsletter, python
    :author: Ben
    :location: MLM
@@ -49,6 +49,8 @@ We don't have anything firm to announce here yet,
 but we do plan to be more active in removing these features in the coming months.
 
 
+.. _november2022_tip_of_the_month
+
 Tip of the month
 ----------------
 
@@ -81,7 +83,7 @@ Personas 👩🏽‍💻​:
   Wagtail has a stunning amount of documentation contributors! Out of the ~600 contributors to Wagtail, ~500 of those have written documentation. Most of them added changelog entries or release notes, since adding code changes requires updating the changelog. This is a great way to potentially turn your code contributors into documentation contributors.
 
 Awesome Read the Docs Projects List 🕶️
----------------
+--------------------------------------
 
 Looking for more inspiration? Check out our new list: `Awesome Read the Docs Projects <https://github.com/readthedocs-examples/awesome-read-the-docs>`_.
 
