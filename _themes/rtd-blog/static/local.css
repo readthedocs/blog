@@ -98,12 +98,26 @@ div.admonition p.admonition-title {
     margin-top: 0;
 }
 
-table.footnote {
-    margin: 1em;
+dl.footnote {
+  margin: 0.5rem 0;
 }
 
-table.footnote td.label {
-    padding: .65em;
+dl.footnote dt {
+  float: left;
+  margin-left: 1rem;
+  margin-right: 1rem;
+  margin-top: 0;  
+}
+
+dl.footnote dd > p:first-child {
+  margin: 0px;
+}
+
+dl.footnote .brackets:before {
+  content: "["
+}
+dl.footnote .brackets:after {
+  content: "]"
 }
 
 .postlist {
