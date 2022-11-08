@@ -148,14 +148,14 @@ div.highlight pre {
 }
 
 /* Optimize figure CSS */
-div.figure {
+figure {
   text-align: center;
   margin: 2em 0;
 }
-div.figure img {
+figure img {
   max-width: 100%;
 }
-div.figure p.caption {
+figure figcaption {
   font-size: 85%;
   line-height: 1.4;
   margin-left: 2.5rem;
