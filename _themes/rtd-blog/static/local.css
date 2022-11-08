@@ -100,16 +100,20 @@ div.admonition p.admonition-title {
 
 dl.footnote {
   margin: 0.5rem 0;
+  display: table;
 }
 
 dl.footnote dt {
-  float: left;
+  display: table-cell;
+  white-space: nowrap;
+  width: 1%;
   margin-left: 1rem;
   margin-right: 1rem;
   margin-top: 0;  
 }
 
 dl.footnote dd > p:first-child {
+  display: table-cell;
   margin: 0px;
 }
 
