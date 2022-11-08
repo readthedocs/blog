@@ -49,8 +49,6 @@ We don't have anything firm to announce here yet,
 but we do plan to be more active in removing these features in the coming months.
 
 
-.. _november2022_tip_of_the_month
-
 Tip of the month
 ----------------
 
