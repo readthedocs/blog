@@ -112,10 +112,12 @@ table.footnote td.label {
 
 .postlist li {
     list-style: none;
+    margin-bottom: 2rem;
 }
 
 .postlist p.first, .postlist .ablog-post-title {
     font-size: 24px;
+    margin-bottom: 0.5rem;
 }
 
 img.align-center {
