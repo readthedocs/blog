@@ -3,35 +3,39 @@ h1, h2, h3, h4, h5, h6
   margin: 1em 0;
 }
 
-div.section h1 {
+section h1 {
     font-size: 1.3em;
 }
 
-div.section h2 {
+section h2 {
     font-size: 1.2em;
 }
 
-div.section h3 {
+section h3 {
     font-size: 1.1em;
 }
 
-div.section h4, div.section h5, div.section h6 {
+section h4, section h5, section h6 {
     font-size: 1em;
 }
 
-div.section ul {
-    list-style: inside;
-    margin: 1em 0;
+section ul {
+    list-style: disc;
+    margin: 1em 0 1em 2em;
 }
 
-div.section p {
-    margin: .75rem .5rem;
+section ul li p {
+    margin: 0;
+}
+
+section p {
+    margin: .75rem 0;
     line-height: 1.6rem;
 }
 
-div.section ul li,
+section ul li,
 div.sidebar ul li {
-    margin: .5em;
+    margin: .5em 0;
     line-height: 1.4em;
 }
 
@@ -81,7 +85,7 @@ dl.docutils dd p, dl dd p {
 }
 
 div.admonition {
-    padding: .65em;
+    padding: 1rem 1rem 0.5rem 1rem;
     margin: 1em 0em;
     border-radius: .3em;
     -moz-border-radius: .3em;
@@ -91,6 +95,7 @@ div.admonition {
 
 div.admonition p.admonition-title {
     font-weight: bold;
+    margin-top: 0;
 }
 
 table.footnote {
