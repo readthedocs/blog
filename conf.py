@@ -53,6 +53,7 @@ blog_authors = {
     'Vaibhav': ('Vaibhav Gupta', 'https://github.com/dojutsu-user'),
     'Manuel': ('Manuel Kaufmann', 'https://elblogdehumitos.com/'),
     'Juan Luis': ('Juan Luis Cano Rodríguez', 'https://github.com/astrojuanlu/'),
+    'Ben': ('Benjamin Balder Bach', 'https://overtag.dk/'),
 }
 blog_default_author = 'Eric'
 
@@ -66,6 +67,7 @@ blog_locations = {
     'BCN': ('Barcelona, Spain', 'https://www.barcelona.cat/en/'),
     'MAD': ('Madrid, Spain', 'https://www.esmadrid.com/en'),
     'GEG': ('Spokane, Washington', ''),
+    'MLM': ('Malmö, Sweden', ''),
 }
 blog_default_location = 'PDX'
 blog_feed_archives = True
