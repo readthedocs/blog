@@ -29,7 +29,7 @@ How it works?
 
 To use the new *beta* feature,
 you can specify all the commands the build process requires under the ``build.commands`` `config key <https://docs.readthedocs.io/en/stable/config-file/v2.html#build-commands>`_.
-Finally, move the resulting documentation under ``_readthedocs/html`` directory.
+Finally, move the resulting documentation artifacts into the ``_readthedocs/html`` directory.
 Read the Docs will upload and host all the content of that folder ✨
 
 Here is simple example that builds a small project's documentation using `Docsify <https://docsify.js.org/>`_:
@@ -68,5 +68,5 @@ Try it out and give us feedback!
 --------------------------------
 
 We want to continue improving this *beta* feature.
-We think it has lot of potential and we want to build it in a way that's useful for our users.
+It has lot of potential and we want to develop it in a way that's useful for our users.
 Please, give it a try and `let us know <mailto:support@readthedocs.com>`_ how are you using it and if it's missing something for your use case.
