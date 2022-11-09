@@ -5,8 +5,8 @@
 
 .. meta::
    :description lang=en:
-      We released user-defined commands (``build.commands`` config key)
-      which allow users to overwrite the build process completely.
+      We released a new config key (``build.commands``) to specify user-defined commands
+      which allows users to overwrite the build process completely.
 
 
 Overwrite the build process completely
