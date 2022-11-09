@@ -44,7 +44,8 @@ Here is simple example that builds a small project's documentation using `Docsif
      commands:
        # Create the output directory
        - mkdir --parents _readthedocs/html/
-       # Copy the documents (including the ``index.html``) into the output directory
+       # Copy the documents (including the ``index.html``)
+       # into the output directory
        - cp --recursive docs/* _readthedocs/html/
 
 If you want to read more about ``build.commands``,
