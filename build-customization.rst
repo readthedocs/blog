@@ -14,8 +14,8 @@ Overwrite the build process completely
 
 We are happy to announce a new *beta* feature that allow users to **overwrite the build process completely**.
 In the past, `we talked about executing custom commands <https://blog.readthedocs.com/user-defined-build-jobs/>`_ *in-between* the Read the Docs build process.
-However, that approach may not be enough for some projects with strong custom build processes
-and they were not able to use our platform because of that.
+However, that approach may not be sufficient for some projects with a heavily customized build process,
+some of which are not able to use our platform at all.
 Until now! We have good news for them!
 
 The new key ``build.commands`` allows projects to only execute *exactly* the commands they want.
