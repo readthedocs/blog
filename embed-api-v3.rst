@@ -65,7 +65,7 @@ and with it, version 1.0 of sphinx-hoverxref**.
 
 Among other things,
 the new versions allow you to
-:ref:`embed content from pages hosted outside Read the Docs <readthedocs:guides/embedding-content:embedding content from your documentation>`.
+:ref:`embed content from pages hosted outside Read the Docs <guides/embedding-content:embedding content from your documentation>`.
 For security reasons, we have an allowlist of such external domains
 that currently includes Python, NumPy, SciPy, SymPy,
 and we would like to
@@ -84,7 +84,7 @@ Embedding content with sphinx-hoverxref
 ---------------------------------------
 
 To use sphinx-hoverxref in your Read the Docs project,
-:doc:`declare it as part of your dependencies <readthedocs:guides/reproducible-builds>`:
+:doc:`declare it as part of your dependencies <guides/reproducible-builds>`:
 
 .. code-block::
    :caption: requirements.txt

@@ -1,41 +1,32 @@
-h1, h2, h3, h4, h5, h6
-{
-  margin: 1em 0;
-}
-
-section h1 {
+div.section h1 {
     font-size: 1.3em;
 }
 
-section h2 {
+div.section h2 {
     font-size: 1.2em;
 }
 
-section h3 {
+div.section h3 {
     font-size: 1.1em;
 }
 
-section h4, section h5, section h6 {
+div.section h4, div.section h5, div.section h6 {
     font-size: 1em;
 }
 
-section ul {
-    list-style: disc;
-    margin: 1em 0 1em 2em;
+div.section ul {
+    list-style: inside;
+    margin: 1em;
 }
 
-section ul li p {
-    margin: 0;
-}
-
-section p {
-    margin: .75rem 0;
+div.section p {
+    margin: .75rem .5rem;
     line-height: 1.6rem;
 }
 
-section ul li,
+div.section ul li,
 div.sidebar ul li {
-    margin: .5em 0;
+    margin: .5em;
     line-height: 1.4em;
 }
 
@@ -85,7 +76,7 @@ dl.docutils dd p, dl dd p {
 }
 
 div.admonition {
-    padding: 1rem 1rem 0.5rem 1rem;
+    padding: .65em;
     margin: 1em 0em;
     border-radius: .3em;
     -moz-border-radius: .3em;
@@ -95,48 +86,24 @@ div.admonition {
 
 div.admonition p.admonition-title {
     font-weight: bold;
-    margin-top: 0;
 }
 
-dl.footnote {
-  margin: 0.5rem 0;
-  display: table;
+table.footnote {
+    margin: 1em;
 }
 
-dl.footnote dt {
-  display: table-cell;
-  white-space: nowrap;
-  width: 1%;
-  margin-left: 1rem;
-  margin-right: 1rem;
-  margin-top: 0;  
-}
-
-dl.footnote dd > p:first-child {
-  display: table-cell;
-  margin: 0px;
-}
-
-dl.footnote .brackets:before {
-  content: "["
-}
-dl.footnote .brackets:after {
-  content: "]"
-}
-
-.postlist {
-  margin: 1em 0;
+table.footnote td.label {
+    padding: .65em;
 }
 
 .postlist li {
     list-style: none;
-    margin-bottom: 2rem;
 }
 
-.postlist p.first, .postlist .ablog-post-title {
+.postlist p.first {
     font-size: 24px;
-    margin-bottom: 0.5rem;
 }
+
 
 img.align-center {
     display: block;
@@ -152,14 +119,14 @@ div.highlight pre {
 }
 
 /* Optimize figure CSS */
-figure {
+div.figure {
   text-align: center;
   margin: 2em 0;
 }
-figure img {
+div.figure img {
   max-width: 100%;
 }
-figure figcaption {
+div.figure p.caption {
   font-size: 85%;
   line-height: 1.4;
   margin-left: 2.5rem;

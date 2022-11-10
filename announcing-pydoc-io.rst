@@ -45,9 +45,7 @@ On top of that,
 we've layered a few different tools:
 
 * `sphinx-autoapi`_ which is the tool that takes Python source files and turns them into rST.
-
-  * Internally, this uses the `pydocstyle`_ AST parser, which we use for a parse-only representation of the Python files.
-
+   * Internally, this uses the `pydocstyle`_ AST parser, which we use for a parse-only representation of the Python files.
 * `pydoc.io`_ is a Django application that is the actual web front-end and documentation building code.
 * `sphinx-apitheme`_ is the Sphinx theme that powers the actual API listing pages.
 

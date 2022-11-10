@@ -1,11 +1,11 @@
-Sphinx==5.3.0
+Sphinx==2.4.4
 sphinxext-opengraph==0.4.2
 docutils<0.18
-# jinja2<3.1.0
+jinja2<3.1.0
 
 # Used to rewrite the Atom feed to use absolute links
-lxml==4.9.1
+lxml==4.6.5
 
-ablog==0.10.26
+ablog==0.9.5
 # This dependencie from ablog needs to be pinned
-# werkzeug==0.16.1
+werkzeug==0.16.1
