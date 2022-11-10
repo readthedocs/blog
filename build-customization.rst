@@ -6,47 +6,61 @@
 .. meta::
    :description lang=en:
       We released a new config key (``build.commands``) to specify user-defined commands
-      which allows users to overwrite the build process completely.
+      which allows users to override the build process completely.
 
 
-Overwrite the build process completely
-======================================
+Override the build process completely with ``build.commands``
+=============================================================
 
-We are happy to announce a new *beta* feature that allow users to **overwrite the build process completely**.
-In the past, `we talked about executing custom commands <https://blog.readthedocs.com/user-defined-build-jobs/>`_ *in-between* the Read the Docs build process.
-However, that approach may not be sufficient for some projects with a heavily customized build process,
-some of which are not able to use our platform at all.
+We are happy to announce a new *beta* feature that allows users to **override the Read the Docs build process completely**.
+We previously talked about `executing custom commands <https://blog.readthedocs.com/user-defined-build-jobs/>`_ *in-between* the Read the Docs build process.
+That approach is not be sufficient for some projects with a heavily customized build processes,
+or those that want to use a different documentation tool like Pelican_, Docsify_ and Docusaurus_ for their documentation.
+Some of which are not able to use our platform at all.
 Until now! We have good news for them!
 
-The new key ``build.commands`` allows projects to only execute *exactly* the commands they want.
+.. _Pelican: https://getpelican.com/
+.. _Docsify: https://docsify.js.org/
+.. _Docusaurus: https://docusaurus.io/
+
+The new configuration file option ``build.commands`` allows projects to only execute *exactly* the commands they want.
 No more. No less.
-This means that Read the Docs *won't execute any of the default* commands behind the scenes.
-You have 100% control over the building process.
+This means that Read the Docs *won't execute any of the default commands* behind the scenes.
+You have 100% control over the build process.
 
 
-How it works?
--------------
+How does it work?
+-----------------
 
 To use the new *beta* feature,
 you can specify all the commands the build process requires under the ``build.commands`` `config key <https://docs.readthedocs.io/en/stable/config-file/v2.html#build-commands>`_.
 Finally, move the resulting documentation artifacts into the ``_readthedocs/html`` directory.
 Read the Docs will upload and host all the content of that folder ✨
 
-Here is simple example that builds a small project's documentation using `Docsify <https://docsify.js.org/>`_:
+Here is simple example that builds the Docusaurus tutorial:
 
 .. code:: yaml
 
    version: 2
+
    build:
-     os: "ubuntu-22.04"
+     os: ubuntu-22.04
      tools:
-       python: "3.11"
+       nodejs: "18"
      commands:
-       # Create the output directory
+       # "docs/" directory was created using the command to create the site:
+       # npx create-docusaurus@latest docs classic
+       #
+       # Install Docusaurus dependencies
+       - cd docs/ && npm install
+       # Build the site
+       - cd docs/ && npm run build
+       # Copy generated files into Read the Docs directory
        - mkdir --parents _readthedocs/html/
-       # Copy the documents (including the ``index.html``)
-       # into the output directory
-       - cp --recursive docs/* _readthedocs/html/
+       - cp --recursive build/* _readthedocs/html/
+
+
+The resulting documentation lives at https://test-builds.readthedocs.io/en/docusaurus/.
 
 If you want to read more about ``build.commands``,
 `read the full documentation <https://docs.readthedocs.io/en/latest/build-customization.html>`_.
@@ -55,13 +69,12 @@ If you want to read more about ``build.commands``,
 Limitations
 -----------
 
-As we mentioned before,
-this feature is still in *beta* and has some limitation currently.
-We are working towarsd making ``build.commands`` more integrated into our platform features.
-Mainly, the flyout with links to the Read the Docs project and all its active versions.
-We are close to get there,
+This feature is still in *beta* and has some limitation currently.
+We are working to make ``build.commands`` more integrated into our platform.
+One major missing feature is the flyout, which gives access to downloads, versions and other functionality.
+We are actively working on improving this feature,
 and we will publishing more content about this in the next months.
-Stay tunned!
+Stay tuned!
 
 
 Try it out and give us feedback!
