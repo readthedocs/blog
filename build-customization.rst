@@ -57,7 +57,7 @@ Here is simple example that builds the Docusaurus tutorial:
        - cd docs/ && npm run build
        # Copy generated files into Read the Docs directory
        - mkdir --parents _readthedocs/html/
-       - cp --recursive build/* _readthedocs/html/
+       - cp --recursive docs/build/* _readthedocs/html/
 
 
 The resulting documentation lives at https://test-builds.readthedocs.io/en/docusaurus/.
