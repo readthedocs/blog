@@ -14,9 +14,9 @@ Override the build process completely with ``build.commands``
 
 We are happy to announce a new *beta* feature that allows users to **override the Read the Docs build process completely**.
 We previously talked about `executing custom commands <https://blog.readthedocs.com/user-defined-build-jobs/>`_ *in-between* the Read the Docs build process.
-That approach is not be sufficient for some projects with a heavily customized build processes,
+That approach is not sufficient for projects with a heavily customized build process,
 or those that want to use a different documentation tool like Pelican_, Docsify_ and Docusaurus_ for their documentation.
-Some of which are not able to use our platform at all.
+Some of which were not able to use our platform at all.
 Until now! We have good news for them!
 
 .. _Pelican: https://getpelican.com/
