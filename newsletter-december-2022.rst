@@ -19,9 +19,13 @@ New features
 
 The latest updates from our team:
 
-- Sphinx 6 support?
-- sphinx-theme-rtd 1.2.0?
-- Build skipping via command https://github.com/readthedocs/readthedocs.org/pull/9649
+- Follow us in the Fediverse (Mastodon): `@readthedocs@fosstodon.org <https://fosstodon.org/@readthedocs>`_
+- The *entire* build process can now be overridden (if you need it). :doc:`See the Announcement </build-customization>`
+  - ...this is nice if you want to use a framework that isn't directly supported. We wrote some examples :ref:`Pelican <readthedocs:build-customization:pelican>` and :ref:`Docsify <readthedocs:build-customization:Docsify>`.
+  - ...but you can also *extend* the build process for instance you can :ref:`skip a build <readthedocs:build-customization:cancel-build-based-on-a-condition>`!
+- We are getting ready for Sphinx 6, almost there! (scroll down for details)
+- :doc:`Server-Side Search API v3 <readthedocs:server-side-search/index>` has been released.
+- We organized a larger refactor of our user documentation to comply with the `Diátaxis methodology framework <https://diataxis.fr>`_. So far, we broke it down into `73 tasks and counting <https://github.com/readthedocs/readthedocs.org/issues?q=is%3Aissue++diataxis+iteration+>`_. The tasks are big and small.
 
 You can always see the latest changes to our platforms in our :doc:`Read the Docs Changelog <readthedocs:changelog>`.
 
