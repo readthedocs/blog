@@ -72,7 +72,7 @@ blog_locations = {
 blog_default_location = 'PDX'
 blog_feed_archives = True
 blog_feed_fulltext = True
-blog_feed_length = 10
+blog_feed_length = 1
 
 # Add any paths that contain templates here, relative to this directory.
 templates_path = ['_templates']
@@ -80,8 +80,6 @@ templates_path.append(os.path.join(
     '_themes', 'rtd-blog'
 ))
 templates_path.append(ablog.get_html_templates_path())
-
-html4_writer = True
 
 if os.environ.get('READTHEDOCS', None) == 'True':
     skip_pickling = True
@@ -98,7 +96,7 @@ master_doc = 'index'
 
 # General information about the project.
 project = u'Read the Docs Blog'
-copyright = u'2021, Read the Docs, Inc'
+copyright = u'Read the Docs, Inc'
 
 # The version info for the project you're documenting, acts as replacement for
 # |version| and |release|, also used in various other places throughout the

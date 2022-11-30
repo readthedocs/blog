@@ -1094,7 +1094,7 @@ select.dropdown {
 #content > .wrapper div.col-minor {
   display: block;
   overflow: hidden;
-  padding-left: 1em;
+  padding-left: 1.5em;
 }
 @media (max-width: 1000px) {
   #content > .wrapper {
