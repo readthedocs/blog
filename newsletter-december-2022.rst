@@ -20,7 +20,7 @@ News and updates
 The latest updates from our team:
 
 - 🐘️ We started *tooting* in the Fediverse (Mastodon): `@readthedocs@fosstodon.org <https://fosstodon.org/@readthedocs>`_
-- 🎬️ Visit the upcoming landing page `about.readthedocs.com <https://about.readthedocs.com/>`_ and let us know if you have comments or ideas for it.
+- 🎬️ Visit the upcoming landing page `about.readthedocs.com <https://about.readthedocs.com/>`_ and `let us know <mailto:hello@readthedocs.org>`_ know if you have comments or ideas for it.
 - ⚙️ The *entire* build process can now be overridden (if you need it). :doc:`See the Announcement </build-customization>`.
 
   - 💡️ ...this is useful if you want to publish outputs generated from a framework that isn't supported by default. We wrote some examples for :ref:`Pelican <readthedocs:build-customization:Pelican>` and :ref:`Docsify <readthedocs:build-customization:Docsify>`.
