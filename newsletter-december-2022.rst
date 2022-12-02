@@ -61,6 +61,7 @@ Here are some of our considerations for getting ready for Sphinx 6:
 - Sphinx 6 removes all bundled JavaScript libraries.
   If you depend on any of these,
   you may have to bundle them yourself or modify your implementation.
+- See also the `Sphinx changelog <https://www.sphinx-doc.org/en/master/changes.html>`_
 
 Since most documentation projects rely on themes and extensions, we recommend that you do not upgrade to Sphinx 6 before you see announcements of Sphinx 6 support in your themes and extensions.
 
