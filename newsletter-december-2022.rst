@@ -24,12 +24,13 @@ The latest updates from our team:
 - ⚙️ The *entire* build process can now be overridden (if you need it). :doc:`See the Announcement </build-customization>`.
 
   - 💡️ ...this is useful if you want to publish outputs generated from a framework that isn't supported by default. We wrote some examples for :ref:`Pelican <readthedocs:build-customization:Pelican>` and :ref:`Docsify <readthedocs:build-customization:Docsify>`.
-  - 💡️ ...you can also *extend* the build process for instance you can :ref:`skip a build <readthedocs:build-customization:Cancel build based on a condition>` 
+  - 💡️ ...you can also *extend* the build process for instance you can :ref:`skip a build <readthedocs:build-customization:Cancel build based on a condition>`.
 
 - ⬇️ Sphinx 6 is coming soon, more details :ref:`further down <sphinx6_is_coming>`.
 - 🛳️ :doc:`Server-Side Search API v3 <readthedocs:server-side-search/index>` has been released.
 - ⏳️ We organized a large refactor of our user documentation to comply with the `Diátaxis methodology framework <https://diataxis.fr>`_.
-  So far, we broke it down into `73 tasks and counting <https://github.com/readthedocs/readthedocs.org/issues?q=is%3Aissue++diataxis+iteration+>`_. The tasks are big and small.
+  So far, we broke it down into `73 tasks and counting <https://github.com/readthedocs/readthedocs.org/issues?q=is%3Aissue++diataxis+iteration+>`_.
+  The tasks are big and small.
 - ✅️ We added :doc:`readthedocs:unofficial-projects`.
 - ✅️ We added `an additional auditing feature <https://github.com/readthedocs/readthedocs.org/pull/9607>`_,
   whereby invitations are added to the Security Log.
@@ -45,13 +46,21 @@ You can always see the latest changes to our platforms in our :doc:`Read the Doc
 Sphinx 6 is coming
 ------------------
 
-Sphinx 6 is not yet released, but it may be released before the arrival of our next newsletter. Here are some *our* considerations for getting ready for Sphinx 6:
+Sphinx 6 is not yet released, but it may be released before the arrival of our next newsletter.
+Here are some of our considerations for getting ready for Sphinx 6:
 
-- Sphinx 6's focus is to reduce the maintenance burden for the future, dropping support of docutils 0.14, 0.15, 0.16 and 0.17.
-  This will make the work of theme and extension maintainers considerably easier, and we may start seeing themes requiring ``Sphinx>=6`` simply because it's less work to support.
-- Sphinx 6 requires docutils 0.18 or 0.19. We are finalizing support for `sphinx-rtd-theme`_ which currently only supports docutils 0.17. These updates are almost finished and are planned to arrive in sphinx-rtd-theme 1.2.0.
-- Sphinx 6 is removing jQuery, but we need it for `sphinx-rtd-theme`_. jQuery is seemlessly added using the new extension `sphinxcontrib-jquery`_
-- Sphinx 6 removes all bundled JavaScript, so if you depend on anything else, you should rewrite.
+- Sphinx 6 focuses on reducing the maintenance burden for the future,
+  dropping support of docutils 0.14, 0.15, 0.16 and 0.17.
+  This will make the work of theme and extension maintainers considerably easier,
+  and we may start seeing themes requiring ``Sphinx>=6`` simply because it's less work to support.
+- Sphinx 6 requires docutils 0.18 or 0.19.
+  We are finalizing support for `sphinx-rtd-theme`_ which currently only supports docutils 0.17.
+  These updates are almost finished and are planned to arrive in sphinx-rtd-theme 1.2.0.
+- Sphinx 6 is removing jQuery, but we need it for `sphinx-rtd-theme`_.
+  jQuery is easily added back using the new extension `sphinxcontrib-jquery`_.
+- Sphinx 6 removes all bundled JavaScript libraries.
+  If you depend on any of these,
+  you may have to bundle them yourself or modify your implementation.
 
 Since most documentation projects rely on themes and extensions, we recommend that you do not upgrade to Sphinx 6 before you see announcements of Sphinx 6 support in your themes and extensions.
 
@@ -62,9 +71,6 @@ Since most documentation projects rely on themes and extensions, we recommend th
 Upcoming features
 -----------------
 
-(from last newsletter)
-
-- A 1.2.0 release of :ref:`sphinx-rtd-theme <sphinx_rtd_theme110_upcoming_releases>` will support docutils 0.18 and Sphinx 6.
 - We're working on improving our integration with Material for MkDocs, which is a great theme for MkDocs documentation projects.
 - Many improvements to our URL handling code, which will allow us to support more flexible URL configurations for projects.
 - A search redesign to make it nicer across our dashboard and in-doc search experiences. 
@@ -87,12 +93,15 @@ but we do plan to be more active in removing these features in the coming months
 Tip of the month
 ----------------
 
-TBD
+Do you need to document past or upcoming events? `Chris Sewell <https://github.com/chrisjsewell>`_ has created `sphinx-timeline <https://sphinx-timeline.readthedocs.io/en/latest/>`_ for exactly this.
+
+See sphinx-timeline in full action on the `main page of AiiDA <https://www.aiida.net/>`_.
 
 Awesome Project of the month
 ----------------------------
 
-TBD
+`Nautobot <https://docs.nautobot.com/>`_ is a great example of a documentation landing page with several subprojects. See `this Twitter thread <https://twitter.com/readthedocs/status/1595010133796462593>`_ for screenshots and comments.
+
 
 Awesome Read the Docs Projects List 🕶️
 --------------------------------------
