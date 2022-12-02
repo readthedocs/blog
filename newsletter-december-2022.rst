@@ -19,15 +19,16 @@ News and updates
 
 The latest updates from our team:
 
-- 🐘️ We've started tooting in the Fediverse (Mastodon): `@readthedocs@fosstodon.org <https://fosstodon.org/@readthedocs>`_
+- 🐘️ We started *tooting* in the Fediverse (Mastodon): `@readthedocs@fosstodon.org <https://fosstodon.org/@readthedocs>`_
+- 🎬️ Visit the upcoming landing page `about.readthedocs.com <https://about.readthedocs.com/>`_ and let us know if you have comments or ideas for it.
 - ⚙️ The *entire* build process can now be overridden (if you need it). :doc:`See the Announcement </build-customization>`.
 
   - 💡️ ...this is useful if you want to publish outputs generated from a framework that isn't supported by default. We wrote some examples for :ref:`Pelican <readthedocs:build-customization:Pelican>` and :ref:`Docsify <readthedocs:build-customization:Docsify>`.
   - 💡️ ...you can also *extend* the build process for instance you can :ref:`skip a build <readthedocs:build-customization:Cancel build based on a condition>` 
 
-- ⬇️ We are getting ready for Sphinx 6, almost there (scroll down for details)
+- ⬇️ Sphinx 6 is coming soon, more details :ref:`further down <sphinx6_is_coming>`.
 - 🛳️ :doc:`Server-Side Search API v3 <readthedocs:server-side-search/index>` has been released.
-- ⏳️ We organized a larger refactor of our user documentation to comply with the `Diátaxis methodology framework <https://diataxis.fr>`_.
+- ⏳️ We organized a large refactor of our user documentation to comply with the `Diátaxis methodology framework <https://diataxis.fr>`_.
   So far, we broke it down into `73 tasks and counting <https://github.com/readthedocs/readthedocs.org/issues?q=is%3Aissue++diataxis+iteration+>`_. The tasks are big and small.
 - ✅️ We added :doc:`readthedocs:unofficial-projects`.
 - ✅️ We added `an additional auditing feature <https://github.com/readthedocs/readthedocs.org/pull/9607>`_,
@@ -38,6 +39,8 @@ The latest updates from our team:
 
 You can always see the latest changes to our platforms in our :doc:`Read the Docs Changelog <readthedocs:changelog>`.
 
+
+.. _sphinx6_is_coming:
 
 Sphinx 6 is coming
 ------------------
