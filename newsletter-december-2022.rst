@@ -20,17 +20,16 @@ News and updates
 The latest updates from our team:
 
 - 🐘️ We started *tooting* in the Fediverse (Mastodon). Follow us at `@readthedocs@fosstodon.org <https://fosstodon.org/@readthedocs>`_
-- 🎬️ Visit the upcoming landing page `about.readthedocs.com <https://about.readthedocs.com/>`_ and `let us know <mailto:hello@readthedocs.org>`_ know if you have comments or ideas for it.
+- 🎬️ We are preparing to redirect our existing front pages to our new marketing site: `about.readthedocs.com <https://about.readthedocs.com/>`_. `Let us know <mailto:hello@readthedocs.org>`_ know if you have comments or ideas for it.
 - ⚙️ The *entire* build process can now be overridden (if you need it). :doc:`See the Announcement </build-customization>`.
 
-  - 💡️ ...this is useful if you want to publish outputs generated from a framework that isn't supported by default. We wrote some examples for :ref:`Pelican <readthedocs:build-customization:Pelican>` and :ref:`Docsify <readthedocs:build-customization:Docsify>`.
-  - 💡️ ...you can also *extend* the build process for instance you can :ref:`skip a build <readthedocs:build-customization:Cancel build based on a condition>`.
+  - 💡️ This is useful if you want to publish outputs generated from a framework that isn't supported by default. We wrote some examples for :ref:`Pelican <readthedocs:build-customization:Pelican>` and :ref:`Docsify <readthedocs:build-customization:Docsify>`.
+  - 💡️ You can also *extend* the build process for instance you can :ref:`skip a build <readthedocs:build-customization:Cancel build based on a condition>`.
 
 - ⬇️ Sphinx 6 is coming soon, more details :ref:`further down <sphinx6_is_coming>`.
 - 🛳️ :doc:`Server-Side Search API v3 <readthedocs:server-side-search/index>` has been released.
 - ⏳️ We organized a large refactor of our user documentation to comply with the `Diátaxis methodology framework <https://diataxis.fr>`_.
   So far, we broke it down into `73 tasks and counting <https://github.com/readthedocs/readthedocs.org/issues?q=is%3Aissue++diataxis+iteration+>`_.
-  The tasks are big and small.
 - ✅️ We added a :doc:`readthedocs:unofficial-projects` that will help official maintainers to de-list forks among others.
 - ✅️ We added `an additional auditing feature <https://github.com/readthedocs/readthedocs.org/pull/9607>`_,
   whereby invitations are added to the Security Log.
