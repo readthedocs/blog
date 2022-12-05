@@ -9,10 +9,12 @@
       are making, which may affect projects looking to upgrade.
 
 
-Sphinx 6 is coming
+Sphinx 6 is coming soon and has important breaking changes
 ==================
 
-Sphinx 6 is not yet released, but it may be released before the arrival of our next newsletter.
+Sphinx 6 is going to be released in the near future.
+It contains a few major breaking changes that users should be aware of,
+and some smaller new features as well.
 Here are some of our considerations for getting ready for Sphinx 6:
 
 - Sphinx 6 focuses on reducing the maintenance burden for the future,
