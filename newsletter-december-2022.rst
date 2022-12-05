@@ -19,15 +19,14 @@ News and updates
 
 The latest updates from our team:
 
-- 🐘️ We started *tooting* in the Fediverse (Mastodon). Follow us at `@readthedocs@fosstodon.org <https://fosstodon.org/@readthedocs>`_
-- 🎬️ We are preparing to redirect our existing front pages to our new marketing site: `about.readthedocs.com <https://about.readthedocs.com/>`_. `Let us know <mailto:hello@readthedocs.org>`_ know if you have comments or ideas for it.
 - ⚙️ The *entire* build process can now be overridden (if you need it). :doc:`See the Announcement </build-customization>`.
 
   - 💡️ This is useful if you want to publish outputs generated from a framework that isn't supported by default. We wrote some examples for :ref:`Pelican <readthedocs:build-customization:Pelican>` and :ref:`Docsify <readthedocs:build-customization:Docsify>`.
   - 💡️ You can also *extend* the build process for instance you can :ref:`skip a build <readthedocs:build-customization:Cancel build based on a condition>`.
 
-- ⬇️ Sphinx 6 is coming soon, more details :ref:`further down <sphinx6_is_coming>`.
+- 🐘️ We started *tooting* in the Fediverse (Mastodon). Follow us at `@readthedocs@fosstodon.org <https://fosstodon.org/@readthedocs>`_
 - 🛳️ :doc:`Server-Side Search API v3 <readthedocs:server-side-search/index>` has been released.
+- 🎬️ We are preparing to redirect our existing front pages to our new marketing site: `about.readthedocs.com <https://about.readthedocs.com/>`_. `Let us know <mailto:hello@readthedocs.org>`_ know if you have comments or ideas for it.
 - ⏳️ We organized a large refactor of our user documentation to comply with the `Diátaxis methodology framework <https://diataxis.fr>`_.
   So far, we broke it down into `73 tasks and counting <https://github.com/readthedocs/readthedocs.org/issues?q=is%3Aissue++diataxis+iteration+>`_.
 - ✅️ We added a :doc:`readthedocs:unofficial-projects` that will help official maintainers to de-list forks among others.
@@ -38,34 +37,6 @@ The latest updates from our team:
   `XSS: Allow serving of arbitrary HTML files from main domain <https://github.com/readthedocs/readthedocs.org/security/advisories/GHSA-98pf-gfh3-x3mp>`_.
 
 You can always see the latest changes to our platforms in our :doc:`Read the Docs Changelog <readthedocs:changelog>`.
-
-
-.. _sphinx6_is_coming:
-
-Sphinx 6 is coming
-------------------
-
-Sphinx 6 is not yet released, but it may be released before the arrival of our next newsletter.
-Here are some of our considerations for getting ready for Sphinx 6:
-
-- Sphinx 6 focuses on reducing the maintenance burden for the future,
-  dropping support of docutils 0.14, 0.15, 0.16 and 0.17.
-  This will make the work of theme and extension maintainers considerably easier,
-  and we may start seeing themes requiring ``Sphinx>=6`` simply because it's less work to support.
-- Sphinx 6 requires docutils 0.18 or 0.19.
-  We are finalizing support for `sphinx-rtd-theme`_ which currently only supports docutils 0.17.
-  These updates are almost finished and are planned to arrive in sphinx-rtd-theme 1.2.0.
-- Sphinx 6 is removing jQuery, but we need it for `sphinx-rtd-theme`_.
-  jQuery is easily added back using the new extension `sphinxcontrib-jquery`_.
-- Sphinx 6 removes all bundled JavaScript libraries.
-  If you depend on any of these,
-  you may have to bundle them yourself or modify your implementation.
-- See also the `Sphinx changelog <https://www.sphinx-doc.org/en/master/changes.html>`_
-
-Since most documentation projects rely on themes and extensions, we recommend that you do not upgrade to Sphinx 6 before you see announcements of Sphinx 6 support in your themes and extensions.
-
-.. _sphinx-rtd-theme: https://sphinx-rtd-theme.readthedocs.io/
-.. _sphinxcontrib-jquery: https://pypi.org/project/sphinxcontrib.jquery/
 
 
 Upcoming features
