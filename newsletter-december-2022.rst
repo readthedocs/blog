@@ -51,7 +51,9 @@ Upcoming features
 Possible issues
 ---------------
 
-Sphinx 6 is coming very soon, and we are preparing a blog post with a couple of considerations in that regard.
+Sphinx 6 is coming very soon.
+For those planning to upgrade immediately,
+we are preparing a blog post with a couple of considerations in that regard.
 
 If you find regressions in any new releases of the `sphinx-rtd-theme <https://sphinx-rtd-theme.readthedocs.io/>`_,
 please don't hesitate to `open an issue on GitHub <https://github.com/readthedocs/sphinx_rtd_theme/>`_.
