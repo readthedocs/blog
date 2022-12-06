@@ -17,7 +17,7 @@ Here are the first features and updates that have hatched since we announced a Q
 News and updates
 ----------------
 
-The latest updates from our team:
+Here are the latest updates from our team:
 
 - ⚙️ The *entire* build process can now be overridden (if you need it). :doc:`See the Announcement </build-customization>`.
 
