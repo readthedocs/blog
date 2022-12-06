@@ -58,7 +58,7 @@ we are preparing a blog post with a couple of considerations in that regard.
 If you find regressions in any new releases of the `sphinx-rtd-theme <https://sphinx-rtd-theme.readthedocs.io/>`_,
 please don't hesitate to `open an issue on GitHub <https://github.com/readthedocs/sphinx_rtd_theme/>`_.
 
-We continue planning to be more active in deprecating old and outdated approaches to using our platform in Q4.
+Our Q4 focus also includes deprecating old and outdated approaches to using our platform.
 We don't have anything firm to announce here yet,
 but we do plan to be more active in removing these features in the coming months.
 
