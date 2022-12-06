@@ -52,7 +52,7 @@ Possible issues
 ---------------
 
 Sphinx 6 is coming very soon.
-For those planning to upgrade immediately,
+For those of you planning to upgrade immediately,
 we are preparing a blog post with a couple of considerations in that regard.
 
 If you find regressions in any new releases of the `sphinx-rtd-theme <https://sphinx-rtd-theme.readthedocs.io/>`_,
