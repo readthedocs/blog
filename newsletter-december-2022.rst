@@ -1,4 +1,4 @@
-.. post:: Dec 5, 2022
+.. post:: Dec 6, 2022
    :tags: newsletter, python
    :author: Ben
    :location: MLM
