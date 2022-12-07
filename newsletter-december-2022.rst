@@ -11,7 +11,7 @@
 Read the Docs newsletter - December 2022
 ========================================
 
-This newsletter contains the first features and updates that have hatched since we announced a Q4 focus on core platform features in the :doc:`previous newsletter </newsletter-december-2022>`.
+This newsletter contains the first features and updates that have hatched since we announced a Q4 focus on core platform features in the :doc:`previous newsletter </newsletter-november-2022>`.
 
 
 News and updates
