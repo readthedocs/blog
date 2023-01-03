@@ -24,8 +24,10 @@ Here are some of our considerations for getting ready for Sphinx 6:
   These updates are almost finished and are planned to arrive in sphinx-rtd-theme 1.2.0,
   which you can already try out by installing ``sphinx-rtd-theme==1.2.0rc2``
   which supports docutils 0.18.
-- Sphinx 6 is removing jQuery, but we need it for `sphinx-rtd-theme`_.
-  jQuery is easily added back using the new extension `sphinxcontrib-jquery`_.
+- Sphinx 6 is removing jQuery.
+  The JavaScript asset is easily added back using the new extension `sphinxcontrib-jquery`_.
+  We need it for `sphinx-rtd-theme`_ so if you are using the theme,
+  you will also continue to have jQuery available in your documentation.
 - Sphinx 6 removes all other bundled JavaScript libraries.
   If you depend on any of these,
   you may have to bundle them yourself or modify your implementation.
