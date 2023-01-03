@@ -1,5 +1,5 @@
 .. post:: January 4th, 2022
-   :tags: newsletter, python
+   :tags: sphinx, python
    :author: Ben
    :location: MLM
 
