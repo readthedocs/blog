@@ -47,9 +47,8 @@ Moving forwards,
 the number of upgrade paths for documentation projects
 are fewer and thus will lead to less choices for documentation owners and
 maintainers of Sphinx themes and extensions.
-At Read the Docs, we support both our main theme, `sphinx-rtd-theme`_, and a number of extensions for Sphinx.
-In light of that,
-we are direct beneficiaries of the reduced dependency matrix.
+This is a positive step forward for both documentation projects and maintainers of themes and extensions.
+We recommend this upgrade in order to reduce complexities and future technical debt.
 
 .. _sphinx-rtd-theme: https://sphinx-rtd-theme.readthedocs.io/
 
