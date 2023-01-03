@@ -24,10 +24,11 @@ Here are some of our considerations for getting ready for Sphinx 6:
   and we may start seeing themes requiring ``Sphinx>=6`` simply because it's less work to support.
 - Sphinx 6 requires docutils 0.18 or 0.19.
   We are finalizing support for `sphinx-rtd-theme`_ which currently only supports docutils 0.17.
-  These updates are almost finished and are planned to arrive in sphinx-rtd-theme 1.2.0.
+  These updates are almost finished and are planned to arrive in sphinx-rtd-theme 1.2.0,
+  which you can already try out by installing ``sphinx-rtd-theme==1.2.0rc2``.
 - Sphinx 6 is removing jQuery, but we need it for `sphinx-rtd-theme`_.
   jQuery is easily added back using the new extension `sphinxcontrib-jquery`_.
-- Sphinx 6 removes all bundled JavaScript libraries.
+- Sphinx 6 removes all other bundled JavaScript libraries.
   If you depend on any of these,
   you may have to bundle them yourself or modify your implementation.
 - See also the `Sphinx changelog <https://www.sphinx-doc.org/en/master/changes.html>`_
