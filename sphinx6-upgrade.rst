@@ -1,22 +1,23 @@
-.. post:: Dec 5, 2022
+.. post:: January 4th, 2022
    :tags: newsletter, python
    :author: Ben
    :location: MLM
 
 .. meta::
    :description lang=en:
-      Sphinx 6 is coming soon. Here are our thoughts about preparations that we
+      Sphinx 6 is out. Here are our thoughts about preparations that we
       are making, which may affect projects looking to upgrade.
 
 
-Sphinx 6 is coming soon and has important breaking changes
-==================
+Sphinx 6 is out and has important breaking changes
+==================================================
 
-Sphinx 6 is going to be released in the near future.
+Sphinx 6 was released on December 29, 2022.
 It contains a few major breaking changes that users should be aware of,
 and some smaller new features as well.
 Here are some of our considerations for getting ready for Sphinx 6:
 
+- Sphinx 6 requires Python 3.8+ and you will need to specify a Python version using the :ref:`readthedocs:config-file/v2:build.tools.python` setting.
 - Sphinx 6 focuses on reducing the maintenance burden for the future,
   dropping support of docutils 0.14, 0.15, 0.16 and 0.17.
   This will make the work of theme and extension maintainers considerably easier,
