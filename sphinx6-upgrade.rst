@@ -47,7 +47,7 @@ Moving forwards,
 the number of upgrade paths for documentation projects
 are fewer and thus will lead to less choices for documentation owners and
 maintainers of Sphinx themes and extensions.
-This is a positive step forward for both documentation projects and maintainers of themes and extensions.
+This is a positive step forward for both documentation projects, themes and extensions.
 We recommend this upgrade in order to reduce complexities and future technical debt.
 
 .. _sphinx-rtd-theme: https://sphinx-rtd-theme.readthedocs.io/
