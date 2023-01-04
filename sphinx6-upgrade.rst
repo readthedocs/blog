@@ -29,10 +29,11 @@ Here are some of our considerations for getting ready for Sphinx 6:
 - Sphinx 6 removes all other bundled JavaScript libraries.
   If you depend on any of these,
   you may have to bundle them yourself or modify your implementation.
+
 For more information and full details you can read the `Sphinx changelog <https://www.sphinx-doc.org/en/master/changes.html#release-6-0-0-released-dec-29-2022>`_
 
 Since most documentation projects rely on themes and extensions,
-we recommend that you do not upgrade to Sphinx 6 before you see announcements of Sphinx 6 support from these projects.
+we recommend checking for Sphinx 6 support in those projects before upgrading.
 
 .. _sphinxcontrib-jquery: https://pypi.org/project/sphinxcontrib.jquery/
 
