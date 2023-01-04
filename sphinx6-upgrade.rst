@@ -5,8 +5,7 @@
 
 .. meta::
    :description lang=en:
-      Sphinx 6 is out. Here are our thoughts about preparations that we
-      are making, which may affect projects looking to upgrade.
+      Sphinx 6 is out. We share our considerations about upgrading.
 
 
 Sphinx 6 is out and has important breaking changes
