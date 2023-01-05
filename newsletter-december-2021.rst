@@ -56,7 +56,7 @@ New features
 
 - We expanded our documentation to describe :ref:`how document projects with Jupyter
   Book <readthedocs:faq:how can i deploy jupyter book projects on read the docs?>`
-  and :doc:`how to use Poetry for dependency management <readthedocs:guides/poetry>`.
+  and :ref:`how to use Poetry for dependency management <readthedocs:build-customization:Install dependencies with Poetry>`.
 
 Thanks to our external contributor `Rok Roškar`_.
 
