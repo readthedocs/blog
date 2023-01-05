@@ -11,7 +11,9 @@
 Read the Docs newsletter - January 2023
 =======================================
 
-Happy 2023! In this newsletter, we present the updates happening in 2022's last month and since the :doc:`previous newsletter </newsletter-december-2022>`.
+Happy 2023!
+In this newsletter,
+we present the updates happening in 2022's last month and since the :doc:`previous newsletter </newsletter-december-2022>`.
 
 .. Commenting out this stuff, isn't it better that 
 .. 
@@ -20,7 +22,8 @@ Happy 2023! In this newsletter, we present the updates happening in 2022's last 
 .. 
 .. Here are the latest updates from our team:
 
-- 📹️ Eric delivered a talk at DjangoCon US 2022 about the state of art to document a project in 2022. You can watch it here: `Documenting Django Code in 2022`_
+- 📹️ Eric delivered a talk at DjangoCon US 2022 about the state of art to document a project in 2022.
+  You can watch it here: `Documenting Django Code in 2022`_
 - 🛠️ We continued reorganizing our own documentation to follow the `Diátaxis Framework`_.
   We look forward to a "show and tell" about our experience refactoring them using this framework.
 - 🚢️ Sphinx 6.0 and 6.1 have been released. Read :doc:`our considerations for upgrading </sphinx6-upgrade>`.
@@ -46,7 +49,8 @@ Possible issues
 
 Sphinx 6 and 6.1 were released very recently and you may experience issues if you upgrade or if you have not pinned your documentation dependencies.
 
-We are actively updating our theme to support Sphinx and docutils updates. If you find regressions in any new releases of the `sphinx-rtd-theme <https://sphinx-rtd-theme.readthedocs.io/>`_,
+We are actively updating our theme to support Sphinx and docutils updates.
+If you find regressions in any new releases of the `sphinx-rtd-theme <https://sphinx-rtd-theme.readthedocs.io/>`_,
 please don't hesitate to `open an issue on GitHub <https://github.com/readthedocs/sphinx_rtd_theme/>`_.
 
 
