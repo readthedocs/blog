@@ -16,17 +16,15 @@ It contains a few major breaking changes that users should be aware of,
 and some smaller new features as well.
 Here are some of our considerations for getting ready for Sphinx 6:
 
-- Sphinx 6 requires Python 3.8+. To enable this on Read the Docs, you will need to specify a Python version using the :ref:`readthedocs:config-file/v2:build.tools.python` setting.
-- Sphinx 6 drops support of docutils 0.14, 0.15, 0.16 and 0.17. It now supports only docutils 0.18 or 0.19.
-- Sphinx 6 is supported in the upcoming `sphinx-rtd-theme`_ 1.2.0 together with docutils 0.18.
+- Python 3.8+ is required. To enable this on Read the Docs, you will need to specify a Python version using the :ref:`readthedocs:config-file/v2:build.tools.python` setting.
+- Support is dropped for docutils 0.14, 0.15, 0.16 and 0.17. It now supports only docutils 0.18 or 0.19.
+- `sphinx-rtd-theme`_ will support Sphinx 6 from 1.2.0, including docutils 0.18.
   You can already install the release candidate: ``pip install sphinx-rtd-theme==1.2.0rc2``.
-- Sphinx 6 removes jQuery.
+- Bundled jQuery is removed.
   The JavaScript asset is easily added back using the new extension `sphinxcontrib-jquery`_.
   It is included automatically by `sphinx-rtd-theme`_, so if you are using our theme,
   you will also continue to have jQuery available in your documentation.
-- Sphinx 6 removes all other bundled JavaScript libraries.
-  If you depend on any of these,
-  you may have to bundle them yourself or modify your implementation.
+- All bundled JavaScript was removed, including also underscore.js.
 
 For more information and full details you can read the `Sphinx changelog <https://www.sphinx-doc.org/en/master/changes.html#release-6-0-0-released-dec-29-2022>`_
 
