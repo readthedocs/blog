@@ -27,14 +27,13 @@ we present the updates happening in 2022's last month and since the :doc:`previo
 - 🛠️ We continued reorganizing our own documentation to follow the `Diátaxis Framework`_.
   We look forward to a "show and tell" about our experience refactoring them using this framework.
 - 🚢️ Sphinx 6.0 and 6.1 have been released. Read :doc:`our considerations for upgrading </sphinx6-upgrade>`.
-- ⚙️ Add new stuff here
-- 💡️ Choose your own emoji
-- 🔍️ 404 pages are being improved by contextualization the user message, giving relevant guidance to readers and project owners.
+- 🔒️ We fixed a security vulnerability on our platform. See: `GHSA-368m-86q9-m99w`_
 
 You can always see the latest changes to our platforms in our :doc:`Read the Docs Changelog <readthedocs:changelog>`.
 
 .. _Documenting Django Code in 2022: https://www.youtube.com/watch?v=mqn0D4xat58
 .. _Diátaxis Framework: https://diataxis.fr/
+.. _GHSA-368m-86q9-m99w: https://github.com/readthedocs/readthedocs.org/security/advisories/GHSA-368m-86q9-m99w
 
 Upcoming features
 -----------------
