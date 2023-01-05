@@ -20,8 +20,9 @@ Happy 2023! In this newsletter, we present the updates happening in 2022's last 
 .. 
 .. Here are the latest updates from our team:
 
-- 📹️ Eric's talk at DjangoCon US can be watched here: `Documenting Django Code in 2022`_
-- 🛠️ We are busy reorganizing our own documentation. Since last newsletter, we have opened or merged 20 documentation PRs. We look forward to a "show and tell" about how all of this was refactored using the `Diátaxis Framework`_.
+- 📹️ Eric delivered a talk at DjangoCon US 2022 about the state of art to document a project in 2022. You can watch it here: `Documenting Django Code in 2022`_
+- 🛠️ We continued reorganizing our own documentation to follow the `Diátaxis Framework`_.
+  We look forward to a "show and tell" about our experience refactoring them using this framework.
 - 🚢️ Sphinx 6.0 and 6.1 have been released. Read :doc:`our considerations for upgrading </sphinx6-upgrade>`.
 - ⚙️ Add new stuff here
 - 💡️ Choose your own emoji
