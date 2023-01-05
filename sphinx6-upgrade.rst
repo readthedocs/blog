@@ -18,10 +18,9 @@ Here are some of our considerations for getting ready for Sphinx 6:
 
 - Sphinx 6 requires Python 3.8+. To enable this on Read the Docs, you will need to specify a Python version using the :ref:`readthedocs:config-file/v2:build.tools.python` setting.
 - Sphinx 6 drops support of docutils 0.14, 0.15, 0.16 and 0.17. It now supports only docutils 0.18 or 0.19.
-  We are finalizing Sphinx 6 support for `sphinx-rtd-theme`_, which currently only supports docutils 0.17.
-  These updates are almost finished and are planned for version 1.2.0,
-  which you can already try out by installing ``sphinx-rtd-theme==1.2.0rc2``.
-- Sphinx 6 is removing jQuery.
+- Sphinx 6 is supported in the upcoming `sphinx-rtd-theme`_ 1.2.0 together with docutils 0.18.
+  You can already install the release candidate: ``pip install sphinx-rtd-theme==1.2.0rc2``.
+- Sphinx 6 removes jQuery.
   The JavaScript asset is easily added back using the new extension `sphinxcontrib-jquery`_.
   It is included automatically by `sphinx-rtd-theme`_, so if you are using our theme,
   you will also continue to have jQuery available in your documentation.
