@@ -20,11 +20,16 @@ Happy 2023! In this newsletter, we present the updates happening in 2022's last 
 .. 
 .. Here are the latest updates from our team:
 
+- 📹️ Eric's talk at DjangoCon US can be watched here: `Documenting Django Code in 2022`_
+- 🛠️ We are busy reorganizing our own documentation. Since last newsletter, we have opened or merged 20 documentation PRs. We look forward to a "show and tell" about how all of this was refactored using Diátaxis framework.
+- 🚢️ Sphinx 6.0 and 6.1 have been released. Read :doc:`our considerations for upgrading </sphinx6-upgrade>`.
 - ⚙️ Add new stuff here
 - 💡️ Choose your own emoji
 - 🔍️ 404 pages are being improved by contextualization the user message, giving relevant guidance to readers and project owners.
 
 You can always see the latest changes to our platforms in our :doc:`Read the Docs Changelog <readthedocs:changelog>`.
+
+.. _Documenting Django Code in 2022: https://www.youtube.com/watch?v=mqn0D4xat58
 
 
 Upcoming features
@@ -33,14 +38,14 @@ Upcoming features
 - We're working on improving our integration with `Material for MkDocs <https://squidfunk.github.io/mkdocs-material/>`_, which is a great theme for `MkDocs <https://www.mkdocs.org/>`_ documentation projects.
 - Many improvements to our URL handling code, which will allow us to support more flexible URL configurations for projects.
 - A search redesign to make it nicer across our dashboard and in-doc search experiences. 
-
+- 
 
 Possible issues
 ---------------
 
-Sphinx 6.
+Sphinx 6 and 6.1 were released very recently and you may experience issues if you upgrade or if you have not pinned your documentation dependencies.
 
-If you find regressions in any new releases of the `sphinx-rtd-theme <https://sphinx-rtd-theme.readthedocs.io/>`_,
+We are actively updating our theme to support Sphinx and docutils updates. If you find regressions in any new releases of the `sphinx-rtd-theme <https://sphinx-rtd-theme.readthedocs.io/>`_,
 please don't hesitate to `open an issue on GitHub <https://github.com/readthedocs/sphinx_rtd_theme/>`_.
 
 
