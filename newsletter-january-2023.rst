@@ -47,7 +47,7 @@ Upcoming features
 Possible issues
 ---------------
 
-Sphinx 6 and 6.1 were released very recently and you may experience issues if you upgrade or if you have not pinned your documentation dependencies.
+Sphinx 6.0 and 6.1 were released very recently and you may experience issues if you upgrade or if you have not pinned your documentation dependencies.
 
 We are actively updating our theme to support Sphinx and docutils updates.
 If you find regressions in any new releases of the `sphinx-rtd-theme <https://sphinx-rtd-theme.readthedocs.io/>`_,
