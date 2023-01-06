@@ -24,7 +24,11 @@ Here are the latest updates from our team:
   You can watch it here: `Documenting Django Code in 2022`_
 - 🛠️ We continued reorganizing our own documentation to follow the `Diátaxis Framework`_.
   We look forward to a "show and tell" about our experience refactoring them using this framework.
-- 🚢️ Sphinx 6.0 and 6.1 have been released. Read :doc:`our considerations for upgrading </sphinx6-upgrade>`.
+- 🚢️ Sphinx 6.0 and 6.1 have been released.
+  Excited Sphinx users should try it out.
+  If you want things to not break,
+  it's good to wait a bit.
+  Read :doc:`our considerations for upgrading </sphinx6-upgrade>`.
 - 🔒️ We fixed a security vulnerability on our platform. See: `GHSA-368m-86q9-m99w`_
 
 You can always see the latest changes to our platforms in our :doc:`Read the Docs Changelog <readthedocs:changelog>`.
@@ -44,11 +48,23 @@ Upcoming features
 Possible issues
 ---------------
 
-Sphinx 6.0 and 6.1 were released very recently and you may experience issues if you upgrade or if you have not pinned your documentation dependencies.
+* Sphinx 6.0 and 6.1 were released very recently.
 
-We are actively updating our theme to support Sphinx and docutils updates.
-If you find regressions in any new releases of the `sphinx-rtd-theme <https://sphinx-rtd-theme.readthedocs.io/>`_,
-please don't hesitate to `open an issue on GitHub <https://github.com/readthedocs/sphinx_rtd_theme/>`_.
+  * Not all extensions and themes have added support!
+  * You may experience issues if you have not pinned your documentation dependencies.
+  * Issues may be caused directly by bugs in the extensions and themes that you are using.
+    Visiting the issue trackers of these projects can be a good idea.
+
+* We are actively updating our theme to support Sphinx and docutils updates.
+  If you find regressions in any new releases of the `sphinx-rtd-theme <https://sphinx-rtd-theme.readthedocs.io/>`_,
+  please don't hesitate to `open an issue on GitHub <https://github.com/readthedocs/sphinx_rtd_theme/>`_.
+
+If you suspect that upgrade issues are caused by dependency mismatches,
+we recommend taking the approach of *reproducible builds*.
+This includes explicitly specifying all relevant dependencies.
+Read more in our documentation's `introduction to Reproducible Builds`_.
+
+.. _introduction to Reproducible Builds: https://docs.readthedocs.io/en/stable/guides/reproducible-builds.html
 
 
 Tip of the month
