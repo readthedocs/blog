@@ -68,24 +68,12 @@ The core team has laid out its 2023 Q1 roadmap and our general focus will be on:
 Possible issues
 ---------------
 
-Sphinx users should be aware of the following possible issues:
-
-* Sphinx 6.0 and 6.1 were released very recently.
-
-  * Read :doc:`our considerations for upgrading </sphinx6-upgrade>`.
-  * Not all extensions and themes have added support for the new versions!
-  * You may experience issues if you have not pinned your documentation dependencies.
-  * Issues may also be caused by new bugs in the Sphinx 6 compatibility of extensions and themes.
-    Visiting the issue trackers of these projects is helpful.
-
-* We are actively updating our theme to support Sphinx and docutils updates.
-  If you find regressions in any new releases of the `sphinx-rtd-theme <https://sphinx-rtd-theme.readthedocs.io/>`_,
-  please don't hesitate to `open an issue on GitHub <https://github.com/readthedocs/sphinx_rtd_theme/>`_.
-
-If you suspect that upgrade issues are caused by dependency mismatches,
-we recommend taking the approach of *reproducible builds*.
-This includes explicitly specifying all relevant dependencies.
-Read more in our documentation's :doc:`introduction to Reproducible Builds <readthedocs:guides/reproducible-builds>`.
+Sphinx users should be aware that Sphinx 6.0 and 6.1 were released very recently.
+If you haven't pinned dependencies,
+the update might come automatically.
+If you choose to update,
+there are a few things to be aware of.
+Read :doc:`our considerations for upgrading </sphinx6-upgrade>`.
 
 ..
   Tip of the month
