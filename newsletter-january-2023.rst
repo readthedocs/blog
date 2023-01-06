@@ -15,12 +15,10 @@ Happy 2023!
 In this newsletter,
 we present the updates happening in 2022's last month and since the :doc:`previous newsletter </newsletter-december-2022>`.
 
-.. Commenting out this stuff, isn't it better that 
-.. 
-.. News and updates
-.. ----------------
-.. 
-.. Here are the latest updates from our team:
+News and updates
+----------------
+
+Here are the latest updates from our team:
 
 - 📹️ Eric delivered a talk at DjangoCon US 2022 about the state of art to document a project in 2022.
   You can watch it here: `Documenting Django Code in 2022`_
