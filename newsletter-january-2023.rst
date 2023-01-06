@@ -12,15 +12,13 @@ Read the Docs newsletter - January 2023
 =======================================
 
 Happy 2023!
-In this newsletter,
-we present the updates happening in 2022's last month and since the :doc:`previous newsletter </newsletter-december-2022>`.
 
 News and updates
 ----------------
 
-Here are the latest updates from our team:
+Here are the latest updates from our team since the :doc:`previous newsletter </newsletter-december-2022>`:
 
-- 📹️ Eric delivered a talk at DjangoCon US 2022 about the state of art to document a project in 2022.
+- 📹️ Eric delivered a talk at DjangoCon US 2022 with practical tips for developing *state of the art* documentation projects.
   You can watch it here: `Documenting Django Code in 2022`_
 - 🛠️ We continued reorganizing our own documentation to follow the `Diátaxis Framework`_.
   We look forward to a "show and tell" about our experience refactoring them using this framework.
@@ -40,20 +38,45 @@ You can always see the latest changes to our platforms in our :doc:`Read the Doc
 Upcoming features
 -----------------
 
-- We're working on improving our integration with `Material for MkDocs <https://squidfunk.github.io/mkdocs-material/>`_, which is a great theme for `MkDocs <https://www.mkdocs.org/>`_ documentation projects.
-- Many improvements to our URL handling code, which will allow us to support more flexible URL configurations for projects.
-- A search redesign to make it nicer across our dashboard and in-doc search experiences. 
-- 
+..
+  Note:
+  
+  When creating newsletter drafts, we keep the items here from the previous newsletter.
+  This is in order to ensure due follow-up on features that are announced publicly.
+  
+  Feature done? A great follow-up is to add what was previously an upcoming feature as a released feature in the former section.
+  
+  Feature not done?
+  Make sure that upcoming features are announced with a link to issues or PRs where the progress can be seen.
+  If this is done, then subsequent newsletters aren't compelled to share progress when it's uninteresting.
+  
+  If a feature was announced as upcoming but isn't yet released,
+  then try rephrasing the announcement as a general news update about the progress and where it can be followed.
+
+The core team has laid out its 2023 Q1 roadmap and our general focus will be on:
+
+- Improving support for using *any* documentation tool in the build process.
+- Currently, users can either customize a default build process or overwrite the entire process from scratch.
+  We are aligning these two approaches,
+  making it easier to design and configure builds for a project's individual needs.
+- Continuing to restructure and rewrite the user documentation of Read the Docs.
+  We look forward to publishing the restructured documentation which is likely happening at the end of Q1.
+- Dashboard redesign: The entire Dashboard will be redesigned and re-implemented.
+  This work is about to be launched!
+
 
 Possible issues
 ---------------
 
+Sphinx users should be aware of the following possible issues:
+
 * Sphinx 6.0 and 6.1 were released very recently.
 
-  * Not all extensions and themes have added support!
+  * Read :doc:`our considerations for upgrading </sphinx6-upgrade>`.
+  * Not all extensions and themes have added support for the new versions!
   * You may experience issues if you have not pinned your documentation dependencies.
-  * Issues may be caused directly by bugs in the extensions and themes that you are using.
-    Visiting the issue trackers of these projects can be a good idea.
+  * Issues may also be caused by new bugs in the Sphinx 6 compatibility of extensions and themes.
+    Visiting the issue trackers of these projects is helpful.
 
 * We are actively updating our theme to support Sphinx and docutils updates.
   If you find regressions in any new releases of the `sphinx-rtd-theme <https://sphinx-rtd-theme.readthedocs.io/>`_,
@@ -62,37 +85,44 @@ Possible issues
 If you suspect that upgrade issues are caused by dependency mismatches,
 we recommend taking the approach of *reproducible builds*.
 This includes explicitly specifying all relevant dependencies.
-Read more in our documentation's `introduction to Reproducible Builds`_.
+Read more in our documentation's :doc:`introduction to Reproducible Builds <readthedocs:guides/reproducible-builds>`.
 
-.. _introduction to Reproducible Builds: https://docs.readthedocs.io/en/stable/guides/reproducible-builds.html
+..
+  Tip of the month
+  ----------------
+  
+  TBD: Insert twitter embed
 
-
-Tip of the month
-----------------
-
-TBD: Insert twitter embed
 
 Awesome Project of the month
 ----------------------------
 
-TBD: Insert twitter embed
+`GeoPandas <https://geopandas.org/>`_ is an open source project for working with geospatial data which requires a lot of exciting features from the documentation - maps, plots etc. We especially like how the documentation is structured. See all the highlights in the following `Twitter thread <https://twitter.com/readthedocs/status/1603095976117522433>`_:
 
+.. raw:: html
+
+   <blockquote class="twitter-tweet"><p lang="en" dir="ltr">GeoPandas is an open source project to make working with <a href="https://twitter.com/hashtag/geospatial?src=hash&amp;ref_src=twsrc%5Etfw">#geospatial</a> data in <a href="https://twitter.com/hashtag/Python?src=hash&amp;ref_src=twsrc%5Etfw">#Python</a> easier. <a href="https://twitter.com/geopandas?ref_src=twsrc%5Etfw">@GeoPandas</a> extends the datatypes used by pandas to allow spatial operations on geometric types.<br><br>We want to highlight some things we love from their docs.<br><br>🤏 (small) 🧵 <a href="https://t.co/Hj82s6SDQP">pic.twitter.com/Hj82s6SDQP</a></p>&mdash; Read the Docs (@readthedocs) <a href="https://twitter.com/readthedocs/status/1603095976117522433?ref_src=twsrc%5Etfw">December 14, 2022</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
 Awesome Read the Docs Projects List 🕶️
 --------------------------------------
 
-Looking for more inspiration? Check out our new list: `Awesome Read the Docs Projects <https://github.com/readthedocs-examples/awesome-read-the-docs>`_.
+Looking for more inspiration?
+Check out our new list `Awesome Read the Docs Projects <https://github.com/readthedocs-examples/awesome-read-the-docs>`_
+and help us discover more awesome projects.
 
-----
 
-Considering using Read the Docs for your next documentation project?
+Read the Docs for Business
+--------------------------
+
+Considering using Read the Docs for an organization?
 
 .. raw:: html
 
-   <a href="https://docs.readthedocs.io/" style="background-color: #409cff; border-radius: 3px; color: #ffffff; display: block; margin: 30px auto; font-size: 18px; font-weight: 700; line-height: 24px; padding: 15px 0 15px 0; text-align: center; text-decoration: none; width: 238px;">
-     Get started: Read our documentation
+   <a href="https://about.readthedocs.com/" style="background-color: #409cff; border-radius: 3px; color: #ffffff; display: block; margin: 30px auto; font-size: 18px; font-weight: 700; line-height: 24px; padding: 15px 0 15px 0; text-align: center; text-decoration: none; width: 238px;">
+     Discover all the features ✨️
    </a>
 
+-------
 
 Questions? Comments? Ideas for the next newsletter? `Contact us`_!
 
