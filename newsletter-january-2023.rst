@@ -20,8 +20,8 @@ Here are the latest updates from our team since the :doc:`previous newsletter </
 
 - 📹️ Eric delivered a talk at DjangoCon US 2022 with practical tips for developing *state of the art* documentation projects.
   You can watch it here: `Documenting Django Code in 2022`_
-- 🛠️ We continued reorganizing our own documentation to follow the `Diátaxis Framework`_.
-  We look forward to a "show and tell" about our experience refactoring them using this framework.
+- 🛠️ In line with the talk,
+  we continued reorganizing our own documentation to follow the `Diátaxis Framework`_.
 - 🚢️ Sphinx 6.0 and 6.1 have been released.
   Excited Sphinx users should try it out.
   If you want things to not break,
