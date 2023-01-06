@@ -23,7 +23,6 @@ Here are the latest updates from our team since the :doc:`previous newsletter </
 - 🛠️ In line with the talk,
   we continued reorganizing our own documentation to follow the `Diátaxis Framework`_.
 - 🚢️ Sphinx 6.0 and 6.1 have been released.
-  Excited Sphinx users should try it out.
   If you want things to not break,
   it's good to wait a bit.
   Read :doc:`our considerations for upgrading </sphinx6-upgrade>`.
