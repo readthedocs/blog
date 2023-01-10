@@ -47,5 +47,35 @@ maintainers of Sphinx themes and extensions.
 This is a positive step forward for both documentation projects, themes and extensions.
 If your Sphinx extensions and theme support Sphinx 6, we recommend this upgrade in order to reduce complexities and future technical debt.
 
+
+Possible issues
+---------------
+
+* Sphinx 6.0 and 6.1 are very fresh releases. As such, please remember:
+
+  * Not all extensions and themes have added support for the new versions!
+  * You may experience issues if you have not pinned your documentation dependencies.
+  * Issues may also be caused by new bugs in the Sphinx 6 compatibility of extensions and themes.
+    Visiting the issue trackers of these projects is helpful.
+
+* We are actively updating our theme to support Sphinx and docutils updates.
+  If you find regressions in any new releases of the `sphinx-rtd-theme <https://sphinx-rtd-theme.readthedocs.io/>`_,
+  please don't hesitate to `open an issue on GitHub <https://github.com/readthedocs/sphinx_rtd_theme/>`_.
+
+If you suspect that upgrade issues are caused by dependency mismatches,
+we recommend taking the approach of *reproducible builds*.
+This includes explicitly specifying all relevant dependencies.
+Read more in our documentation's :doc:`introduction to Reproducible Builds <readthedocs:guides/reproducible-builds>`.
+
+
+Don't fancy upgrading?
+----------------------
+
+A new release of Sphinx doesn't mean an obligation to upgrade immediately.
+You can continue to use an older series of Sphinx such as 5.3.x, 4.5.x etc.
+
+Environments compatible with older versions of Sphinx are supported on Read the Docs for many years,
+and Sphinx has a history of releasing updates for older series.
+
 .. _sphinx-rtd-theme: https://sphinx-rtd-theme.readthedocs.io/
 
