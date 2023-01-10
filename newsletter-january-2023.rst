@@ -74,6 +74,10 @@ If you choose to update,
 there are a few things to be aware of.
 Read :doc:`our considerations for upgrading </sphinx6-upgrade>`.
 
+If the release of Sphinx 6 has made your builds fail,
+it may be because you are not pinning your dependencies.
+We recommend reading our :doc:`introduction to Reproducible Builds <readthedocs:guides/reproducible-builds>`.
+
 ..
   Tip of the month
   ----------------
