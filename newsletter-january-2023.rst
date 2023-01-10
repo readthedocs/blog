@@ -27,19 +27,28 @@ Here are the latest updates from our team since the :doc:`previous newsletter </
   it's good to wait a bit.
   Read :doc:`our considerations for upgrading </sphinx6-upgrade>`.
 - 🔒️ We fixed a security vulnerability on our platform. See: `GHSA-368m-86q9-m99w`_
+- 🔒 We immediately rotated Circle CI secrets as `advised by Circle CI`_.
+  Read the Docs did not share secrets with Circle CI for build infrastructure,
+  nor do we see any signs that other secrets have been suspiciously accessed.
 
 You can always see the latest changes to our platforms in our :doc:`Read the Docs Changelog <readthedocs:changelog>`.
 
 .. _Documenting Django Code in 2022: https://www.youtube.com/watch?v=mqn0D4xat58
 .. _Diátaxis Framework: https://diataxis.fr/
 .. _GHSA-368m-86q9-m99w: https://github.com/readthedocs/readthedocs.org/security/advisories/GHSA-368m-86q9-m99w
+.. _advised by Circle CI: https://circleci.com/blog/january-4-2023-security-alert/
 
 Upcoming features
 -----------------
 
 ..
-  Note:
-  
+  Notes:
+
+  Next newsletter:
+  Make a general announcement of our Roadmap
+
+  General:
+
   When creating newsletter drafts, we keep the items here from the previous newsletter.
   This is in order to ensure due follow-up on features that are announced publicly.
   
@@ -63,6 +72,9 @@ The core team has laid out its 2023 Q1 roadmap and our general focus will be on:
 - Dashboard redesign: Our admin dashboard is currently being redesigned and reimplemented.
   We are hoping to have a public beta in Q1.
 
+Interested in all the details? `View our full Roadmap 📍️`_
+
+.. _View our full Roadmap 📍️: https://github.com/orgs/readthedocs/projects/156/views/4
 
 Possible issues
 ---------------
