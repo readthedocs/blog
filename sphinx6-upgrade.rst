@@ -34,6 +34,20 @@ we recommend checking for Sphinx 6 support in those projects before upgrading.
 .. _sphinxcontrib-jquery: https://pypi.org/project/sphinxcontrib.jquery/
 
 
+Less maintenance work in the future
+-----------------------------------
+
+Sphinx 6 focuses on reducing the maintenance burden for the future.
+This is done by simplifying the factor of supported docutils versions and Python versions.
+
+Moving forwards,
+the number of upgrade paths for documentation projects
+are fewer and thus will lead to less choices for documentation owners and
+maintainers of Sphinx themes and extensions.
+This is a positive step forward for both documentation projects, themes and extensions.
+If your Sphinx extensions and theme support Sphinx 6, we recommend this upgrade in order to reduce complexities and future technical debt.
+
+
 Possible issues
 ---------------
 
@@ -54,18 +68,14 @@ This includes explicitly specifying all relevant dependencies.
 Read more in our documentation's :doc:`introduction to Reproducible Builds <readthedocs:guides/reproducible-builds>`.
 
 
-Less maintenance work in the future
------------------------------------
+Don't fancy upgrading?
+----------------------
 
-Sphinx 6 focuses on reducing the maintenance burden for the future.
-This is done by simplifying the factor of supported docutils versions and Python versions.
+A new release of Sphinx doesn't mean an obligation to upgrade immediately.
+You can continue to use an older series of Sphinx such as 5.3.x, 4.5.x etc.
 
-Moving forwards,
-the number of upgrade paths for documentation projects
-are fewer and thus will lead to less choices for documentation owners and
-maintainers of Sphinx themes and extensions.
-This is a positive step forward for both documentation projects, themes and extensions.
-If your Sphinx extensions and theme support Sphinx 6, we recommend this upgrade in order to reduce complexities and future technical debt.
+Environments compatible with older versions of Sphinx are supported on Read the Docs for many years,
+and Sphinx has a history of releasing updates for older series.
 
 .. _sphinx-rtd-theme: https://sphinx-rtd-theme.readthedocs.io/
 
