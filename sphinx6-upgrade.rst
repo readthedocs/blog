@@ -34,7 +34,7 @@ we recommend checking for Sphinx 6 support in those projects before upgrading.
 .. _sphinxcontrib-jquery: https://pypi.org/project/sphinxcontrib.jquery/
 
 
-Troubleshooting
+Possible issues
 ---------------
 
 * Sphinx 6.0 and 6.1 are very fresh releases. As such, please remember:
