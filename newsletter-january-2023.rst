@@ -70,7 +70,7 @@ The core team has laid out its 2023 Q1 roadmap and our general focus will be on:
 - Continuing to restructure and rewrite the user documentation of Read the Docs.
   We look forward to publishing the restructured documentation which is likely happening at the end of Q1.
 - Dashboard redesign: Our admin dashboard is currently being redesigned and reimplemented.
-  We are hoping to have a public beta in Q1.
+  We are targeting the work to be presented in a public beta.
 
 Interested in all the details? `View our full Roadmap 📍️`_
 
