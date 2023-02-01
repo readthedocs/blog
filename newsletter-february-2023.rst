@@ -14,15 +14,21 @@ Read the Docs newsletter - February 2023
 News and updates
 ----------------
 
-..
-  Any Write the Docs news to add?
 
 Here are the latest updates from our team since the :doc:`previous newsletter </newsletter-january-2023>`:
 
-- 📹️ Insert
-- 🛠️ Fixes
-- 🚢️ Releases and
-- 🔒️ Security disclosures
+- 🪄️ Build outputs are now stored in a well-known folder. This paves the way for a lot of new integrations, which we will uncover in an upcoming blog post. PDFs for MkDocs and encrypted documentations are just two demos that we have ready. Stay tuned!
+- 🌪️ Uploads are faster and done in parallel, thanks to ``rclone``. 
+- 🔒️ CORS headers have been improved.
+- 🛠️ The default branch of a git repository is now correctly detected in manual imports. This was a long-standing bug that we are very happy to finally have fixed.
+- 🚢️ An update to our integration between Celery and Redis has been added after a couple of operational disturbances that were causing long build queues.
+- 🎤️ Write the Docs has announced their 2023 conferences. Read more in `their announcement <wtd_announcement>`_
+- 🔒️ Security disclosures: TDB
+- 🚦️ Note from Cloudflare that provides CDN for everything on readthedocs.io:
+
+    On February 14th, 2023, Cloudflare will be doing database maintenance that will impact SSL API availability and may result in certificate issuance delays. The scheduled maintenance will be on February 14, 2023, 14:00 - 16:00 UTC.
+
+.. _wtd_announcement: https://www.writethedocs.org/blog/2023-january-update/
 
 You can always see the latest changes to our platforms in our :doc:`Read the Docs Changelog <readthedocs:changelog>`.
 
@@ -65,14 +71,9 @@ Interested in all the details? `View our full Roadmap 📍️`_
 Possible issues
 ---------------
 
-Further Sphinx 6 issues?
-
-..
-  Tip of the month
-  ----------------
-  
-  TBD: Insert twitter embed
-
+* The change of the standard build output directory will cause issues for anyone that has custom builds and have guessed the old unofficial output directory. See technical details in: https://github.com/readthedocs/readthedocs.org/pull/9888
+* If you want to use Sphinx 6 wth sphinx-rtd-theme,
+  we will ship an update next week of both the new theme and an update on our platform dealing with the removal of jQuery from Sphinx.
 
 Awesome Project of the month
 ----------------------------
