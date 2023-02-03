@@ -14,30 +14,34 @@ Read the Docs newsletter - February 2023
 News and updates
 ----------------
 
-
 Here are the latest updates from our team since the :doc:`previous newsletter </newsletter-january-2023>`:
 
-- 🪄️ Build outputs are now stored in a well-known folder.
-  This paves the way for a lot of new integrations,
+- 🪄️ Build outputs are now stored in a well-known location, available to the build process.
+  This opens up many new and exciting possibilities for generating and processing final output formats,
   which we will uncover in an upcoming blog post.
   PDFs for MkDocs and encrypted documentations are just two demos that we have ready.
-  Stay tuned!
+  **Stay tuned!**
 - 🌪️ Uploads are faster and done in parallel,
-  thanks to ``rclone``. 
-- 🔒️ CORS headers have been improved.
+  thanks to `rclone`_. 
+- 🔒️ CORS headers have been tightened on all platforms.
 - 🛠️ The default branch of a git repository is now correctly detected in manual imports.
   This was a long-standing bug that we are very happy to finally have fixed.
-- 🚢️ An update to our integration between Celery and Redis has been added after a couple of operational disturbances that were causing long build queues.
 - 🎤️ Write the Docs has announced their 2023 conferences.
   Read more in `their announcement <wtd_announcement>`_
-- 🔒️ Security disclosures: TDB
+- 🔒️ Security issue found and fixed: `Path traversal: access to files from any project <GHSA-5w8m-r7jm-mhp9>`_
+- 🔒️ Security issue found and fixed: `Symlink following: Arbitrary file access from builder server <GHSA-hqwg-gjqw-h5wg>`_
+- 🔒️ Security issue found and fixed: `Cache poisoning <GHSA-7fcx-wwr3-99jv>`_
 - 🚦️ Note from Cloudflare that provides CDN for everything on readthedocs.io:
 
     On February 14th, 2023,
     Cloudflare will be doing database maintenance that will impact SSL API availability and may result in certificate issuance delays.
     The scheduled maintenance will be on February 14, 2023, 14:00 - 16:00 UTC.
 
+.. _rclone: https://rclone.org/
 .. _wtd_announcement: https://www.writethedocs.org/blog/2023-january-update/
+.. _GHSA-5w8m-r7jm-mhp9: https://github.com/readthedocs/readthedocs.org/security/advisories/GHSA-5w8m-r7jm-mhp9
+.. _GHSA-hqwg-gjqw-h5wg: https://github.com/readthedocs/readthedocs.org/security/advisories/GHSA-hqwg-gjqw-h5wg
+.. _GHSA-7fcx-wwr3-99jv: https://github.com/readthedocs/readthedocs.org/security/advisories/GHSA-7fcx-wwr3-99jv
 
 You can always see the latest changes to our platforms in our :doc:`Read the Docs Changelog <readthedocs:changelog>`.
 

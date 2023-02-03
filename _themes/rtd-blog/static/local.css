@@ -171,10 +171,13 @@ blockquote {
   font-size: 115%;
   line-height: 1.4;
   margin: 1em;
-  padding-left: 0.25em;
+  padding: 0 0.5em;
   border-left: 3px solid #ccc;
 }
 
+ul li blockquote {
+  font-size: 100%;
+}
 /* Remove the RTD flyout menu on the blog */
 .rst-versions.rst-badge {
     display: none !important;
