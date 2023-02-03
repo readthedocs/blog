@@ -27,7 +27,7 @@ Here are the latest updates from our team since the :doc:`previous newsletter </
 - 🛠️ The default branch of a git repository is now correctly detected in manual imports.
   This was a long-standing bug that we are very happy to finally have fixed.
 - 🎤️ Write the Docs has announced their 2023 conferences.
-  Read more in `their announcement <wtd_announcement>`_
+  Read more in `their announcement`_.
 - 🔒️ Security issue found and fixed: `Path traversal: access to files from any project <GHSA-5w8m-r7jm-mhp9>`_
 - 🔒️ Security issue found and fixed: `Symlink following: Arbitrary file access from builder server <GHSA-hqwg-gjqw-h5wg>`_
 - 🔒️ Security issue found and fixed: `Cache poisoning <GHSA-7fcx-wwr3-99jv>`_
@@ -38,7 +38,7 @@ Here are the latest updates from our team since the :doc:`previous newsletter </
     The scheduled maintenance will be on February 14, 2023, 14:00 - 16:00 UTC.
 
 .. _rclone: https://rclone.org/
-.. _wtd_announcement: https://www.writethedocs.org/blog/2023-january-update/
+.. _their announcement: https://www.writethedocs.org/blog/2023-january-update/
 .. _GHSA-5w8m-r7jm-mhp9: https://github.com/readthedocs/readthedocs.org/security/advisories/GHSA-5w8m-r7jm-mhp9
 .. _GHSA-hqwg-gjqw-h5wg: https://github.com/readthedocs/readthedocs.org/security/advisories/GHSA-hqwg-gjqw-h5wg
 .. _GHSA-7fcx-wwr3-99jv: https://github.com/readthedocs/readthedocs.org/security/advisories/GHSA-7fcx-wwr3-99jv
@@ -75,7 +75,8 @@ Upcoming features
   If a feature was announced as upcoming but isn't yet released,
   then try rephrasing the announcement as a general news update about the progress and where it can be followed.
 
-- Specific upcoming features from roadmap
+- More internal components the build process are scheduled to have a public API in order to allow for full control.
+- Our documentation refactor is entering final stages before the first reveal.
 
 Interested in all the details? `View our full Roadmap 📍️`_
 
@@ -85,9 +86,12 @@ Possible issues
 ---------------
 
 * The change of the standard build output directory will cause issues for anyone that has custom builds and have guessed the old unofficial output directory.
-  See technical details in: https://github.com/readthedocs/readthedocs.org/pull/9888
+  See technical details in `readthedocs.org#9888`_
 * If you want to use Sphinx 6 wth sphinx-rtd-theme,
   we will ship an update next week of both the new theme and an update on our platform dealing with the removal of jQuery from Sphinx.
+  See also :doc:`/sphinx6-upgrade`.
+
+.. _readthedocs.org#9888: https://github.com/readthedocs/readthedocs.org/pull/9888
 
 Awesome Project of the month
 ----------------------------
