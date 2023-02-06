@@ -75,8 +75,8 @@ Upcoming features
   If a feature was announced as upcoming but isn't yet released,
   then try rephrasing the announcement as a general news update about the progress and where it can be followed.
 
-- More internal components the build process are scheduled to have a public API in order to allow for full control.
-- Our documentation refactor is entering final stages before the first reveal.
+- More internal components of the build process will have a public API, giving full control and flexibility and allowing for more documentation tools to be used.
+- Our Diátaxis documentation refactor is entering final stages before the first reveal.
 
 Interested in all the details? `View our full Roadmap 📍️`_
 
