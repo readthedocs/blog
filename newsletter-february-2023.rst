@@ -90,6 +90,7 @@ Possible issues
 * If you want to use Sphinx 6 wth sphinx-rtd-theme,
   we will ship an update next week of both the new theme and an update on our platform dealing with the removal of jQuery from Sphinx.
   See also :doc:`/sphinx6-upgrade`.
+* A new sphinx-rtd-theme 1.2.0 has been released together with a Sphinx 6-ready upgrade of our Sphinx builder. We removed an injection of a legacy setting ``html_theme_path`` used with very old versions of Sphinx ``<1.6``.
 
 .. _readthedocs.org#9888: https://github.com/readthedocs/readthedocs.org/pull/9888
 
