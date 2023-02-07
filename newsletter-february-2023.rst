@@ -74,7 +74,7 @@ Interested in all the details? `View our full Roadmap 📍️`_
 Possible issues
 ---------------
 
-- 🚦️ A maintenance update from Cloudflare that provides our CDN and SSL provisioning. 
+- 🚦️ There is a schedule maintenance window on Cloudflare that provides our CDN and SSL provisioning. 
   We are working to ensure that nothing is offline other than creation of new domains:
 
     On February 14th, 2023,
@@ -92,14 +92,20 @@ Possible issues
 
 .. _readthedocs.org#9888: https://github.com/readthedocs/readthedocs.org/pull/9888
 
-Awesome Project of the month
-----------------------------
 
-TBD
+.. Skipped in february
+.. Awesome Project of the month
+.. ----------------------------
+
+Awesome Read the Docs Projects 🕶️
+---------------------------------
+
 
 **Looking for more inspiration?**
-Check out our new list `Awesome Read the Docs Projects 🕶️ <https://github.com/readthedocs-examples/awesome-read-the-docs>`_
-and help us discover more awesome projects.
+We continue to build `Awesome Read the Docs Projects 🕶️ <https://github.com/readthedocs-examples/awesome-read-the-docs>`_,
+a list full of inspirational documentation projects.
+
+Please feel invited to open an issue or Pull Request in the repository with your suggestions.
 
 
 -------
