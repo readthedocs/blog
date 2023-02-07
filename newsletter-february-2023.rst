@@ -16,7 +16,7 @@ News and updates
 
 Here are the latest updates from our team since the :doc:`previous newsletter </newsletter-january-2023>`:
 
-- 🪄️ Build outputs are now stored in a well-known location: `_readthedocs/<format>`.
+- 🪄️ Build outputs are now stored in a well-known location: ``_readthedocs/<format>``.
   This opens up many new and exciting possibilities for generating and processing final output formats,
   which we will uncover in an upcoming blog post.
   PDFs for MkDocs and encrypted documentations are just two demos that we have ready.
@@ -26,17 +26,11 @@ Here are the latest updates from our team since the :doc:`previous newsletter </
 - 🔒️ CORS headers been updated to unauthenticated access to all public information on approved API endpoints.
 - 🛠️ The default branch of a Git repository is now correctly detected in manual imports.
   This was a long-standing bug that we are very happy to fix.
-- 🎤️ Write the Docs has announced their 2023 conferences.
-  Read more in `their announcement`_.
 - 🔒️ Security issue found and fixed: `Path traversal: access to files from any project <GHSA-5w8m-r7jm-mhp9>`_
 - 🔒️ Security issue found and fixed: `Symlink following: Arbitrary file access from builder server <GHSA-hqwg-gjqw-h5wg>`_
 - 🔒️ Security issue found and fixed: `Cache poisoning <GHSA-7fcx-wwr3-99jv>`_
-- 🚦️ A maintenance update from Cloudflare that provides our CDN and SSL provisioning. 
-We are working to ensure that nothing is offline other than creation of new domains:
-
-    On February 14th, 2023,
-    Cloudflare will be doing database maintenance that will impact SSL API availability and may result in certificate issuance delays.
-    The scheduled maintenance will be on February 14, 2023, 14:00 - 16:00 UTC.
+- 🎤️ Write the Docs has announced their 2023 conferences.
+  Read more in `their announcement`_.
 
 .. _rclone: https://rclone.org/
 .. _their announcement: https://www.writethedocs.org/blog/2023-january-update/
@@ -46,12 +40,6 @@ We are working to ensure that nothing is offline other than creation of new doma
 
 You can always see the latest changes to our platforms in our :doc:`Read the Docs Changelog <readthedocs:changelog>`.
 
-
-.. raw:: html
-
-   <a href="https://about.readthedocs.com/" style="background-color: #409cff; border-radius: 3px; color: #ffffff; display: block; margin: 30px auto; font-size: 18px; font-weight: 700; line-height: 24px; padding: 15px 0 15px 0; text-align: center; text-decoration: none; width: 238px;">
-     Discover all the features ✨️
-   </a>
 
 Upcoming features
 -----------------
@@ -86,12 +74,21 @@ Interested in all the details? `View our full Roadmap 📍️`_
 Possible issues
 ---------------
 
-* The change of the standard build output directory will cause issues for anyone that has custom builds and have guessed the old unofficial output directory.
+- 🚦️ A maintenance update from Cloudflare that provides our CDN and SSL provisioning. 
+  We are working to ensure that nothing is offline other than creation of new domains:
+
+    On February 14th, 2023,
+    Cloudflare will be doing database maintenance that will impact SSL API availability and may result in certificate issuance delays.
+    The scheduled maintenance will be on February 14, 2023, 14:00 - 16:00 UTC.
+
+- The change of the standard build output directory will cause issues for anyone that has custom builds and have guessed the old unofficial output directory.
   See technical details in `readthedocs.org#9888`_
-* If you want to use Sphinx 6 wth sphinx-rtd-theme,
-  we will ship an update next week of both the new theme and an update on our platform dealing with the removal of jQuery from Sphinx.
+- If you want to use Sphinx 6 with sphinx-rtd-theme,
+  we have shipped an update of both the new theme and an update on our platform dealing with the removal of jQuery from Sphinx.
   See also :doc:`/sphinx6-upgrade`.
-* A new sphinx-rtd-theme 1.2.0 has been released together with a Sphinx 6-ready upgrade of our Sphinx builder. We removed an injection of a legacy setting ``html_theme_path`` used with very old versions of Sphinx ``<1.6``.
+- In relation to the former update, we removed an injection of a legacy setting ``html_theme_path`` used with very old versions of Sphinx ``<1.6``.
+  Please make note of this in case you are building documentation with this version of Sphinx.
+  The recommended fix for the issue is to upgrade your Sphinx version.
 
 .. _readthedocs.org#9888: https://github.com/readthedocs/readthedocs.org/pull/9888
 
@@ -100,14 +97,8 @@ Awesome Project of the month
 
 TBD
 
-
-Awesome Read the Docs Projects List 🕶️
---------------------------------------
-
-.. Depending on interaction, maybe time to turn this into a link in the above section
-
-Looking for more inspiration?
-Check out our new list `Awesome Read the Docs Projects <https://github.com/readthedocs-examples/awesome-read-the-docs>`_
+**Looking for more inspiration?**
+Check out our new list `Awesome Read the Docs Projects 🕶️ <https://github.com/readthedocs-examples/awesome-read-the-docs>`_
 and help us discover more awesome projects.
 
 
