@@ -23,7 +23,9 @@ Here are the latest updates from our team since the :doc:`previous newsletter </
   **Stay tuned!**
 - 🌪️ Uploads are faster and done in parallel,
   thanks our migration to `rclone`_ which is in staged deploy to ensure availability. 
-- 🔒️ `CORS`_ headers now have a minimal subset of required origins, methods and credentials. Public API endpoints are defined to reject credentials from unknown origins.
+- 🔒️ Cross site requests to our approved API endpoints now reject requests that include credentials (cookies).
+  This functionality was not needed,
+  and had the potential for future security issues.
 - 🛠️ The default branch of a Git repository is now correctly detected in manual imports.
   This was a long-standing bug that we are very happy to fix.
 - 🔒️ Security issue found and fixed: `Path traversal: access to files from any project <GHSA-5w8m-r7jm-mhp9>`_
@@ -33,7 +35,6 @@ Here are the latest updates from our team since the :doc:`previous newsletter </
   Read more in `their announcement`_.
 
 .. _rclone: https://rclone.org/
-.. _CORS: https://en.wikipedia.org/wiki/Cross-origin_resource_sharing
 .. _their announcement: https://www.writethedocs.org/blog/2023-january-update/
 .. _GHSA-5w8m-r7jm-mhp9: https://github.com/readthedocs/readthedocs.org/security/advisories/GHSA-5w8m-r7jm-mhp9
 .. _GHSA-hqwg-gjqw-h5wg: https://github.com/readthedocs/readthedocs.org/security/advisories/GHSA-hqwg-gjqw-h5wg
