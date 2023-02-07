@@ -1,4 +1,4 @@
-.. post:: Feb 1, 2023
+.. post:: Feb 7, 2023
    :tags: newsletter, python
    :author: Ben
    :location: MLM
@@ -16,22 +16,23 @@ News and updates
 
 Here are the latest updates from our team since the :doc:`previous newsletter </newsletter-january-2023>`:
 
-- 🪄️ Build outputs are now stored in a well-known location, available to the build process.
+- 🪄️ Build outputs are now stored in a well-known location: `_readthedocs/<format>`.
   This opens up many new and exciting possibilities for generating and processing final output formats,
   which we will uncover in an upcoming blog post.
   PDFs for MkDocs and encrypted documentations are just two demos that we have ready.
   **Stay tuned!**
 - 🌪️ Uploads are faster and done in parallel,
-  thanks to `rclone`_. 
-- 🔒️ CORS headers have been tightened on all platforms.
-- 🛠️ The default branch of a git repository is now correctly detected in manual imports.
-  This was a long-standing bug that we are very happy to finally have fixed.
+  thanks our migration to `rclone`_ which is in staged deploy to ensure availability. 
+- 🔒️ CORS headers been updated to unauthenticated access to all public information on approved API endpoints.
+- 🛠️ The default branch of a Git repository is now correctly detected in manual imports.
+  This was a long-standing bug that we are very happy to fix.
 - 🎤️ Write the Docs has announced their 2023 conferences.
   Read more in `their announcement`_.
 - 🔒️ Security issue found and fixed: `Path traversal: access to files from any project <GHSA-5w8m-r7jm-mhp9>`_
 - 🔒️ Security issue found and fixed: `Symlink following: Arbitrary file access from builder server <GHSA-hqwg-gjqw-h5wg>`_
 - 🔒️ Security issue found and fixed: `Cache poisoning <GHSA-7fcx-wwr3-99jv>`_
-- 🚦️ Note from Cloudflare that provides CDN for everything on readthedocs.io:
+- 🚦️ A maintenance update from Cloudflare that provides our CDN and SSL provisioning. 
+We are working to ensure that nothing is offline other than creation of new domains:
 
     On February 14th, 2023,
     Cloudflare will be doing database maintenance that will impact SSL API availability and may result in certificate issuance delays.
@@ -80,7 +81,7 @@ Upcoming features
 
 Interested in all the details? `View our full Roadmap 📍️`_
 
-.. _View our full Roadmap 📍️: https://github.com/orgs/readthedocs/projects/156/views/4
+.. _View our full Roadmap 📍️: https://github.com/orgs/readthedocs/projects/156/views/1
 
 Possible issues
 ---------------
