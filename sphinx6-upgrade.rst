@@ -15,7 +15,7 @@ Sphinx 6 is out and has important breaking changes
 
    **Important updates to this post ⬇️**
    
-   - `sphinx-rtd-theme`_ 1.2.0 has been released.
+   - `sphinx-rtd-theme`_ 1.2.0 has been released with support for Sphinx 6.
    - `A necessary platform update on Read the Docs <https://github.com/readthedocs/readthedocs.org/pull/9654>`__,
      released on February 7th 2023,
      allows for jQuery to be included in certain complex scenarios pertaining Sphinx 6.
