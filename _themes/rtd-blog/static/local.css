@@ -171,10 +171,24 @@ blockquote {
   font-size: 115%;
   line-height: 1.4;
   margin: 1em;
-  padding-left: 0.25em;
+  padding: 0 0.5em;
   border-left: 3px solid #ccc;
 }
 
+/*
+This compensates for a visual difference in the size of the "Lato" font and
+a typical monospace font.
+
+Lato appears much smaller.
+*/
+code, pre, span.pre
+{
+  font-size: 0.95em;
+}
+
+ul li blockquote {
+  font-size: 100%;
+}
 /* Remove the RTD flyout menu on the blog */
 .rst-versions.rst-badge {
     display: none !important;

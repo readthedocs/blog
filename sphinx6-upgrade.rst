@@ -11,6 +11,19 @@
 Sphinx 6 is out and has important breaking changes
 ==================================================
 
+.. note::
+
+   **Important updates to this post ⬇️**
+   
+   - `sphinx-rtd-theme`_ 1.2.0 has been released with support for Sphinx 6.
+   - `A necessary platform update on Read the Docs <https://github.com/readthedocs/readthedocs.org/pull/9654>`__,
+     released on February 7th 2023,
+     allows for jQuery to be included in certain complex scenarios pertaining Sphinx 6.
+   - Sphinx 6.1 has also been released with frequent patch releases.
+     Be aware of `open issues on the Sphinx GitHub project <https://github.com/sphinx-doc/sphinx/issues>`__.
+   - `sphinxcontrib-jquery`_ 3.0.0 does not work on local builds while version 2.0.0 relies on Google's CDN.
+     `A fix <https://github.com/sphinx-contrib/jquery/pull/14>`__ is waiting for review and release.
+
 Sphinx 6 was released on December 29, 2022.
 It contains a few major breaking changes that users should be aware of,
 and some smaller new features as well.
@@ -19,7 +32,7 @@ Here are some of our considerations for the upgrade process:
 - Python 3.8+ is required. To enable this on Read the Docs, you will need to specify a Python version using the :ref:`readthedocs:config-file/v2:build.tools.python` setting. If it's possible for your project, you can make the jump all the way to Python 3.11.
 - Support is dropped for docutils 0.14, 0.15, 0.16 and 0.17. It now supports only docutils 0.18 or 0.19.
 - `sphinx-rtd-theme`_ will support Sphinx 6 from 1.2.0, including docutils 0.18.
-  You can already install the release candidate: ``pip install sphinx-rtd-theme==1.2.0rc2``.
+  You can already install the release candidate: ``pip install sphinx-rtd-theme==1.2.0rc4``.
 - Bundled jQuery is removed.
   The JavaScript asset is easily added back using the new extension `sphinxcontrib-jquery`_.
   It is included automatically by `sphinx-rtd-theme`_, so if you are using our theme,
