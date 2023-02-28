@@ -17,7 +17,7 @@ please `email us <mailto:support@readthedocs.com>`_ anyway so that we can get to
 Jobs at Read the Docs
 ---------------------
 
-* :doc:`/job-product-developer`
+There are no current openings working at Read the Docs at this time.
 
 Jobs at EthicalAds
 ------------------
