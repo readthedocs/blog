@@ -65,7 +65,7 @@ and with it, version 1.0 of sphinx-hoverxref**.
 
 Among other things,
 the new versions allow you to
-:ref:`embed content from pages hosted outside Read the Docs <readthedocs:guides/embedding-content:embedding content from your documentation>`.
+:doc:`embed content from pages hosted outside Read the Docs <readthedocs:guides/embedding-content>`.
 For security reasons, we have an allowlist of such external domains
 that currently includes Python, NumPy, SciPy, SymPy,
 and we would like to
