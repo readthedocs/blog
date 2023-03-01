@@ -65,7 +65,7 @@ Using Sphinx 4.4 on Read the Docs
 
 Sphinx 4.4 is supported on Read the Docs. By default, RTD will install the latest version for you,
 as described in :ref:`our documentation <readthedocs:build-default-versions:external dependencies>`.
-If you are :ref:`pinning your dependencies <readthedocs:guides/reproducible-builds:pinning dependencies>`
+If you are :doc:`pinning your dependencies <readthedocs:guides/reproducible-builds>`
 to improve the reproducibility of your builds,
 you can change the pinned version to ``sphinx==4.4.0``
 in either your ``requirements.txt`` or ``environment.yml``.
