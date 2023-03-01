@@ -17,7 +17,7 @@ please `email us <mailto:support@readthedocs.com>`_ anyway so that we can get to
 Jobs at Read the Docs
 ---------------------
 
-There are no current openings working at Read the Docs at this time.
+There are no current job openings at Read the Docs at this time.
 
 Jobs at EthicalAds
 ------------------
