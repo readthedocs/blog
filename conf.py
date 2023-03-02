@@ -276,6 +276,10 @@ ogp_image = (
 ogp_custom_meta_tags = [
     '<meta name="twitter:card" content="summary_large_image" />',
 ]
+ogp_use_first_image = True  # https://github.com/readthedocs/blog/pull/118
+ogp_enable_meta_description = True
+ogp_description_length = 300
+
 
 # -- Options for LaTeX output ---------------------------------------------
 
