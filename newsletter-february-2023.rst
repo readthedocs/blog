@@ -28,17 +28,14 @@ Here are the latest updates from our team since the :doc:`previous newsletter </
   and had the potential for future security issues.
 - 🛠️ The default branch of a Git repository is now correctly detected in manual imports.
   This was a long-standing bug that we are very happy to fix.
-- 🔒️ Security issue found and fixed: `Path traversal: access to files from any project <GHSA-5w8m-r7jm-mhp9>`_
-- 🔒️ Security issue found and fixed: `Symlink following: Arbitrary file access from builder server <GHSA-hqwg-gjqw-h5wg>`_
-- 🔒️ Security issue found and fixed: `Cache poisoning <GHSA-7fcx-wwr3-99jv>`_
+- 🔒️ Security issue found and fixed: `Path traversal: access to files from any project <https://github.com/readthedocs/readthedocs.org/security/advisories/GHSA-5w8m-r7jm-mhp9>`__.
+- 🔒️ Security issue found and fixed: `Symlink following: Arbitrary file access from builder server <https://github.com/readthedocs/readthedocs.org/security/advisories/GHSA-hqwg-gjqw-h5wg>`__
+- 🔒️ Security issue found and fixed: `Cache poisoning <https://github.com/readthedocs/readthedocs.org/security/advisories/GHSA-7fcx-wwr3-99jv>`__
 - 🎤️ Write the Docs has announced their 2023 conferences.
   Read more in `their announcement`_.
 
 .. _rclone: https://rclone.org/
 .. _their announcement: https://www.writethedocs.org/blog/2023-january-update/
-.. _GHSA-5w8m-r7jm-mhp9: https://github.com/readthedocs/readthedocs.org/security/advisories/GHSA-5w8m-r7jm-mhp9
-.. _GHSA-hqwg-gjqw-h5wg: https://github.com/readthedocs/readthedocs.org/security/advisories/GHSA-hqwg-gjqw-h5wg
-.. _GHSA-7fcx-wwr3-99jv: https://github.com/readthedocs/readthedocs.org/security/advisories/GHSA-7fcx-wwr3-99jv
 
 You can always see the latest changes to our platforms in our :doc:`Read the Docs Changelog <readthedocs:changelog>`.
 
