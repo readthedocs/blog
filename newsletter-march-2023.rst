@@ -37,7 +37,6 @@ Here are the latest updates from our team since the :doc:`previous newsletter </
 - 🐞 :doc:`Pull Request <readthedocs:guides/pull-requests>` builds now link directly to the preview version of the documentation changes.
 - 🔒️ Vulnerability fixed: Pull requests preview builds `GHSA-h4cf-8gv8-4chf <https://github.com/readthedocs/readthedocs.org/security/advisories/GHSA-h4cf-8gv8-4chf>`__
 - 🔒️ Vulnerability fixed: Access to files from any project possible with crafted path traversal, see: `GHSA-5w8m-r7jm-mhp9 <https://github.com/readthedocs/readthedocs.org/security/advisories/GHSA-5w8m-r7jm-mhp9>`__.
-- 🔒️ Vulnerability fixed: Serving arbitrary content on documentation sites possible with cache poisoning,see: `GHSA-mp38-vprc-7hf5 <https://github.com/readthedocs/readthedocs.org/security/advisories/GHSA-mp38-vprc-7hf5>`__
 
 You can always see the latest changes to our platforms in our :doc:`Read the Docs Changelog <readthedocs:changelog>`.
 
