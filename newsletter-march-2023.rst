@@ -91,11 +91,7 @@ Interested in all the details? `View our full Roadmap 📍️`_
 Possible issues
 ---------------
 
-- 🚦️ There is a schedule maintenance window on Cloudflare that provides our CDN and SSL provisioning. 
-  We are working to ensure that nothing is offline other than creation of new domains:
-
-    On March 2nd, 2023, Cloudflare will be doing database maintenance that will impact SSL API availability and may result in certificate issuance delays.
-    Note: The date of the migration has shifted from February 14th to March 2nd. There are no additional changes (see below).
+- TBD
 
 
 Awesome Project of the month
