@@ -9,16 +9,39 @@
       current focus, and upcoming features.
 
 Read the Docs newsletter - March 2023
-========================================
+=====================================
 
 News and updates
 ----------------
 
 Here are the latest updates from our team since the :doc:`previous newsletter </newsletter-february-2023>`:
 
-- TBD
+- ⭐️ We passed our 10,000th issue/pull request on GitHub. And it's pretty much an equal split between the `5039 issues <https://github.com/readthedocs/readthedocs.org/issues>`__ and `4872 pull requests <https://github.com/readthedocs/readthedocs.org/pulls>`__ now registered.
+  Thanks to the whole community for building this together through code, issues, suggestions... and documentation!
+- 🌪️ Follow up: Build times have gone rapidly down after last month's introduction of parallel uploading of artifacts with `rclone`_.
+  Depending on the number of files in a build outputs,
+  build times may have gone down several seconds or several minutes.
+  For instance, a large project like `Write the Docs <https://readthedocs.org/projects/writethedocs-www/builds/>`__ has gone down from ~7 minutes to under 3 minutes.
+  If you want to see the change for your project,
+  have a look at your build times before and after **February 8**.
+- 1️⃣️ We are going to have 1 main Read the Docs website in the future.
+  The first move has been done now,
+  as readthedocs.com now points to `about.readthedocs.com <https://about.readthedocs.com>`__ instead of being a separate site for Read the Docs for Business.
+  The separate landing page on readthedocs.org will also be moving.
+- 📚️ Documentation refactor underway:
+  A regular reader of our :doc:`user docs <readthedocs:index>` might notice that our navigation has been greatly changed and now contains only the `4 Diátaxis categories <https://diataxis.fr/>`__.
+- 🧹️ We are now able to delist projects from search engines more efficiently.
+  If you find an unofficial and unmaintained project,
+  :doc:`please see our policy on unofficial and unmaintained projects <readthedocs:unofficial-projects>`.
+- 🐞 Custom 404s with Sphinx DirHTML builder `are now supported <https://github.com/readthedocs/sphinx-notfound-page/issues/215>`__.
+- 🐞 :doc:`Pull Request <readthedocs:guides/pull-requests>` builds now link directly to the preview version of the documentation changes.
+- 🔒️ Vulnerability fixed: Pull requests preview builds `GHSA-h4cf-8gv8-4chf <https://github.com/readthedocs/readthedocs.org/security/advisories/GHSA-h4cf-8gv8-4chf>`__
+- 🔒️ Vulnerability fixed: Access to files from any project possible with crafted path traversal, see: `GHSA-5w8m-r7jm-mhp9 <https://github.com/readthedocs/readthedocs.org/security/advisories/GHSA-5w8m-r7jm-mhp9>`__.
+- 🔒️ Vulnerability fixed: Serving arbitrary content on documentation sites possible with cache poisoning,see: `GHSA-mp38-vprc-7hf5 <https://github.com/readthedocs/readthedocs.org/security/advisories/GHSA-mp38-vprc-7hf5>`__
 
 You can always see the latest changes to our platforms in our :doc:`Read the Docs Changelog <readthedocs:changelog>`.
+
+.. _rclone: https://rclone.org/
 
 
 Upcoming features
@@ -44,8 +67,22 @@ Upcoming features
   If a feature was announced as upcoming but isn't yet released,
   then try rephrasing the announcement as a general news update about the progress and where it can be followed.
 
-- More internal components of the build process will have a public API, giving full control and flexibility and allowing for more documentation tools to be used.
-- Our Diátaxis documentation refactor is entering final stages before the first reveal.
+- 🪄️ The Django application that handles uncached requests on all our hosted documentation is called El Proxito.
+  And that application is getting a major refactor,
+  improving both speed and features.
+  Most of the refactoring work is already merged and within the coming weeks,
+  we will start to roll it out as a kind of A/B testing.
+- ⏳️ The first work from our Diátaxis documentation refactor is now live and the general work has moved into shorter iterations.
+  Once we have gathered all the final experience from the refactor,
+  we will announce it together with practical inputs for how other documentation projects might approach such a refactor.
+  If you are planning a refactor of a large documentation,
+  we'd love to hear what your questions and concerns are and address those future blog posts and talks.
+- 🎬️ We're slowly moving towards a public beta of the whole Read the Docs dashboard experience. Here's a screenshot of what's to come...
+
+.. image:: img/screenshot-dashboard-beta.png
+   :align: center
+   :scale: 50%
+
 
 Interested in all the details? `View our full Roadmap 📍️`_
 
@@ -58,23 +95,32 @@ Possible issues
   We are working to ensure that nothing is offline other than creation of new domains:
 
     On March 2nd, 2023, Cloudflare will be doing database maintenance that will impact SSL API availability and may result in certificate issuance delays.
-Note: The date of the migration has shifted from February 14th to March 2nd. There are no additional changes (see below).
+    Note: The date of the migration has shifted from February 14th to March 2nd. There are no additional changes (see below).
 
 
-.. Skipped in february
-.. Awesome Project of the month
-.. ----------------------------
+Awesome Project of the month
+----------------------------
 
-Awesome Read the Docs Projects 🕶️
----------------------------------
+`The Haskell Tool Stack <https://docs.haskellstack.org/>`__ is commonly known in the world of `Haskell <https://en.wikipedia.org/wiki/Haskell>`__ as simply Stack and is this month's chosen entry from `Awesome Read the Docs Projects 🕶️ <https://github.com/readthedocs-examples/awesome-read-the-docs>`_.
+See our chosen highlights from Stack's documentation in the following `Twitter thread <https://twitter.com/readthedocs/status/1603095976117522433>`_:
+
+.. raw:: html
+
+   <blockquote class="twitter-tweet"><p lang="en" dir="ltr">GeoPandas is an open source project to make working with <a href="https://twitter.com/hashtag/geospatial?src=hash&amp;ref_src=twsrc%5Etfw">#geospatial</a> data in <a href="https://twitter.com/hashtag/Python?src=hash&amp;ref_src=twsrc%5Etfw">#Python</a> easier. <a href="https://twitter.com/geopandas?ref_src=twsrc%5Etfw">@GeoPandas</a> extends the datatypes used by pandas to allow spatial operations on geometric types.<br><br>We want to highlight some things we love from their docs.<br><br>🤏 (small) 🧵 <a href="https://t.co/Hj82s6SDQP">pic.twitter.com/Hj82s6SDQP</a></p>&mdash; Read the Docs (@readthedocs) <a href="https://twitter.com/readthedocs/status/1603095976117522433?ref_src=twsrc%5Etfw">December 14, 2022</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
 
-**Looking for more inspiration?**
-We continue building `Awesome Read the Docs Projects 🕶️ <https://github.com/readthedocs-examples/awesome-read-the-docs>`_,
-a list full of inspirational documentation projects.
+Tip of the month
+----------------
 
-Please feel invited to open an issue or pull request in the repository with your suggestions.
+When you post links to your documentation on chat and social media,
+you will probably see a very uninspiring and generic preview.
+Enter `sphinxext-opengraph <https://github.com/wpilibsuite/sphinxext-opengraph>`__!
 
+The extension allows you to configure your own preview card,
+compatible with all major chat and social media platforms.
+The feature which we really enjoy is that it will detect and use the first illustration used in your documentation.
+If you want to see it in action,
+try sharing a link to this newsletter blog post (marketing unintended).
 
 -------
 
