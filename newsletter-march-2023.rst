@@ -66,13 +66,14 @@ Want to follow along with our development progress? `View our full Roadmap 📍�
 
 .. _View our full Roadmap 📍️: https://github.com/orgs/readthedocs/projects/156/views/1
 
-Possible issues
----------------
 
-- TBD
+.. Possible issues
+.. ---------------
+
+.. - TBD
 
 
-Awesome Project of the month
+Awesome project of the month
 ----------------------------
 
 `The Haskell Tool Stack <https://docs.haskellstack.org/>`__ is commonly known in the world of `Haskell <https://en.wikipedia.org/wiki/Haskell>`__ as simply Stack and is this month's chosen entry from `Awesome Read the Docs Projects 🕶️ <https://github.com/readthedocs-examples/awesome-read-the-docs>`_.
