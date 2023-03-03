@@ -25,12 +25,15 @@ Here are the latest updates from our team since the :doc:`previous newsletter </
   If you want to see the change for your project,
   have a look at your build times before and after **February 8**.
 - 1️⃣️ We are going to have 1 primary marketing website in the future,
-while still running two different product for our Community & Business users.
+  while still running two different product for our Community & Business users.
   The first change that is now done is redirecting logged out users on `https://readthedocs.com/` to `about.readthedocs.com <https://about.readthedocs.com>`__.
   We will soon be doing this for logged out users going to `https://readthedocs.org/`,
   excepting project-specific subpages.
 - 📚️ Documentation refactor underway:
   A regular reader of our :doc:`user docs <readthedocs:index>` might notice that our navigation has been greatly changed and now contains only the `4 Diátaxis categories <https://diataxis.fr/>`__.
+  This is part of an exciting ongoing effort to improve our own documentation,
+  which is something that we have a great deal of passion and interest in.
+  You'll be hearing back in our blog 🔜️.
 - 🧹️ We are now able to delist unofficial projects from search engines.
   If you find an unofficial and unmaintained project,
   :doc:`please see our policy on unofficial and unmaintained projects <readthedocs:unofficial-projects>`.
