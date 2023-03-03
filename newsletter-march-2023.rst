@@ -29,11 +29,6 @@ Here are the latest updates from our team since the :doc:`previous newsletter </
   The first change that is now done is redirecting logged out users on `https://readthedocs.com/` to `about.readthedocs.com <https://about.readthedocs.com>`__.
   We will soon be doing this for logged out users going to `https://readthedocs.org/`,
   excepting project-specific subpages.
-- 📚️ Documentation refactor underway:
-  A regular reader of our :doc:`user docs <readthedocs:index>` might notice that our navigation has been greatly changed and now contains only the `4 Diátaxis categories <https://diataxis.fr/>`__.
-  This is part of an exciting ongoing effort to improve our own documentation,
-  which is something that we have a great deal of passion and interest in.
-  You'll be hearing back in our blog 🔜️.
 - 🧹️ We are now able to delist unofficial projects from search engines.
   If you find an unofficial and unmaintained project,
   :doc:`please see our policy on unofficial and unmaintained projects <readthedocs:unofficial-projects>`.
@@ -75,11 +70,15 @@ Upcoming features
   improving both speed and features.
   Most of the refactoring work is already merged and within the coming weeks,
   we will start to enable it gradually while monitoring if there are issues.
-- ⏳️ The first work from our Diátaxis documentation refactor is now live and the general work has moved into shorter iterations.
+- 📚️ Documentation refactor underway:
+  A regular reader of our :doc:`user docs <readthedocs:index>` might notice that our navigation has been greatly changed and now contains only the `4 Diátaxis categories <https://diataxis.fr/>`__.
+  The first work from our Diátaxis documentation refactor is now live and the general work has moved into shorter iterations.
   Once we have gathered all the final experience from the refactor,
   we will announce it together with practical inputs for how other documentation projects might approach such a refactor.
-  If you are planning a refactor of a large documentation,
+
+  If you are planning your own refactor of an existing documentation project,
   we'd love to hear what your questions and concerns are and address those future blog posts and talks.
+
 - 🎬️ We're slowly moving towards a public beta of our v2 dashboard experience. Here's a screenshot of what's to come...
 
 .. image:: img/screenshot-dashboard-beta.png
