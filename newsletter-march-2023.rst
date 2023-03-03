@@ -19,18 +19,19 @@ Here are the latest updates from our team since the :doc:`previous newsletter </
 - ⭐️ We passed our 10,000th issue/pull request on GitHub. And it's pretty much an equal split between the `5039 issues <https://github.com/readthedocs/readthedocs.org/issues>`__ and `4872 pull requests <https://github.com/readthedocs/readthedocs.org/pulls>`__ now registered.
   Thanks to the whole community for building this together through code, issues, suggestions... and documentation!
 - 🌪️ Follow up: Build times have gone rapidly down after last month's introduction of parallel uploading of artifacts with `rclone`_.
-  Depending on the number of files in a build outputs,
+  Depending on the number of files in your build output,
   build times may have gone down several seconds or several minutes.
   For instance, a large project like `Write the Docs <https://readthedocs.org/projects/writethedocs-www/builds/>`__ has gone down from ~7 minutes to under 3 minutes.
   If you want to see the change for your project,
   have a look at your build times before and after **February 8**.
-- 1️⃣️ We are going to have 1 main Read the Docs website in the future.
-  The first move has been done now,
-  as readthedocs.com now points to `about.readthedocs.com <https://about.readthedocs.com>`__ instead of being a separate site for Read the Docs for Business.
-  The separate landing page on readthedocs.org will also be moving.
+- 1️⃣️ We are going to have 1 primary marketing website in the future,
+while still running two different product for our Community & Business users.
+  The first change that is now done is redirecting logged out users on `https://readthedocs.com/` to `about.readthedocs.com <https://about.readthedocs.com>`__.
+  We will soon be doing this for logged out users going to `https://readthedocs.org/`,
+  excepting project-specific subpages.
 - 📚️ Documentation refactor underway:
   A regular reader of our :doc:`user docs <readthedocs:index>` might notice that our navigation has been greatly changed and now contains only the `4 Diátaxis categories <https://diataxis.fr/>`__.
-- 🧹️ We are now able to delist projects from search engines more efficiently.
+- 🧹️ We are now able to delist unofficial projects from search engines.
   If you find an unofficial and unmaintained project,
   :doc:`please see our policy on unofficial and unmaintained projects <readthedocs:unofficial-projects>`.
 - 🐞 Custom 404s with Sphinx DirHTML builder `are now supported <https://github.com/readthedocs/sphinx-notfound-page/issues/215>`__.
@@ -71,20 +72,20 @@ Upcoming features
   And that application is getting a major refactor,
   improving both speed and features.
   Most of the refactoring work is already merged and within the coming weeks,
-  we will start to roll it out as a kind of A/B testing.
+  we will start to enable it gradually while monitoring if there are issues.
 - ⏳️ The first work from our Diátaxis documentation refactor is now live and the general work has moved into shorter iterations.
   Once we have gathered all the final experience from the refactor,
   we will announce it together with practical inputs for how other documentation projects might approach such a refactor.
   If you are planning a refactor of a large documentation,
   we'd love to hear what your questions and concerns are and address those future blog posts and talks.
-- 🎬️ We're slowly moving towards a public beta of the whole Read the Docs dashboard experience. Here's a screenshot of what's to come...
+- 🎬️ We're slowly moving towards a public beta of our v2 dashboard experience. Here's a screenshot of what's to come...
 
 .. image:: img/screenshot-dashboard-beta.png
    :align: center
    :scale: 50%
 
 
-Interested in all the details? `View our full Roadmap 📍️`_
+Want to follow along with our development progress? `View our full Roadmap 📍️`_
 
 .. _View our full Roadmap 📍️: https://github.com/orgs/readthedocs/projects/156/views/1
 
@@ -109,7 +110,7 @@ Tip of the month
 ----------------
 
 When you post links to your documentation on chat and social media,
-you will probably see a very uninspiring and generic preview.
+you will probably see a generic preview.
 Enter `sphinxext-opengraph <https://github.com/wpilibsuite/sphinxext-opengraph>`__!
 
 The extension allows you to configure your own preview card,
