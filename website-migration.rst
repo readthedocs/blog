@@ -2,6 +2,8 @@
    :tags: website, migration 
    :category: Changelog
 
+.. Categories: https://docs.google.com/document/d/1io3HN61wpFtb6XP-cyONhV5CNWiZ5dbhZM4nvifyT5g/edit#heading=h.3xtrxdnntzqi
+
 Read the Docs website migration to about.readthedocs.com
 ========================================================
 
