@@ -76,7 +76,7 @@ Upcoming features
   Once we have gathered all the final experience from the refactor,
   we will announce it together with practical inputs for how other documentation projects might approach such a refactor.
 
-  If you are planning your own refactor of an existing documentation project,
+  💬️ If you are planning your own refactor of an existing documentation project,
   we'd love to hear what your questions and concerns are and address those future blog posts and talks.
 
 - 🎬️ We're slowly moving towards a public beta of our v2 dashboard experience. Here's a screenshot of what's to come...
