@@ -39,7 +39,6 @@ Here are the latest updates from our team since the :doc:`previous newsletter </
   :doc:`please see our policy on unofficial and unmaintained projects <readthedocs:unofficial-projects>`.
 - 🐞 Custom 404s with Sphinx DirHTML builder `are now supported <https://github.com/readthedocs/sphinx-notfound-page/issues/215>`__.
 - 🐞 :doc:`Pull Request <readthedocs:guides/pull-requests>` builds should point to previews, not build pages. The fix will be deployed on March 7.
-- 🐞 A brief occurrence of redirect loops around February 13-14 `was resolved <https://github.com/readthedocs/readthedocs.org/issues/10017>`__.
 - 🔒️ Vulnerability fixed: Pull requests preview builds `GHSA-h4cf-8gv8-4chf <https://github.com/readthedocs/readthedocs.org/security/advisories/GHSA-h4cf-8gv8-4chf>`__
 - 🔒️ Vulnerability fixed: Access to files from any project possible with crafted path traversal, see: `GHSA-5w8m-r7jm-mhp9 <https://github.com/readthedocs/readthedocs.org/security/advisories/GHSA-5w8m-r7jm-mhp9>`__.
 
