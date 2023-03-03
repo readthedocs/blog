@@ -49,9 +49,9 @@ Self-hosting our marketing website gives us many benefits that our users love ab
 * A proper static site generator built for making a website and blog.
 * Pull request previews to allow us to review content changes.
 * Instant deployment of updates whenever we merge to ``main``.
-* All the rest of our :doc:`readthedocs:/features` that we offer to our users.
+* All the rest of our :doc:`readthedocs:reference/features` that we offer to our users.
 
-We're using our new :doc:`readthedocs:/build-customization` feature to build our site with Pelican,
+We're using our new :doc:`readthedocs:build-customization` feature to build our site with Pelican,
 and it's been a really fun way to expand the capabilities of our build system.
 
 
