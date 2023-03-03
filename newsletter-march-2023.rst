@@ -45,26 +45,6 @@ You can always see the latest changes to our platforms in our :doc:`Read the Doc
 Upcoming features
 -----------------
 
-..
-  Notes:
-
-  Next newsletter:
-  Make a general announcement of our Roadmap
-
-  General:
-
-  When creating newsletter drafts, we keep the items here from the previous newsletter.
-  This is in order to ensure due follow-up on features that are announced publicly.
-  
-  Feature done? A great follow-up is to add what was previously an upcoming feature as a released feature in the former section.
-  
-  Feature not done?
-  Make sure that upcoming features are announced with a link to issues or PRs where the progress can be seen.
-  If this is done, then subsequent newsletters aren't compelled to share progress when it's uninteresting.
-  
-  If a feature was announced as upcoming but isn't yet released,
-  then try rephrasing the announcement as a general news update about the progress and where it can be followed.
-
 - 🪄️ The Django application that handles uncached requests on all our hosted documentation is called El Proxito.
   And that application is getting a major refactor,
   improving both speed and features.
