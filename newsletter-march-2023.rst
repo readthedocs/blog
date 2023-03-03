@@ -90,11 +90,12 @@ When you post links to your documentation on chat and social media,
 you will probably see a generic preview.
 Enter `sphinxext-opengraph <https://github.com/wpilibsuite/sphinxext-opengraph>`__!
 
-The extension allows you to configure your own preview card,
+This Sphinx extension allows you to configure your own preview card,
 compatible with all major chat and social media platforms.
-The feature which we really enjoy is that it will detect and use the first illustration used in your documentation.
+A particular feature which we really enjoy is that the extension will detect and use the first illustration in a documentation page.
 If you want to see it in action,
 try sharing a link to this newsletter blog post (marketing unintended).
+:doc:`Our user docs <readthedocs:index>` are also using sphinxext-opengraph.
 
 -------
 
