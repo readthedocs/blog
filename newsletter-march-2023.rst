@@ -14,8 +14,6 @@ Read the Docs newsletter - March 2023
 News and updates
 ----------------
 
-Here are the latest updates from our team since the :doc:`previous newsletter </newsletter-february-2023>`:
-
 - ⭐️ We passed our 10,000th issue/pull request on GitHub. And it's pretty much an equal split between the `5039 issues <https://github.com/readthedocs/readthedocs.org/issues>`__ and `4872 pull requests <https://github.com/readthedocs/readthedocs.org/pulls>`__ now registered.
   Thanks to the whole community for building this together through code, issues, suggestions... and documentation!
 - 🌪️ Follow up: Build times have gone rapidly down after last month's introduction of parallel uploading of artifacts with `rclone`_.
