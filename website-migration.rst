@@ -11,14 +11,13 @@ Read the Docs is in the process of migrating our primary marketing website to a 
 The new site offers users more information about our products and their features,
 in a combined presentation of what was previously divided between two websites (Read the Docs Community and Read the Docs for Business).
 At the same time, the new site will also serve as a single entrypoint for users that are logging in to Read the Docs accounts.
-There has been a good deal of confusion about this in the past,
-and this change will make it much more clear about which site you're going to.
+There has been a good deal of confusion around our two sites,
+and this change makes it more clear which site you're going to.
 
 Importantly,
 **we are keeping both our Community and Business sites separate for logged in users.**
 There are no changes in our commitment to offering free hosting for open source,
-nor the separation of platform and infrastructure for Business customers.
-only our approach to explaining our features and products.
+or the separation of infrastructure for Business customers.
 
 .. figure:: /_static/new-website-screenshot.png
     :alt: Our beautiful new website
