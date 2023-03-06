@@ -20,6 +20,11 @@ There are no changes in our commitment to offering free hosting for open source,
 nor the separation of platform and infrastructure for Business customers.
 only our approach to explaining our features and products.
 
+.. figure:: /_static/new-website-screenshot.png
+    :alt: Our beautiful new website
+
+    Our beautiful new website, ready for our users!
+
 Marketing website migration process
 -----------------------------------
 
@@ -57,7 +62,6 @@ Self-hosting our marketing website gives us many benefits that our users love ab
 
 We're using our new :doc:`readthedocs:build-customization` feature to build our site with `Pelican <https://getpelican.com/>`__,
 and it's been a really fun way to expand the capabilities of our build system.
-
 
 We hope that you'll join us for the next stage of Read the Docs,
 where we will continue to provide the best documentation hosting for all software projects.
