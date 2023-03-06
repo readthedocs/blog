@@ -8,14 +8,16 @@ Read the Docs website migration to about.readthedocs.com
 ========================================================
 
 Read the Docs is in the process of migrating our primary marketing website to a single site: https://about.readthedocs.com.
-This single site allow us to better educate users about which of our products is best for them,
-and direct people to the site where they have registered an account.
+The new site offers users more information about our products and their features,
+in a combined presentation of what was previously divided between two websites (Read the Docs Community and Read the Docs for Business).
+At the same time, the new site will also serve as a single entrypoint for users that are logging in to Read the Docs accounts.
 There has been a good deal of confusion about this in the past,
 and this change will make it much more clear about which site you're going to.
 
 Importantly,
 **we are keeping both our Community and Business sites separate for logged in users.**
-Nothing about our commitment to offering free hosting for open source is changing,
+There are no changes in our commitment to offering free hosting for open source,
+nor the separation of platform and infrastructure for Business customers.
 only our approach to explaining our features and products.
 
 Marketing website migration process
@@ -53,7 +55,7 @@ Self-hosting our marketing website gives us many benefits that our users love ab
 * Instant deployment of updates whenever we merge to ``main``.
 * All the rest of our :doc:`readthedocs:reference/features` that we offer to our users.
 
-We're using our new :doc:`readthedocs:build-customization` feature to build our site with Pelican,
+We're using our new :doc:`readthedocs:build-customization` feature to build our site with `Pelican <https://getpelican.com/>`__,
 and it's been a really fun way to expand the capabilities of our build system.
 
 
