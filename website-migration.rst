@@ -19,8 +19,8 @@ Importantly,
 There are no changes in our commitment to offering free hosting for open source,
 or the separation of infrastructure for Business customers.
 
-.. figure:: /_static/new-website-screenshot.png
-    :alt: Our beautiful new website
+.. figure:: /img/screenshot-new-website.png
+    :alt: A screenshot of our beautiful new website
 
     Our beautiful new website, ready for our users!
 
