@@ -1,4 +1,4 @@
-.. post:: March 1, 2023
+.. post:: March 7, 2023
    :tags: newsletter, python
    :author: Ben
    :location: MLM
@@ -31,7 +31,7 @@ News and updates
   If you find an unofficial and unmaintained project,
   :doc:`please see our policy on unofficial and unmaintained projects <readthedocs:unofficial-projects>`.
 - 🐞 Custom 404s with Sphinx DirHTML builder `are now supported <https://github.com/readthedocs/sphinx-notfound-page/issues/215>`__.
-- 🐞 :doc:`Pull Request <readthedocs:guides/pull-requests>` builds should point to previews, not build pages. The fix will be deployed on March 7.
+- 🐞 :doc:`Pull Request <readthedocs:guides/pull-requests>` builds should point to previews, not build pages. The fix will be deployed on March 14.
 - 🔒️ Vulnerability fixed: Pull requests preview builds `GHSA-h4cf-8gv8-4chf <https://github.com/readthedocs/readthedocs.org/security/advisories/GHSA-h4cf-8gv8-4chf>`__
 - 🔒️ Vulnerability fixed: Access to files from any project possible with crafted path traversal, see: `GHSA-5w8m-r7jm-mhp9 <https://github.com/readthedocs/readthedocs.org/security/advisories/GHSA-5w8m-r7jm-mhp9>`__.
 
