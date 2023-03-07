@@ -77,11 +77,11 @@ Awesome project of the month
 ----------------------------
 
 `The Haskell Tool Stack <https://docs.haskellstack.org/>`__ is commonly known in the world of `Haskell <https://en.wikipedia.org/wiki/Haskell>`__ as simply Stack and is this month's chosen entry from `Awesome Read the Docs Projects 🕶️ <https://github.com/readthedocs-examples/awesome-read-the-docs>`_.
-See our chosen highlights from Stack's documentation in the following `Twitter thread <https://twitter.com/readthedocs/status/1603095976117522433>`_:
+See our chosen highlights from Stack's documentation in the following `Twitter thread <https://twitter.com/readthedocs/status/1633101744312909827>`_:
 
 .. raw:: html
 
-   <blockquote class="twitter-tweet"><p lang="en" dir="ltr">GeoPandas is an open source project to make working with <a href="https://twitter.com/hashtag/geospatial?src=hash&amp;ref_src=twsrc%5Etfw">#geospatial</a> data in <a href="https://twitter.com/hashtag/Python?src=hash&amp;ref_src=twsrc%5Etfw">#Python</a> easier. <a href="https://twitter.com/geopandas?ref_src=twsrc%5Etfw">@GeoPandas</a> extends the datatypes used by pandas to allow spatial operations on geometric types.<br><br>We want to highlight some things we love from their docs.<br><br>🤏 (small) 🧵 <a href="https://t.co/Hj82s6SDQP">pic.twitter.com/Hj82s6SDQP</a></p>&mdash; Read the Docs (@readthedocs) <a href="https://twitter.com/readthedocs/status/1603095976117522433?ref_src=twsrc%5Etfw">December 14, 2022</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+   <blockquote class="twitter-tweet"><p lang="en" dir="ltr">The Haskell Tool Stack is a packaging tool for <a href="https://twitter.com/hashtag/haskell?src=hash&amp;ref_src=twsrc%5Etfw">#haskell</a>. Because their documentation is so awesome, it’s also their main website 💯<br><br>Stack’s website is maintained with GitHub, MkDocs, and Read the Docs: <a href="https://t.co/GaCTgxTUcm">https://t.co/GaCTgxTUcm</a><br><br>Here is a 🤏 (small) 🧵 about why it’s awesome 🕶️ <a href="https://t.co/wdAQ3NigHK">pic.twitter.com/wdAQ3NigHK</a></p>&mdash; Read the Docs (@readthedocs) <a href="https://twitter.com/readthedocs/status/1633101744312909827?ref_src=twsrc%5Etfw">March 7, 2023</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script> 
 
 
 Tip of the month
