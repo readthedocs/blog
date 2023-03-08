@@ -31,17 +31,16 @@ News and updates
   If you find an unofficial and unmaintained project,
   :doc:`please see our policy on unofficial and unmaintained projects <readthedocs:unofficial-projects>`.
 - 🐞 Custom 404s with Sphinx DirHTML builder `are now supported <https://github.com/readthedocs/sphinx-notfound-page/issues/215>`__.
-- 🐞 :doc:`Pull Request <readthedocs:guides/pull-requests>` builds should point to previews, not build pages. The fix will be deployed on March 14.
-- 🔒️ Vulnerability fixed: Pull requests preview builds `GHSA-h4cf-8gv8-4chf <https://github.com/readthedocs/readthedocs.org/security/advisories/GHSA-h4cf-8gv8-4chf>`__
-- 🔒️ Vulnerability fixed: Access to files from any project possible with crafted path traversal, see: `GHSA-5w8m-r7jm-mhp9 <https://github.com/readthedocs/readthedocs.org/security/advisories/GHSA-5w8m-r7jm-mhp9>`__.
+- 🔒️ Vulnerability fixed: `Serving content from pull requests previews on main docs domains <https://github.com/readthedocs/readthedocs.org/security/advisories/GHSA-h4cf-8gv8-4chf>`__.
+- 🔒️ Vulnerability fixed: `Path traversal: access to files from any project <https://github.com/readthedocs/readthedocs.org/security/advisories/GHSA-5w8m-r7jm-mhp9>`__.
 
 You can always see the latest changes to our platforms in our :doc:`Read the Docs Changelog <readthedocs:changelog>`.
 
 .. _rclone: https://rclone.org/
 
 
-Upcoming features
------------------
+Upcoming
+--------
 
 - 🪄️ The Django application that handles uncached requests on all our hosted documentation is called El Proxito.
   And that application is getting a major refactor,
@@ -55,11 +54,12 @@ Upcoming features
   we will announce it together with practical inputs for how other documentation projects might approach such a refactor.
 - 💬️ ...If you are planning your own refactor of an existing documentation project,
   we'd love to hear what your questions and concerns are and address those future blog posts and talks.
+- 🐞 :doc:`Pull request builds <readthedocs:guides/pull-requests>` should point to previews, not build pages. A fix will is ready in `#10085 <https://github.com/readthedocs/readthedocs.org/pull/10085>`__.
 - 🎬️ We're slowly moving towards a public beta of our v2 dashboard experience. Here's a screenshot of what's to come...
 
-.. image:: img/screenshot-dashboard-beta.png
-   :align: center
-   :scale: 50%
+.. figure:: img/screenshot-dashboard-beta.png
+
+   A screenshot of the build page on the Read the Docs Dashboard v2.
 
 
 Want to follow along with our development progress? `View our full Roadmap 📍️`_
