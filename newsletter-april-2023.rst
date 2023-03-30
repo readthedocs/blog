@@ -19,7 +19,9 @@ News and updates
 - 🌄️ The first proof-of-concept for a new API and JavaScript library is running and capable of displaying a menu matching our current :doc:`flyout menu <readthedocs:flyout-menu>`.
   The big difference will be that the new API and library will be useful for any documentation framework or static site generator to allow for full control of the new flyout menu and access to API data.
 - ⚙️ Added a new build variable ``READTHEDOCS_CANONICAL_URL`` that's useful for projects that want to be aware of the canonical base URL while building.
-  `Read more in our docs <https://docs.readthedocs.io/en/stable/reference/environment-variables.html#envvar-READTHEDOCS_CANONICAL_URL>`__.
+  `View docs <https://docs.readthedocs.io/en/stable/reference/environment-variables.html#envvar-READTHEDOCS_CANONICAL_URL>`__.
+- ⚙️ Added a new build variables ``READTHEDOCS_GIT_CLONE_URL``, ``READTHEDOCS_GIT_IDENTIFIER``, and ``READTHEDOCS_GIT_COMMIT_HASH`` for projects that need to access Git data while building.
+  `View docs <https://docs.readthedocs.io/en/stable/reference/environment-variables.html#envvar- READTHEDOCS_GIT_CLONE_URL>`__.
 - 📊️ All of our websites now use `Plausible <https://plausible.io/>`__ for analytics.
 - 🔒️ Fixed vulnerability: `Cache poisoning: serving arbitrary content on documentation sites  <https://github.com/readthedocs/readthedocs.org/security/advisories/GHSA-mp38-vprc-7hf5>`__
 
