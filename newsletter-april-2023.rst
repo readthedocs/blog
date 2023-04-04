@@ -16,7 +16,7 @@ News and updates
 ----------------
 
 - 📚️ Over the past 6 months, we gradually refactored our user documentation to align with the `Diátaxis Framework <https://diataxis.fr>`__. The results have now crystialized in the structure of the navigation sidebar and the landing page on `docs.readthedocs.io <https://docs.readthedocs.io/en/stable/>`__.
-- 🌄️ The first proof-of-concept for a new API and JavaScript library has been test-driven. It is capable of displaying a menu matching our current :doc:`flyout menu <readthedocs:flyout-menu>`.
+- 🌄️ The first proof-of-concept for a new API and JavaScript library has been test-driven. It is capable of displaying a menu matching our current :doc:`flyout menu <readthedocs:flyout-menu>` visible in the below screenshot.
   The big difference will be that the new API and library will be useful for any documentation framework or static site generator to allow for full control of the new flyout menu and access to API data.
 - 📊️ All of our websites now use `Plausible <https://plausible.io/>`__ for analytics.
 - ⚙️ Added a new build variable ``READTHEDOCS_CANONICAL_URL`` that's useful for projects that want to be aware of the canonical base URL while building.
