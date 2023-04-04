@@ -2,6 +2,7 @@
    :tags: newsletter, python
    :author: Ben
    :location: MLM
+   :category: Newsletter
 
 .. meta::
    :description lang=en:
