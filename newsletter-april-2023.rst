@@ -61,7 +61,7 @@ Want to follow along with our development progress? `View our full Roadmap 📍�
 Awesome project of the month
 ----------------------------
 
-`Crate.io <https://crate.io/docs/crate/tutorials/en/latest//>`__ has gathered 15 Sphinx projects in the same website experience and written their own theme.
+`Crate.io <https://crate.io/docs/crate/tutorials/en/latest//>`__ has integrated 15 Sphinx projects in the same website experience and written their own theme.
 So they rightly deserve to be this month's addition to `Awesome Read the Docs Projects 🕶️ <https://github.com/readthedocs-examples/awesome-read-the-docs>`_.
 See our chosen highlights from Stack's documentation in the following
 `Twitter thread <https://twitter.com/readthedocs/status/1633101744312909827>`__ and
