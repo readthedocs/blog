@@ -39,8 +39,7 @@ Upcoming features
 - 📚️ We are still doing changes in our documentation structure and content.
 - ⚡️ *A lot of work* is happening these days on bigger features.
   In :doc:`the last newsletter </newsletter-march-2023>`, we mentioned the new Dashboard and :doc:`the migration to about.readthedocs.com </website-migration>`.
-  On the side of that,
-  we are also building a new generic JavaScript client and API that will give additional features to any documentation project or static site built on the platform.
+  What's new is that we've also started building a generic JavaScript client accompanied with APIs that will give additional features to *any* documentation project or static site built and served on the Read the Docs platform.
 
 .. figure:: img/screenshot-search-integration-docusaurus.png
    :alt: A screenshot of the upcoming search dialogue running on Docusaurus
