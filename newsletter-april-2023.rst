@@ -15,7 +15,7 @@ Read the Docs newsletter - April 2023
 News and updates
 ----------------
 
-- 📚️ We refactored our user documentation to align with the `Diátaxis Framework <https://diataxis.fr>`__ which has greatly improved the navigation sidebar and the landing page on `docs.readthedocs.io <https://docs.readthedocs.io/en/stable/>`__.
+- 📚️ Over the past 6 months, we gradually refactored our user documentation to align with the `Diátaxis Framework <https://diataxis.fr>`__. The results have now crystialized in the structure of the navigation sidebar and the landing page on `docs.readthedocs.io <https://docs.readthedocs.io/en/stable/>`__.
 - 🌄️ The first proof-of-concept for a new API and JavaScript library has been test-driven. It is capable of displaying a menu matching our current :doc:`flyout menu <readthedocs:flyout-menu>`.
   The big difference will be that the new API and library will be useful for any documentation framework or static site generator to allow for full control of the new flyout menu and access to API data.
 - 📊️ All of our websites now use `Plausible <https://plausible.io/>`__ for analytics.
