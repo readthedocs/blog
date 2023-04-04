@@ -45,7 +45,7 @@ Upcoming features
 .. figure:: img/screenshot-search-integration-docusaurus.png
    :alt: A screenshot of the upcoming search dialogue running on Docusaurus
    
-   Our proof-of-concept is going well! In the screenshot, you can see how the generic Read the Docs search indexing works and how a generic search dialog gives the documentation project additional super powers ⚡️
+   Our proof-of-concept for the JavaScript client is going well! In the screenshot, you can see how the generic Read the Docs search indexing works and how a generic search dialog gives the documentation project additional super powers ⚡️
 
 Want to follow along with our development progress? `View our full Roadmap 📍️`_
 
