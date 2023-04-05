@@ -15,9 +15,9 @@ Read the Docs newsletter - April 2023
 News and updates
 ----------------
 
-- 📚️ Over the past 6 months, we gradually refactored our user documentation to align with the `Diátaxis Framework <https://diataxis.fr>`__. The results have now crystialized in the structure of the navigation sidebar and the landing page on `docs.readthedocs.io <https://docs.readthedocs.io/en/stable/>`__.
-- 🌄️ The first proof-of-concept for a new API and JavaScript library has been test-driven. It is capable of displaying a menu matching our current :doc:`flyout menu <readthedocs:flyout-menu>` and :doc:`integrated server side search <readthedocs:/server-side-search/index>`.
-  The new library is useful for *any* documentation framework or static site generator to allow for full control of the new flyout menu, integrated search and general access to API data. See the screenshot further down where the integrated search in action on the documentation framework Docusaurus.
+- 📚️ Over the past ~6 months,
+  we gradually refactored our user documentation to align with the `Diátaxis Framework <https://diataxis.fr>`__.
+  The results are now manifested in the structure of the navigation sidebar and the landing page on `docs.readthedocs.io <https://docs.readthedocs.io/en/stable/>`__.
 - 📊️ All of our websites now use `Plausible <https://plausible.io/>`__ for analytics.
 - ⚙️ Added a new build variable ``READTHEDOCS_CANONICAL_URL`` that's useful for projects that want to be aware of the canonical base URL while building.
   `View docs <https://docs.readthedocs.io/en/stable/reference/environment-variables.html#envvar-READTHEDOCS_CANONICAL_URL>`__.
@@ -36,10 +36,21 @@ You can always see the latest changes to our platforms in our :doc:`Read the Doc
 Upcoming features
 -----------------
 
-- 📚️ We are still doing changes in our documentation structure and content.
+- 📚️ We are still doing changes in our `user documentation <https://docs.readthedocs.io/en/stable/>`__ structure and content:
+  Once the last parts of the plan are implemented,
+  we are ready to share a bigger announcement.
 - ⚡️ *A lot of work* is happening these days on big front-end features.
   In :doc:`the last newsletter </newsletter-march-2023>`, we mentioned the new Dashboard and :doc:`the migration to about.readthedocs.com </website-migration>`.
-  What's new is that we've also started building a generic JavaScript client accompanied with APIs that will give additional features to *any* documentation project or static site built and served on the Read the Docs platform.
+  What's new is that we've also started building a **generic JavaScript client** accompanied with APIs that will give additional features to *any* documentation project or static site built and served on the Read the Docs platform.
+  
+  The first proof-of-concept for the new API and JavaScript library has been test-driven.
+  It is capable of displaying a menu matching our current :doc:`flyout menu <readthedocs:flyout-menu>` and :doc:`integrated server side search <readthedocs:server-side-search/index>`.
+
+  The new library is useful for *any* documentation framework or static site generator to allow for full control of the new flyout menu, integrated search and general access to API data.
+  See the screenshot further down where the integrated search in action on the documentation framework Docusaurus.
+
+  We plan to be rolling this out gradually for Sphinx and MkDocs projects that are currently running their own set of ``build.commands``.
+  Once that happens, we'll be back with news on the blog and documentation about how you can configure it.
 
 .. figure:: img/screenshot-search-integration-docusaurus.png
    :alt: A screenshot of the upcoming search dialogue running on Docusaurus

@@ -24,7 +24,7 @@ section ul {
     margin: 1em 0 1em 2em;
 }
 
-section ul li p {
+section ul li p:first-child {
     margin: 0;
 }
 
