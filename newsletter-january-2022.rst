@@ -1,5 +1,6 @@
 .. post:: January 12, 2022
    :tags: newsletter, python
+   :category: Newsletter
    :author: Juan Luis
    :location: MAD
 

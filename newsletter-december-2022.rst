@@ -1,5 +1,6 @@
 .. post:: Dec 6, 2022
    :tags: newsletter, python
+   :category: Newsletter
    :author: Ben
    :location: MLM
 
