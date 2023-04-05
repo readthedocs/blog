@@ -21,7 +21,7 @@ News and updates
 - 📊️ All of our websites now use `Plausible <https://plausible.io/>`__ for analytics.
 - ⚙️ Added a new build variable ``READTHEDOCS_CANONICAL_URL`` that's useful for projects that want to be aware of the canonical base URL while building.
   `View docs <https://docs.readthedocs.io/en/stable/reference/environment-variables.html#envvar-READTHEDOCS_CANONICAL_URL>`__.
-- ⚙️ Added a new build variables ``READTHEDOCS_GIT_CLONE_URL``, ``READTHEDOCS_GIT_IDENTIFIER``, and ``READTHEDOCS_GIT_COMMIT_HASH`` for projects that need to access Git data while building.
+- ⚙️ Added new build variables ``READTHEDOCS_GIT_CLONE_URL``, ``READTHEDOCS_GIT_IDENTIFIER``, and ``READTHEDOCS_GIT_COMMIT_HASH`` for projects that need to access Git data while building.
   `View docs <https://docs.readthedocs.io/en/stable/reference/environment-variables.html#envvar- READTHEDOCS_GIT_CLONE_URL>`__.
 - 🔒️ Fixed vulnerability: `Cache poisoning: serving arbitrary content on documentation sites  <https://github.com/readthedocs/readthedocs.org/security/advisories/GHSA-mp38-vprc-7hf5>`__
 
@@ -37,7 +37,7 @@ Upcoming features
 -----------------
 
 - 📚️ We are still doing changes in our documentation structure and content.
-- ⚡️ *A lot of work* is happening these days on bigger features.
+- ⚡️ *A lot of work* is happening these days on big front-end features.
   In :doc:`the last newsletter </newsletter-march-2023>`, we mentioned the new Dashboard and :doc:`the migration to about.readthedocs.com </website-migration>`.
   What's new is that we've also started building a generic JavaScript client accompanied with APIs that will give additional features to *any* documentation project or static site built and served on the Read the Docs platform.
 
