@@ -1,5 +1,6 @@
 .. post:: Aug 17, 2022
    :tags: newsletter, python
+   :category: Newsletter
    :author: Eric Holscher
    :location: BND
 
