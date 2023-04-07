@@ -1,5 +1,6 @@
 .. post:: September 2, 2021
    :tags: newsletter, python
+   :category: Newsletter
    :author: Juan Luis
    :location: MAD
 

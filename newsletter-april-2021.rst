@@ -1,5 +1,6 @@
 .. post:: April 6, 2021
    :tags: newsletter, python
+   :category: Newsletter
    :author: Juan Luis
    :location: MAD
 
