@@ -1,4 +1,4 @@
-.. post:: March 30, 2023
+.. post:: April 7, 2023
    :tags: newsletter, python
    :author: Ben
    :location: MLM
@@ -19,7 +19,7 @@ News and updates
   we gradually refactored our user documentation to align with the `Diátaxis Framework <https://diataxis.fr>`__.
   The results are now manifested in the structure of the navigation sidebar and the landing page on `docs.readthedocs.io <https://docs.readthedocs.io/en/stable/>`__.
 - 📊️ All of our websites now use `Plausible <https://plausible.io/>`__ for analytics.
-- ⚙️ Added a new build variable ``READTHEDOCS_CANONICAL_URL`` that's useful for projects that want to be aware of the canonical base URL while building.
+- ⚙️ Added a new build variable ``READTHEDOCS_CANONICAL_URL`` that's useful for projects that need the canonical base URL while building.
   `View docs <https://docs.readthedocs.io/en/stable/reference/environment-variables.html#envvar-READTHEDOCS_CANONICAL_URL>`__.
 - ⚙️ Added new build variables ``READTHEDOCS_GIT_CLONE_URL``, ``READTHEDOCS_GIT_IDENTIFIER``, and ``READTHEDOCS_GIT_COMMIT_HASH`` for projects that need to access Git data while building.
   `View docs <https://docs.readthedocs.io/en/stable/reference/environment-variables.html#envvar- READTHEDOCS_GIT_CLONE_URL>`__.
