@@ -243,6 +243,11 @@ html_sidebars = {
 # Output file base name for HTML help builder.
 htmlhelp_basename = 'ReadtheDocsBlogdoc'
 
+# This may be elevated as a general issue for documentation and behavioral
+# change to the Sphinx build:
+# https://github.com/readthedocs/readthedocs.org/issues/10226
+html_baseurl = os.environ.get("READTHEDOCS_CANONICAL_URL", "/")
+
 intersphinx_mapping = {
     'readthedocs': (
         'https://docs.readthedocs.io/en/stable',
