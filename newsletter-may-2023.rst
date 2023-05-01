@@ -15,8 +15,15 @@ Read the Docs newsletter - May 2023
 News and updates
 ----------------
 
-- 📚️ ...
-
+- 🚁️ The proxy application El Proxito that serves all of our documentation websites has a new version that's being slowly rolled out.
+  Several projects are now served using its new URL resolver,
+  which is faster and is receiving new features.
+  We expect to roll it out on all projects soon.
+- 🔎️ ...One of the new features is a better 404 page which has is rolled out on projects that has the new Proxity resolver.
+- 💫️ We now support multiple ``.readthedocs.yaml`` files in the same repository.
+  This is great for monorepos that have several documentation projects with different tooling.
+  Read more about the feature :doc:`in our docs <readthedocs:guides/setup/monorepo>`.
+- 🔒️ GHSA-4mgr-vrh5-hj8q ...
 
 Upcoming features
 -----------------
