@@ -23,12 +23,23 @@ News and updates
 - 💫️ We now support multiple ``.readthedocs.yaml`` files in the same repository.
   This is great for monorepos that have several documentation projects with different tooling.
   Read more about the feature :doc:`in our docs <readthedocs:guides/setup/monorepo>`.
+- ⚙️ If you use ``build.commands`` in ``.readthedocs.yaml``,
+  you are no longer required to have a ``build.tools`` section.
+  We changed the validation for ``.readthedocs.yaml`` to accommodate projects that do not need any of the built-in tools exposed.
+- 🐛️ Fixed: URLs on pull request builds were pointing to the build page,
+  rather than the documentation preview.
+  If a build is successful,
+  the URL now points to the documentation preview.
 - 🔒️ GHSA-4mgr-vrh5-hj8q ...
 
 Upcoming features
 -----------------
 
-- 📚️ ...
+- 🚢️ We have concluded work on the version 1.0 of our new `readthedocs-client <https://github.com/readthedocs/readthedocs-client>`_.
+  It's a universal client that enhances documentation for all documentation projects hosted on Read the Docs.
+  We will start to use it on a few selected projects.
+  If you are interested in having it enabled on your project,
+  please reach out.
 
 Want to follow along with our development progress? `View our full Roadmap 📍️`_
 
