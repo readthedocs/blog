@@ -25,7 +25,7 @@ News and updates
   which contains better error messages and tips.
   It has been rolled out to projects that has the new Proxito resolver.
 - 💫️ We now support multiple ``.readthedocs.yaml`` files in the same repository.
-  This is great for *monorepos* that have several documentation projects with different tooling.
+  This is especially useful for *monorepos* that have several documentation projects with different tooling.
   Read more about the feature :doc:`in our docs <readthedocs:guides/setup/monorepo>`.
 - ⚙️ If you use ``build.commands`` in ``.readthedocs.yaml``,
   you are no longer required to have a ``build.tools`` section.
