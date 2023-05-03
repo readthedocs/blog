@@ -22,7 +22,7 @@ News and updates
   while monitoring their stability.
 - 🔎️ ...One of the new features that have been added,
   is an improved 404 page,
-  which contains better error messages and tips.
+  which contains better error messages and tips for users and project owners.
   It has been rolled out to projects that has the new Proxito resolver.
 - 💫️ We now support multiple ``.readthedocs.yaml`` files in the same repository.
   This is especially useful for *monorepos* containing multiple documentation projects with different configurations.
