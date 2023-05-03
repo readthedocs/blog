@@ -30,7 +30,7 @@ News and updates
   rather than the documentation preview.
   If a build is successful,
   the URL now points to the documentation preview.
-- 🔒️ GHSA-4mgr-vrh5-hj8q ...
+- 🔒️ Vulnerability fixed: `Session hijacking on Read the Docs for Business <https://github.com/readthedocs/readthedocs.org/security/advisories/GHSA-4mgr-vrh5-hj8q>`__
 
 Upcoming features
 -----------------
