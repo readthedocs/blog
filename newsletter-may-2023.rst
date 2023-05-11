@@ -41,7 +41,7 @@ News and updates
    :alt: A screenshot of the old and new versions of our 404 pages.
    
    Left: the classic old 404 page with the ascii art maze - right: new contextualized 404 pages.
-   We are slowly rolling out the new default 404 pages that are meant to be more helpful to users and project owners.
+   The new default 404 pages that are meant to be more helpful to users and project owners.
 
 Upcoming features
 -----------------
