@@ -23,7 +23,7 @@ News and updates
 - 🔎️ ...One of the new features that have been added,
   is an improved 404 page,
   which contains better error messages and tips for users and project owners.
-  It has been rolled out to projects that has the new Proxito resolver.
+  It is available to projects using the new Proxito implementation.
 - 💫️ We now support multiple ``.readthedocs.yaml`` files in the same repository.
   This is especially useful for *monorepos* containing multiple documentation projects with different configurations.
   This allows for instance configurations of several projects with different documentation tools and build environments.
@@ -40,7 +40,7 @@ News and updates
 Upcoming features
 -----------------
 
-- 🚢️ We have concluded work on the version 1.0 of our new `readthedocs-client <https://github.com/readthedocs/readthedocs-client>`_.
+- 🚢️ We have concluded work on the first phase of our new `readthedocs-client <https://github.com/readthedocs/readthedocs-client>`_.
   It's a universal client that enhances documentation for all documentation projects hosted on Read the Docs.
   We will start to use it on a few selected projects.
   If you are interested in having it enabled on your project,
