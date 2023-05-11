@@ -4,11 +4,6 @@
    :location: MLM
    :category: Newsletter
 
-.. meta::
-   :description lang=en:
-      Company updates and new features from the last month,
-      current focus, and upcoming features.
-
 Read the Docs newsletter - May 2023
 ===================================
 
