@@ -37,18 +37,18 @@ News and updates
   an example is given `in this comment <https://github.com/readthedocs/readthedocs.org/issues/10290#issuecomment-1535120995>`__.
 - 🔒️ Vulnerability fixed: `CAS session hijacking on Read the Docs for Business <https://github.com/readthedocs/readthedocs.org/security/advisories/GHSA-4mgr-vrh5-hj8q>`__
 
+.. figure:: img/screenshot-404-juxtaposed.png
+   :alt: A screenshot of the old and new versions of our 404 pages.
+   
+   Left: the classic old 404 page with the ascii art maze - right: new contextualized 404 pages.
+   We are slowly rolling out the new default 404 pages that are meant to be more helpful to users and project owners.
+
 Upcoming features
 -----------------
 
 - 🚁️ As mentioned earlier,
   we have rewritten our proxy application El Proxito and will start to add new features.
   One of the features being worked on is the ability to serve :doc:`subprojects <readthedocs:subprojects>` at custom URL paths.
-
-.. figure:: img/screenshot-404-juxtaposed.png
-   :alt: A screenshot of the old and new versions of our 404 pages.
-   
-   Left: the classic old 404 page with the ascii art maze - right: new contextualized 404 pages.
-   We are slowly rolling out the new default 404 pages that are meant to be more helpful to users and project owners.
 
 Want to follow along with our development progress? `View our full Roadmap 📍️`_
 
