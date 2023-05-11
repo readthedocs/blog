@@ -30,16 +30,22 @@ News and updates
   rather than the documentation preview.
   If a build is successful,
   the URL now points to the documentation preview.
+- 🐛️ Fixed: `An issue <https://github.com/readthedocs/readthedocs.org/issues/10290#issuecomment-1542841524>`__ in our legacy build images caused builds using Sphinx to start failing on May 4th when urllib3 2.0.2 was released.
+  The issue has been fixed by upgrading OpenSSL on these images.
+
+  We still encourage to specify a newer build image,
+  an example is given `in this comment <https://github.com/readthedocs/readthedocs.org/issues/10290#issuecomment-1535120995>`__.
 - 🔒️ Vulnerability fixed: `CAS session hijacking on Read the Docs for Business <https://github.com/readthedocs/readthedocs.org/security/advisories/GHSA-4mgr-vrh5-hj8q>`__
+
+.. figure:: img/screenshot-404-juxtaposed.png
+   :alt: A screenshot of the old and new versions of our 404 pages.
+   
+   Left: the classic old 404 page with the ascii art maze - right: new contextualized 404 pages.
+   We are slowly rolling out the new default 404 pages that are meant to be more helpful to users and project owners.
 
 Upcoming features
 -----------------
 
-- 🚢️ We have concluded work on the first phase of our new `readthedocs-client <https://github.com/readthedocs/readthedocs-client>`_.
-  It's a universal client that enhances documentation for all documentation projects hosted on Read the Docs.
-  We will start to use it on a few selected projects.
-  If you are interested in having it enabled on your project,
-  please reach out.
 - 🚁️ As mentioned earlier,
   we have rewritten our proxy application El Proxito and will start to add new features.
   One of the features being worked on is the ability to serve :doc:`subprojects <readthedocs:subprojects>` at custom URL paths.
@@ -48,11 +54,16 @@ Want to follow along with our development progress? `View our full Roadmap 📍�
 
 .. _View our full Roadmap 📍️: https://github.com/orgs/readthedocs/projects/156/views/1
 
+Possible issues
+---------------
 
-.. Possible issues
-.. ---------------
+We have updated our legacy build images with a newer version of OpenSSL.
+If this update affects your builds, please `reach out`_.
 
-.. - TBD
+These changes only affects projects that do not specify :ref:`build.os <readthedocs:config-file/v2:build.os>`.
+We will announce plans to sunset the legacy build images soon.
+For instance, urllib3 will also announce further removal of OpenSSL support,
+and we already consider the old build images as pretty *legacy*.
 
 
 .. Awesome project of the month
@@ -72,3 +83,5 @@ Questions? Comments? Ideas for the next newsletter? `Contact us`_!
 .. Keeping this here for now, in case we need to link to ourselves :)
 
 .. _Contact us: mailto:hello@readthedocs.org
+.. _reach out: https://readthedocs.org/support/
+
