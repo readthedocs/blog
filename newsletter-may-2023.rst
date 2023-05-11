@@ -15,6 +15,7 @@ News and updates
   The new rewrite improves the performance of the resolver and makes it possible to add planned features.
   We are enabling the new implementation gradually for more projects,
   while monitoring its stability.
+  Eventually, it will be enabled on all projects.
 - 🔎️ ...One of the new features available in the new El Proxito implementation,
   is an improved 404 page (see the screenshot below).
   The new 404 pages contain better error messages and tips for users and project owners.
