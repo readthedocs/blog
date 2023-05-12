@@ -17,19 +17,18 @@ News and updates
   is an improved 404 page (see the screenshot below).
   The new 404 page is contextualized and contains better error messages and tips for users and project owners.
   We are gradually rolling out the new El Proxito while monitoring its stability,
-  and users will experience new features only on projects where it has been introduced.
+  and users will experience new features only on projects where it has been enabled.
 - 💫️ We now support multiple ``.readthedocs.yaml`` files in the same repository.
   This is especially useful for *monorepos* containing multiple documentation projects with different configurations.
   This allows for instance configurations of several projects with different documentation tools and build environments.
   Read more about the feature :doc:`in our docs <readthedocs:guides/setup/monorepo>`.
 - ⚙️ If you use ``build.commands`` in ``.readthedocs.yaml``,
   you are no longer required to have a ``build.tools`` section.
-  We changed the validation for ``.readthedocs.yaml`` to accommodate projects that do not need any of the built-in tools exposed.
-- 🐛️ Fixed: URLs on pull request builds were pointing to the build page,
+  We changed the validation for ``.readthedocs.yaml`` to accommodate projects that do not need built-in tools.
+- 🐛️ Fixed: Pull request builds had commit statuses with URLs pointing to the build page,
   rather than the documentation preview.
-  If a build is successful,
-  the URL now points to the documentation preview.
-- 🐛️ Fixed: `An issue <https://github.com/readthedocs/readthedocs.org/issues/10290#issuecomment-1542841524>`__ in our legacy build images caused builds using Sphinx to start failing on May 4th when urllib3 2.0.2 was released.
+  The URL now points to the documentation preview when a build is successful.
+- 🐛️ Fixed: `An issue <https://github.com/readthedocs/readthedocs.org/issues/10290#issuecomment-1542841524>`__ in our *legacy* build images caused builds using Sphinx to start failing on May 4th when urllib3 2.0.2 was released.
   The issue has been fixed by upgrading OpenSSL on these images.
 
   We still encourage to specify a newer build image,
