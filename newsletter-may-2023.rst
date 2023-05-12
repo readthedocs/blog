@@ -10,12 +10,14 @@ Read the Docs newsletter - May 2023
 News and updates
 ----------------
 
-- 🚁️ The proxy application El Proxito has been rewritten and the new version is rolled out gradually to projects while monitoring its stability.
+- 🚁️ The proxy application El Proxito has been rewritten.
   El Proxito resolves URLs for all documentation websites hosted on Read the Docs.
   The new rewrite improves the performance of the resolver and makes it possible to add planned features.
 - 🔎️ ...One of the new features available in the new El Proxito implementation,
   is an improved 404 page (see the screenshot below).
   The new 404 page is contextualized and contains better error messages and tips for users and project owners.
+  We are gradually rolling out the new El Proxito while monitoring its stability,
+  and users will experience new features only on projects where it has been introduced.
 - 💫️ We now support multiple ``.readthedocs.yaml`` files in the same repository.
   This is especially useful for *monorepos* containing multiple documentation projects with different configurations.
   This allows for instance configurations of several projects with different documentation tools and build environments.
