@@ -10,15 +10,12 @@ Read the Docs newsletter - May 2023
 News and updates
 ----------------
 
-- 🚁️ The proxy application El Proxito has been rewritten and the new version is rolled out to selected projects.
+- 🚁️ The proxy application El Proxito has been rewritten and the new version is rolled out gradually to projects while monitoring its stability.
   El Proxito resolves URLs for all documentation websites hosted on Read the Docs.
   The new rewrite improves the performance of the resolver and makes it possible to add planned features.
-  We are enabling the new implementation gradually for more projects,
-  while monitoring its stability.
-  Eventually, it will be enabled on all projects.
 - 🔎️ ...One of the new features available in the new El Proxito implementation,
   is an improved 404 page (see the screenshot below).
-  The new 404 pages contain better error messages and tips for users and project owners.
+  The new 404 page is contextualized and contains better error messages and tips for users and project owners.
 - 💫️ We now support multiple ``.readthedocs.yaml`` files in the same repository.
   This is especially useful for *monorepos* containing multiple documentation projects with different configurations.
   This allows for instance configurations of several projects with different documentation tools and build environments.
@@ -62,8 +59,6 @@ If this update affects your builds, please `reach out`_.
 
 These changes only affects projects that do not specify :ref:`build.os <readthedocs:config-file/v2:build.os>`.
 We will announce plans to sunset the legacy build images soon.
-For instance, urllib3 will also announce further removal of OpenSSL support,
-and we already consider the old build images as pretty *legacy*.
 
 
 .. Awesome project of the month
