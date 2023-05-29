@@ -15,7 +15,7 @@ for all the projects to build their documentation successfully.
 We will stop creating a default configuration file *behind the scenes*, making assumptions for your projects
 and trying our best to make the builds succeed.
 
-We plan to deploy these changes and start failing builds without a configuration file on September 2023.
+We plan to deploy these changes and **start failing builds without a configuration file on September 2023**.
 This matches the period when ``urllib`` `drops support for OpenSSL 1.1.1 <https://github.com/urllib3/urllib3/issues/2168>`_
 which is OpenSSL version that Ubuntu 18.04 has installed and it's used when the project doesn't have a configuration file.
 
