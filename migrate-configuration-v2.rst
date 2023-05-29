@@ -72,7 +72,7 @@ These differences may require some manual adjustment that you will figure if the
   you can use the config key
   `formats <https://docs.readthedocs.io/en/stable/config-file/v2.html#formats>`_.
 * Node.js is not available by default.
-  You can make it available by usign
+  You can make it available by using
   `build.tools.nodejs <https://docs.readthedocs.io/en/stable/config-file/v2.html#build-tools-nodejs>`_
   config key.
 
