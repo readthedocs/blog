@@ -74,19 +74,21 @@ here is a checklist of items that you should pay attention to while writing your
 * All the configuration done from the dashboard
   (:menuselection:`Project Admin --> Advanced Settings --> Default settings`)
   are ignored when using a configuration file and have to be migrated to this configuration file if you were using any of them.
-  * ``Documentation type`` is defined via
+
+  * ``Documentation type`` is now defined via
     `sphinx <https://docs.readthedocs.io/en/stable/config-file/v2.html#sphinx>`_ or
-    `mkdocs <https://docs.readthedocs.io/en/stable/config-file/v2.html#mkdocs>`_.
-  * ``Requirements file`` is defined via `
-    `python.requirements <https://docs.readthedocs.io/en/stable/config-file/v2.html#python-requirements>`_
-  * ``Python Interpreter`` is defined via
-    `build.tools.python <https://docs.readthedocs.io/en/stable/config-file/v2.html#build-tools-python>`_
-  * ``Install Project`` is defined via
-    `python.install <https://docs.readthedocs.io/en/stable/config-file/v2.html#python-install>`_
-  * ``Use system packages`` is deprecated in favor of declaring all your dependencies via a requirements file using
-    `python.requirements <https://docs.readthedocs.io/en/stable/config-file/v2.html#python-requirements>`_
-  * ``Python configuration file`` is defined via
-    `sphinx.configuration <https://docs.readthedocs.io/en/stable/config-file/v2.html#sphinx-configuration>`_
+    `mkdocs <https://docs.readthedocs.io/en/stable/config-file/v2.html#mkdocs>`_,
+    depending which is the documentation tool your project is using.
+  * ``Requirements file`` is now defined via
+    `python.requirements <https://docs.readthedocs.io/en/stable/config-file/v2.html#requirements-file>`_.
+  * ``Python Interpreter`` is now defined via
+    `build.tools.python <https://docs.readthedocs.io/en/stable/config-file/v2.html#build-tools-python>`_.
+  * ``Install Project`` is now defined via
+    `python.install <https://docs.readthedocs.io/en/stable/config-file/v2.html#python-install>`_.
+  * ``Use system packages`` *is deprecated* in favor of declaring all your dependencies via a requirements file using
+    `python.requirements <https://docs.readthedocs.io/en/stable/config-file/v2.html#requirements-file>`_.
+  * ``Python configuration file`` is now defined via
+    `sphinx.configuration <https://docs.readthedocs.io/en/stable/config-file/v2.html#sphinx-configuration>`_.
 
 * Git submodules are not cloned.
   You can tell Read the Docs to clone them by using
