@@ -7,26 +7,36 @@
 Migrate your project to ``.readthedocs.yaml`` configuration file v2
 ===================================================================
 
-We are announcing the **deprecation of building without a configuration file** (``.readthedocs.yaml``)
-together with the deprecation of configuration file v1 as well.
+We are announcing a new **requirement for all builds to use our configuration file version 2: ``.readthedocs.yaml``**.
+This announcement deprecates builds without a configuration file, as well as version 1 of our configuration file.
 
-Read the Docs *will soon start requiring* a ``.readthedocs.yaml`` configuration file
+Read the Docs *will start requiring* a ``.readthedocs.yaml`` configuration file
 for all projects in order to build documentation successfully.
-We will stop creating a default configuration file *behind the scenes*, making assumptions for your projects,
-and automatically fixing problems with project configurations.
+We will stop supporting builds without explicit configuration,
+because this creates implicit dependencies that users aren't aware of.
 
-We plan to deploy these changes and **start failing builds without a configuration file on September 20, 2023 at 12:01am UTC**.
+**We plan to start failing builds not using configuration file version 2 on September 4, 2023**.
 This matches the period when ``urllib3`` `drops support for OpenSSL 1.1.1 <https://github.com/urllib3/urllib3/issues/2168>`_
 which is the OpenSSL version installed by the build image used when the project doesn't specify a configuration file.
 
 The main reason behind this decision is that it's hard to maintain a set of defaults that are useful
-for all of our users and the different tools and libraries they use to build documentation.
-Without a configuration file, we must guess at the configuration the project needs to build and this is also difficult to do reliably.
+for all of our users and the different tools they use to build documentation.
+Without a configuration file, we must guess the configuration the project needs to build, which is difficult to do reliably.
 Even if the defaults we chose worked well for a period of time,
-we found them impossible to change over time.
+we found it impossible to change over time.
 Doing so would break projects that were relying on our defaults instead of specifying a configuration file
 and pinning their dependencies (e.g. OS, Python version, dependencies, etc).
 
+Deprecation timeline
+--------------------
+
+We understand this change will effect many of our users,
+so we have a timeline to communicate this deprecation to our users effectively.
+
+* **June 2023**: Email project owners with unsupported configurations once a week, along with an onsite notification to alert them of the deprecation.
+* **Monday, July 24, 2023**: Do the first brownout (temporarily enforce this deprecation) for 2 hours in 3 timezones, 9:00-11:00, in 3 timezones: UTC-8, UTC, and UTC+8.  
+* **Monday, August 7, 2023**: Do a second brownout (temporarily enforce this deprecation) for 2 hours in 3 timezones, 9:00-11:00, in 3 timezones: UTC-8, UTC, and UTC+8.  
+* **Monday, September 4, 2023**: Fully remove support for building documentation without configuration file v2.
 
 Adding a configuration file
 ---------------------------
@@ -56,7 +66,12 @@ and will continue building after we deprecate our default build configuration in
    # Build documentation in the docs/ directory with Sphinx
    sphinx:
      configuration: docs/conf.py
-
+     
+   # We recommend specifying your dependencies to enable reproducible builds:
+   # https://docs.readthedocs.io/en/stable/guides/reproducible-builds.html
+   # python:
+   #   install:
+   #   - requirements: docs/requirements.txt
 
 Additional help
 ---------------
