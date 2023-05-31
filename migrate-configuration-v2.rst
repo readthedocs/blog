@@ -7,7 +7,7 @@
 Migrate your project to ``.readthedocs.yaml`` configuration file v2
 ===================================================================
 
-We are announcing the **deprecation of building without a configuration file** (``.readtehdocs.yaml``)
+We are announcing the **deprecation of building without a configuration file** (``.readthedocs.yaml``)
 together with the deprecation of configuration file v1 as well.
 
 Read the Docs *will soon start requiring* a ``.readthedocs.yaml`` configuration file
