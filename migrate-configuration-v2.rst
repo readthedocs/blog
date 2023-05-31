@@ -29,7 +29,7 @@ and pinning their dependencies (e.g. OS, Python version, dependencies, etc).
 
 
 Adding a configuration file
-------------------------------
+---------------------------
 
 If you have a project on Read the Docs that is not using a ``.readthedocs.yaml`` configuration file,
 **you will need to create one as soon as possible** to continue building your project.
@@ -59,7 +59,7 @@ and will continue building after we deprecate our default build configuration in
 
 
 Additional help
------------------------
+---------------
 
 There are some small differences between our build defaults and this configuration file template above.
 If you notice a build failure after making these changes,
@@ -114,7 +114,8 @@ What's next?
 In case you have some extra time,
 we recommend that you pin your project's Python dependencies as well.
 This helps avoid surprise build errors when new packages are released.
-You can find more information in our guide, `How to create reproducible builds <https://docs.readthedocs.io/en/stable/guides/reproducible-builds.html>`_.
+You can find more information in our guide,
+`How to create reproducible builds <https://docs.readthedocs.io/en/stable/guides/reproducible-builds.html>`_.
 
 
 Contact us
