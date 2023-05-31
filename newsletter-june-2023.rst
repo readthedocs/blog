@@ -43,10 +43,24 @@ Possible issues
 
 Issues?
 
-.. Awesome project of the month
-.. ----------------------------
 
-.. Waiting for tweet about Ray
+Awesome project of the month
+----------------------------
+
+The most recent addition to
+`Awesome Read the Docs Projects 🕶️ <https://github.com/readthedocs-examples/awesome-read-the-docs>`__
+is `Ray's documentation <https://docs.ray.io/>`__ 🕶️.
+
+Ray is an open source project, consisting of several components that all have their own section in a combined documentation set.
+
+See the highlights in the following
+`Twitter thread <https://twitter.com/readthedocs/status/1663923671470047234>`__ or
+`Mastodon thread <https://fosstodon.org/@readthedocs/110463989114312961>`__:
+
+.. raw:: html
+
+   <blockquote class="twitter-tweet"><p lang="en" dir="ltr">The most recent addition to our awesome projects list is Ray&#39;s documentation 🕶️.<br><br>Ray by <a href="https://twitter.com/anyscalecompute?ref_src=twsrc%5Etfw">@anyscalecompute</a> is an open source project, consisting of several components that all have their own section in a combined documentation set.<a href="https://t.co/9YGpJvYpFD">https://t.co/9YGpJvYpFD</a><br><br>Here is a 🤏 (small) 🧵 <a href="https://t.co/QElmmJetPB">pic.twitter.com/QElmmJetPB</a></p>&mdash; Read the Docs (@readthedocs) <a href="https://twitter.com/readthedocs/status/1663923671470047234?ref_src=twsrc%5Etfw">May 31, 2023</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script> 
+
 
 .. Tip of the month
 .. ----------------
