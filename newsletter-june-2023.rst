@@ -10,8 +10,14 @@ Read the Docs newsletter - June 2023
 News and updates
 ----------------
 
-- 🐛️ Bug fix...
-- 🔒️ Vulnerability fix...
+- ⚠️ It will be required to use a ``.readthedocs.yaml`` configuration file.
+  It's highly encouraged to add one already today.
+  Read more about this change in :doc:`/migrate-configuration-v2`.
+- 🐛️ Builds with multiline commands suffered from `a few bugs <https://github.com/readthedocs/readthedocs.org/issues/10103>`__ that are hopefully all fixed now.
+  Thanks to everyone who helped out!
+- 🐛️ `sphinx-rtd-theme 1.2.1 <https://sphinx-rtd-theme.readthedocs.io/en/stable/changelog.html>`__ has been released with an important bug fix that caused jQuery to not load in certain projects.
+- 🔒️ A high-severity vulnerability has been fixed:
+  `Write access to projects via API V2 (/api/v2/project/* endpoints) for any logged-in user <https://github.com/readthedocs/readthedocs.org/security/advisories/GHSA-rqfv-8rrx-prmh>`__
 
 Upcoming features
 -----------------
@@ -26,7 +32,6 @@ Upcoming features
   If you are interested in having it enabled on your project,
   please `reach out`_.
 
-
 Want to follow along with our development progress? `View our full Roadmap 📍️`_
 
 .. _View our full Roadmap 📍️: https://github.com/orgs/readthedocs/projects/156/views/1
@@ -39,7 +44,7 @@ Issues?
 .. Awesome project of the month
 .. ----------------------------
 
-.. Skipped
+.. Waiting for tweet about Ray
 
 .. Tip of the month
 .. ----------------
