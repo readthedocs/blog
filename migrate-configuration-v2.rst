@@ -15,7 +15,7 @@ for all projects in order to build documentation successfully.
 We will stop creating a default configuration file *behind the scenes*, making assumptions for your projects,
 and automatically fixing problems with project configurations.
 
-We plan to deploy these changes and **start failing builds without a configuration file in September 2023**.
+We plan to deploy these changes and **start failing builds without a configuration file on September 20, 2023 at 12:01am UTC**.
 This matches the period when ``urllib3`` `drops support for OpenSSL 1.1.1 <https://github.com/urllib3/urllib3/issues/2168>`_
 which is the OpenSSL version installed by the build image used when the project doesn't specify a configuration file.
 
