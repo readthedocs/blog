@@ -13,11 +13,13 @@ News and updates
 - ⚠️ It will be required to use a ``.readthedocs.yaml`` configuration file.
   It's highly encouraged to add one already today.
   Read more about this change in :doc:`/migrate-configuration-v2`.
+- ✅️ Visiting ``/en/`` on a documentation project now redirects to ``/en/latest/``.
 - 🎥️ All the talks from `Write the Docs Portland 2023 <https://www.writethedocs.org/conf/portland/2023/>`__ can now be watched for free:
   `Open the new playlist on Youtube <https://www.youtube.com/watch?v=EZJ0mk9Jj3s&list=PLZAeFn6dfHpneQPsDWa4OmEpgW4pNiaZ2>`__.
 - 🐛️ Builds with multiline commands suffered from `a few bugs <https://github.com/readthedocs/readthedocs.org/issues/10103>`__ that are hopefully all fixed now.
   Thanks to everyone who helped out!
 - 🐛️ `sphinx-rtd-theme 1.2.1 <https://sphinx-rtd-theme.readthedocs.io/en/stable/changelog.html>`__ has been released with an important bug fix that caused jQuery to not load in certain projects.
+- 🔒️ We updated custom domain certificates to 1.2 as the *minimum* TLS version.
 - 🔒️ A high-severity vulnerability has been fixed:
   `Write access to projects via API V2 (/api/v2/project/* endpoints) for any logged-in user <https://github.com/readthedocs/readthedocs.org/security/advisories/GHSA-rqfv-8rrx-prmh>`__.
 
