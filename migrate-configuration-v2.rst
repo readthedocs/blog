@@ -11,31 +11,32 @@ We are announcing the **deprecation of building without a configuration file** (
 together with the deprecation of configuration file v1 as well.
 
 Read the Docs *will soon start requiring* a ``.readthedocs.yaml`` configuration file
-for all the projects to build their documentation successfully.
-We will stop creating a default configuration file *behind the scenes*, making assumptions for your projects
-and trying our best to make the builds succeed.
+for all projects in order to build documentation successfully.
+We will stop creating a default configuration file *behind the scenes*, making assumptions for your projects,
+and automatically fixing problems with project configurations.
 
-We plan to deploy these changes and **start failing builds without a configuration file on September 2023**.
+We plan to deploy these changes and **start failing builds without a configuration file in September 2023**.
 This matches the period when ``urllib3`` `drops support for OpenSSL 1.1.1 <https://github.com/urllib3/urllib3/issues/2168>`_
-which is the OpenSSL version that Ubuntu 18.04 has installed and it's used when the project doesn't have a configuration file.
+which is the OpenSSL version installed by the build image used when the project doesn't specify a configuration file.
 
-The main reason behind this decision is it's pretty hard to maintain a set of defaults that are useful
-for the amount of users we have and the number of different tools they use to build documentation.
-Even when the defaults we chose were useful for a period of time,
-we found they were almost impossible to update to newer versions of dependencies
-because doing so would break a lot of projects that weren't using a configuration file
+The main reason behind this decision is that it's hard to maintain a set of defaults that are useful
+for all of our users and the different tools and libraries they use to build documentation.
+Without a configuration file, we must guess at the configuration the project needs to build and this is also difficult to do reliably.
+Even if the defaults we chose worked well for a period of time,
+we found them impossible to change over time.
+Doing so would break projects that were relying on our defaults instead of specifying a configuration file
 and pinning their dependencies (e.g. OS, Python version, dependencies, etc).
 
 
-Adding a ``.readthedocs.yaml``
+Adding a configuration file
 ------------------------------
 
-If you have a project on Read the Docs that it's not using a ``.readthedocs.yaml`` configuration file,
-**we strongly recommend you to create one as soon as possible** to avoid breaking builds once we deploy the changes.
+If you have a project on Read the Docs that is not using a ``.readthedocs.yaml`` configuration file,
+**you will need to create one as soon as possible** to continue building your project.
 
-Here you have a minimal template configuration file that you can copy and paste to use in your project.
-With this config file your project should build successfully now
-and will keep working fine once we deploy the changes in September 2023.
+Below is a minimal configuration template that you can copy and paste into your project.
+With this configuration file, your project should build successfully
+and will continue building after we deprecate our default build configuration in September 2023.
 
 .. code:: yaml
 
@@ -57,28 +58,28 @@ and will keep working fine once we deploy the changes in September 2023.
      configuration: docs/conf.py
 
 
-Things to pay attention
+Additional help
 -----------------------
 
-It's worth to mention there are some small differences between the defaults used before and this configuration file.
-If the first build fails after making these changes,
-here is a checklist of items that you should pay attention to while writing your ``.readthedocs.yaml`` file:
+There are some small differences between our build defaults and this configuration file template above.
+If you notice a build failure after making these changes,
+here are some things you can check while you tune your ``.readthedocs.yaml`` file:
 
-* Operating system is changed from Ubuntu 18.04 to Ubuntu 22.04
+* The operating system has changed from Ubuntu 18.04 to Ubuntu 22.04
 * The new Ubuntu 22.04 may not have all the same system dependencies installed.
-  If you need an Ubuntu package that it's not installed in the system,
+  If you need an Ubuntu package that's not installed in the system,
   you can use
   `build.apt_packages <https://docs.readthedocs.io/en/stable/config-file/v2.html#build-apt-packages>`_
   to install it.
-* Python version is changed from 3.7 to 3.11.
+* The default Python version has changed from 3.7 to 3.11.
 * All the configuration done from the dashboard
   (:menuselection:`Project Admin --> Advanced Settings --> Default settings`)
-  are ignored when using a configuration file and have to be migrated to this configuration file if you were using any of them.
+  is ignored when using a configuration file. These settings have to be migrated to your project's configuration file.
 
   * ``Documentation type`` is now defined via
     `sphinx <https://docs.readthedocs.io/en/stable/config-file/v2.html#sphinx>`_ or
     `mkdocs <https://docs.readthedocs.io/en/stable/config-file/v2.html#mkdocs>`_,
-    depending which is the documentation tool your project is using.
+    depending on which documentation tool your project is using.
   * ``Requirements file`` is now defined via
     `python.requirements <https://docs.readthedocs.io/en/stable/config-file/v2.html#requirements-file>`_.
   * ``Python Interpreter`` is now defined via
@@ -90,7 +91,7 @@ here is a checklist of items that you should pay attention to while writing your
   * ``Python configuration file`` is now defined via
     `sphinx.configuration <https://docs.readthedocs.io/en/stable/config-file/v2.html#sphinx-configuration>`_.
 
-* Git submodules are not cloned.
+* Git submodules are not cloned automatically.
   You can tell Read the Docs to clone them by using
   `submodules.include <https://docs.readthedocs.io/en/stable/config-file/v2.html#submodules-include>`_
   config key.
@@ -103,22 +104,23 @@ here is a checklist of items that you should pay attention to while writing your
   `build.tools.nodejs <https://docs.readthedocs.io/en/stable/config-file/v2.html#build-tools-nodejs>`_
   config key.
 
-Starting with this suggested ``.readthedocs.yaml`` configuration file and taking into account the differences,
-you will be able to update your project to the new requirements now and don't worry about this breaking change in the future.
+Starting with this suggested ``.readthedocs.yaml`` configuration file and taking into account these differences,
+you should be able to define a working configuration file and avoid breaking changes in the future.
 
 
 What's next?
 ------------
 
 In case you have some extra time,
-we recommend you to pin your Python dependencies as well to avoid builds breaking by surprise when a new release of any of your dependencies is made.
-You can read the guide `How to create reproducible builds <https://docs.readthedocs.io/en/stable/guides/reproducible-builds.html>`_ for this.
+we recommend that you pin your project's Python dependencies as well.
+This helps avoid surprise build errors when new packages are released.
+You can find more information in our guide, `How to create reproducible builds <https://docs.readthedocs.io/en/stable/guides/reproducible-builds.html>`_.
 
 
 Contact us
 ----------
 
-Get in touch with us `via our support`_
-and let us know if you are unable to use a configuration file for any reason.
+`Contact us`_ if you have any questions,
+and let us know if you are having trouble using a configuration file for any reason.
 
-.. _via our support: https://readthedocs.org/support/
+.. _Contact us: https://readthedocs.org/support/
