@@ -34,8 +34,8 @@ We understand this change will affect many of our users,
 so we have a timeline to communicate this deprecation to our users effectively.
 
 * **June 2023**: Email project owners with unsupported configurations once a week, along with an onsite notification to alert them of the deprecation.
-* **Monday, July 24, 2023**: Do the first brownout (temporarily enforce this deprecation) for 2 hours in 3 timezones, 9:00-11:00, in 3 timezones: UTC-8, UTC, and UTC+8.  
-* **Monday, August 7, 2023**: Do a second brownout (temporarily enforce this deprecation) for 2 hours in 3 timezones, 9:00-11:00, in 3 timezones: UTC-8, UTC, and UTC+8.  
+* **Monday, July 24, 2023**: Do the first brownout (temporarily enforce this deprecation) for 12 hours: 00:01 PST to 11:59 PST (noon)
+* **Monday, August 7, 2023**: Do a second brownout (temporarily enforce this deprecation) for 24 hours: 00:01 PST to 23:59 PST (midnight)
 * **Monday, September 4, 2023**: Fully remove support for building documentation without configuration file v2.
 
 Adding a configuration file
