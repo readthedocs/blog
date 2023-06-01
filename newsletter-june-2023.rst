@@ -52,10 +52,13 @@ See the highlights in the following
    <blockquote class="twitter-tweet"><p lang="en" dir="ltr">The most recent addition to our awesome projects list is Ray&#39;s documentation 🕶️.<br><br>Ray by <a href="https://twitter.com/anyscalecompute?ref_src=twsrc%5Etfw">@anyscalecompute</a> is an open source project, consisting of several components that all have their own section in a combined documentation set.<a href="https://t.co/9YGpJvYpFD">https://t.co/9YGpJvYpFD</a><br><br>Here is a 🤏 (small) 🧵 <a href="https://t.co/QElmmJetPB">pic.twitter.com/QElmmJetPB</a></p>&mdash; Read the Docs (@readthedocs) <a href="https://twitter.com/readthedocs/status/1663923671470047234?ref_src=twsrc%5Etfw">May 31, 2023</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script> 
 
 
-.. Tip of the month
-.. ----------------
 
-.. Skipped
+.. figure:: img/screenshot-readthedocs-yaml.png
+   :alt: A screenshot of a sample .readthedocs.yaml file
+   
+   It was always better to use a ``.readthedocs.yaml`` file.
+   It gives so many more options and makes it possible to version your configuration in your Git repository ⚡️
+
 
 -------
 
