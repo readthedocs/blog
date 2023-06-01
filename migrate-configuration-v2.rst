@@ -7,7 +7,7 @@
 Migrate your project to ``.readthedocs.yaml`` configuration file v2
 ===================================================================
 
-We are announcing a new **requirement for all builds to use our configuration file version 2: ``.readthedocs.yaml``**.
+We are announcing a new **requirement for all builds to use our configuration file version 2**.
 This announcement deprecates builds without a configuration file, as well as version 1 of our configuration file.
 
 Read the Docs *will start requiring* a ``.readthedocs.yaml`` configuration file
@@ -23,14 +23,14 @@ The main reason behind this decision is that it's hard to maintain a set of defa
 for all of our users and the different tools they use to build documentation.
 Without a configuration file, we must guess the configuration the project needs to build, which is difficult to do reliably.
 Even if the defaults we chose worked well for a period of time,
-we found it impossible to change over time.
+we found them impossible to change over time.
 Doing so would break projects that were relying on our defaults instead of specifying a configuration file
 and pinning their dependencies (e.g. OS, Python version, dependencies, etc).
 
 Deprecation timeline
 --------------------
 
-We understand this change will effect many of our users,
+We understand this change will affect many of our users,
 so we have a timeline to communicate this deprecation to our users effectively.
 
 * **June 2023**: Email project owners with unsupported configurations once a week, along with an onsite notification to alert them of the deprecation.
