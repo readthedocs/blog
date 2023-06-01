@@ -10,11 +10,10 @@ Read the Docs newsletter - June 2023
 News and updates
 ----------------
 
-- ⚠️ It will be required to use a ``.readthedocs.yaml`` configuration file.
-  It's highly encouraged to add one already today.
+- ⚠️ A ``.readthedocs.yaml`` configuration file will be required for your future builds.
   Read more about this change in :doc:`/migrate-configuration-v2`.
 - ✅️ Visiting ``/en/`` on a documentation project now redirects to ``/en/latest/``.
-- 🎥️ All the talks from `Write the Docs Portland 2023 <https://www.writethedocs.org/conf/portland/2023/>`__ can now be watched for free:
+- 🍿️ All the talks from `Write the Docs Portland 2023 <https://www.writethedocs.org/conf/portland/2023/>`__ are ready to watch:
   `Open the new playlist on Youtube <https://www.youtube.com/watch?v=EZJ0mk9Jj3s&list=PLZAeFn6dfHpneQPsDWa4OmEpgW4pNiaZ2>`__.
 - 🐛️ Builds with multiline commands suffered from `a few bugs <https://github.com/readthedocs/readthedocs.org/issues/10103>`__ that are hopefully all fixed now.
   Thanks to everyone who helped out!
@@ -23,28 +22,17 @@ News and updates
 - 🔒️ A high-severity vulnerability has been fixed:
   `Write access to projects via API V2 (/api/v2/project/* endpoints) for any logged-in user <https://github.com/readthedocs/readthedocs.org/security/advisories/GHSA-rqfv-8rrx-prmh>`__.
 
-Upcoming features
------------------
-
-- 🚢️ We have concluded work on the first phase of our new `readthedocs-client <https://github.com/readthedocs/readthedocs-client>`_.
-  The client will be a single library for all the ways Read the Docs enhances documentation from having a flyout menu
-  to link to other versions, translations, or subprojects, to showing version warnings for folks browsing outdated docs
-  to running ads on community projects.
-  There will be integration points and APIs to customize all of these features in the new client.
-
-  We will start to use it on a few selected projects.
-  If you are interested in having it enabled on your project,
-  please `reach out`_.
-
-Want to follow along with our development progress? `View our full Roadmap 📍️`_
-
-.. _View our full Roadmap 📍️: https://github.com/orgs/readthedocs/projects/156/views/1
-
 Possible issues
 ---------------
 
-Issues?
+- ⚠️ Please make sure to read the blog post: :doc:`/migrate-configuration-v2`.
 
+  If you didn't have a ``.readthedocs.yaml`` configuration file,
+  and you are introducing one for the first time,
+  chances are that a lot of your documentation stack is outdated (Python, Sphinx, Ubuntu).
+  So your builds might break.
+  
+  The blog post offers help with that 💡️
 
 Awesome project of the month
 ----------------------------
