@@ -29,8 +29,7 @@ Possible issues
 
   If you didn't have a ``.readthedocs.yaml`` configuration file,
   and you are introducing one for the first time,
-  chances are that a lot of your documentation stack is outdated (Python, Sphinx, Ubuntu).
-  So your builds might break.
+  we're excited for you to be able to use all our new features like specifying build tool versions (Node, Rust, etc.)!
   
   The blog post offers help with that 💡️
 
