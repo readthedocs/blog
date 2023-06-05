@@ -15,7 +15,7 @@ News and updates
 - ✅️ Visiting ``/en/`` on a documentation project now redirects to ``/en/latest/``.
 - 🍿️ All the talks from `Write the Docs Portland 2023 <https://www.writethedocs.org/conf/portland/2023/>`__, which we sponsored this year, are ready to watch:
   `Open the new playlist on Youtube <https://www.youtube.com/watch?v=EZJ0mk9Jj3s&list=PLZAeFn6dfHpneQPsDWa4OmEpgW4pNiaZ2>`__.
-- 🐛️ Builds with multiline commands suffered from `a few bugs <https://github.com/readthedocs/readthedocs.org/issues/10103>`__ that are hopefully all fixed now.
+- 🐛️ Builds with multiline ``build.commands`` should now be `working reliably <https://github.com/readthedocs/readthedocs.org/issues/10103>`_.
   Thanks to everyone who helped out!
 - 🐛️ `sphinx-rtd-theme 1.2.1 <https://sphinx-rtd-theme.readthedocs.io/en/stable/changelog.html>`__ has been released with an important bug fix that caused jQuery to not load in certain projects.
 - 🔒️ We updated custom domain certificates to 1.2 as the *minimum* TLS version.
