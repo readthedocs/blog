@@ -12,7 +12,8 @@ News and updates
 
 - ⚠️ A ``.readthedocs.yaml`` configuration file will be required for your future builds.
   Read more about this change in :doc:`/migrate-configuration-v2`.
-- ✅️ Visiting ``/en/`` on a documentation project now redirects to ``/en/latest/``.
+- ✅️ Visiting a language slug of a project without specifying the version now redirects to the default version.
+  For instance, ``/en/`` redirects to ``/en/latest/``.
 - 🍿️ All the talks from `Write the Docs Portland 2023 <https://www.writethedocs.org/conf/portland/2023/>`__, which we sponsored this year, are ready to watch:
   `Open the new playlist on Youtube <https://www.youtube.com/watch?v=EZJ0mk9Jj3s&list=PLZAeFn6dfHpneQPsDWa4OmEpgW4pNiaZ2>`__.
 - 🐛️ Builds with multiline ``build.commands`` should now be `working reliably <https://github.com/readthedocs/readthedocs.org/issues/10103>`_.
