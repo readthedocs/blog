@@ -15,7 +15,7 @@ for all projects in order to build documentation successfully.
 We will stop supporting builds without explicit configuration,
 because this creates implicit dependencies that users aren't aware of.
 
-**We plan to start failing builds not using configuration file version 2 on September 4, 2023**.
+**We plan to start failing builds not using configuration file version 2 on September 25, 2023**.
 This matches the period when ``urllib3`` `drops support for OpenSSL 1.1.1 <https://github.com/urllib3/urllib3/issues/2168>`_
 which is the OpenSSL version installed by the build image used when the project doesn't specify a configuration file.
 
@@ -35,8 +35,9 @@ so we have a timeline to communicate this deprecation to our users effectively.
 
 * **June 2023**: Email project owners with unsupported configurations once a week, along with an onsite notification to alert them of the deprecation.
 * **Monday, July 24, 2023**: Do the first brownout (temporarily enforce this deprecation) for 12 hours: 00:01 PST to 11:59 PST (noon)
-* **Monday, August 7, 2023**: Do a second brownout (temporarily enforce this deprecation) for 24 hours: 00:01 PST to 23:59 PST (midnight)
-* **Monday, September 4, 2023**: Fully remove support for building documentation without configuration file v2.
+* **Monday, August 14, 2023**: Do a second brownout (temporarily enforce this deprecation) for 24 hours: 00:01 PST to 23:59 PST (midnight)
+* **Monday, September 4, 2023**: Do a third and final brownout (temporarily enforce this deprecation) for 48 hours: 00:01 PST to 23:59 PST (midnight)
+* **Monday, September 25, 2023**: Fully remove support for building documentation without configuration file v2.
 
 Adding a configuration file
 ---------------------------
