@@ -14,10 +14,7 @@ Read the Docs *will start requiring* a ``.readthedocs.yaml`` configuration file
 for all projects in order to build documentation successfully.
 We will stop supporting builds without explicit configuration,
 because this creates implicit dependencies that users aren't aware of.
-
 **We plan to start failing builds not using configuration file version 2 on September 25, 2023**.
-This matches the period when ``urllib3`` `drops support for OpenSSL 1.1.1 <https://github.com/urllib3/urllib3/issues/2168>`_
-which is the OpenSSL version installed by the build image used when the project doesn't specify a configuration file.
 
 The main reason behind this decision is that it's hard to maintain a set of defaults that are useful
 for all of our users and the different tools they use to build documentation.
@@ -67,7 +64,7 @@ and will continue building after we deprecate our default build configuration in
    # Build documentation in the docs/ directory with Sphinx
    sphinx:
      configuration: docs/conf.py
-     
+
    # We recommend specifying your dependencies to enable reproducible builds:
    # https://docs.readthedocs.io/en/stable/guides/reproducible-builds.html
    # python:
