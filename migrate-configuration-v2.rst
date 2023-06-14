@@ -120,6 +120,11 @@ here are some things you can check while you tune your ``.readthedocs.yaml`` fil
 Starting with this suggested ``.readthedocs.yaml`` configuration file and taking into account these differences,
 you should be able to define a working configuration file and avoid breaking changes in the future.
 
+.. seealso::
+  
+   :doc:`readthedocs:guides/setup/configuration-file`
+      More usage examples and guidance can be found in our how-to for adding a ``.readthedocs.yaml`` configuration file.
+
 
 What's next?
 ------------
