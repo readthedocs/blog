@@ -23,7 +23,7 @@ these legacy incoming webhooks.
 
 In order to continue building automatically, projects should reconfigure their
 repository to use a new project webhook integration instead. For more
-information, see our docs on :doc:`readthedocs:guides/build-notifications`.
+information, see our docs on :doc:`readthedocs:guides/build/webhooks`.
 
 There are two important dates to note here:
 
