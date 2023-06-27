@@ -10,7 +10,9 @@ Read the Docs newsletter - July 2023
 News and updates
 ----------------
 
-- ✅️ Deprecations underway: We have started a systematic approach to our deprecation process,
+- 🛣️ Deprecations underway:
+  The Read the Docs platform is sustainable for lots of future innovation.
+  We have started a systematic approach to our deprecation process,
   and we are now able to deprecate features efficiently and with a clear migration path for everyone involved.
 - 📧️ Getting too many deprecation notifications?
   We added the ability to opt out of email notifications.
