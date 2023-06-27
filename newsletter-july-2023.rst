@@ -70,7 +70,12 @@ Possible issues
 Awesome project of the month
 ----------------------------
 
-We might remove this or make less efforts, so there might not be a thread.
+We are adding new entries to the list of `Awesome Read the Docs Projects 🕶️ <https://github.com/readthedocs-examples/awesome-read-the-docs>`__.
+Feel free to open an issue or pull request if you've seen something that might inspire others.
+
+This month's addition is `the developer documentation for django-cms <https://docs.django-cms.org/>`__,
+which is noted for being both extremely extensive and well-organized at the same time.
+It uses the `Furo <https://pradyunsg.me/furo/quickstart/>`__ theme that has full integration with Read the Docs' reader extensions.
 
 -------
 
