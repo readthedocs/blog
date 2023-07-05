@@ -10,6 +10,10 @@ Read the Docs newsletter - July 2023
 News and updates
 ----------------
 
+- 🚀 We shipped support for customizing the URL path for projects and subprojects,
+  allowing you to remove or customize the `/projects/` path on subprojects.
+  This is enabled via Support request currently,
+  and only on certain plans on Read the Docs for Business.
 - 🛣️ Deprecations underway:
   We have a number of old feature deprecations underway. 
   The goal here is to reduce complexity of our build platform,
