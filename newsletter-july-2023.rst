@@ -1,7 +1,7 @@
-.. post:: July 1, 2023
+.. post:: July 6, 2023
    :tags: newsletter, python
-   :author: Ben
-   :location: MLM
+   :author: Eric
+   :location: BND
    :category: Newsletter
 
 Read the Docs newsletter - July 2023
@@ -11,18 +11,20 @@ News and updates
 ----------------
 
 - 🛣️ Deprecations underway:
-  The Read the Docs platform is sustainable for lots of future innovation.
-  We have started a systematic approach to our deprecation process,
-  and we are now able to deprecate features efficiently and with a clear migration path for everyone involved.
+  We have a number of old feature deprecations underway. 
+  The goal here is to reduce complexity of our build platform,
+  and enable users to control their own builds via ``build.tools`` and ``build.commands`` instead of feature flags.
+  Keep an eye on your email for any deprecation notifications that might impact your project.
 - 📧️ Getting too many deprecation notifications?
   We added the ability to opt out of email notifications.
+  You can configure this in your user profile settings.
 - ✅️ New tool updates for all build tools,
   including the latest stable versions of Python, pypy, Node.js, Rust and Go.
-  See the documentation of the `build.tools <https://docs.readthedocs.io/en/latest/config-file/v2.html#build-tools>`__ configuration option.
-- 📚️ A new documentation how-to for ``.readthedocs.yaml`` was initiated at `Write the Docs <https://www.writethedocs.org/>`__ and finished afterwards.
+  See the documentation of the `build.tools <https://docs.readthedocs.io/en/latest/config-file/v2.html#build-tools>`__ for more info.
+- 📚️ A new documentation how-to for ``.readthedocs.yaml`` was started at `Write the Docs <https://www.writethedocs.org/>`__ and finished recently.
   Read it here: :doc:`readthedocs:guides/setup/configuration-file`.
 - ⏩️ HTTP speedups: Several HTTP endpoints and CloudFlare configurations have been tweaked and are performing better.
-- 🐛️ Bug fix: We are now 100% relying on search indexing by parsing HTML with special-made heuristics. We removed a double-indexing that was caused by old Sphinx-oriented indexing.
+- 🐛️ Bug fix: We are now 100% relying on search indexing by parsing HTML, instead of special Sphinx-only logic. This makes search a lot simpler and more consistent for our users.
 
 Upcoming features
 -----------------
@@ -30,21 +32,13 @@ Upcoming features
 - ⏩️ Our build process is receiving considerable improvements for larger Git repositories.
   The ``git clone`` and ``git fetch`` operations are tweaked,
   which results in significant speedups.
-  For instance, the cpython project now fetches its Git repository at nearly 10x the speed of before.
+  For instance, the Cpython project now fetches its Git repository at nearly 10x the speed of before.
   The change is being deployed soon to a few select projects and then gradually rolled out.
   For more details,
   see `issue #9736 <https://github.com/readthedocs/readthedocs.org/issues/9736>`__.
 
-- 📚️ Multiple PDF support: We heard you!
-  A 7 year old request for Multiple PDF support is being implemented and will support both Sphinx configurations and any other build tools that output multiple PDFs.
-  Follow the progress in `issue #2045 <https://github.com/readthedocs/readthedocs.org/issues/2045>`__.
-
-.. Skipped in May and June:
-
-- 🚢️ We have concluded work on the first phase of our new `readthedocs-client <https://github.com/readthedocs/readthedocs-client>`__.
-  The client will be a single library for all the ways Read the Docs enhances documentation from having a flyout menu
-  to link to other versions, translations, or subprojects, to showing version warnings for folks browsing outdated docs
-  to running ads on community projects.
+- 🚢️ We have concluded work on the first phase of our new `Read the Docs Addons <https://github.com/readthedocs/readthedocs-client>`__.
+  Our Addons will be a single library for all the ways Read the Docs enhances documentation.
   There will be integration points and APIs to customize all of these features in the new client.
 
   We will start to use it on a few selected projects.
