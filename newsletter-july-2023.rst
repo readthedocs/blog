@@ -19,8 +19,8 @@ News and updates
   We added the ability to opt out of email notifications.
   You can configure this in your user profile settings.
 - ✅️ New tool updates for all build tools,
-  including the latest stable versions of Python, pypy, Node.js, Rust and Go.
-  See the documentation of the `build.tools <https://docs.readthedocs.io/en/latest/config-file/v2.html#build-tools>`__ for more info.
+  including the latest stable versions of Python, PyPy, Node.js, Rust and Go.
+  See the documentation of the `build.tools <https://docs.readthedocs.io/page/config-file/v2.html#build-tools>`__ for more info.
 - 📚️ A new documentation how-to for ``.readthedocs.yaml`` was started at `Write the Docs <https://www.writethedocs.org/>`__ and finished recently.
   Read it here: :doc:`readthedocs:guides/setup/configuration-file`.
 - ⏩️ HTTP speedups: Several HTTP endpoints and CloudFlare configurations have been tweaked and are performing better.
@@ -32,7 +32,7 @@ Upcoming features
 - ⏩️ Our build process is receiving considerable improvements for larger Git repositories.
   The ``git clone`` and ``git fetch`` operations are tweaked,
   which results in significant speedups.
-  For instance, the Cpython project now fetches its Git repository at nearly 10x the speed of before.
+  For instance, the CPython project now fetches its Git repository at nearly 10x the speed of before.
   The change is being deployed soon to a few select projects and then gradually rolled out.
   For more details,
   see `issue #9736 <https://github.com/readthedocs/readthedocs.org/issues/9736>`__.
