@@ -15,10 +15,10 @@ you should add a configuration file to your project by this date.
 
 The auto-creation of a default configuration file will be completely removed on **August 28th**. Add a `conf.py`/`mkdocs.yml` to your projects before this date to avoid unexpected build failures.
 
-You can find a good example of a basic configuration file in our [example projects](https://docs.readthedocs.io/en/stable/examples.html):
+You can find a good example of a basic configuration file in our :doc:`example projects <readthedocs:examples>`:
 
-* Sphinx [example conf.py](https://github.com/readthedocs-examples/example-sphinx-basic/blob/main/docs/conf.py)
-* Mkdocs [example mkdocs.yml](https://github.com/readthedocs-examples/example-mkdocs-basic/blob/main/mkdocs.yml)
+* Sphinx `example conf.py <https://github.com/readthedocs-examples/example-sphinx-basic/blob/main/docs/conf.py>`_
+* Mkdocs `example mkdocs.yml <https://github.com/readthedocs-examples/example-mkdocs-basic/blob/main/mkdocs.yml`_
 
 Please `contact us`_ about any issues you have regarding change.
 
