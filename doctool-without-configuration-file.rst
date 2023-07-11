@@ -18,7 +18,7 @@ The auto-creation of a default configuration file will be completely removed on 
 You can find a good example of a basic configuration file in our :doc:`example projects <readthedocs:examples>`:
 
 * Sphinx `example conf.py <https://github.com/readthedocs-examples/example-sphinx-basic/blob/main/docs/conf.py>`_
-* Mkdocs `example mkdocs.yml <https://github.com/readthedocs-examples/example-mkdocs-basic/blob/main/mkdocs.yml`_
+* Mkdocs `example mkdocs.yml <https://github.com/readthedocs-examples/example-mkdocs-basic/blob/main/mkdocs.yml>`_
 
 Please `contact us`_ about any issues you have regarding change.
 
