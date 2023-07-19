@@ -7,11 +7,15 @@ from sphinx.util import logging
 
 logger = logging.getLogger(__name__)
 
+TAGS = [
+    'newsletter',
+    'changelog',
+]
+
 
 def rewrite_atom_feed(app, exception):
     """
     Rewrites the atom feed content elements to use absolute instead of relative links
-
     Applies to <a> and <img>
     """
     if exception:
@@ -19,37 +23,40 @@ def rewrite_atom_feed(app, exception):
     else:
         logger.info('Rewriting atom feed...')
 
-        feed_path = os.path.join(app.outdir, 'archive/atom.xml')
-        feed_url = urljoin(app.config.blog_baseurl, 'archive/atom.xml')
-        rewritten_feed_path = os.path.join(app.outdir, 'archive/atom_absolute.xml')
-
-        if not os.path.isfile(feed_path):
-            logger.error('Atom feed does not exist at: {}'.format(feed_path))
-            return
-
-        doc = etree.parse(feed_path)
-        root = doc.getroot()
-
-        # Rewrite the namespace map to not be Null
-        namespace = list(root.nsmap.values())[0]
-        nsmap = {'atom': namespace}
-
-        # Convert the content nodes to use absolute links
-        for content in root.xpath('//atom:entry/atom:content', namespaces=nsmap):
-            html_content = html.fromstring(content.text)
-            html_content.make_links_absolute(feed_url)
-            content.text = html.tostring(html_content)
-
-        with open(rewritten_feed_path, 'wb') as fd:
-            doc.write(fd)
-            logger.info('Wrote absolute atom feed to {}'.format(rewritten_feed_path))
+    for tag in TAGS:
+        _rewrite_feed(app, tag)
 
 
-def setup(app):
-    app.connect('build-finished', rewrite_atom_feed)
+def _rewrite_feed(app, tag):
+    feed_url = urljoin(app.config.blog_baseurl, 'archive/atom.xml')
 
-    return {
-        'version': 'local',
-        'parallel_read_safe': True,
-        'parallel_write_safe': True,
-    }
+    feed_path = os.path.join(app.outdir, 'blog/archive/category/{tag}/atom.xml'.format(tag=tag))
+    rewritten_feed_path = os.path.join(
+        app.outdir, 'blog/archive/category/{tag}/atom_absolute.xml'.format(tag=tag)
+    )
+
+    if not os.path.isfile(feed_path):
+        logger.error('Atom feed does not exist at: {}'.format(feed_path))
+        return
+
+    doc = etree.parse(feed_path)
+    root = doc.getroot()
+
+    # Rewrite the namespace map to not be Null
+    namespace = list(root.nsmap.values())[0]
+    nsmap = {'atom': namespace}
+
+    # Convert the content nodes to use absolute links
+    for content in root.xpath('//atom:entry/atom:content', namespaces=nsmap):
+        html_content = html.fromstring(content.text)
+        # Remove janky system messages
+        for to_remove in html_content.find_class('system-message'):
+            to_remove.drop_tree()
+        # fix links
+        html_content.make_links_absolute(feed_url)
+        content.text = html.tostring(html_content)
+
+    with open(rewritten_feed_path, 'wb') as fd:
+        doc.write(fd)
+        logger.info('Wrote absolute atom feed to {}'.format(rewritten_feed_path))
+
