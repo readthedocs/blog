@@ -26,18 +26,22 @@ def rewrite_atom_feed(app, exception):
     for tag in TAGS:
         _rewrite_feed(app, tag)
 
+    return True
+
 
 def _rewrite_feed(app, tag):
     feed_url = urljoin(app.config.blog_baseurl, 'archive/atom.xml')
 
-    feed_path = os.path.join(app.outdir, 'blog/archive/category/{tag}/atom.xml'.format(tag=tag))
+    feed_path = os.path.join(app.outdir, 'archive/category/{tag}/atom.xml'.format(tag=tag))
     rewritten_feed_path = os.path.join(
-        app.outdir, 'blog/archive/category/{tag}/atom_absolute.xml'.format(tag=tag)
+        app.outdir, 'archive/category/{tag}/atom_absolute.xml'.format(tag=tag)
     )
 
     if not os.path.isfile(feed_path):
-        logger.error('Atom feed does not exist at: {}'.format(feed_path))
+        logger.info('Atom feed does not exist at: {}'.format(feed_path))
         return
+
+    logger.info(f'Rewriting {feed_path}')
 
     doc = etree.parse(feed_path)
     root = doc.getroot()
@@ -45,6 +49,8 @@ def _rewrite_feed(app, tag):
     # Rewrite the namespace map to not be Null
     namespace = list(root.nsmap.values())[0]
     nsmap = {'atom': namespace}
+
+    
 
     # Convert the content nodes to use absolute links
     for content in root.xpath('//atom:entry/atom:content', namespaces=nsmap):
@@ -60,3 +66,11 @@ def _rewrite_feed(app, tag):
         doc.write(fd)
         logger.info('Wrote absolute atom feed to {}'.format(rewritten_feed_path))
 
+def setup(app):
+    app.connect('build-finished', rewrite_atom_feed)
+
+    return {
+        'version': 'local',
+        'parallel_read_safe': True,
+        'parallel_write_safe': True,
+    }
