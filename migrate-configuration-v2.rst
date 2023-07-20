@@ -122,7 +122,7 @@ you should be able to define a working configuration file and avoid breaking cha
 
 .. seealso::
   
-   :doc:`readthedocs:guides/setup/configuration-file`
+   :doc:`readthedocs:config-file/index`
       More usage examples and guidance can be found in our how-to for adding a ``.readthedocs.yaml`` configuration file.
 
 

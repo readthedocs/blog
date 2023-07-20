@@ -20,7 +20,7 @@ This will help users to immediately understand what's the problem and how to sol
 Builds from projects that are not generating an ``index.html`` file **will start to fail on August 1st at ~9AM PST**, after our regular deploy.
 Make sure your project is properly configured and it's creating an ``index.html`` file before that date to avoid unexpected behaviors.
 
-We recommend you following our :doc:`tutorial <readthedocs:tutorial>` to set up your project correctly.
+We recommend you following our :doc:`tutorial <readthedocs:tutorial/index>` to set up your project correctly.
 
 Please, `contact us`_ and let us know any inconvenient you may have with this change.
 
