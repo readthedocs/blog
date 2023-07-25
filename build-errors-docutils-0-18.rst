@@ -112,7 +112,7 @@ If you still experience problems, feel free to
 `open an issue <https://github.com/readthedocs/readthedocs.org/issues/>`_.
 
 .. seealso::
-    :doc:`readthedocs:guides/setup/configuration-file`
+    :doc:`readthedocs:config-file/index`
         An introduction to our configuration file and some basic usage examples
 
     :ref:`.readthedocs.yaml python.install options <readthedocs:config-file/v2:python.install>`

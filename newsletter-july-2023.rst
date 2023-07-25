@@ -26,7 +26,7 @@ News and updates
   including the latest stable versions of Python, PyPy, Node.js, Rust and Go.
   See the documentation of the `build.tools <https://docs.readthedocs.io/page/config-file/v2.html#build-tools>`__ for more info.
 - 📚️ A new documentation how-to for ``.readthedocs.yaml`` was started at `Write the Docs <https://www.writethedocs.org/>`__ and finished recently.
-  Read it here: :doc:`readthedocs:guides/setup/configuration-file`.
+  Read it here: :doc:`readthedocs:config-file/index`.
 - ⏩️ HTTP speedups: Several HTTP endpoints and CloudFlare configurations have been tweaked and are performing better.
 - 🐛️ Bug fix: We are now 100% relying on search indexing by parsing HTML, instead of special Sphinx-only logic. This makes search a lot simpler and more consistent for our users.
 
