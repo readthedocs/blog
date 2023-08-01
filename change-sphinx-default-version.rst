@@ -28,6 +28,7 @@ Here you have a pretty simple example of the section required on the ``.readthed
 
 The content of ``docs/requirements.txt`` would be similar to::
 
-  sphinx==7.1.0
+  sphinx==6.2.1
+  sphinx-rtd-theme==1.2.2
 
 Read more about this in our `Reproducible builds <https://docs.readthedocs.io/en/stable/guides/reproducible-builds.html>`_ guide for more details.
