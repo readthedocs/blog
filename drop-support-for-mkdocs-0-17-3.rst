@@ -17,7 +17,7 @@ Now, *we are changing that behavior to always install the latest available versi
 **Starting on September 5th Read the Docs will install the latest available version of MkDocs**.
 If you want to use a different version, make sure you are pinning your MkDocs dependency.
 
-Here you have a pretty simple example of the section required on the `.readthedocs.yaml` configuration file:
+Here you have a pretty simple example of the section required on the ``.readthedocs.yaml`` configuration file:
 
 .. code-block:: yaml
 
@@ -29,7 +29,7 @@ Here you have a pretty simple example of the section required on the `.readthedo
 
    # ... snip ...
 
-The content of `docs/requirements.txt` would be similar to::
+The content of ``docs/requirements.txt`` would be similar to::
 
   mkdocs==1.5.1
 
