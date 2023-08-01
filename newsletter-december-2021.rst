@@ -35,8 +35,8 @@ New features
   now they have a dedicated section in the project settings,
   you can customize the payload,
   and you can inspect the status of each webhook delivery.
-  Interested in receiving build notifications on :ref:`Slack <readthedocs:guides/build-notifications:slack>`
-  or :ref:`Discord <readthedocs:guides/build-notifications:discord>`? Now you can!
+  Interested in receiving build notifications on :ref:`Slack <readthedocs:guides/build/webhooks:custom payload examples>`
+  or :ref:`Discord <readthedocs:guides/build/webhooks:custom payload examples>`? Now you can!
 
 .. figure:: /img/webhooks-events.png
    :align: center
