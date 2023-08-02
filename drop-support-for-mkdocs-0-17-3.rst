@@ -8,13 +8,11 @@ Drop support for MkDocs 0.17.3
 ==============================
 
 Historically, Read the Docs has installed MkDocs ``0.17.3`` by default if the project didn't define a specific version of it.
-Now, this version is a pretty old and we recommend our users to use the latest version of MkDocs. Currently, ``1.5.1``.
+Now, this version is a pretty old and we recommend our users to use the latest version of MkDocs: ``1.5.1``.
 
-To avoid failing builds of projects using the version installed by default if we upgrade to the latest MkDocs version available,
-we kept installing the old one during all this time.
-Now, *we are changing that behavior to always install the latest available version* and we wanted to let you know about that so you can prepare your project.
+To avoid failing builds we kept the old default version of MkDocs. *We are changing that behavior to always install the latest available version* and we wanted to let you know about that so you can prepare your project.
 
-**Starting on September 5th Read the Docs will install the latest available version of MkDocs**.
+**Starting on October 3rd Read the Docs will install the latest available version of MkDocs**.
 If you want to use a different version, make sure you are pinning your MkDocs dependency.
 
 Here you have a pretty simple example of the section required on the ``.readthedocs.yaml`` configuration file:
