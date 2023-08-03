@@ -1,4 +1,4 @@
-.. post:: August 4, 2023
+.. post:: August 3, 2023
    :tags: newsletter, python
    :author: Eric
    :location: BND
