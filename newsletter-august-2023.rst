@@ -16,6 +16,7 @@ News and updates
 - 💵 We are working to simplify our subscriptions on |com_brand|, to make it easier for customers to know what they are getting, and for us to ensure all the features in each plan align with our pricing page.
 - 🔒 We shipped a `change to authentication <https://github.com/readthedocs/readthedocs.org/pull/10498>`_ on our build servers to dramatically reduce the permissions required when building documentation.
   This increases our "defense in depth" security posture, and reduces the risk of a security breach.
+
 You can always see the latest changes to our platforms in our `changelog <https://docs.readthedocs.io/page/changelog.html>`_.
 
 Upcoming features
