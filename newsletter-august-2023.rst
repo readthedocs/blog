@@ -11,15 +11,11 @@ News and updates
 ----------------
 
 - 🏝️ A few team members took vacations this month, and everything kept running smoothly, which is always wonderful to see.
+- ⏩ Our `git cloning code <https://github.com/readthedocs/readthedocs.org/pull/10430>`_ was refactored, and now projects should be building much faster. The more git branches and tags you have, the faster the build will be.
+- 🆕 All new projects imported on Read the Docs get the latest versions of our default documentation tools installed. This is the goal of our large set of deprecations lately, and now all new projects are starting in a place where we want all projects to get to.
 - 💵 We are working to simplify our subscriptions on |com_brand|, to make it easier for customers to know what they are getting, and for us to ensure all the features in each plan align with our pricing page.
 - 🔒 We shipped a `change to authentication <https://github.com/readthedocs/readthedocs.org/pull/10498>`_ on our build servers to dramatically reduce the permissions required when building documentation.
   This increases our "defense in depth" security posture, and reduces the risk of a security breach.
-- ⏰ Continuing deprecations:
-  We have a number of old feature deprecations underway. 
-  The goal here is to reduce complexity of our build platform,
-  and enable users to control their own builds via ``build.tools`` and ``build.commands`` instead of feature flags.
-  You can see the full list and timeline on `issue #10587 <https://github.com/readthedocs/readthedocs.org/issues/10587>`_.
-
 You can always see the latest changes to our platforms in our `changelog <https://docs.readthedocs.io/page/changelog.html>`_.
 
 Upcoming features
@@ -41,9 +37,11 @@ Want to follow along with our development progress? `View our full Roadmap 📍�
 Possible issues
 ---------------
 
-- We continue to simplify our product by issuing deprecations.
-  You can see the full list and timeline on `issue #10587 <https://github.com/readthedocs/readthedocs.org/issues/10587>`_,
-  and make sure your're not affected by any of them.
+- Continuing deprecations:
+  We have a number of old feature deprecations underway. 
+  The goal here is to reduce complexity of our build platform,
+  and enable users to control their own builds via ``build.tools`` and ``build.commands`` instead of feature flags.
+  You can see the full list and timeline on `issue #10587 <https://github.com/readthedocs/readthedocs.org/issues/10587>`_ & `issue #9779 <https://github.com/readthedocs/readthedocs.org/issues/9779>`_.
 
 -------
 
