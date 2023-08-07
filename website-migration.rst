@@ -9,8 +9,8 @@ Read the Docs website migration to about.readthedocs.com
 
 Read the Docs is in the process of migrating our primary marketing website to a single site: https://about.readthedocs.com.
 The new site offers users more information about our products and their features,
-in a combined presentation of what was previously divided between two websites (Read the Docs Community and Read the Docs for Business).
-At the same time, the new site will also serve as a single entrypoint for users that are logging in to Read the Docs accounts.
+in a combined presentation of what was previously divided between two websites (Read the Docs Community (readthedocs.org) and Read the Docs for Business (readthedocs.com)).
+The new site will also serve as a single entrypoint for users that are logging in to Read the Docs accounts.
 There has been a good deal of confusion around our two sites,
 and this change makes it more clear which site you're going to.
 
@@ -18,11 +18,6 @@ Importantly,
 **we are keeping both our Community and Business sites separate for logged in users.**
 There are no changes in our commitment to offering free hosting for open source,
 or the separation of infrastructure for Business customers.
-
-.. figure:: /img/screenshot-new-website.png
-    :alt: A screenshot of our beautiful new website
-
-    Our beautiful new website, ready for our users!
 
 Marketing website migration process
 -----------------------------------
@@ -34,14 +29,19 @@ The process that we're taking to migrate our marketing site is as follows:
    This was done in January 2023.
 #. ✅ Redirecting *logged out* Business (``readthedocs.com``) users to the new site.
    This was done in February 2023, and we've been monitoring the impact of this change.
-#. The final step will be to redirect *logged out* Community (``readthedocs.org``) users to the new site.
-   This will happen in Q2 2023,
-   as we want to make sure the experience is smooth for users who are used to browsing our current site.
+#. ✅ The final step will be to redirect *logged out* Community (``readthedocs.org``) users to the new site.
+   This was done in August 2023, and we continue to iterate to make this a smooth transition.
 
 We're excited about our new website,
-because historically we have done a poor job of explaining our products.
-Being able to have a single site that explains the features of our various sites,
+because it gives us more space to explain the benefits of using our product.
+Being able to have a single site that explains all our features,
 and the value that Read the Docs brings to the documentation ecosystem is exciting for us.
+
+.. figure:: /img/screenshot-new-website.png
+    :alt: A screenshot of our beautiful new website
+
+    Our beautiful new website, ready for our users!
+
 
 Technical details
 -----------------
