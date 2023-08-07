@@ -7,7 +7,6 @@
 Drop support for "Use system packages"
 ======================================
 
-You are receving this email because your Read the Docs project is impacted by an upcoming deprecation.
 
 Read the Docs used to pre-install common scientific Python packages like ``scipy``, ``numpy``, ``pandas``, ``matplotlib`` and others
 at system level to speed up the build process.
