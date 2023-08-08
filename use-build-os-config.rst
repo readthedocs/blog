@@ -36,8 +36,9 @@ There are some small differences between ``build.image`` and ``build.os`` that w
 - ``version: 2`` must be used with ``build.os``
 - To specify the Python version, you have to use ``build.tools.python``
 
-Below is shown how the ``build`` config key section would be after applying these changes.
-Make sure to make these changes before October 16, 2023.
+Below is an example of a valid ``build`` section of your configuration.
+Make sure to make these changes before **October 16, 2023**:
+
 
 .. code:: yaml
 
@@ -47,6 +48,7 @@ Make sure to make these changes before October 16, 2023.
      tools:
        python: "3.11"
 
+You can read about the ``build.os`` key, including all possible values, in our `"build.os" documentation <https://docs.readthedocs.io/en/stable/config-file/v2.html#build-os>`_.
 
 Contact us
 ----------
