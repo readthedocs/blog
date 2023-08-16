@@ -10,7 +10,7 @@ Use ``build.os`` instead of ``build.image`` on your configuration file
 
 We are announcing the deprecation of ``build.image`` config key in favor of ``build.os``.
 Read the Docs *will start requiring* a ``build.os`` config key for all projects in order to build documentation successfully.
-**We will start failing builds using "build.image" on their config file on October 16, 2023**.
+**We will start failing builds not using "build.os" on their config file on October 16, 2023**.
 
 
 Deprecation timeline
@@ -28,7 +28,7 @@ so we have a timeline to communicate this deprecation to our users effectively.
 Migrating to ``build.os``
 -------------------------
 
-If you have a project on Read the Docs that is using ``build.image``,
+If you have a project on Read the Docs that not using ``build.os``,
 **you will need to migrate to the new config key as soon as possible** to continue building your project.
 
 There are some small differences between ``build.image`` and ``build.os`` that we detail here:
@@ -39,7 +39,6 @@ There are some small differences between ``build.image`` and ``build.os`` that w
 Below is an example of a valid ``build`` section of your configuration.
 Make sure to make these changes before **October 16, 2023**:
 
-
 .. code:: yaml
 
    version: 2
@@ -48,7 +47,7 @@ Make sure to make these changes before **October 16, 2023**:
      tools:
        python: "3.11"
 
-You can read about the ``build.os`` key, including all possible values, in our `"build.os" documentation <https://docs.readthedocs.io/en/stable/config-file/v2.html#build-os>`_.
+You can read about the ``build.os`` key, including all possible values, in our `"build" configuration documentation <https://docs.readthedocs.io/en/stable/config-file/v2.html#build>`_.
 
 Contact us
 ----------
