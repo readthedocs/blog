@@ -10,7 +10,7 @@ Use ``build.os`` instead of ``build.image`` on your configuration file
 
 We are announcing the deprecation of ``build.image`` config key in favor of ``build.os``.
 Read the Docs *will start requiring* a ``build.os`` config key for all projects in order to build documentation successfully.
-**We will start failing builds not using "build.os" on their config file on October 16, 2023**.
+**We will start failing builds for projects not using "build.os" in their config file on October 16, 2023**.
 
 
 Deprecation timeline
@@ -28,7 +28,7 @@ so we have a timeline to communicate this deprecation to our users effectively.
 Migrating to ``build.os``
 -------------------------
 
-If you have a project on Read the Docs that not using ``build.os``,
+If you have a project on Read the Docs that is not using ``build.os``,
 **you will need to migrate to the new config key as soon as possible** to continue building your project.
 
 There are some small differences between ``build.image`` and ``build.os`` that we detail here:
