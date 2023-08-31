@@ -61,7 +61,7 @@ We decided to limit beta testing to projects using the ``build.commands`` config
 These projects did not have any of our documentation features,
 like our flyout menu or search,
 as our documentation tool extensions do not execute for these projects.
-If you are using this configuration option already,
+If you are using this configuration option,
 your project is already using the new Addons library.
 
 .. TODO is there a way users can opt out of this beta without contacting us?
