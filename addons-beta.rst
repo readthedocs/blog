@@ -4,19 +4,15 @@
    :location: BCN
    :category: Feature announcement
 
-Documentation Addons beta
-=========================
+Addons flyout menu beta
+=======================
 
-After lot of hard work, we are happy to announce that our new project,
-`Read the Docs Addons`_, is ready for beta testing.
+We are happy to announce that **a new flyout menu** is now available
+as part of the ongoing beta test for our latest project, `Read the Docs Addons`_.
 
-What are Addons?
-----------------
-
-`Addons`_ is a new project that aims to bring all of our features to new
-documentation tools and replace features that currently only support Sphinx
-or MkDocs. The most prominent feature the you will notice from this project is
-our flyout menu.
+After much hard work, we are excited to begin testing this feature with more projects.
+We have previously been testing other documentation features as part of this ongoing beta,
+but the flyout menu is by far the most prominent feature yet.
 
 .. list-table::
 
@@ -27,10 +23,27 @@ our flyout menu.
             :width: 85%
             :align: center
 
+What are Addons?
+----------------
+
+`Addons`_ is a new project that aims to bring all of our features to new
+documentation tools and replace features that currently only support Sphinx
+or MkDocs.
+
+Along with the flyout menu, we are also currently testing many other features as
+part of this beta period:
+
+- Analytics
+- Non-latest version warning banner
+- Pull request warning banner
+- Search as you type
+- Sponsorship via EthicalAds
+
 We redesigned everything from the ground up in order to address limitations of our current features:
 
 Supporting new documentaiton tools is difficult
-    Right now, we only support Sphinx and MkDocs and are injecting our hosting features at build time using custom extensions for each tool.
+    Right now, we only support Sphinx and MkDocs and are injecting our hosting features like our flyout menu at build time,
+    using custom extensions for each tool.
     In order to support new documentation tools,
     we must maintain a new extension for each tool we want to support.
 
@@ -41,18 +54,8 @@ Features aren't supported by all documentation tools
 Customization is difficult
     We also can not offer easy customization of features like our flyout menu due how they are injected into hosted documentation. 
 
-The documentation features that Addons currently supports are:
-
-- Our flyout menu
-- Analytics
-- Non-latest version warning banner
-- Pull request warning banner
-- Search as you type
-- Sponsorship via EthicalAds
-
-Eventually, all documentation tools will use this same library, including Sphinx
-and MkDocs, and all tools will have the same access to our documentation
-features.
+Eventually, all documentation tools will use this same library, including Sphinx and MkDocs,
+and all tools will have the same access to our documentation features.
 
 How to use Addons
 -----------------
@@ -63,10 +66,9 @@ like our flyout menu or search,
 as our documentation tool extensions do not execute for these projects.
 If you are using this configuration option,
 your project is already using the new Addons library.
+Projects participating will get new documentation features as they become available.
 
-.. TODO is there a way users can opt out of this beta without contacting us?
-
-If you would like to opt out of the beta, `contact us <mailto:support@readthedocs.org>`_.
+If you have any feedback or would like to opt out of the beta, `contact us <mailto:support@readthedocs.org>`_.
 
 What has changed
 ----------------
