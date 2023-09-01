@@ -22,7 +22,7 @@ News and updates
   Keep an eye on your email for any deprecation notifications,
   as we will continue to notify maintainers of projects that might be impacted.
 
-- 📚 The Read the Docs Sphinx theme package, sphinx_rtd_theme, had two releases.
+- 📚 The Read the Docs Sphinx theme package, ``sphinx-rtd-theme``, had two releases.
   Version 1.3.0 was released, adding support for Sphinx 7.0.
   Version 2.0.0rc2 is also now out.
   This is a release candidate that will remove support for HTML4 output and will drop support for Sphinx versions prior to 5.0.
