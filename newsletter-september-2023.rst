@@ -1,4 +1,4 @@
-.. post:: September 4, 2023
+.. post:: September 5, 2023
    :tags: newsletter, python
    :author: Anthony
    :location: GEG
