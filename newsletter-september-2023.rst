@@ -28,7 +28,7 @@ News and updates
   This is a release candidate that will remove support for HTML4 output and will drop support for Sphinx versions prior to 5.0.
   We will be announcing the release candidate more this month and will be looking to have feedback from users.
 
-- 🔐 A security advisory involving symlink abuse during project builds was raised and patched.
+- 🔐 `A security advisory involving symlink abuse`_ during project builds was raised and patched.
 
 - 📉 Changes to our request handling resulted in a 30% reduction in response times for 404 error responses.
 
@@ -36,10 +36,14 @@ News and updates
        
        Request times for 404 handling have dropped 30% since last release.
 
-- ✨ We upgraded our application to use Django 4.2
+- 🏁 Updates to Proxito are now fully rolled out to |org_brand| and |com_brand|.
+
+- ✨ We upgraded our application to use Django 4.2.
+
+.. _A security advisory involving symlink abuse: https://github.com/readthedocs/readthedocs.org/security/advisories/GHSA-v7x4-rhpg-3p2r
 
 Upcoming changes
------------------
+----------------
 
 - ⚠️  In line with :doc:`our deprecation plans for builds without a configuration file </migrate-configuration-v2>`,
   projects will be required to specify a configuration file to continue building their documentation starting September 25th.
@@ -51,12 +55,12 @@ Upcoming changes
   Our focus is still on improving the new flyout menu, search, and adding more new features.
 
 - 🛠️ Our new dashboard, currently available for beta testing at https://beta.readthedocs.org,
-  will receive some small feature additions, and we are working towards a beta of the new dashboard for Read the Docs for Business as well.
+  will receive some small feature additions, and we are working towards a beta of the new dashboard for |com_brand| as well.
   We expect to have more news here in the coming months.
 
-Want to follow along with our development progress? `View our full Roadmap 📍️`_
+Want to follow along with our development progress? `View our full roadmap 📍️`_
 
-.. _View our full Roadmap 📍️: https://github.com/orgs/readthedocs/projects/156/views/1
+.. _View our full roadmap 📍️: https://github.com/orgs/readthedocs/projects/156/views/1
 .. _reach out: https://readthedocs.org/support/
 
 Possible issues
