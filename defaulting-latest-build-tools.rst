@@ -16,6 +16,7 @@ but our platform now has robust support for defining a build environment,
 so we encourage you to pin your dependencies instead.
 
 **Starting on October 3rd Read the Docs will install the latest available version of MkDocs and Sphinx by default**.
+We are also not going to be installing other build dependencies, like ``mock`` and ``recommonmark``.
 If you want to use a different version, you can do this by pinning your dependencies.
 
 Sphinx example
@@ -45,6 +46,10 @@ The content of ``docs/requirements.txt`` would be similar to::
 
   sphinx==6.2.1
   sphinx-rtd-theme==1.2.2
+  pillow==5.4.1
+  mock==1.0.1
+  commonmark==0.9.1
+  recommonmark==0.5.0
 
 Mkdocs example
 --------------
@@ -79,3 +84,4 @@ Reproducible builds
 We highly recommend pinning your dependencies so that you can ensure a working build environment across time and on different build servers.
 
 You can learn more about this in our `reproducible builds <https://docs.readthedocs.io/en/stable/guides/reproducible-builds.html>`_ guide.
+
