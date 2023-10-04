@@ -16,6 +16,7 @@ but our platform now has robust support for defining a build environment,
 so we encourage you to pin your dependencies instead.
 
 **Starting on October 3rd Read the Docs will install the latest available version of MkDocs and Sphinx by default**.
+We are also not going to be installing other build dependencies, like ``mock`` and ``recommonmark``.
 If you want to use a different version, you can do this by pinning your dependencies.
 
 Sphinx example
