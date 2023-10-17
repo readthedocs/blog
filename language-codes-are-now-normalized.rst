@@ -29,4 +29,8 @@ Docs and download URLs:
    - ``https://docs.readthedocs/pt_BR/latest/`` will redirect to ``https://docs.readthedocs/pt-br/latest/``.
    - ``https://docs.readthedocs/_/downloads/pt_BR/latest/pdf/`` will redirect to ``https://docs.readthedocs/_/downloads/pt-br/latest/pdf/``.
 
+Redirects:
+  If you had redirects using the old language codes in the ``From URL`` field,
+  they were automatically updated to use the new normalized language codes.
+
 This change was implemented to ensure more `readable and clean URLs <https://en.wikipedia.org/wiki/Clean_URL>`__.
