@@ -17,11 +17,10 @@ it is still possible to select a build image with support for either version.
 
 To select a specific version of Python, other than our default, you can use our
 configuration file to specify a Python version, using the
-:ref:`readthedocs:config-file/v2:python.version` configuration option.
+``python.version`` configuration option.
 
 If your project does require Python version 3.3 or 3.4, you can only select
-these versions if you also specify ``stable`` build image for your project's
-:ref:`readthedocs:config-file/v2:build.image (legacy)` configuration option. As we
-release new versions of our build image, this ``stable`` image will eventually
+these versions if you also specify ``stable`` build image for your project's ``build.image`` (deprecated) configuration option.
+As we release new versions of our build image, this ``stable`` image will eventually
 lose support for Python 3.3 and 3.4, so it's suggested that your project upgrade
 to a supported version of Python.
