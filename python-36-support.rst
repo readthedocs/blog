@@ -21,8 +21,8 @@ What you need
 
 In order to use Python 3.6, you need to select our ``latest`` build image, and
 you need to select to use Python 3.6. The build image is controlled with the
-:ref:`readthedocs:config-file/v2:build.image (legacy)` setting in the YAML config, and you can
-set the Python version with the :ref:`readthedocs:config-file/v2:python.version`
+``build.image`` (deprecated) setting in the YAML config, and you can
+set the Python version with the ``python.version``
 setting.
 
 Your project's ``readthedocs.yml`` file should contain::
