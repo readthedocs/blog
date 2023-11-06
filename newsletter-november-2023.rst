@@ -10,7 +10,7 @@ Read the Docs newsletter - November 2023
 News and updates
 ----------------
 
-* Work continues on hardening `addons <https://github.com/readthedocs/addons/>`_, our new in-documentation JavaScript client that supports all documentation tools. We're looking for people in the community to test out this new functionality, and will be expanding access in the near future.
+* Work continues on hardening `Addons <https://github.com/readthedocs/addons/>`_, our new in-documentation JavaScript client that supports all documentation tools. We're looking for people in the community to test out this new functionality, and will be expanding access in the near future.
 * **Python 3.12** is now supported on builds, and is the default version used when you specify ``build.tools.python: 3`` in your configuration file.
 * Language codes are now normalized in URLs: https://blog.readthedocs.com/language-codes-are-now-normalized/.
 * Our search infrastructure was upgraded to Elastic Search 8, which should provide faster and better search results.
@@ -20,9 +20,9 @@ News and updates
 Upcoming changes
 ----------------
 
-* We are working to expand the functionality of our `Redirects implementation <https://github.com/readthedocs/readthedocs.org/pull/10825>`_ to support more use cases. More will be announced here in the coming month.
+* We are working to expand the functionality of our `redirects feature <https://github.com/readthedocs/readthedocs.org/pull/10825>`_ to support more use cases. More will be announced here in the coming month.
 * We are planning an upgrade to our dashboard notification system, so that users have more control and better context for on-site notifications.
-* Our `Beta dashboard <https://beta.readthedocs.org/dashboard/>`_ continues to be tested in public beta, and new functionality for Addons configuration will only be available in that new interface.
+* Our `beta dashboard <https://beta.readthedocs.org/dashboard/>`_ continues to be tested in public beta, and new functionality for Addons configuration will only be available in that new interface.
 
 Want to follow along with our development progress? `View our full roadmap 📍️`_
 
