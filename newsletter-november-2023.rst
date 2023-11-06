@@ -21,7 +21,7 @@ Upcoming changes
 ----------------
 
 * We are working to expand the functionality of our `redirects feature <https://github.com/readthedocs/readthedocs.org/pull/10825>`_ to support more use cases. More will be announced here in the coming month.
-* We are planning an upgrade to our dashboard notification system, so that users have more control and better context for on-site notifications.
+* We are planning an `upgrade to our dashboard notification system <https://github.com/readthedocs/readthedocs.org/pull/10890>`_, so that users have more control and better context for on-site notifications.
 * Our `beta dashboard <https://beta.readthedocs.org/dashboard/>`_ continues to be tested in public beta, and new functionality for Addons configuration will only be available in that new interface.
 
 Want to follow along with our development progress? `View our full roadmap 📍️`_
