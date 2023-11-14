@@ -13,7 +13,7 @@ Webhooks from integrations (like GitHub) are used to:
 - Create and delete previews from pull requests (if you have this feature enabled).
 - Update the identifier of the latest version (if you have your default branch set to empty in your project's settings).
 
-Last week, our team was make aware that manually created webhooks from integrations lacked support for a shared secret,
+Last week, our team was made aware that manually created webhooks from integrations lacked support for a shared secret,
 which is used to verify the authenticity of the webhook,
 ensuring they originate from the expected source and not from a malicious user.
 
@@ -23,7 +23,7 @@ so we can verify the authenticity of the webhook.
 Security implications
 ---------------------
 
-The lacking of a shared secret for manually created integrations together with a legacy feature that automatically created integrations in certain circumstances,
+The lack of a shared secret for manually created integrations together with a legacy feature that automatically created integrations in certain circumstances,
 could have allowed unauthorized users to create integrations without a shared secret.
 Allowing the attacker to trigger builds,
 create and delete previews from pull requests (if you had this feature enabled),
