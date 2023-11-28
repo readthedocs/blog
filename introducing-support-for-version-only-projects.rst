@@ -4,8 +4,8 @@
    :author: Santos
    :location: CUE
 
-Introducing versioning schemes
-==============================
+Introducing support for version-only projects
+=============================================
 
 URLs are an important part of your documentation.
 Users can infer from the URL if your documentation has or supports
@@ -30,7 +30,7 @@ While not all projects have or require translations, many benefit from having mu
 This meant that projects without translations but with need for multiple versions,
 had to opt into supporting translations in order to have multiple versions.
 
-We're excited to announce that we now support projects with multiple versions without translations.
+**We're excited to announce that we now support projects with multiple versions without translations.**
 Resulting in URLs like:
 
 - ``/latest/index.html``
