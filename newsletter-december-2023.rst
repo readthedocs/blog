@@ -1,4 +1,4 @@
-.. post:: Dec 6, 2022
+.. post:: Dec 5, 2023
    :tags: newsletter, python
    :category: Newsletter
    :author: Eric
