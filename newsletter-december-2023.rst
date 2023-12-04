@@ -11,6 +11,7 @@ News and updates
 
 * We have shipped :doc:`single version projects </introducing-support-for-version-only-projects>` to allow projects to be versioned without having translations. This is a long-requested feature that we've excited to ship based on our Proxito refactor work.
 * We improved our webhook security by :doc:`requiring a secret </security-update-on-incoming-webhooks>` to be configured for all webhooks. This will help prevent malicious actors from triggering builds and other actions.
+* We fixed an `XSS vulnerability <https://github.com/readthedocs/readthedocs.org/security/advisories/GHSA-9vh9-cxm2-p2c4>`_ that was reported by an external reporter: Surya Dev Singh. Thanks for the report!
 * Work continues on `Addons <https://github.com/readthedocs/addons/>`_, where we've added support for explicit EthicalAds placements on documentation pages, and are working on a new interface for configuring Addons.
 
 You can always see the latest changes to our platforms in our :doc:`Read the Docs Changelog <readthedocs:changelog>`.
