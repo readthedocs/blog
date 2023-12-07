@@ -1,4 +1,4 @@
-.. post:: January ?, 2024
+.. post:: January 2, 2024
    :tags: redirects, docs
    :category: Changelog
    :author: Santos
