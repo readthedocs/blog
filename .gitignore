@@ -4,3 +4,4 @@ _build
 .python-version
 .ropeproject/
 .direnv/
+.vscode
