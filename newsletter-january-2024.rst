@@ -30,7 +30,7 @@ Want to follow along with our development progress? `View our full roadmap üìçÔ
 Possible issues
 ---------------
 
-* Users need to :doc:`update their webhooks <security-update-on-incoming-webhooks>` before **January 31, 2024** if they are configured without a secret. All users who need to take action should have received email and site notifications about this. 
+* Users need to :doc:`update their webhooks </security-update-on-incoming-webhooks>` before **January 31, 2024** if they are configured without a secret. All users who need to take action should have received email and site notifications about this. 
 * We are discussing removing support for all VCS systems except Git, as our userbase is heavily biased towards Git users and it will simplify maintenance and development of features. We stopped developing features for Mercurial, Subversion, and Bazaar years ago, and we are considering removing support for them entirely. We will be reaching out to these users to get feedback on this change.
 
 -------
