@@ -10,9 +10,9 @@ News and updates
 ----------------
 
 * We have shipped :doc:`new-improvements-to-redirects`, making our redirects much more powerful and flexible. 
-* We have shipped a `v1 of an updated approach to notifications <https://github.com/readthedocs/readthedocs.org/pull/10922>`_. Currently there won't be much UX difference, but as we move forward with this project, we will be able to provide more context and control to users.
+* We have shipped an `updated approach to notifications <https://github.com/readthedocs/readthedocs.org/pull/10922>`_. Currently there isn't much UX difference, but as we move forward with this project we will be able to provide more context and control to users.
 * We continue to work on improving Addons, our new approach to documentation integrations. New documentation and bug fixing continues to happen.
-* We shipped version 2.0 of our `Read the Docs Sphinx Theme <https://sphinx-rtd-theme.readthedocs.io/en/stable/>`_, which drops support for many old versions of Sphinx and Python.
+* We shipped version 2.0 of our `Read the Docs Sphinx Theme <https://sphinx-rtd-theme.readthedocs.io/en/stable/>`_, which adds support for new Sphinx releases and drops support for many old versions of Sphinx and Python.
 
 You can always see the latest changes to our platforms in our :doc:`Read the Docs Changelog <readthedocs:changelog>`.
 
@@ -20,7 +20,7 @@ Upcoming changes
 ----------------
 
 * Addons will be made more configurable in our new beta dashboard, starting a trend of moving away from the old dashboard for new features.
-* Our `beta dashboard <https://beta.readthedocs.org/dashboard/>`_ continues to be tested in public beta, and new functionality for Addons configuration will only be available in that new interface.
+* Our `beta dashboard <https://beta.readthedocs.org/>`_ continues to be tested in public beta, and new functionality for Addons configuration will only be available in that new interface.
 * We continue to work on some business model changes enabled by the new redirects work, including allowing access to Forced Redirects for more users.
 
 Want to follow along with our development progress? `View our full roadmap 📍️`_
